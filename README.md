@@ -24,7 +24,7 @@ Requirements that can be dropped if neccessary:
 - Display of the date when a post was made
 - Write posts in Markdown as well as just HTML
 - Directory for images to be stored and linked to
-- Avoid manual Jekyll-like complition process
+- Avoid manual Jekyll-like compilation process
 - Browse posts by category
 
 # Nice
