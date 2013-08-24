@@ -1,6 +1,8 @@
 <?php /* Homepage, showing most recent post in full, and links to previous ones */
 
 require_once 'functions.php';
+require_once 'vendor/Markdown.php';
+use \Michelf\Markdown;
 
 $posts = new PostList();
 
@@ -36,7 +38,8 @@ if(!$post->exists){
     </header>
     <div id="content">
         <div class="container">
-            <?php print $post->content; ?>
+            <?php print date('Y-m-d H:i:s', $post->date); ?>
+            <?php print Markdown::defaultTransform($post->content); ?>
         </div>
     </div>
 </body>
