@@ -1,18 +1,18 @@
 <?php /* Homepage, showing most recent post in full, and links to previous ones */
 
-require 'functions.php';
+require_once 'functions.php';
+
+$posts = new PostList();
 
 if(isset($_GET['slug'])){
     $post = new Post($_GET['slug']);
 } else {
-    $post = get_latest_post();
+    $post = $posts->newest();
 }
 
 if(!$post->exists){
     print '404 Not Found';
 }
-
-# date( 'Y-m-d H:i:s', $post->date);
 
 ?><!DOCTYPE html>
 <html>
@@ -26,7 +26,12 @@ if(!$post->exists){
             <h1>Site title goes here</h1>
         </div>
         <nav class="container">
-            
+            <ul><?php foreach($posts->all() as $post) {
+                    print '
+                <li><a href="/post/' . $post->slug . '">' . $post->slug . '</a></li>';
+                } ?>
+
+            </ul>
         </nav>
     </header>
     <div id="content">

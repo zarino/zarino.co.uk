@@ -23,11 +23,43 @@ class Post {
 
 }
 
-function get_latest_post(){
-    $files = scandir('posts', 1);
-    $newest_file = $files[0];
-    $slug = str_replace('.md', '', $newest_file);
-    return new Post($slug);
+class PostList {
+
+    private $posts = array();
+
+    public function __construct() {
+        $files = scandir('posts', 1);
+        $p = array();
+        foreach ($files as $filename) {
+            if(begins_with($filename, '.')){
+                return;
+            }
+            $slug = str_replace('.md', '', $filename);
+            $this->posts[] = new Post($slug);
+        }
+        print_r($this->posts);
+    }
+
+    public function newest() {
+        return $this->posts[0];
+    }
+
+    public function all() {
+        return $this->posts;
+    }
+
+}
+
+function begins_with($haystack, $needle) {
+    return (strpos($haystack, $needle) === 0 ? True : False);
+}
+
+function contains($haystack, $needle) {
+    return (strpos($haystack, $needle) ? True : False);
+}
+
+function ends_with($haystack, $needle) {
+    return (strpos($haystack, $needle) === strlen($haystack)-strlen($needle) ? True : False);
 }
 
 ?>
