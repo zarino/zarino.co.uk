@@ -1,13 +1,8 @@
-<?php
-
-require_once('vendor/Markdown.php');
-use \Michelf\Markdown;
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>blog.zarino.co.uk</title>
+    <title><?php print $post->title; ?> | blog.zarino.co.uk</title>
 </head>
 <body>
     <header>
@@ -21,7 +16,7 @@ use \Michelf\Markdown;
     <div id="content">
         <div class="container">
             <?php print date('Y-m-d H:i:s', $post->date); ?>
-            <?php print Markdown::defaultTransform($post->content); ?>
+            <?php print $post->html; ?>
         </div>
     </div>
 </body>

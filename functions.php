@@ -2,6 +2,9 @@
 
 date_default_timezone_set('Europe/London');
 
+require_once('vendor/Markdown.php');
+use \Michelf\Markdown;
+
 class Post {
 
     public $exists = False;
@@ -17,7 +20,18 @@ class Post {
             $this->slug = $slug;
             $this->path = 'posts/' . $slug . '.md';
             $this->date = filemtime($this->path);
-            $this->content = file_get_contents($this->path);
+            $this->raw = file_get_contents($this->path);
+            $this->html = Markdown::defaultTransform($this->raw);
+            $this->title = $this->get_title_from_html($this->html);
+        }
+    }
+
+    private function get_title_from_html($html) {
+        preg_match('@<h1[^>]*>(.+)</h1>@', $html, $matches);
+        if(count($matches) == 2){
+            return $matches[1];
+        } else {
+            return 'Untitled';
         }
     }
 
@@ -52,9 +66,8 @@ class PostList {
 
 function table_of_contents($posts){
     foreach($posts->all() as $p) {
-        $slug = $p->slug;
         $date = date('jS F', $p->date);
-        print '<li><a href="/post/' . $slug . '"><strong>' . $slug . '</strong> <span>' . $date . '</span></a></li>';
+        print '<li><a href="/post/' . $p->slug . '"><strong>' . $p->title . '</strong> <span>' . $date . '</span></a></li>';
     }
 }
 
