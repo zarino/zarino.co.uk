@@ -53,7 +53,8 @@ class PostList {
 function table_of_contents($posts){
     foreach($posts->all() as $p) {
         $slug = $p->slug;
-        print '<li><a href="/post/' . $slug . '">' . $slug . '</a></li>';
+        $date = date('jS F', $p->date);
+        print '<li><a href="/post/' . $slug . '"><strong>' . $slug . '</strong> <span>' . $date . '</span></a></li>';
     }
 }
 
