@@ -1,0 +1,73 @@
+header {
+  background-color: #00ADFF;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin: 0;
+  -moz-transition: font-size, line-height, letter-spacing 0.5s;
+  -webkit-transition: font-size, line-height, letter-spacing 0.5s;
+  -o-transition: font-size, line-height, letter-spacing 0.5s;
+  transition: font-size, line-height, letter-spacing 0.5s;
+}
+
+nav {
+  display: none;
+}
+
+header, #content {
+  padding: 20px 0;
+  -moz-transition: padding 0.5s;
+  -webkit-transition: padding 0.5s;
+  -o-transition: padding 0.5s;
+  transition: padding 0.5s;
+}
+
+@media only screen and (min-width: 480px) {
+
+  header h1 {
+    text-align: left;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 6px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  body {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  header h1 {
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 7px;
+  }
+
+  header, #content {
+    padding: 25px 0;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  body {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  header, #content {
+    padding: 30px 0;
+  }
+
+}

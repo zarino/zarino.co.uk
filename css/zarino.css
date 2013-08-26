@@ -1,0 +1,705 @@
+/* Bootstrap theme based on scraperwiki.css */
+
+/* Larger default font-size */
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+li, dd, dt, blockquote small,
+.dropdown-menu > li > a,
+address, .table th, .table td {
+  line-height: 24px;
+}
+
+p {
+  margin-bottom: 14px;
+}
+
+/* Spacing between multiple paragraphs in a blockquote */
+
+blockquote p + p {
+  margin-top: 10px;
+}
+
+/* Fixes for other stuff because of font size change :-( */
+
+.navbar .nav .dropdown-toggle .caret {
+  margin-top: 10px;
+}
+
+.dropdown-submenu > a:after {
+  margin-top: 7px;
+}
+
+.dropdown-menu .divider {
+  margin: 5px 1px;
+}
+
+/* I have no idea why this works. The default 10px isn't enough */
+.dropdown-submenu.pull-left > .dropdown-menu {
+  margin-left: 24px;
+}
+
+/* Less plonky headings: this isn't a blog */
+
+h1 {
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+h1:first-child, h2:first-child {
+  margin-top: 0;
+}
+
+.page-header h1, .page-header h2, .page-header h3, .page-header h4 {
+  margin-bottom: 10px;
+}
+
+/* Less subtle horizontal rules; use .muted to revert back to default */
+
+hr {
+  border-top-color: #ddd;
+}
+
+hr.muted {
+  border-top-color: #eee;
+}
+
+/* More readable <code> elements */
+
+pre, code {
+  font-family: Consolas, Menlo, "DejaVu Sans Mono", Courier, "Courier New", monospace;
+}
+
+code {
+  margin: 0 0.1em;
+  padding: 3px 4px 1px 4px;
+  vertical-align: 1px;
+  font-size: 0.8em;
+  line-height: 0.8em;
+  color: #555;
+}
+
+/* Slightly bigger, better vertically-aligned labels */
+
+.label, .badge {
+  font-size: 12px;
+  line-height: 15px;
+  vertical-align: 1px;
+}
+
+.btn .label, .btn .badge {
+  vertical-align: baseline;
+  font-size: 11px;
+  line-height: 14px;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.btn .badge {
+  padding-left: 7px;
+  padding-right: 7px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Better spacing below headings inside alerts */
+
+.alert h4 {
+  margin: 0 0 5px 0;
+}
+
+/* Search input improvements */
+
+input.search-query,
+input[type="search"],
+.navbar-search .search-query {
+  background-image: url("/img/icon-input-search.png");
+  background-position: 8px 6px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+input.search-query.loading,
+input[type="search"].loading,
+.navbar-search .search-query.loading {
+  background-image: url("/img/loader-input-search.gif");
+}
+
+.navbar-search .search-query {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 2px;
+}
+
+.navbar-inverse .navbar-search .search-query {
+  -webkit-transition: background-color linear 0.2s;
+     -moz-transition: background-color linear 0.2s;
+       -o-transition: background-color linear 0.2s;
+          transition: background-color linear 0.2s;
+}
+
+.navbar-inverse .navbar-search .search-query:focus,
+.navbar-inverse .navbar-search .search-query.focused {
+  padding: 4px 14px 4px 30px;
+  background-color: #616161;
+  border: 1px solid #111;
+  color: white;
+  text-shadow: none;
+}
+
+/* Fix border bug with disabled tabs-below link */
+
+.tabs-below > .nav-tabs > li.disabled > a:hover,
+.tabs-below > .nav-tabs > li.disabled > a:focus {
+  border-bottom: 1px solid #eee;
+}
+
+/* Fix oddly-chosen .btn-large .caret position */
+
+.btn-large .caret {
+  margin-top: 8px;
+}
+
+/* Icons inside of coloured buttons should be white by default */
+
+.btn-primary [class^="icon-"],
+.btn-primary [class*=" icon-"],
+.btn-success [class^="icon-"],
+.btn-success [class*=" icon-"],
+.btn-danger [class^="icon-"],
+.btn-danger [class*=" icon-"] {
+  background-image: url("/vendor/img/glyphicons-halflings-white.png");
+}
+
+/* Icons with a class of .space get spacing (useful in buttons) */
+
+[class^="icon-"].space,
+[class*=" icon-"].space {
+    margin-right: 0.2em;
+}
+
+/* A new .highlight class to make strings more prominent */
+
+.highlight {
+  font-style: inherit;
+  font-weight: inherit;
+  background-color: #FF9;
+  background-color: rgba(255, 255, 0, 0.3);
+  padding: 0.1em 0.2em;
+}
+
+/* Improve close button spacing on alerts */
+
+.alert .close {
+  top: -1px;
+}
+
+.alert-block .close {
+  top: -5px;
+}
+
+/* Less fischer-pricey rounded corners */
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.input-append input,
+.input-prepend input,
+.input-append select,
+.input-prepend select,
+.input-append .uneditable-input,
+.input-prepend .uneditable-input {
+  -webkit-border-radius: 0 2px 2px 0;
+     -moz-border-radius: 0 2px 2px 0;
+          border-radius: 0 2px 2px 0;
+}
+
+.input-append .add-on,
+.input-prepend .add-on,
+.input-append .btn,
+.input-prepend .btn,
+.input-append .btn-group > .dropdown-toggle,
+.input-prepend .btn-group > .dropdown-toggle {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.input-prepend .add-on:first-child,
+.input-prepend .btn:first-child,
+.input-append input,
+.input-append select,
+.input-append .uneditable-input {
+  -webkit-border-radius: 2px 0 0 2px;
+     -moz-border-radius: 2px 0 0 2px;
+          border-radius: 2px 0 0 2px;
+}
+
+.input-append input + .btn-group .btn:last-child,
+.input-append select + .btn-group .btn:last-child,
+.input-append .uneditable-input + .btn-group .btn:last-child,
+.input-append .add-on:last-child,
+.input-append .btn:last-child,
+.input-append .btn-group:last-child > .dropdown-toggle {
+  -webkit-border-radius: 0 2px 2px 0;
+     -moz-border-radius: 0 2px 2px 0;
+          border-radius: 0 2px 2px 0;
+}
+
+.input-prepend.input-append input,
+.input-prepend.input-append select,
+.input-prepend.input-append .uneditable-input {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.input-prepend.input-append input + .btn-group .btn,
+.input-prepend.input-append select + .btn-group .btn,
+.input-prepend.input-append .uneditable-input + .btn-group .btn,
+.input-prepend.input-append .add-on:last-child,
+.input-prepend.input-append .btn:last-child {
+  -webkit-border-radius: 0 2px 2px 0;
+     -moz-border-radius: 0 2px 2px 0;
+          border-radius: 0 2px 2px 0;
+}
+
+.input-prepend.input-append .add-on:first-child,
+.input-prepend.input-append .btn:first-child {
+  -webkit-border-radius: 2px 0 0 2px;
+     -moz-border-radius: 2px 0 0 2px;
+          border-radius: 2px 0 0 2px;
+}
+
+.form-search .input-append .search-query,
+.form-search .input-prepend .search-query {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.form-search .input-prepend .btn,
+.form-search .input-append .search-query {
+  -webkit-border-radius: 14px 0 0 14px;
+     -moz-border-radius: 14px 0 0 14px;
+          border-radius: 14px 0 0 14px;
+}
+
+.form-search .input-append .btn,
+.form-search .input-prepend .search-query {
+  -webkit-border-radius: 0 14px 14px 0;
+     -moz-border-radius: 0 14px 14px 0;
+          border-radius: 0 14px 14px 0;
+}
+
+input.search-query,
+input[type="search"] {
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+}
+
+.dropdown-menu,
+.dropdown-submenu > .dropdown-menu ,
+.dropup .dropdown-submenu > .dropdown-menu,
+.dropdown-submenu.pull-left > .dropdown-menu,
+.nav-tabs .dropdown-menu,
+.nav-pills .dropdown-menu,
+.navbar .pull-right > li > .dropdown-menu .dropdown-menu,
+.navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.btn {
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.btn-large {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.btn-link,
+.btn-group > .btn,
+.btn-group-vertical > .btn {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.btn-group > .btn:first-child {
+  -webkit-border-bottom-left-radius: 2px;
+          border-bottom-left-radius: 2px;
+  -webkit-border-top-left-radius: 2px;
+          border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -moz-border-radius-topleft: 2px;
+}
+
+.btn-group > .btn:last-child,
+.btn-group > .dropdown-toggle {
+  -webkit-border-top-right-radius: 2px;
+          border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+          border-bottom-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -moz-border-radius-bottomright: 2px;
+}
+
+.btn-group > .btn.large:first-child {
+  -webkit-border-bottom-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+          border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+}
+
+.btn-group > .btn.large:last-child,
+.btn-group > .large.dropdown-toggle {
+  -webkit-border-top-right-radius: 3px;
+          border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+          border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+}
+
+.btn-group-vertical > .btn:first-child {
+  -webkit-border-radius: 2px 2px 0 0;
+     -moz-border-radius: 2px 2px 0 0;
+          border-radius: 2px 2px 0 0;
+}
+
+.btn-group-vertical > .btn:last-child {
+  -webkit-border-radius: 0 0 2px 2px;
+     -moz-border-radius: 0 0 2px 2px;
+          border-radius: 0 0 2px 2px;
+}
+
+.btn-group-vertical > .btn-large:first-child {
+  -webkit-border-radius: 3px 3px 0 0;
+     -moz-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
+}
+
+.btn-group-vertical > .btn-large:last-child {
+  -webkit-border-radius: 0 0 3px 3px;
+     -moz-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px;
+}
+
+.pagination ul {
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.pagination ul > li:first-child > a,
+.pagination ul > li:first-child > span {
+  -webkit-border-bottom-left-radius: 2px;
+          border-bottom-left-radius: 2px;
+  -webkit-border-top-left-radius: 2px;
+          border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -moz-border-radius-topleft: 2px;
+}
+
+.pagination ul > li:last-child > a,
+.pagination ul > li:last-child > span {
+  -webkit-border-top-right-radius: 2px;
+          border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+          border-bottom-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -moz-border-radius-bottomright: 2px;
+}
+
+.pagination-large ul > li:first-child > a,
+.pagination-large ul > li:first-child > span {
+  -webkit-border-bottom-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+          border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+}
+
+.pagination-large ul > li:last-child > a,
+.pagination-large ul > li:last-child > span {
+  -webkit-border-top-right-radius: 3px;
+          border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+          border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+}
+
+.pager li > a,
+.pager li > span {
+  -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+          border-radius: 30px;
+}
+
+/* A new textarea-append style, like input-append but for taller textareas */
+/* Currently only works for textareas followed by a single .btn element */
+
+.textarea-append {
+  position: relative;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.textarea-append textarea {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+
+.textarea-append textarea + .btn:last-child {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  border-left: none;
+}
+
+/* Shorter transitions to make the site feel snappier */
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  -webkit-transition: border linear 0.05s, box-shadow linear 0.05s;
+     -moz-transition: border linear 0.05s, box-shadow linear 0.05s;
+       -o-transition: border linear 0.05s, box-shadow linear 0.05s;
+          transition: border linear 0.05s, box-shadow linear 0.05s;
+}
+
+/* Loading indicators */
+
+.btn.loading {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #333;
+  background: #E6E6E6 url("/img/loader-btn-default.gif") 8px 6px no-repeat;
+  padding-left: 30px;
+  -webkit-transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+
+.btn-primary.loading {
+  color: #ffffff;
+  background-color: #0044cc;
+  background-image: url("/img/loader-btn-primary.gif");
+}
+
+.btn-warning.loading {
+  color: #ffffff;
+  background-color: #f89406;
+  background-image: url("/img/loader-btn-warning.gif");
+}
+
+.btn-danger.loading {
+  color: #ffffff;
+  background-color: #bd362f;
+  background-image: url("/img/loader-btn-danger.gif");
+}
+
+.btn-success.loading {
+  color: #ffffff;
+  background-color: #51a351;
+  background-image: url("/img/loader-btn-success.gif");
+}
+
+.btn-info.loading {
+  color: #ffffff;
+  background-color: #2f96b4;
+  background-image: url("/img/loader-btn-info.gif");
+}
+
+.btn-inverse.loading {
+  color: #ffffff;
+  background-color: #222222;
+  background-image: url("/img/loader-btn-inverse.gif");
+}
+
+.btn-link.loading {
+  color: #333333;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: url("/img/loader-btn-link.gif");
+}
+
+.btn-large.loading {
+  padding-left: 38px;
+  background-position: 12px 13px;
+}
+
+.btn-small.loading {
+  background-size: 14px;
+  background-position: 9px 5px;
+  background-position: 8px 4px\9; /* override for IE6-8 which don't support background-size */
+}
+
+.btn-mini.loading {
+  background-size: 12px;
+  background-position: 9px 4px;
+  background-position: 8px 2px\9; /* override for IE6-8 which don't support background-size */
+}
+
+/* Better icon positioning for small buttons */
+
+.btn-small [class^="icon-"], .btn-small [class*=" icon-"],
+.btn-mini [class^="icon-"], .btn-mini [class*=" icon-"] {
+  vertical-align: -2px;
+}
+
+/* Disable text selection for buttons */
+
+.btn {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Make form .help-inline same size as labels */
+
+.help-inline {
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+.checkbox + .help-inline {
+  padding-left: 0;
+}
+
+/* Make modals and popovers look cleaner */
+
+.modal, .popover {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.popover {
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.popover-content {
+  font-size: 14px; /* reset popover fontsize back to Bootstrap default 14px; */
+  line-height: 20px;
+}
+
+.popover-content > :last-child,
+.modal-content > :last-child {
+  margin-bottom: 0; /* avoids extra space at bottom of popovers/modals */
+} 
+ 
+
+/* Responsive sizing for .containers */
+
+.container {
+    width: 320px;
+    -moz-transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+.navbar .container {
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow: visible;
+}
+
+/* for IE7/8 which don't support @media styles */
+.container {
+   width: 720px\9;
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 1020px;
+  }
+}

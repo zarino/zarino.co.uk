@@ -12,6 +12,9 @@ if(!isset($posts)){
 <head>
     <meta charset="utf-8">
     <title>404 | blog.zarino.co.uk</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/zarino.css">
+    <link rel="stylesheet" href="/css/blog.css">
 </head>
 <body>
     <header>
