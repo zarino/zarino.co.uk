@@ -19,12 +19,7 @@ if(!isset($posts)){
             <h1>Site title goes here</h1>
         </div>
         <nav class="container">
-            <ul><?php foreach($posts->all() as $post) {
-                    print '
-                <li><a href="/post/' . $post->slug . '">' . $post->slug . '</a></li>';
-                } ?>
-
-            </ul>
+            <ul><?php print table_of_contents($posts); ?></ul>
         </nav>
     </header>
     <div id="content">

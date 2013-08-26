@@ -15,12 +15,7 @@ use \Michelf\Markdown;
             <h1>Site title goes here</h1>
         </div>
         <nav class="container">
-            <ul><?php foreach($posts->all() as $p) {
-                    print '
-                <li><a href="/post/' . $p->slug . '">' . $p->slug . '</a></li>';
-                } ?>
-
-            </ul>
+            <ul><?php print table_of_contents($posts); ?></ul>
         </nav>
     </header>
     <div id="content">

@@ -50,6 +50,13 @@ class PostList {
 
 }
 
+function table_of_contents($posts){
+    foreach($posts->all() as $p) {
+        $slug = $p->slug;
+        print '<li><a href="/post/' . $slug . '">' . $slug . '</a></li>';
+    }
+}
+
 function begins_with($haystack, $needle) {
     return (strpos($haystack, $needle) === 0 ? True : False);
 }
