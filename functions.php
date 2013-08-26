@@ -9,10 +9,12 @@ class Post {
 
     public $exists = False;
 
-    public $content = Null;
     public $slug = Null;
     public $path = Null;
     public $date = Null;
+    public $raw = Null;
+    public $html = Null;
+    public $title = Null;
 
     public function __construct($slug) {
         if(file_exists('posts/' . $slug . '.md')){
