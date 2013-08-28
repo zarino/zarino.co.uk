@@ -2,11 +2,14 @@ var subheadings = [
   'develops things',
   'designs things',
   'pushes pixels',
+  'css guru',
+  'javascript ninja',
   'designs experiences',
   'plays ukulele',
   'blogs about design',
   'blogs about code',
   'internetologist',
+  'oii msc hci css ftw',
   'make it so'
 ]
 
@@ -33,5 +36,5 @@ $(function(){
   $('header nav').hide()
   $('header h1').prepend($toggle)
   
-  var timer = setInterval(changeSubheading, 10000)
+  var timer = setInterval(changeSubheading, 20000)
 })
