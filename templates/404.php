@@ -15,6 +15,8 @@ if(!isset($posts)){
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/zarino.css">
     <link rel="stylesheet" href="/css/blog.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/js/blog.js"></script>
 </head>
 <body>
     <header>

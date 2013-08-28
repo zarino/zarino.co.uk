@@ -669,10 +669,10 @@ input[type="color"],
 
 .container {
     width: 320px;
-    -moz-transition: width 0.5s;
+    /* -moz-transition: width 0.5s;
     -webkit-transition: width 0.5s;
     -o-transition: width 0.5s;
-    transition: width 0.5s;
+    transition: width 0.5s; */
 }
 
 .navbar .container {
@@ -688,18 +688,12 @@ input[type="color"],
 
 @media only screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 420px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .container {
-    width: 720px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .container {
-    width: 1020px;
+    width: 700px;
   }
 }
