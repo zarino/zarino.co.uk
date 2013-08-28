@@ -73,6 +73,10 @@ nav a:hover {
   text-decoration: none;
 }
 
+nav a.active {
+  cursor: default;
+}
+
 nav a strong {
   color: rgba(255,255,255,0.8);
   font-weight: normal;
@@ -85,11 +89,13 @@ nav a span {
   float: right;
 }
 
-nav a:hover strong {
+nav a:hover strong,
+nav a.active strong {
   color: rgba(255,255,255,1);
 }
 
-nav a:hover span {
+nav a:hover span,
+nav a.active span {
   color: rgba(255,255,255,0.6);
 }
 

@@ -15,7 +15,7 @@
             <h1>Zarino Zappia <small>develops things</small></h1>
         </div>
         <nav class="container">
-            <ul><?php print table_of_contents($posts); ?></ul>
+            <ul><?php print table_of_contents($posts, $post); ?></ul>
         </nav>
     </header>
     <div id="content">

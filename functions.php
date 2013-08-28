@@ -66,10 +66,15 @@ class PostList {
 
 }
 
-function table_of_contents($posts){
+function table_of_contents($posts, $post=null){
     foreach($posts->all() as $p) {
         $date = date('jS F', $p->date);
-        print '<li><a href="/post/' . $p->slug . '"><strong>' . $p->title . '</strong> <span>' . $date . '</span></a></li>';
+        if(!is_null($post) && $post->slug == $p->slug){
+            $class = ' class="active"';
+        } else {
+            $class = '';
+        }
+        print '<li><a href="/post/' . $p->slug . '"' . $class . '><strong>' . $p->title . '</strong> <span>' . $date . '</span></a></li>';
     }
 }
 
