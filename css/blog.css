@@ -33,7 +33,7 @@ header h1 small {
 #menu-toggle {
   position: absolute;
   top: 20px;
-  right: -0.8em;
+  right: 0;
   width: 0.8em;
   display: block;
   padding-top: 5px;
