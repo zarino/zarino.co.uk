@@ -13,7 +13,8 @@
 <body>
     <header>
         <div class="container">
-            <h1>Zarino Zappia <small>develops things</small></h1>
+            <h1><a href="/">Zarino Zappia</a></h1>
+            <p id="subheading">develops things</p>
         </div>
         <nav class="container">
             <ul><?php print table_of_contents($posts, $post); ?></ul>

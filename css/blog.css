@@ -9,7 +9,8 @@ header {
   min-height: 140px;
 }
 
-header h1 {
+header h1,
+#subheading {
   position: relative;
   font-size: 32px;
   line-height: 32px;
@@ -21,12 +22,13 @@ header h1 {
   padding-top: 20px;
 }
 
-header h1 small {
-  display: block;
-  position: relative;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
+header h1 a, header h1 a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+header #subheading {
+  padding-top: 0;
   color: rgba(255,255,255,0.5);
 }
 
@@ -119,7 +121,8 @@ nav a.active span {
     min-height: 190px;
   }
 
-  header h1 {
+  header h1,
+  #subheading {
     font-size: 42px;
     line-height: 42px;
     letter-spacing: 4px;
@@ -160,13 +163,14 @@ nav a.active span {
     min-height: 240px;
   }
 
-  header h1 {
+  header h1,
+  #subheading {
     font-size: 54px;
     line-height: 54px;
     letter-spacing: 5px;
     padding-top: 30px;
   }
-  
+
   #menu-toggle {
     top: 30px;
     padding-top: 10px;

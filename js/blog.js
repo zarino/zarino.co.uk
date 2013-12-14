@@ -16,7 +16,7 @@ var subheadings = [
 ]
 
 var changeSubheading = function(){
-  var $s = $('h1 small')
+  var $s = $('#subheading')
   var html = random(subheadings)
   var height = $s.height()
   if(html != $s.html()){
@@ -102,6 +102,7 @@ $(function(){
   })
   $('header nav').hide()
   $('header h1').prepend($toggle)
+  $('#subheading').on('click', changeSubheading).css('cursor', 'pointer')
 
   window.headingTimer = setInterval(changeSubheading, 15000)
   setTimeout(changeSubheading, 2000)
