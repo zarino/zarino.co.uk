@@ -172,12 +172,11 @@ nav a.active span {
   }
 
   #menu-toggle {
-    top: 30px;
+    top: 34px;
     padding-top: 10px;
   }
 
   #menu-toggle i {
-    height: 3px;
     margin-bottom: 10px;
   }
 
