@@ -59,7 +59,7 @@ nav ul {
   padding: 20px 0;
   margin: 0;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 nav a {
@@ -139,7 +139,7 @@ nav a.active span {
   }
 
   nav ul {
-    padding: 25px 0;
+    padding: 30px 0;
     font-size: 17px;
   }
 
@@ -182,7 +182,7 @@ nav a.active span {
   }
 
   nav ul {
-    padding: 30px 0;
+    padding: 40px 0;
     font-size: 18px;
   }
 
