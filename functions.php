@@ -2,8 +2,11 @@
 
 date_default_timezone_set('Europe/London');
 
-require_once('vendor/Markdown.php');
-use \Michelf\Markdown;
+
+require_once('vendor/php-markdown/Michelf/MarkdownInterface.php');
+require_once('vendor/php-markdown/Michelf/Markdown.php');
+require_once('vendor/php-markdown/Michelf/MarkdownExtra.php');
+use \Michelf\MarkdownExtra;
 
 class Post {
 
@@ -23,7 +26,7 @@ class Post {
             $this->path = 'posts/' . $slug . '.md';
             $this->date = filemtime($this->path);
             $this->raw = file_get_contents($this->path);
-            $this->html = Markdown::defaultTransform($this->raw);
+            $this->html = MarkdownExtra::defaultTransform($this->raw);
             $this->title = $this->get_title_from_html($this->html);
         }
     }

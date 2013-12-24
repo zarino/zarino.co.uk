@@ -14,13 +14,21 @@ address, .table th, .table td {
 }
 
 p {
-  margin-bottom: 14px;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  margin: 1.5em 0;
+}
+
+blockquote p {
+  font-size: 0.9em;
 }
 
 /* Spacing between multiple paragraphs in a blockquote */
 
 blockquote p + p {
-  margin-top: 10px;
+  margin-top: 0.7em;
 }
 
 /* Fixes for other stuff because of font size change :-( */
@@ -662,8 +670,8 @@ input[type="color"],
 .popover-content > :last-child,
 .modal-content > :last-child {
   margin-bottom: 0; /* avoids extra space at bottom of popovers/modals */
-} 
- 
+}
+
 
 /* Responsive sizing for .containers */
 
