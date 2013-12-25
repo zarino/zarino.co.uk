@@ -134,6 +134,10 @@ sup[id^="fnref"] {
   line-height: 1.5em;
 }
 
+#content hr {
+  margin: 1.8em 0;
+}
+
 footer {
   border-top: 1px solid #D9DCDF;
   padding: 40px 0;
