@@ -5,7 +5,7 @@ require_once('functions.php');
 $posts = new PostList();
 
 if(isset($_GET['slug'])){
-    $post = new Post($_GET['slug']);
+    $post = $posts->find($_GET['slug']);
 } else {
     $post = $posts->newest();
 }

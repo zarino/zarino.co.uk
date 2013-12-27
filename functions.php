@@ -10,8 +10,14 @@ use \Michelf\MarkdownExtra;
 
 class Post {
 
+    // This class expects to be passed a filename, eg:
+    // 2013-12-13-some-lovely-post.md
+    // Which it will load (from the /posts directory)
+    // and extract information from.
+
     public $exists = False;
 
+    public $filename = Null;
     public $slug = Null;
     public $path = Null;
     public $date = Null;
@@ -19,16 +25,26 @@ class Post {
     public $html = Null;
     public $title = Null;
 
-    public function __construct($slug) {
-        if(file_exists('posts/' . $slug . '.md')){
+    public function __construct($filename) {
+        if(file_exists('posts/' . $filename)){
             $this->exists = True;
-            $this->slug = $slug;
-            $this->path = 'posts/' . $slug . '.md';
+            $this->filename = $filename;
+            $this->slug = $this->get_slug();
+            $this->path = 'posts/' . $filename;
             $this->date = $this->get_date();
             $this->raw = file_get_contents($this->path);
             $this->html = MarkdownExtra::defaultTransform($this->raw);
             $this->title = $this->get_title_from_html($this->html);
         }
+    }
+
+    private function get_slug() {
+        $fn = $this->filename;
+        preg_match('@\d{4}-\d{2}-\d{2}-(.*)@', $fn, $matches);
+        if(count($matches) == 2){
+            $fn = $matches[1];
+        }
+        return str_replace('.md', '', $fn);
     }
 
     private function get_date() {
@@ -62,10 +78,8 @@ class PostList {
             if(begins_with($filename, '.')){
                 return;
             }
-            $slug = str_replace('.md', '', $filename);
-            $this->posts[] = new Post($slug);
+            $this->posts[] = new Post($filename);
         }
-        print_r($this->posts);
     }
 
     public function newest() {
@@ -74,6 +88,19 @@ class PostList {
 
     public function all() {
         return $this->posts;
+    }
+
+    public function find($slug) {
+        // Since post filenames usually don't match their URL slugs
+        // (filenames usually also include a date and file extension),
+        // this function finds the post with the specified slug.
+        foreach ($this->posts as $post) {
+            if($post->slug == $slug){
+                return $post;
+            }
+        }
+        // Post wasn't found!
+        return new Post($slug);
     }
 
 }
