@@ -145,6 +145,10 @@ nav a.active span {
   line-height: 1em;
 }
 
+#content li, #content dd, #content dt {
+  line-height: inherit; /* override Bootstrap pixel-based line-height */
+}
+
 blockquote {
   color: #999;
 }
