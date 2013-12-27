@@ -24,10 +24,19 @@ class Post {
             $this->exists = True;
             $this->slug = $slug;
             $this->path = 'posts/' . $slug . '.md';
-            $this->date = filemtime($this->path);
+            $this->date = $this->get_date();
             $this->raw = file_get_contents($this->path);
             $this->html = MarkdownExtra::defaultTransform($this->raw);
             $this->title = $this->get_title_from_html($this->html);
+        }
+    }
+
+    private function get_date() {
+        preg_match('@^posts/(\d{4})-(\d{2})-(\d{2})@', $this->path, $matches);
+        if(count($matches) == 4){
+            return mktime(0, 0, 0, $matches[2], $matches[3], $matches[1]);
+        } else {
+            return filemtime($this->path);
         }
     }
 
