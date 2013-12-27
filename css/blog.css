@@ -46,14 +46,41 @@ header #subheading {
 
 #menu-toggle i {
   display: block;
+  position: relative;
   height: 2px;
   margin-bottom: 6px;
   background: rgba(255,255,255,0.5);
+  -webkit-transition: opacity 0.2s, top 0.2s, -webkit-transform 0.2s;
+  -moz-transition: opacity 0.2s, top 0.2s, -moz-transform 0.2s;
+  -o-transition: opacity 0.2s, top 0.2s, -o-transform 0.2s;
+  transition: opacity 0.2s, top 0.2s, transform 0.2s;
 }
 
 #menu-toggle:hover i,
 #menu-toggle.active i {
   background: #fff;
+}
+
+#menu-toggle.active .first {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 12px;
+}
+
+#menu-toggle.active .second {
+  opacity: 0;
+}
+
+#menu-toggle.active .third {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -13px;
 }
 
 nav ul {

@@ -96,7 +96,7 @@ var checkTime = function(){
 /* Dom ready */
 
 $(function(){
-  var $toggle = $('<span id="menu-toggle"><i></i><i></i><i></i></span>').on('click', function(){
+  var $toggle = $('<span id="menu-toggle"><i class="first"></i><i class="second"></i><i class="third"></i></span>').on('click', function(){
     $('header nav').slideToggle()
     $(this).toggleClass('active')
   })
