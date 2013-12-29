@@ -34,7 +34,7 @@ The Lady Lever curators have been very clever here, though, for this isn't the w
 
 [![The Decameron by John Willian Waterhouse, 1916](/media/decameron.jpg)](http://www.bbc.co.uk/arts/yourpaintings/paintings/the-decameron-117871)
 
-The Decameron, we're told by another plaque on the wall, was a  14th Century book containing 100 tales told by a group of young men and women sheltering in a Florentian villa from the Black Death. Ten young people, telling one story each over a period of ten days. Wikipedia calls it a "[masterpiece of classical early italian prose](http://en.wikipedia.org/wiki/The_Decameron)", supposedly, that went on to inspire Chaucer, Shakespeare and Edgar Allen Poe, amongst others.
+The Decameron, we're told by another plaque on the wall, was a  14th Century book containing 100 tales told by a group of young men and women sheltering in a Florentian villa from the Black Death. Ten young people, telling one story each over a period of ten days. Wikipedia calls it a "[masterpiece of classical early Italian prose](http://en.wikipedia.org/wiki/The_Decameron)", supposedly, that went on to inspire Chaucer, Shakespeare and Edgar Allen Poe, amongst others.
 
 So Waterhouse shows us the young Italians, in the middle of telling the very tale we just saw in the painting to the left: that of doomed Dianora and her unwanted lover. By the end of it all, you're standing way back on the opposite wall of the Lady Lever hall, taking in both paintings, your eyes darting from one to the other like a spectator at a tennis match. All very cool. Very Inception.
 
