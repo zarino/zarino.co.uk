@@ -73,13 +73,16 @@ class PostList {
 
     public function __construct() {
         $files = scandir('posts', 1);
-        $p = array();
         foreach ($files as $filename) {
-            if(begins_with($filename, '.')){
-                return;
+            if(!begins_with($filename, '.')){
+                $this->posts[] = new Post($filename);
             }
-            $this->posts[] = new Post($filename);
         }
+        function compare($post_a, $post_b) {
+            // Sort by date, newest to oldest
+            return $post_b->date - $post_a->date;
+        }
+        usort($this->posts, 'compare');
     }
 
     public function newest() {
