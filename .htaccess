@@ -8,12 +8,10 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 # Disable automatic directory indexing
 Options -indexes
 
-# Parse XML feeds using PHP
-AddHandler php5-cgi .rss .xml
-
 php_flag magic_quotes_gpc Off
 
 # Redirects
 RewriteEngine on
 RewriteRule ^post/(.+)$ index.php?slug=$1 [L]
 RewriteRule ^post/?$ / [L,R=301]
+RewriteRule ^feed/?$ feed.php [L]
