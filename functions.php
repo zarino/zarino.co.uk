@@ -35,6 +35,7 @@ class Post {
             $this->raw = file_get_contents($this->path);
             $this->html = MarkdownExtra::defaultTransform($this->raw);
             $this->title = $this->get_title_from_html($this->html);
+            $this->url = 'http://' . $_SERVER['HTTP_HOST'] . '/post/' . $this->slug;
         }
     }
 

@@ -20,7 +20,7 @@ foreach ($posts->all() as $post){
     echo '<item>
     <title>' . $post->title . '</title>
     <pubDate>' . date("D, d M Y H:i:s O", $post->date) . '</pubDate>
-    <link>http://zarino.co.uk/post/' . $post->slug . '</link>
+    <link>' . $post->url . '</link>
     <description>' . utf8_encode(htmlentities($post->html, ENT_COMPAT, 'utf-8')) . '
     </description>
 </item>';
