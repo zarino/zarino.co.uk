@@ -140,7 +140,17 @@ nav a.active span {
 }
 
 #content .date {
-  opacity: 0.5;
+  color: #aaa;
+}
+
+#content .permalink {
+  color: #ddd;
+  padding: 2px 5px;
+}
+
+#content .permalink:hover {
+  color: #08c;
+  text-decoration: none;
 }
 
 #content h1 {

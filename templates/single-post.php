@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php print $post->title; ?> | blog.zarino.co.uk</title>
+    <title><?php echo $post->title; ?> | blog.zarino.co.uk</title>
     <link rel="alternate" type="application/rss+xml" title="Zarino’s Blog" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/feed">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -19,13 +19,13 @@
             <p id="subheading">develops things</p>
         </div>
         <nav class="container">
-            <ul><?php print table_of_contents($posts, $post); ?></ul>
+            <ul><?php echo table_of_contents($posts, $post); ?></ul>
         </nav>
     </header>
     <div id="content">
         <div class="container">
-          <p class="date"><?php print date('l jS F Y', $post->date); ?></p>
-          <div class="post-content"><?php print $post->html; ?></div>
+          <p class="date"><?php echo date('l jS F Y', $post->date); ?> <a class="permalink" title="Permalink" href="<?php echo $post->url; ?>">&infin;</a></p>
+          <div class="post-content"><?php echo $post->html; ?></div>
         </div>
     </div>
     <footer>
