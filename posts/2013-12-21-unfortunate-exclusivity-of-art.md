@@ -1,4 +1,4 @@
-# The Unfortunate Exclusivity of Art
+# The unfortunate exclusivity of art
 
 I watched Brideshead Revisited a few days ago. A pretty uninspiring movie, but there was a lovely bit where Cordelia abruptly asks Charles, a semi-famous painter and protagonist of the story:
 
