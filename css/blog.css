@@ -69,7 +69,7 @@ header #subheading {
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 12px;
+  top: 8px;
 }
 
 #menu-toggle.active .second {
@@ -82,7 +82,7 @@ header #subheading {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  top: -13px;
+  top: -8px;
 }
 
 nav ul {
@@ -255,6 +255,14 @@ footer a:active {
     margin-bottom: 8px;
   }
 
+  #menu-toggle.active .first {
+    top: 10px;
+  }
+
+  #menu-toggle.active .third {
+    top: -10px;
+  }
+
   nav ul {
     padding: 30px 0;
     font-size: 17px;
@@ -294,6 +302,14 @@ footer a:active {
 
   #menu-toggle i {
     margin-bottom: 10px;
+  }
+
+  #menu-toggle.active .first {
+    top: 12px;
+  }
+
+  #menu-toggle.active .third {
+    top: -13px;
   }
 
   nav ul {
