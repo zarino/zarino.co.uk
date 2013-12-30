@@ -22,7 +22,7 @@ There's something about the mixture of idealised medieval fantasy and almost pho
 
 But every now and then, there's a useful little summary next to a painting, and like a key in a lock, the whole thing starts to make sense.
 
-Earlier this year, when I visited the Lady Lever art gallery in Port Sunlight, this painting by John William Waterhouse grabbed my attention:
+Earlier this year, when I visited the [Lady Lever art gallery](http://www.liverpoolmuseums.org.uk/ladylever) in Port Sunlight, this painting by John William Waterhouse grabbed my attention:
 
 [![The Enchanted Garden by John William Waterhouse, 1916](/media/enchanted-garden.jpg)](http://www.bbc.co.uk/arts/yourpaintings/paintings/the-enchanted-garden-102703)
 
