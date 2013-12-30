@@ -8,7 +8,7 @@ I watched Brideshead Revisited a few days ago. A pretty uninspiring movie, but t
 
 > "Oh, I'm so glad. I had an argument with one of our nuns and she said we shouldn't try and criticize what we didn't understand. Now I shall tell her I have had it straight from a real artist, and snubs to her."
 
-Charles, at this point in the story, couldn't care less about modern art. He dances—a pale teenage girl draped limply in his arms—with his eyes sternly fixed on his childhood lover, Sebastian, who is rapidly hurtling towards oblivion under an unholy trinity of vices: religion, guilt and sexuality.
+Charles, at this point in the story, couldn't care less about modern art. He dances—a pale teenage girl draped limply in his arms—with his eyes sternly fixed on his childhood lover, Sebastian, who is rapidly hurtling towards oblivion under an unholy trinity of vices: sexuality, religion, and guilt.
 
 ![Charles dances with Cordelia in Brideshead Revisited](/media/brideshead-revisited.jpg)
 
