@@ -12,6 +12,7 @@ if(!isset($posts)){
 <head>
     <meta charset="utf-8">
     <title>404 | blog.zarino.co.uk</title>
+    <link rel="alternate" type="application/rss+xml" title="Zarino’s Blog" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/feed">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/zarino.css">
