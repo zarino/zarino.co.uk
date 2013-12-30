@@ -183,6 +183,51 @@ sup[id^="fnref"] {
   margin: 1.8em 0;
 }
 
+#further-reading {
+  background: #fff;
+  border-top: 2px solid #eee;
+  padding: 40px 0 30px;
+  color: #999;
+}
+
+#further-reading h2 {
+  font-family: Lato, 'Gill Sans', 'Gill Sans MT', Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#further-reading a {
+  display: block;
+  font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+  margin: 20px 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+#further-reading h3 {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: normal;
+  color: #666;
+}
+
+#further-reading p {
+  margin: 0.3em 0 0 0;
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+#further-reading a:hover h3 {
+  color: #08c;
+}
+
+#further-reading a:hover p {
+  color: #68B6DD;
+}
+
 footer {
   font-family: Lato, 'Gill Sans', 'Gill Sans MT', Helvetica, sans-serif;
   border-top: 1px solid #D9DCDF;
@@ -334,6 +379,19 @@ footer a:active {
 
   #content {
     padding: 50px 0;
+  }
+
+  #further-reading {
+    padding-top: 50px;
+  }
+
+  #further-reading a {
+    width: 45%;
+    float: left;
+  }
+
+  #further-reading a + a {
+    float: right;
   }
 
   body {

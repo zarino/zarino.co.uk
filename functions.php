@@ -86,8 +86,12 @@ class PostList {
         usort($this->posts, 'compare');
     }
 
-    public function newest() {
-        return $this->posts[0];
+    public function newest($number=1) {
+        $tmp = array();
+        for($i = 0; $i < $number; $i++){
+            $tmp[] = $this->posts[$i];
+        }
+        return $tmp;
     }
 
     public function all() {

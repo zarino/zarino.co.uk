@@ -7,7 +7,9 @@ $posts = new PostList();
 if(isset($_GET['slug'])){
     $post = $posts->find($_GET['slug']);
 } else {
-    $post = $posts->newest();
+    $tmp = $posts->newest(3);
+    $post = $tmp[0];
+    $other_posts = array($tmp[1], $tmp[2]);
 }
 
 if($post->exists){

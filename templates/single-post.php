@@ -28,6 +28,19 @@
           <div class="post-content"><?php echo $post->html; ?></div>
         </div>
     </div>
+    <?php if(isset($other_posts)){ ?>
+    <div id="further-reading">
+        <div class="container">
+            <h2>Further reading:</h2>
+            <?php foreach($other_posts as $other_post){ ?>
+            <a href="<?php echo $other_post->url; ?>">
+                <h3><?php echo $other_post->title; ?></h3>
+                <p><?php echo date('l jS F Y', $other_post->date); ?></p>
+            </a>
+            <?php } ?>
+        </div>
+    </div>
+    <?php } ?>
     <footer>
         <div class="container">
             <img src="/img/zarinozappia.jpg" class="img-circle" width="256" height="256" alt="Zarino Zappia, wearing thick black and tortoise-shell glasses, a check shirt and a tweed Ted Baker jacket">
