@@ -96,16 +96,31 @@ var checkTime = function(){
 /* Dom ready */
 
 $(function(){
+
   var $toggle = $('<span id="menu-toggle"><i class="first"></i><i class="second"></i><i class="third"></i></span>').on('click', function(){
     $('header nav').slideToggle()
     $(this).toggleClass('active')
+    ga('send', 'event', 'menu', 'toggle')
   })
+
   $('header nav').hide()
-  $('header h1').prepend($toggle)
-  $('#subheading').on('click', changeSubheading).css('cursor', 'pointer')
+
+  $('header h1').prepend($toggle).on('click', function(){
+    ga('send', 'event', 'heading', 'click')
+  })
+
+  $('#subheading').on('click', function(){
+    ga('send', 'event', 'subheading', 'click')
+    changeSubheading()
+  }).css('cursor', 'pointer')
+
+  $('footer a').on('click', function(){
+    ga('send', 'event', 'footer links', 'click', $(this).attr('href'))
+  })
 
   window.headingTimer = setInterval(changeSubheading, 15000)
   setTimeout(changeSubheading, 2000)
   window.colourTimer = setInterval(checkTime, 5000)
   checkTime()
+
 })
