@@ -23,6 +23,7 @@ if(!isset($posts)){
     <link rel="stylesheet" href="/css/blog.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/js/jquery.ui.effect.min.js"></script>
+    <script src="/js/jquery.scrolldepth.min.js"></script>
     <script src="/js/blog.js"></script>
 </head>
 <body>

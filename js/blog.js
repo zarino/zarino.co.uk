@@ -123,4 +123,6 @@ $(function(){
   window.colourTimer = setInterval(checkTime, 5000)
   checkTime()
 
+  $.scrollDepth()
+
 })
