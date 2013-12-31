@@ -1,9 +1,29 @@
 <?php
 
+require_once('functions.php');
+
+if($enable_google_analytics){
+    /* Manually call the Google Analytics collection endpoint with cURL */
+    $ch = curl_init();
+    $data = array(
+        'v'=> 1,
+        'tid'=> $google_analytics_id,
+        'cid'=> '0ddb7087-8ec9-4713-be77-40c4c5d83646',
+        't'=> 'pageview',
+        'dl'=> 'http://zarino.co.uk/feed',
+        'aip'=> 1
+    );
+    curl_setopt($ch, CURLOPT_URL, 'http://www.google-analytics.com/collect?' . http_build_query($data));
+    curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_exec($ch);
+    curl_close($ch);
+}
+
+/* Send correct XML header */
 header("Content-Type: application/rss+xml; charset=utf-8");
 echo '<?xml version="1.0" encoding="UTF-8"?>';
 
-require_once('functions.php');
 $posts = new PostList();
 
 ?>
