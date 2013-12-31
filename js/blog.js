@@ -105,9 +105,9 @@ $(function(){
 
   $('header nav').hide()
 
-  $('header h1').prepend($toggle).on('click', function(){
+  $('header h1 a').on('click', function(){
     ga('send', 'event', 'heading', 'click')
-  })
+  }).after($toggle)
 
   $('#subheading').on('click', function(){
     ga('send', 'event', 'subheading', 'click')
