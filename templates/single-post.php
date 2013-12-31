@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php echo $post->title; ?> | blog.zarino.co.uk</title>
+    <title><?php echo $post->title; ?> | zarino.co.uk</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="Zarino’s Blog" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/feed">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700">
