@@ -2,6 +2,8 @@
 
 date_default_timezone_set('Europe/London');
 
+$google_analytics_id = 'UA-18117917-1';
+$enable_google_analytics = $_SERVER['SERVER_NAME'] == 'zarino.co.uk';
 
 require_once('vendor/php-markdown/Michelf/MarkdownInterface.php');
 require_once('vendor/php-markdown/Michelf/Markdown.php');
