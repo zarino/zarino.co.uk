@@ -2,10 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php echo $post->title; ?> | zarino.co.uk</title>
+    <title><?php echo htmlentities($title, ENT_QUOTES); ?></title>
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="Zarino’s Blog" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/feed">
-    <meta name="description" content="Zarino Zappia is a coder, designer and Internetologist based in Liverpool, UK. This is his blog.">
+<?php if(isset($description)){ ?>
+    <meta name="description" content="<?php echo htmlentities($description, ENT_QUOTES); ?>">
+<?php } ?>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/zarino.css">
