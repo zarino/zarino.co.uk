@@ -123,7 +123,7 @@ function table_of_contents($posts, $post=null){
         } else {
             $class = '';
         }
-        print '<li><a href="/post/' . $p->slug . '"' . $class . '><strong>' . $p->title . '</strong> <span>' . $date . '</span></a></li>';
+        print '<li><a href="/post/' . $p->slug . '"' . $class . '><strong>' . avoid_widows($p->title) . '</strong> <span>' . $date . '</span></a></li>';
     }
 }
 
@@ -137,6 +137,12 @@ function contains($haystack, $needle) {
 
 function ends_with($haystack, $needle) {
     return (strpos($haystack, $needle) === strlen($haystack)-strlen($needle) ? True : False);
+}
+
+function avoid_widows($text){
+    // replaces the last space character at
+    // the end of $text with an &nbsp; entity.
+    return preg_replace('@ ([^ ]+)$@', '&nbsp;$1', $text);
 }
 
 ?>

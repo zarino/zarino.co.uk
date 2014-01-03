@@ -30,7 +30,7 @@
     <div id="content">
         <div class="container">
           <p class="date"><?php echo date('l jS F Y', $post->date); ?> <a class="permalink" title="Permalink" href="<?php echo $post->url; ?>">&infin;</a></p>
-          <div class="post-content"><?php echo $post->html; ?></div>
+          <div class="post-content"><?php echo avoid_widows($post->html); ?></div>
         </div>
     </div>
     <?php if(isset($other_posts)){ ?>
@@ -39,7 +39,7 @@
             <h2>Further reading:</h2>
             <?php foreach($other_posts as $other_post){ ?>
             <a href="<?php echo $other_post->url; ?>">
-                <h3><?php echo $other_post->title; ?></h3>
+                <h3><?php echo avoid_widows($other_post->title); ?></h3>
                 <p><?php echo date('l jS F Y', $other_post->date); ?></p>
             </a>
             <?php } ?>
