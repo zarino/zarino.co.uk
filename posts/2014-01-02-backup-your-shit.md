@@ -18,7 +18,7 @@ So I figure it's about time to back up my stuff like a proper grown up, with [a 
 
 ![Synology DS214se disk enclosure](/media/ds214se.jpg)
 
-You can get larger, more expensive RAID controllers. But, frankly, I was amazed at how cheap and accessible this stuff has become. The only real shame is that the whole thing is a minefield. Synology alone sells 10 "home" RAID solutions – without even considering the competition. It's a world of acronyms and long, complicated feature comparison charts. And most worryingly, there are surprisingly few end-to-end "here's how I did it" articles by people who've bought one of these boxes and got it running with their existing stuff.
+You can get larger, more expensive RAID controllers. But, frankly, I was amazed at how cheap and accessible this stuff has become. The only real shame is that the whole thing is a decision minefield. Synology alone sells 10 "home" RAID solutions – without even considering the competition. It's a world of acronyms and long, complicated feature comparison charts. And most worryingly, there are surprisingly few end-to-end "here's how I did it" articles by people who've bought one of these boxes and got it running with their existing stuff.
 
 Hopefully, that last point is something I can remedy, if I go down the DS214 route. Stay tuned.
 
