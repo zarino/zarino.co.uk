@@ -6,13 +6,11 @@
 
 I'm a designer. I think in pictures. And unlike a growing contigent of designers these days who protest they can't draw,[^1] I sketch everything before I even touch a computer.[^2] There are sheets of "pretty drawings" all over the ScraperWiki office with arrows and squiggly 'greek' text, documenting what is, what might be, and what didn't make the cut.
 
-[insert photo of sketches here]
+![Hand drawn wireframes from the ScraperWiki office](/media/wireframes-2.jpg)
 
 Some people do this sort of work on a computer. Axure and Microsoft Visio are probably the kings of this particular jungle, although I've seen designers use everything from web-based tools like Balsamiq and Mockflow, to desktop apps like Illustrator, Sketch, Fireworks, Photoshop and—weirdly—InDesign.
 
 Computer wireframing tools have their benefits: you can line stuff up easily, duplicate elements onto multiple pages, undo changes with the press of a button, and, often, produce interactive demos for users (or salespeople) to click though.
-
-[insert axure screenshot]
 
 To me, however, these very strengths are the reason I never use software for wireframing. You spend so long thinking about how to set up a master template, or how to finely replicate the UX of the finished product, that, by the time it's all done, you've completely lost track of the wireframe's core value: to quickly represent the main functions of a page, like an imperfect, 10-foot overview, so you can quickly rule out bad ideas and discover good ones to iterate over again.
 
@@ -20,7 +18,7 @@ To me, however, these very strengths are the reason I never use software for wir
 
 Pencil lets you get as rough or as detailed as you want.[^3] Drawing a web page's header is as simple as four lines in a rectangle. The site logo and name; another little rectange and a squiggle. Need to de-emphasise something? Tilt your pencil and scribble over the place with a wide, light grey daub. Need to make something stand out? Press harder.
 
-[another picture of sketches]
+![Hand drawn wireframes from the ScraperWiki office](/media/wireframes-1.jpg)
 
 You have a direct, one-to-one mapping with what you're drawing. You find yourself, midway through drawing a line, suddenly re-appraising a whole feature of the design. You're inches away from the marks on the paper. You can see the rubbings out where you're not sure what to do – almost always the parts that need more research. And you can see the messy, wobbly bits where your design's too complicated. Sometimes the marks on the paper seemingly tell you what to do next, in a way that pixels on a screen never do.
 
