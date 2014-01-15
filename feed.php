@@ -27,12 +27,13 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 $posts = new PostList();
 
 ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Zarino’s Blog</title>
 <link>http://zarino.co.uk</link>
 <description>Zarino Zappia is a coder, designer and Internetologist. His blog covers everything from art to technology, javascript to typography.</description>
 <language>en-gb</language>
+<atom:link href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/feed';  ?>" rel="self" type="application/rss+xml" />
 
 <?php
 
