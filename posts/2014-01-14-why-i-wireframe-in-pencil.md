@@ -4,7 +4,7 @@
 
 "Oooh, pretty drawings!" says Ed, ScraperWiki's other product guy, as he leans over to look at the smattering of papers on my desk. And he's sort of right, they *are* pretty drawings. But that's not the point.
 
-I'm a designer. I think in pictures. And unlike a growing contigent of designers these days who protest they can't draw,[^1] I sketch everything before I even touch a computer.[^2] There are sheets of "pretty drawings" all over the ScraperWiki office with arrows and squiggly 'greek' text, documenting what is, what might be, and what didn't make the cut.
+I'm a designer. I think in pictures. And unlike a growing contingent of designers these days who protest they can't draw,[^1] I sketch everything before I even touch a computer.[^2] There are sheets of "pretty drawings" all over the ScraperWiki office with arrows and squiggly 'greek' text, documenting what is, what might be, and what didn't make the cut.
 
 ![Hand drawn wireframes from the ScraperWiki office](/media/wireframes-2.jpg)
 
@@ -24,13 +24,13 @@ You have a direct, one-to-one mapping with what you're drawing. You find yoursel
 
 Another advantage, especially when showing your work to someone else (a client, or a user) is that pencil wireframes immediately imply *imperfection*. There can be no doubt that *this stuff isn't finished yet*. When I was a freelance designer, hand-drawn wireframes always ilicited more feedback from clients than Photoshopped ones. And as a bonus, I'd get this moment when the client would say "couldn't this work like that", and I'd turn the page over and just draw it. It pulls them right into the design process, and they get to see first hand what works and what doesn't. Priceless.
 
-Speaking of which, pencil wireframes also make it easier to charge when you're freelance designer-developer. They make it dead clear where the design process finishes and the programming starts. And unlike detailed mockups, you don't get that awkward situation where the client thinks you've already made the damn thing and wonders why you need another X days to "code" what has clearly (to their eyes) already been finished!
+Speaking of which, pencil wireframes also make it easier to charge when you're a freelance designer-developer. They make it dead clear where the design process finishes and the programming starts. And unlike detailed mockups, you don't get that awkward situation where the client thinks you've already made the damn thing and wonders why you need another X days to "code" what has clearly (to their eyes) already been finished!
 
 ## What about all the other cool toys?
 
 You don't have to go all-in! If you're comfortable in Illustrator, Balsamiq or Axure, stick with them.
 
-I personally use a combination of pencil for initial wireframes, then Photoshop for ocassional high-fidelity mockups, or more often these days, I'll design right in the browser using HTML and CSS.
+I personally use a combination of pencil for initial wireframes, then Photoshop for occasional high-fidelity mockups, or more often these days, I'll design right in the browser using HTML and CSS.
 
 Designing in the browser gives you the dual advantages of, again, not getting caught up in the details, and additionally, having a working prototype right from the get-go. With a combination of pencil wireframes and HTML prototypes, I can't see why anyone would ever want to use something like Axure.[^4]
 
@@ -41,5 +41,5 @@ In the meantime, good old pencil and paper fits the bill pretty well. With the a
 [^1]: In my experience, anybody who can hold a pen can draw – much as anybody who can hold a tune can sing. Whether you've been told how to draw "properly", or sing "properly" is a different matter. The "properly" part is completely optional, however. *Especially* when you're making wireframes.
 [^2]: I often sketch out code too, before I write it, but that's a different matter.
 [^3]: Incidentally, drawing with a marker pen is even better when you need to *force yourself* to ignore the details. There is literally only so small you can draw with a whiteboard marker. Plus if you find yourself a glass whiteboard, you get added CSI geek bonus points.
-[^4]: I've tried Axure a number of times, and each time I've spent longer making the prototype than I would have spent coding the up properly from scratch. And then, once the prototype's done, I've *still* got to do the coding. What a total waste.
+[^4]: I've tried Axure a number of times, and each time I've spent longer making the prototype than I would have spent coding it up properly from scratch. And then, once the prototype's done, I've *still* got to do the coding. What a total waste.
 [^5]: See this excellent post by [Maël Primet](https://twitter.com/mael_p) on the Snips blog for more information on [interactive prototyping with SVGs and D3.js](http://snips.net/blog/posts/2014/01-10-fast-interactive_prototyping_with_d3_js.html)
