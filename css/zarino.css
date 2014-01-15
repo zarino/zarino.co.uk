@@ -676,7 +676,7 @@ input[type="color"],
 /* Responsive sizing for .containers */
 
 .container {
-    width: 320px;
+    width: 280px;
     /* -moz-transition: width 0.5s;
     -webkit-transition: width 0.5s;
     -o-transition: width 0.5s;
