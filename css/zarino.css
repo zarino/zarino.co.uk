@@ -705,3 +705,12 @@ input[type="color"],
     width: 700px;
   }
 }
+
+@media print {
+  body {
+    padding: 2em;
+  }
+  .container {
+    width: auto;
+  }
+}
