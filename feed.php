@@ -38,12 +38,11 @@ $posts = new PostList();
 
 foreach ($posts->all() as $post){
     echo '<item>
-    <title>' . $post->title . '</title>
+    <title><![CDATA[' . $post->title . ']]></title>
     <guid>' . $post->url . '</guid>
     <pubDate>' . date("D, d M Y H:i:s O", $post->date) . '</pubDate>
     <link>' . $post->url . '</link>
-    <description>' . utf8_encode(htmlentities($post->html, ENT_COMPAT, 'utf-8')) . '
-    </description>
+    <description><![CDATA[' . $post->html . ']]></description>
 </item>';
 }
 
