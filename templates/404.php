@@ -13,6 +13,7 @@ if(!isset($posts)){
     <meta charset="utf-8">
     <title><?php echo htmlentities($title, ENT_QUOTES); ?></title>
     <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="alternate" type="application/rss+xml" title="Zarino’s Blog" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/feed">
 <?php if(isset($description)){ ?>
     <meta name="description" content="<?php echo htmlentities($description, ENT_QUOTES); ?>">
