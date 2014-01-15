@@ -35,7 +35,8 @@ class Post {
             $this->path = 'posts/' . $filename;
             $this->date = $this->get_date();
             $this->raw = file_get_contents($this->path);
-            $this->html = $this->get_body();
+            $this->html = MarkdownExtra::defaultTransform($this->raw);
+            $this->body = $this->get_body();
             $this->title = $this->get_title_from_html($this->html);
             $this->url = 'http://' . $_SERVER['HTTP_HOST'] . '/post/' . $this->slug;
         }
