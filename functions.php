@@ -35,7 +35,7 @@ class Post {
             $this->path = 'posts/' . $filename;
             $this->date = $this->get_date();
             $this->raw = file_get_contents($this->path);
-            $this->html = MarkdownExtra::defaultTransform($this->raw);
+            $this->html = make_media_absolute(MarkdownExtra::defaultTransform($this->raw));
             $this->title = $this->get_title_from_html($this->html);
             $this->url = 'http://' . $_SERVER['HTTP_HOST'] . '/post/' . $this->slug;
         }
@@ -143,6 +143,10 @@ function avoid_widows($text){
     // replaces the last space character at
     // the end of $text with an &nbsp; entity.
     return preg_replace('@ ([^ ]+)$@', '&nbsp;$1', $text);
+}
+
+function make_media_absolute($html){
+    return preg_replace('@"(/media/[^"]+)"@', '"http://' . $_SERVER['HTTP_HOST'] . '$1"', $html);
 }
 
 ?>
