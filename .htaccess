@@ -19,3 +19,4 @@ RewriteEngine on
 RewriteRule ^post/(.+)$ index.php?slug=$1 [L]
 RewriteRule ^post/?$ / [L,R=301]
 RewriteRule ^feed/?$ feed.php [L]
+RewriteRule ^tracker.gif$ tracker.php [L]

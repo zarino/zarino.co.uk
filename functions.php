@@ -39,6 +39,7 @@ class Post {
             $this->body = $this->get_body();
             $this->title = $this->get_title_from_html($this->html);
             $this->url = 'http://' . $_SERVER['HTTP_HOST'] . '/post/' . $this->slug;
+            $this->tracker = '<img src="http://' . $_SERVER['HTTP_HOST'] . '/tracker.gif?slug=' . $this->slug . '">';
         }
     }
 
