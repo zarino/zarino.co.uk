@@ -43,7 +43,7 @@ foreach ($posts->all() as $post){
     <guid>' . $post->url . '</guid>
     <pubDate>' . date("D, d M Y H:i:s O", $post->date) . '</pubDate>
     <link>' . $post->url . '</link>
-    <description><![CDATA[' . $post->body . ']]></description>
+    <description><![CDATA[' . $post->body . $post->tracker . ']]></description>
 </item>';
 }
 
