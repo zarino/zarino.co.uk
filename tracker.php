@@ -35,6 +35,8 @@ $img = imagecreatefromstring($data);
 
 // return the gif
 header('Content-Type: image/gif');
+header('Cache-Control: no-cache, must-revalidate');
+header('Expires: Tue, 13 Dec 1988 00:00:00 GMT');
 imagegif($img);
 
 // clear up
