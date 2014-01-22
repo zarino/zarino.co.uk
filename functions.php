@@ -72,8 +72,10 @@ class Post {
 
     private function get_body(){
         $body = MarkdownExtra::defaultTransform($this->raw);
-        $body = preg_replace('@<h1>.*</h1>\s*@', '', $body, 1);
-        $body = preg_replace('@"(/media/[^"]+)"@', '"http://' . $_SERVER['HTTP_HOST'] . '$1"', $body);
+        // remove H1s from post body
+        $body = preg_replace('@<h1[^>]*>.*</h1>\s*@', '', $body, 1);
+        // make relative URLs absolute
+        $body = preg_replace('@(href|src)="/@', '$1="http://' . $_SERVER['HTTP_HOST'] . '/', $body);
         return $body;
     }
 
