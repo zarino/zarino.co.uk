@@ -2,9 +2,9 @@
 
 > **wireframe** /ˈwʌɪəfreɪm/ *n.* An image or set of images which displays the functional elements of a website or page, typically used for planning a site’s structure and functionality.
 
-"Oooh, pretty drawings!" says Ed, ScraperWiki's other product guy, as he leans over to look at the smattering of papers on my desk. And he's sort of right, they *are* pretty drawings. But that's not the point.
+“Oooh, pretty drawings!” says Ed, ScraperWiki's other product guy, as he leans over to look at the smattering of papers on my desk. And he's sort of right, they *are* pretty drawings. But that's not the point.
 
-I'm a designer. I think in pictures. And unlike a growing contingent of designers these days who protest they can't draw,[^1] I sketch everything before I even touch a computer.[^2] There are sheets of "pretty drawings" all over the ScraperWiki office with arrows and squiggly 'greek' text, documenting what is, what might be, and what didn't make the cut.
+I'm a designer. I think in pictures. And unlike a growing contingent of designers these days who protest they can't draw,[^1] I sketch everything before I even touch a computer.[^2] There are sheets of “pretty drawings” all over the ScraperWiki office with arrows and squiggly 'greek' text, documenting what is, what might be, and what didn't make the cut.
 
 ![Hand drawn wireframes from the ScraperWiki office](/media/wireframes-2.jpg)
 
@@ -22,9 +22,9 @@ Pencil lets you get as rough or as detailed as you want.[^3] Drawing a web page'
 
 You have a direct, one-to-one mapping with what you're drawing. You find yourself, midway through drawing a line, suddenly re-appraising a whole feature of the design. You're inches away from the marks on the paper. You can see the rubbings out where you're not sure what to do – almost always the parts that need more research. And you can see the messy, wobbly bits where your design's too complicated. Sometimes the marks on the paper seemingly tell you what to do next, in a way that pixels on a screen never do.
 
-Another advantage, especially when showing your work to someone else (a client, or a user) is that pencil wireframes immediately imply *imperfection*. There can be no doubt that *this stuff isn't finished yet*. When I was a freelance designer, hand-drawn wireframes always ilicited more feedback from clients than Photoshopped ones. And as a bonus, I'd get this moment when the client would say "couldn't this work like that", and I'd turn the page over and just draw it. It pulls them right into the design process, and they get to see first hand what works and what doesn't. Priceless.
+Another advantage, especially when showing your work to someone else (a client, or a user) is that pencil wireframes immediately imply *imperfection*. There can be no doubt that *this stuff isn't finished yet*. When I was a freelance designer, hand-drawn wireframes always ilicited more feedback from clients than Photoshopped ones. And as a bonus, I'd get this moment when the client would say “couldn't this work like that”, and I'd turn the page over and just draw it. It pulls them right into the design process, and they get to see first hand what works and what doesn't. Priceless.
 
-Speaking of which, pencil wireframes also make it easier to charge when you're a freelance designer-developer. They make it dead clear where the design process finishes and the programming starts. And unlike detailed mockups, you don't get that awkward situation where the client thinks you've already made the damn thing and wonders why you need another X days to "code" what has clearly (to their eyes) already been finished!
+Speaking of which, pencil wireframes also make it easier to charge when you're a freelance designer-developer. They make it dead clear where the design process finishes and the programming starts. And unlike detailed mockups, you don't get that awkward situation where the client thinks you've already made the damn thing and wonders why you need another X days to “code” what has clearly (to their eyes) already been finished!
 
 ## What about all the other cool toys?
 
@@ -36,9 +36,9 @@ Designing in the browser gives you the dual advantages of, again, not getting ca
 
 The combination of SVG and Javascript is also pretty alluring. Making a mockup in Illustrator, then animating it interactively with something like D3 is a great way of prototyping immersive, highly-customised phone and tablet interfaces in particular.[^5] I'd love to get a chance to try it out at some point this year.
 
-In the meantime, good old pencil and paper fits the bill pretty well. With the added benefit that it puts me back in touch with my "designer" side, in a company full of programmers!
+In the meantime, good old pencil and paper fits the bill pretty well. With the added benefit that it puts me back in touch with my “designer” side, in a company full of programmers!
 
-[^1]: In my experience, anybody who can hold a pen can draw – much as anybody who can hold a tune can sing. Whether you've been told how to draw "properly", or sing "properly" is a different matter. The "properly" part is completely optional, however. *Especially* when you're making wireframes.
+[^1]: In my experience, anybody who can hold a pen can draw – much as anybody who can hold a tune can sing. Whether you've been told how to draw “properly”, or sing “properly” is a different matter. The “properly” part is completely optional, however. *Especially* when you're making wireframes.
 [^2]: I often sketch out code too, before I write it, but that's a different matter.
 [^3]: Incidentally, drawing with a marker pen is even better when you need to *force yourself* to ignore the details. There is literally only so small you can draw with a whiteboard marker. Plus if you find yourself a glass whiteboard, you get added CSI geek bonus points.
 [^4]: I've tried Axure a number of times, and each time I've spent longer making the prototype than I would have spent coding it up properly from scratch. And then, once the prototype's done, I've *still* got to do the coding. What a total waste.
