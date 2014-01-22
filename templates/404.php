@@ -11,18 +11,18 @@ if(!isset($posts)){
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php echo htmlentities($title, ENT_QUOTES); ?></title>
+    <title><?php echo htmlentities($title, ENT_NOQUOTES, 'UTF-8'); ?></title>
     <link rel="shortcut icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="alternate" type="application/rss+xml" title="Zarino’s Blog" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/feed">
 <?php if(isset($description)){ ?>
-    <meta name="description" content="<?php echo htmlentities($description, ENT_QUOTES); ?>">
+    <meta name="description" content="<?php echo htmlentities($description, ENT_QUOTES, 'UTF-8'); ?>">
 <?php } ?>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/zarino.css">
     <link rel="stylesheet" href="/css/blog.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery.ui.effect.min.js"></script>
     <script src="/js/jquery.scrolldepth.min.js"></script>
     <script src="/js/blog.js"></script>
