@@ -171,6 +171,19 @@ blockquote {
   color: #999;
 }
 
+pre code {
+  /* compensate for PHP Markdown's weird
+     pre > code nesting behaviour */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+pre {
+  font-size: 0.6em;
+  line-height: 1.5em;
+  margin-bottom: 1.4em; /* rather than the 10px default */
+}
+
 sup[id^="fnref"] {
   padding: 0 1px 0 2px;
 }
