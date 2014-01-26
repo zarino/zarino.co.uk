@@ -53,7 +53,7 @@ Now, with the setup done, it's time to wait for the "parity consistency check" t
 ## Next steps
 
 * How about [setting up Time Machine on your DS214se, to automatically back up your Mac?](/post/time-machine-ds214se-nas)
-* How about enabling SSH access and installing custom command-line progams? [coming soon!]
+* How about [enabling SSH access and installing custom command-line progams?](/post/ds214se-under-the-hood)
 * How about installing new packages using the Synology app store? [coming soon!]
 
 

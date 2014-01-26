@@ -82,4 +82,4 @@ SuperDuper! gives you loads of feedback on what it's up to. It won't take long f
 
 Once the copy has completed, you can return to System Preferences and **turn on** Time Machine backups once more.
 
-So that's that. Tune in later for a run-down on accessing your DiskStation over SSH, and installing custom command-line programs.
+So that's that. Tune in later for a run-down on [accessing your DiskStation over SSH, and installing custom command-line programs](/post/ds214se-under-the-hood).
