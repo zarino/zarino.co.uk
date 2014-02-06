@@ -20,8 +20,8 @@ Hacking is about working around limitations. Technical knowledge plays a part he
 
 [![Kids programming at a Codejam - image by Alan O'Donohoe](/media/kids-codejam.jpg)](https://twitter.com/teknoteacher/status/385783623519334400)
 
-Just like writing or speech. Even before you’ve put pen to paper, or uttered your first syllable, those years of training at school have completely and subconsiously prepared you for the discussion. You may not know *how* to communicate like Cicero or Wilde, but you probably *do* know *when* to communicate, and when it’s even *possible* to communicate.
+Just like writing or speech. Even before you’ve put pen to paper, or uttered your first syllable, those years of training at school have completely and subconsciously prepared you for the discussion. You may not know *how* to communicate like Cicero or Wilde, but you probably *do* know *when* to communicate, and when it’s even *possible* to communicate.
 
-So, when drj says it’ll be ”inconceivable that in the future we will be able to function without basic coding”, if you ask me, that’s the reason why. Once you’ve taught even a small fraction of the population to code, they’ll suddenly start spotting reasons and occassions to code, and the magic will happen.
+So, when drj says it’ll be ”inconceivable that in the future we will be able to function without basic coding”, if you ask me, that’s the reason why. Once you’ve taught even a small fraction of the population to code, they’ll suddenly start spotting reasons and occasions to code, and the magic will happen.
 
 [^1]: I tell a lie: the original meaning, [supposedly](http://www.jargon.net/jargonfile/h/hacker.html), was “someone who makes furniture with an axe”. I have a feeling the furniture is optional.
