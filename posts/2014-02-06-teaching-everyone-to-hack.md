@@ -12,11 +12,11 @@ The problem is, as soon as you say “teaching kids to program”, people fixate
 
 ![Johnny Lee-Miller and Angelina Jolie in the deliciously cheesy 1995 film Hackers](/media/hackers-film.jpg)
 
-In programmer circles, there’s a muddy distinction between the words “programmer”, “coder”, and “hacker”. Hacker is particularly interesting. These days people associate it with shady Ukranians who break into government IT systems. But that’s a neologism. The [original meaning](http://www.jargon.net/jargonfile/h/hacker.html) was more benevolent[^1]:
+In programmer circles, there’s a muddy distinction between the words “programmer”, “coder”, and “hacker”. Hacker is particularly interesting. These days people associate it with shady Ukrainians who break into government IT systems. But that’s a neologism. The [original meaning](http://www.jargon.net/jargonfile/h/hacker.html) was more benevolent[^1]:
 
 > **hacker** /ˈhækər/ *n.* A person who enjoys exploring the details of programmable systems and how to stretch their capabilities, as opposed to most users, who prefer to learn only the minimum necessary. […] One who enjoys the intellectual challenge of creatively overcoming or circumventing limitations.
 
-Hacking is about working around limitations. Technical knowledge plays a part here, but they key skill isn't knowing *how* to program, it’s knowing *when* to program. If we’re to teach kids programming, *that’s* the reason why.
+Hacking is about working around limitations. Technical knowledge plays a part here, but the key skill isn't knowing *how* to program, it’s knowing *when* to program. If we’re to teach kids programming, *that’s* the reason why.
 
 [![Kids programming at a Codejam - image by Alan O'Donohoe](/media/kids-codejam.jpg)](https://twitter.com/teknoteacher/status/385783623519334400)
 
