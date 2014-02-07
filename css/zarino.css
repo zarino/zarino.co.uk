@@ -23,6 +23,7 @@ blockquote {
 
 blockquote p {
   font-size: 0.9em;
+  line-height: 1.4;
 }
 
 /* Spacing between multiple paragraphs in a blockquote */
