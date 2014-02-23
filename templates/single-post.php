@@ -33,7 +33,7 @@
           <p class="date">
               <a title="Permalink" href="<?php echo $post->url; ?>"><?php echo date('l jS F Y', $post->date); ?> <span class="muted">&infin;</span></a>
           </p>
-          <p class="byline vcard">By <span class="fn">Zarino Zappia</span></p>
+          <p class="byline vcard">By <a class="fn" href="https://plus.google.com/u/0/105177279210927536682?rel=author">Zarino Zappia</span></p>
           <div class="post-content"><?php echo avoid_widows($post->html); ?></div>
         </div>
     </div>
