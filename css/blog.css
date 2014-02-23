@@ -140,18 +140,22 @@ nav a.active span {
   background-color: #fff;
 }
 
-#content .date {
+#content .date a {
   color: #aaa;
 }
 
-#content .permalink {
+#content .date .muted {
   color: #ddd;
   padding: 2px 5px;
 }
 
-#content .permalink:hover {
+#content .date a:hover {
   color: #08c;
   text-decoration: none;
+}
+
+#content .date a:hover .muted {
+  color: #68B6DD;
 }
 
 #content h1 {

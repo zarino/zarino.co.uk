@@ -30,7 +30,8 @@
     </header>
     <div id="content">
         <div class="container">
-          <p class="date"><?php echo date('l jS F Y', $post->date); ?> <a class="permalink" title="Permalink" href="<?php echo $post->url; ?>">&infin;</a></p>
+          <p class="date">
+              <a title="Permalink" href="<?php echo $post->url; ?>"><?php echo date('l jS F Y', $post->date); ?> <span class="muted">&infin;</span></a></p>
           <div class="post-content"><?php echo avoid_widows($post->html); ?></div>
         </div>
     </div>
