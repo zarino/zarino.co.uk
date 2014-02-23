@@ -49,10 +49,10 @@
     </div>
     <?php } ?>
     <footer>
-        <div class="container">
-            <img src="/img/zarinozappia.jpg" class="img-circle" width="256" height="256" alt="Zarino Zappia, wearing thick black and tortoise-shell glasses, a check shirt and a tweed Ted Baker jacket">
-            <h3>Zarino Zappia <small title="MSc Social Science of the Internet, Oxford University">MSc</small></h3>
-            <p class="lead">Designer, Coder &amp; Internetologist</p>
+        <div class="container vcard">
+            <img src="/img/zarinozappia.jpg" class="img-circle photo" width="256" height="256" alt="Zarino Zappia, wearing thick black and tortoise-shell glasses, a check shirt and a tweed Ted Baker jacket">
+            <h3><span class="fn">Zarino Zappia</span> <small title="MSc Social Science of the Internet, Oxford University">MSc</small></h3>
+            <p class="lead title">Designer, Coder &amp; Internetologist</p>
             <p>Zarino makes things that people want to use. He combines his intuition for design with a background in cultural studies and social science, to question, iterate, create and explain.</p>
             <p>Find him on <a href="https://twitter.com/zarino">Twitter</a> <a href="https://github.com/zarino">Github</a> and <a href="http://uk.linkedin.com/in/zarino">LinkedIn</a></p>
         </div>
