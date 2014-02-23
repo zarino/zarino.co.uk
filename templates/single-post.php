@@ -31,7 +31,9 @@
     <div id="content">
         <div class="container">
           <p class="date">
-              <a title="Permalink" href="<?php echo $post->url; ?>"><?php echo date('l jS F Y', $post->date); ?> <span class="muted">&infin;</span></a></p>
+              <a title="Permalink" href="<?php echo $post->url; ?>"><?php echo date('l jS F Y', $post->date); ?> <span class="muted">&infin;</span></a>
+          </p>
+          <p class="byline vcard">By <span class="fn">Zarino Zappia</span></p>
           <div class="post-content"><?php echo avoid_widows($post->html); ?></div>
         </div>
     </div>
