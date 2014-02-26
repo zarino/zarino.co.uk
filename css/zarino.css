@@ -13,7 +13,7 @@ address, .table th, .table td {
   line-height: 24px;
 }
 
-p, ol, ul, dl {
+p, ol, ul, dl, iframe[src*="www.youtube"] {
   margin-bottom: 1em;
 }
 
