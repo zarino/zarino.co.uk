@@ -92,6 +92,30 @@ var checkTime = function(){
   changeHeader(colour)
 }
 
+var setUpResponsiveYouTubeVideos = function(){
+
+  // cache the selector, so it's not repeated inside the resize()
+  var $videos = $('iframe[src*="//www.youtube"]')
+
+  // callback function to fire on resize()
+  var resizeYouTubeVideos = function(){
+    $videos.each(function(){
+      var w = $(this).parent().width()
+      $(this).width(w).height( w * $(this).attr('ratio') )
+    })
+  }
+
+  // set up the beginning aspect ratio
+  $videos.each(function(){
+    $(this).attr('ratio', this.height / this.width).removeAttr('width height')
+  })
+
+  // resize now, and on future window changes
+  resizeYouTubeVideos()
+  $(window).on('resize', resizeYouTubeVideos)
+
+}
+
 
 /* Dom ready */
 
@@ -124,5 +148,7 @@ $(function(){
   checkTime()
 
   $.scrollDepth()
+
+  setUpResponsiveYouTubeVideos()
 
 })
