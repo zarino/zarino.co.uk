@@ -8,6 +8,7 @@ header {
   background-color: #00ADFF;
   color: #fff;
   font-family: Lato, 'Gill Sans', 'Gill Sans MT', Helvetica, sans-serif;
+  min-height: 150px;
 }
 
 header h1,
