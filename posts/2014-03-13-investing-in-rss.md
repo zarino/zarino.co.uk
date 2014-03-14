@@ -20,6 +20,12 @@ In comes [Feedbin](https://feedbin.com): Open source and unassuming, Feedbin had
 
 I’m so glad I did. In the first month’s trial, I ripped out half my old feed subscriptions and replaced them with all the stuff I’d been missing since June. By the time my trial expired in November, I was invested. Not just financially, but emotionally. It felt *good* paying for a little underdog product which did one thing and did it well.
 
+And clearly, I wasn’t the only one. Ben Ubois, Feedbin’s creator, [recently blogged](http://blog.feedbin.com/2014/03/11/feedbins-first-year/) after a year of running the service:
+
+> The goal was to be able to cover costs in one year. Instead it took three weeks. It cost about $170/month to run Feedbin when it launched and with $1.62/user/month in profit after credit card fees it looked like I would need just over 100 customers who were also looking for a Google Reader alternative.
+
+> Feedbin has one of those boring business models that actually works. Charging money for a good or service. Feedbin will never have millions of customers but that’s OK. It just needs you.
+
 I liked it so much, I ended up building my own Chrome extension to make subscribing to feeds a total breeze. [Check it out on Github](https://github.com/zarino/subscribe-with-feedbin) – I haven’t submitted it to the Chrome store yet, but maybe one day…
 
 <iframe width="700" height="470" src="//www.youtube-nocookie.com/embed/iL628ALo3A4?rel=0&vq=large" frameborder="0" allowfullscreen></iframe>
