@@ -674,6 +674,27 @@ input[type="color"],
 }
 
 
+/* Special styles for embedded Twitter cards */
+
+blockquote.twitter-tweet {
+  border-left: none;
+  padding-left: 0;
+  font-size: 0.7em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 1.3em;
+}
+
+.twitter-tweet-rendered {
+  /* override inline twitter iframe styles!! */
+  margin-top: 1.5em !important;
+  margin-bottom: 1.5em !important;
+}
+
+
 /* Responsive sizing for .containers */
 
 .container {
