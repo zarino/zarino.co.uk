@@ -2,7 +2,7 @@
 
 Exactly a year ago, on the 13th March 2013, [Google announced it was withdrawing its Reader service](http://googlereader.blogspot.co.uk/2013/03/powering-down-google-reader.html).
 
-I’d been using Reader to monitor feeds about design, technology and my social circle, since at least 2007. Even after we’d all moved onto Facebook and Twitter, RSS was still the most convenient way follow people I respected and to make sure I never missed a thing they said.
+I’d been using Reader to monitor feeds about design, technology and my social circle, since at least 2007. Even after we’d all moved onto Facebook and Twitter, RSS was still the most convenient way to follow people I respected and to make sure I never missed a thing they said.
 
 When Reader eventually shut down in July, I diligently downloaded my Google Takeout archive—more as a memorial than for migration—and spent the next few months living without RSS.
 
