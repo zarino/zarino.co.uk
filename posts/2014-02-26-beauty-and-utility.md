@@ -73,3 +73,6 @@ The modern media ecosystem makes us—and I include myself here—particularly q
 And Matthaeus’ concept video *is* beautiful. But it’s been sold as something very different: an interface that solves a problem; an interface that’s *useful*.
 
 Usefulness (indeed, good design in general) is hard to assess when you’re about to click “retweet”. But as designers, we have a duty to be critical. If we become an echo chamber for the superficially-beautiful-but-ultimately-useless, people will get the wrong idea about what it means to be a designer, and what good design itself is, and that would be A Very Bad Thing&trade; for us all.
+
+<link href="/post/whats-in-a-checkbox">
+<link href="/post/why-i-wireframe-in-pencil">

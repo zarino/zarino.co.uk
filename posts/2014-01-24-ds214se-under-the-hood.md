@@ -161,3 +161,6 @@ Have fun!
 [^2]: It turns out you can disable this host fingerprint checking entirely, for all servers, by adding a line `StrictHostKeyChecking no` to your `~/.ssh/config`. Very tempting.
 
 [^3]: If you don’t yet have an SSH key, run `ssh-keygen -t rsa` and follow the instructions. Your key will be stored in `~/.ssh/` by default.
+
+<link href="/post/getting-started-ds214se-nas">
+<link href="/post/time-machine-ds214se-nas">

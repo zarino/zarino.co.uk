@@ -43,3 +43,6 @@ In the meantime, good old pencil and paper fits the bill pretty well. With the a
 [^3]: Incidentally, drawing with a marker pen is even better when you need to *force yourself* to ignore the details. There is literally only so small you can draw with a whiteboard marker. Plus if you find yourself a glass whiteboard, you get added CSI geek bonus points.
 [^4]: I’ve tried Axure a number of times, and each time I’ve spent longer making the prototype than I would have spent coding it up properly from scratch. And then, once the prototype’s done, I’ve *still* got to do the coding. What a total waste.
 [^5]: See this excellent post by [Maël Primet](https://twitter.com/mael_p) on the Snips blog for more information on [interactive prototyping with SVGs and D3.js](http://snips.net/blog/posts/2014/01-10-fast-interactive_prototyping_with_d3_js.html)
+
+<link href="/post/beauty-and-utility">
+<link href="/post/investing-in-rss">
