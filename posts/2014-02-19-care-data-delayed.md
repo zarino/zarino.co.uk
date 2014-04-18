@@ -11,3 +11,6 @@ In that time, the NHS/HSCIC has a second chance to *actually publicise* the care
 In the meantime, you can still [opt-out using the form here](http://medconfidential.org/wp-content/uploads/2014/01/caredata_trifold.pdf), or you can sit back for a while and see where the whole ridiculous saga goes. With a general election on the horizon, it’ll be particularly interesting to see how the guys running the country deal with the care.data hot potato.
 
 [^1]: NHS press release: <http://www.england.nhs.uk/2014/02/19/response-info-share>
+
+<link href="/post/care-data">
+<link href="/post/whats-in-a-checkbox">

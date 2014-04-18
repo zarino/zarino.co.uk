@@ -33,3 +33,6 @@ I liked it so much, I ended up building my own Chrome extension to make subscrib
 In the meantime, if you’re looking for a feed reader, or you’ve already got a free one but fancy investing in an indie developer and an awesome little product, I can’t recommend Feedbin enough. [Sign&nbsp;up for a free 1 month trial here.](https://feedbin.com)
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<link href="/post/why-i-wireframe-in-pencil">
+<link href="/post/teaching-everyone-to-hack">

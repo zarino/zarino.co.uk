@@ -26,3 +26,6 @@ But in the meantime, go check your backups. If your computer died today, could y
 
 
 [^1]: I tell a lie: my first step after the ’unfortunate incident’ was to take a whole disk snapshot of my Mac’s hard drive onto a second disk I had lying around. But it’s already two weeks out of date. And as any tech guy will tell you, a manual backup solution isn’t a backup solution at all.
+
+<link href="/post/getting-started-ds214se-nas">
+<link href="/post/time-machine-ds214se-nas">

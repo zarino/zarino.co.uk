@@ -25,3 +25,6 @@ Just like writing or speech. Even before you’ve put pen to paper, or uttered y
 So, when drj says it’ll be “inconceivable that in the future we will be able to function without basic coding”, if you ask me, that’s the reason why. Once you’ve taught even a small fraction of the population to code, they’ll suddenly start spotting reasons and occasions to code, and the magic will happen.
 
 [^1]: I tell a lie: the original meaning, [supposedly](http://www.jargon.net/jargonfile/h/hacker.html), was “someone who makes furniture with an axe”. I have a feeling the furniture is optional.
+
+<link href="/post/unfortunate-exclusivity-of-art">
+<link href="/post/beauty-and-utility">

@@ -35,7 +35,7 @@ class Post {
             $this->path = 'posts/' . $filename;
             $this->date = $this->get_date();
             $this->raw = file_get_contents($this->path);
-            $this->html = MarkdownExtra::defaultTransform($this->raw);
+            $this->html = $this->get_html();
             $this->body = $this->get_body();
             $this->title = $this->get_title_from_html($this->html);
             $this->url = 'http://' . $_SERVER['HTTP_HOST'] . '/post/' . $this->slug;
@@ -70,13 +70,33 @@ class Post {
         }
     }
 
+    private function get_html() {
+        // remove LINK elements from raw post markdown
+        $markdown = preg_replace('@<link[^>]+href="/post/[^>]+"[^>]*>@', '', $this->raw);
+        // compile markdown into HTML
+        return MarkdownExtra::defaultTransform($markdown);
+    }
+
     private function get_body(){
-        $body = MarkdownExtra::defaultTransform($this->raw);
-        // remove H1s from post body
-        $body = preg_replace('@<h1[^>]*>.*</h1>\s*@', '', $body, 1);
+        $html = $this->html;
+        // remove first H1 from compiled post body
+        $body = preg_replace('@<h1[^>]*>.*</h1>\s*@', '', $html, 1);
         // make relative URLs absolute
         $body = preg_replace('@(href|src)="/@', '$1="http://' . $_SERVER['HTTP_HOST'] . '/', $body);
         return $body;
+    }
+
+    public function get_related_posts(){
+        $all_posts = new PostList();
+        $related_posts = null;
+        preg_match_all('@<link[^>]+href="/post/(?P<slug>[^>]+)"[^>]*>@', $this->raw, $matches);
+        if(count($matches['slug']) > 0){
+            $related_posts = array();
+            foreach($matches['slug'] as $slug){
+                $related_posts[] = $all_posts->find($slug);
+            }
+        }
+        return $related_posts;
     }
 
 }
@@ -92,11 +112,10 @@ class PostList {
                 $this->posts[] = new Post($filename);
             }
         }
-        function compare($post_a, $post_b) {
+        usort($this->posts, function ($post_a, $post_b) {
             // Sort by date, newest to oldest
             return $post_b->date - $post_a->date;
-        }
-        usort($this->posts, 'compare');
+        });
     }
 
     public function newest($number=1) {
