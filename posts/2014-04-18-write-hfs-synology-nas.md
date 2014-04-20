@@ -1,6 +1,6 @@
 # Write to an HFS+ (Mac formatted) USB drive from a Synology NAS
 
-So, [I’ve had my Synology DS214se for a few months now](/post/getting-started-ds214se-nas), and it’s done a sterling job or hosting my wireless Time Machine backups as well as my movies and TV shows.
+So, [I’ve had my Synology DS214se for a few months now](/post/getting-started-ds214se-nas), and it’s done a sterling job of hosting my wireless Time Machine backups as well as my movies and TV shows.
 
 ![Synology DS214se](/media/ds214se.jpg)
 
@@ -8,7 +8,7 @@ This afternoon, I’ll be setting off on a short trip to see my parents. It woul
 
 I’ve previously covered [mounting the internal shares from a Synology NAS on your Mac’s desktop](/post/time-machine-ds214se-nas). And the simplest way to copy the files I want would be to plug my USB drive into my Mac, mount up the NAS’s shared folder, and drag the files and folders across.
 
-Problem is, for large folders, this takes *forever* – partly because of the dog-slow wireless transfer speed, and partly becuase my poor Mac is having to act as an intermediary between the two drives. It also means my Mac has to stay on and connected to both the USB drive and the WiFi network for the entirety of the transfer. Not ideal.
+Problem is, for large folders, this takes *forever* – partly because of the dog-slow wireless transfer speed, and partly because my poor Mac is having to act as an intermediary between the two drives. It also means my Mac has to stay on and connected to both the USB drive and the WiFi network for the entirety of the transfer. Not ideal.
 
 ## Copying files directly, over SSH
 
@@ -32,9 +32,9 @@ You might think HFS+ (also sometimes called “Mac OS Extended”) isn’t compa
 1. The HFS+ drive must be smaller than 2TB.
 2. The HFS+ drive must have Journaling disabled.
 
-Journaling is a technology for avoiding corruption on HFS+ drives in the case of power loss or a system crash. Basically, on a journalled file system, before any changes to files are made, the drive also makes a note of the changes, like a receipt. That way, if the drive suddenly loses power during the change, or something, it can look at the journal next time it starts, and work out what it was doing and how it should clean everything up.
+Journaling is a technology for avoiding corruption on HFS+ drives in the case of power loss or a system crash. Basically, on a journaled file system, before any changes to files are made, the drive also makes a note of the changes, like a receipt. That way, if the drive suddenly loses power during the change, or something, it can look at the journal next time it starts, and work out what it was doing and how it should clean everything up.
 
-Linux, however, doesn’t support journalling on HFS+ drives (at least, not without [third-party drivers](http://www.paragon-software.com/home/ntfs-linux-per/)). So, your DiskStation mounts journalled drives *read-only*, which is why the file copy is failing.
+Linux, however, doesn’t support journaling on HFS+ drives (at least, not without [third-party drivers](http://www.paragon-software.com/home/ntfs-linux-per/)). So, your DiskStation mounts journaled drives *read-only*, which is why the file copy is failing.
 
 You can tell whether a drive is mounted read-only or read-write, in Linux, by running the `mount` command:
 
@@ -67,7 +67,7 @@ Depending on what your plans are for the drive, you might want to re-enable jour
 
 ## Mounting the drive read-write: Part II
 
-With journaling disabled, you’re all set to go. Except – you aren’t. Despite the HFS drive now being perfectly compatible with the Linux drivers, your DiskStation *still* mounts it read-only:
+With journaling disabled, you’re all set to go. Except – you aren’t. Despite the HFS+ drive now being perfectly compatible with the Linux drivers, your DiskStation *still* mounts it read-only:
 
 ```
 diskstation> mount
