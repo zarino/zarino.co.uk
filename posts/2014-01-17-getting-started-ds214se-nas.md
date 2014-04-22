@@ -10,7 +10,7 @@ So, here's a step-by-step guide on setting up a Synology DiskStation (in this ca
 
 ## System requirements
 
-You'll need a DS214se ([£120 on Amazon](http://www.amazon.co.uk/dp/B00FWURI8K)) and two 3.5-inch hard drives (in my case, a pair of WD Red 2TB drives, available for [£75 each on Amazon](http://www.amazon.co.uk/dp/B008JJLZ7G)).
+You'll need a DS214se ([£120 on Amazon](http://www.amazon.co.uk/gp/product/B00FWURI8K/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00FWURI8K&linkCode=as2&tag=zarsblo05-21)) and two 3.5-inch hard drives (in my case, a pair of WD Red 2TB drives, available for [£75 each on Amazon](http://www.amazon.co.uk/gp/product/B008JJLZ7G/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B008JJLZ7G&linkCode=as2&tag=zarsblo05-21)).
 
 You'll also need a small (size #1?) phillips head screwdriver.
 

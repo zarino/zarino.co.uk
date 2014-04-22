@@ -50,7 +50,7 @@ I don’t think Mac headphone jack compatibility was a key concern for Razer whe
 
 Since the Krakens arrived, I’ve been so pleased with them—so refreshed by a simple, well-designed piece of equipment doing its job with absolutely no fuss and no gimmickery—that I’ve just got to tell people about it. If only so that other remote workers in my position might stumble across this review and realise there’s no need to endure painful Skype calls or tinny background music ever again.
 
-You can find the Kraken Pro, [in black](http://www.amazon.co.uk/dp/B009O251OK) or [ridiculous neon green](http://www.amazon.co.uk/dp/B009L0ES12), on Amazon for £65 (worth every penny).
+You can find the Kraken Pro, [in black](http://www.amazon.co.uk/gp/product/B009O251OK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B009O251OK&linkCode=as2&tag=zarsblo05-21) or [ridiculous neon green](http://www.amazon.co.uk/gp/product/B009L0ES12/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B009L0ES12&linkCode=as2&tag=zarsblo05-21), on Amazon for £65 (worth every penny).
 
 If you’ve got suggestions for other, equally excellent headsets, drop me a line [@zarino](https://twitter.com/zarino) on Twitter, and I‘ll add them to the bottom of this post.
 
