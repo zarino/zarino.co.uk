@@ -1,8 +1,8 @@
 # Are you listening comfortably?
 
-For years, I’ve only needed a single set of headphones: a pair of <a href="http://www.stuff.tv/soundmagic/soundmagic-pl11/review">SoundMagic PL11</a> earbuds. They cost barely £20 but have more than paid it back in superb quality sound, decent passive noise cancellation, and total chuck-in-back-pocketability.
+For years, I’ve only needed a single set of headphones: a pair of <a href="http://www.amazon.co.uk/gp/product/B0044X6T5E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0044X6T5E&linkCode=as2&tag=zarsblo05-21">SoundMagic PL11</a> earbuds. They cost barely £20 but have more than paid it back in superb quality sound, decent passive noise cancellation, and total chuck-in-back-pocketability.
 
-And that’s fine for walking about town listening to tracks. I've never needed a pair with a microphone because, on the rare ocassion I actually make a phone call with my phone, I’m perfectly happy holding the thing to my ear. And I've never really needed beefier, over-ear headphones, because I generally play music from my Mac out loud on speakers at home.
+And that’s fine for walking about town listening to tracks. I've never needed a pair with a microphone because, on the rare occasion I actually make a phone call with my phone, I’m perfectly happy holding the thing to my ear. And I've never really needed beefier, over-ear headphones, because I generally play music from my Mac out loud on speakers at home.
 
 A few weeks ago, however, I started a job at civic hacking agency <a href="http://mysociety.org">mySociety</a>. Perhaps the defining feature of the job—apart from the [awesome colleagues](https://twitter.com/zarino/status/450927596470296576)—is the fact that every one of us works remotely. Frequent online meetings and hangouts, combined with my habit of listening to chillout and jazz while I'm working, could easily see me wearing a pair of headphones all day.
 
@@ -34,7 +34,7 @@ Everything about the Kraken Pro has been thought through. The microphone tucks i
 
 (That said, I’ve taken a number of calls with the microphone kept in its “stowed” position, and the other participants have heard me perfectly, suggesting, like mobile phone antennae in the 80s, the pull-out mic is more for display than necessity.)
 
-Sound-wise, the Kakens are a little muddy around the middle, with a seriously strong bass that sometimes leaves vocals lacking. They’re not the worst headphones I’ve ever worn (indeed, they rather suit the deep, ambient tones of the sort of music I listen to) but I’ve no doubt that audiophiles would find them lacking. I can see how gamers, on the other hand, would appreciate the hearty, jaw thumping bass and piercing treble. But I’m perfectly happy with them.
+Sound-wise, the Krakens are a little muddy around the middle, with a seriously strong bass that sometimes leaves vocals lacking. They’re not the worst headphones I’ve ever worn (indeed, they rather suit the deep, ambient tones of the sort of music I listen to) but I’ve no doubt that audiophiles would find them lacking. I can see how gamers, on the other hand, would appreciate the hearty, jaw thumping bass and piercing treble. But I’m perfectly happy with them.
 
 There are other niceties – like the earcups which fold inwards when you’re travelling, rolling the headset up into a compact, and much less cumbersome, D-shape.
 
