@@ -14,5 +14,8 @@ if($enable_google_analytics){ ?>
 <?php } else { ?>
     <script>
       console.log('Google Analytics tracking disabled in development environment.')
+      window.ga = function(){
+        console.log('ga', arguments)
+      }
     </script>
 <?php } ?>
