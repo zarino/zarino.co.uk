@@ -116,6 +116,23 @@ var setUpResponsiveYouTubeVideos = function(){
 
 }
 
+var trackOutboundLink = function(e){
+  e.preventDefault()
+  var url = $(this).attr('href')
+  // Register Google Analytics event for link url.
+  // Then redirect to url on success.
+  ga('send', 'event', 'outbound-link', 'click', url, {
+    'hitCallback': function(){
+      window.location.href = url
+    }
+  })
+  // In case Google Analytics doesn't work,
+  // redirect after 2 seconds anyway.
+  setTimeout(function(){
+    window.location.href = url
+  }, 2000);
+}
+
 
 /* Dom ready */
 
@@ -141,6 +158,8 @@ $(function(){
   $('footer a').on('click', function(){
     ga('send', 'event', 'footer links', 'click', $(this).attr('href'))
   })
+
+  $('a[href^="http"]').on('click', trackOutboundLink)
 
   window.headingTimer = setInterval(changeSubheading, 15000)
   setTimeout(changeSubheading, 2000)
