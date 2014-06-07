@@ -34,3 +34,6 @@ Then, a few days ago, I heard an explanation that cuts the crap and finally make
 There. Simple. I don’t know why, but that just makes sense to me, in a way no other explanation does. So I’m putting it on the Internet, in case anybody else comes looking, as I did.
 
 ![By jove, I think he’s GOAT it](/media/goat-it.jpg)
+
+<link href="/post/teaching-everyone-to-hack">
+<link href="/post/whats-in-a-checkbox">
