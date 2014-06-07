@@ -117,20 +117,26 @@ var setUpResponsiveYouTubeVideos = function(){
 }
 
 var trackOutboundLink = function(e){
-  e.preventDefault()
   var url = $(this).attr('href')
+  var callback = function(){
+    window.location.href = url
+  }
+  // If visitor is cmd/ctrl-clicking (to open link in a
+  // new tab) bypass the redirect and let the new tab open.
+  // Otherwise, stop the default link action.
+  if(e.metaKey || e.ctrlKey){
+    callback = function(){}
+  } else {
+    e.preventDefault()
+  }
   // Register Google Analytics event for link url.
   // Then redirect to url on success.
   ga('send', 'event', 'outbound-link', 'click', url, {
-    'hitCallback': function(){
-      window.location.href = url
-    }
+    'hitCallback': callback
   })
   // In case Google Analytics doesn't work,
   // redirect after 2 seconds anyway.
-  setTimeout(function(){
-    window.location.href = url
-  }, 2000);
+  setTimeout(callback, 2000);
 }
 
 
