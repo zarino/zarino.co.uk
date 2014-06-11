@@ -26,5 +26,5 @@ I just hope that when people visit ScraperWiki, and they see *our* checkbox, the
 [^2]: [Wikipedia: Organ donation # Opt-in vs. opt-out](https://en.wikipedia.org/wiki/Organ_donation#Opt-in_vs._opt-out)
 [^3]: Harry Brignull, a Brighton-based UX designer, [gave a brilliant talk about this and other “dark patterns”](darkpatterns.org) at UX Brighton in 2010. When he looked for guidance from the [IXDA](http://www.ixda.org), he couldn’t find any. Meanwhile, the [UXPA](https://uxpa.org/resources/uxpa-code-professional-conduct) offers only vague “ethical principles” like “Be honest with everyone” and “Respect privacy”.
 
-<link href="/post/why-i-wireframe-in-pencil">
 <link href="/post/care-data">
+<link href="/post/checkboxes-revisited">
