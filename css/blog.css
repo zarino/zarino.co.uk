@@ -178,6 +178,17 @@ nav a.active span {
   line-height: inherit; /* override Bootstrap pixel-based line-height */
 }
 
+#content .alert {
+  margin: 1.5em 0;
+  padding: 1em;
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+#content .alert :last-child {
+  margin-bottom: 0;
+}
+
 blockquote {
   color: #999;
 }

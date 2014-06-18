@@ -1,5 +1,11 @@
 # Are you listening comfortably?
 
+<div class="alert alert-danger">
+  <h2>Update, June 2014: Buyer beware</h2>
+  <p>Since this review was posted, I’ve been through <em>two</em> sets of Kraken Pro’s, both of which stopped delivering audio to one or other of the earcups after a about a month’s use.</p>
+  <p>Amazon are now investigating the issue with Razer, but in the meantime, they’re witholding sale of the Kraken Pro Black model on amazon.co.uk. Lets hope they get to the bottom of it soon.</p>
+</div>
+
 For years, I’ve only needed a single set of headphones: a pair of <a href="http://www.amazon.co.uk/gp/product/B0044X6T5E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0044X6T5E&linkCode=as2&tag=zarsblo05-21">SoundMagic PL11</a> earbuds. They cost barely £20 but have more than paid it back in superb quality sound, decent passive noise cancellation, and total chuck-in-back-pocketability.
 
 And that’s fine for walking about town listening to tracks. I've never needed a pair with a microphone because, on the rare occasion I actually make a phone call with my phone, I’m perfectly happy holding the thing to my ear. And I've never really needed beefier, over-ear headphones, because I generally play music from my Mac out loud on speakers at home.
@@ -38,13 +44,13 @@ Sound-wise, the Krakens are a little muddy around the middle, with a seriously s
 
 There are other niceties – like the earcups which fold inwards when you’re travelling, rolling the headset up into a compact, and much less cumbersome, D-shape.
 
-But the killer feature for me was the connection method. A refreshingly sturdy and tangle-resistant cable extends from the left earcup and ends, about 1.5m later, in a single 3.5mm headphone jack. No tedious USB cables, just a combined jack like you’d see on a set of iPhone earbuds.
+But the killer feature for me was the connection method. A refreshingly sturdy and tangle-resistant cable extends from the left earcup and ends, about 1.5m later, in a single [3.5mm TRRS headphone jack](https://en.wikipedia.org/wiki/Phone_connector_%28audio%29#Mobile_phones). No tedious USB cables, just a combined jack like you’d see on a set of iPhone earbuds.
 
 Indeed, like an iPhone, my Mac also has a combined headphone and line-in audio port, meaning I can just plug the Krakens straight into my MacBook Air and enjoy seamless audio input and output, without drivers, audio preference switching, or even using up any of my precious USB ports.
 
 ![Kraken Pro multifunction headphone jack](/media/kraken-pro-jack.jpg)
 
-I don’t think Mac headphone jack compatibility was a key concern for Razer when they were making the Kraken Pro – the combined 3.5mm jack is probably there to allow the headset to function as a perfectly serviceable (if slightly large for typical streetwear) iPhone/Android headset. But it just goes to show that, by bucking the trend for complicated USB plugs and proprietary wireless dongles, Razer has made their headsets literally zero-hassle. Plug in and go. Simple as that. It’s a nice touch.
+I don’t think Mac headphone jack compatibility was a key concern for Razer when they were making the Kraken Pro – the 4-pin TRRS jack is probably there to allow the headset to function as a perfectly serviceable (if slightly large for typical streetwear) iPhone/Android headset. But it just goes to show that, by bucking the trend for complicated USB plugs and proprietary wireless dongles, Razer has made their headsets literally zero-hassle. Plug in and go. Simple as that. It’s a nice touch.
 
 ---
 
