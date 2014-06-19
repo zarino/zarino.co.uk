@@ -6,11 +6,11 @@
   <p>Amazon are now investigating the issue with Razer, but in the meantime, they’re witholding sale of the Kraken Pro Black model on amazon.co.uk. Lets hope they get to the bottom of it soon.</p>
 </div>
 
-For years, I’ve only needed a single set of headphones: a pair of <a href="http://www.amazon.co.uk/gp/product/B0044X6T5E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0044X6T5E&linkCode=as2&tag=zarsblo05-21">SoundMagic PL11</a> earbuds. They cost barely £20 but have more than paid it back in superb quality sound, decent passive noise cancellation, and total chuck-in-back-pocketability.
+For years, I’ve only needed a single set of headphones: a pair of [SoundMagic PL11](http://www.amazon.co.uk/gp/product/B0044X6T5E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0044X6T5E&linkCode=as2&tag=zarsblo05-21) earbuds. They cost barely £20 but have more than paid it back in superb quality sound, decent passive noise cancellation, and total chuck-in-back-pocketability.
 
 And that’s fine for walking about town listening to tracks. I've never needed a pair with a microphone because, on the rare occasion I actually make a phone call with my phone, I’m perfectly happy holding the thing to my ear. And I've never really needed beefier, over-ear headphones, because I generally play music from my Mac out loud on speakers at home.
 
-A few weeks ago, however, I started a job at civic hacking agency <a href="http://mysociety.org">mySociety</a>. Perhaps the defining feature of the job—apart from the [awesome colleagues](https://twitter.com/zarino/status/450927596470296576)—is the fact that every one of us works remotely. Frequent online meetings and hangouts, combined with my habit of listening to chillout and jazz while I'm working, could easily see me wearing a pair of headphones all day.
+A few weeks ago, however, I started a job at civic hacking agency [mySociety](http://mysociety.org). Perhaps the defining feature of the job—apart from the [awesome colleagues](https://twitter.com/zarino/status/450927596470296576)—is the fact that every one of us works remotely. Frequent online meetings and hangouts, combined with my habit of listening to chillout and jazz while I'm working, could easily see me wearing a pair of headphones all day.
 
 It was time to buy a proper headset – with a microphone, and, most importantly, comfortable enough that I could wear them all day in my office without wanting to rip my ears off.
 
@@ -26,7 +26,7 @@ I knew I had to look elsewhere. I wondered: Who wears headphones for hours at a 
 
 Computer gamers! Of course! Now we’re talking. These guys spend hours plugged in. They want headsets that transmit their voice clearly to teammates in other continents, that are light and soft enough to wear all night, and that plug into everything from consoles to crazy custom-built machines with the minimum of fuss.
 
-After a quick scout around, I’d found the ideal headset for me: Razer’s <a href="http://www.razerzone.com/gb-en/gaming-audio/razer-kraken-pro/">Kraken Pro</a>. Yes, Razer: The company that makes those [ridiculous, over-designed mice](/media/razer-ouroboros.jpg). Turns out they also make headsets, and when it comes to headsets, they ain’t messing around.
+After a quick scout around, I’d found the ideal headset for me: Razer’s [Kraken Pro](http://www.razerzone.com/gb-en/gaming-audio/razer-kraken-pro/). Yes, Razer: The company that makes those [ridiculous, over-designed mice](/media/razer-ouroboros.jpg). Turns out they also make headsets, and when it comes to headsets, they ain’t messing around.
 
 ![Razer Kraken Pro](/media/kraken-pro.jpg)
 
