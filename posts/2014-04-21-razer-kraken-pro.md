@@ -2,7 +2,7 @@
 
 <div class="alert alert-danger">
   <h2>Update, June 2014: Buyer beware</h2>
-  <p>Since this review was posted, I’ve been through <em>two</em> sets of Kraken Pro’s, both of which stopped delivering audio to one or other of the earcups after a about a month’s use.</p>
+  <p>Since this review was posted, I’ve been through <em>two</em> sets of Kraken Pro’s, both of which stopped delivering audio to one or other of the earcups after about a month’s use.</p>
   <p>Amazon are now investigating the issue with Razer, but in the meantime, they’re witholding sale of the Kraken Pro Black model on amazon.co.uk. Lets hope they get to the bottom of it soon.</p>
 </div>
 
