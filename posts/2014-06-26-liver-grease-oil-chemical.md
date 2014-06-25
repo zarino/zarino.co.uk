@@ -30,7 +30,7 @@ Not likely. “F. Thompson Legge”, mentioned on the sign above, was a relative
 
 [The company’s website](http://www.livergreaseltd.co.uk) tells us that the premises also suffered a spate of vandalism and arsonry in 1969, so maybe what we’re actually looking at is a mixture of pre 1960s hand-lettering, and then early 1970s stencils.[^2]
 
-Either way, the stuff’s gorgeous – in this weird, sort-of, awkward looking geometric way. Just look at the detail in the double height “Co. Ltd” ligature, the cutom-drawn futurist ampersand, and the spot where a broken stencil meant the bottom half of the second “G” in “LEGGE” got filled in.
+Either way, the stuff’s gorgeous – in this weird, sort-of, awkward looking geometric way. Just look at the detail in the double height “Co. Ltd” ligature, the custom-drawn futurist ampersand, and the spot where a broken stencil meant the bottom half of the second “G” in “LEGGE” got filled in.
 
 ![Liver Grease Type](/media/liver-grease-type.gif)
 
