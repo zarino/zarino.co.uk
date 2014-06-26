@@ -26,7 +26,7 @@ So for the best part of a year, I saw the Monty Hall problem like one of those m
 
 Then, a few days ago, I heard an explanation that cuts the crap and finally makes sense:
 
-1. The chance of a goat being behind your initial door 66%.
+1. The chance of a goat being behind your initial door is 66%.
 2. Because there are only three doors, and Monty always takes one of the two hidden goats out of the equation, all that remains is a goat and a car. You already picked one of them. So if you switch, you’re guaranteed the opposite of your original choice.
 3. If you don’t switch, you have that same original 66% chance of getting a goat.
 4. If you *do* switch, however, you’re guaranteed the opposite, and therefore a 66% chance of getting the car.
