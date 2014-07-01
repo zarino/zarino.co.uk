@@ -1,4 +1,4 @@
-# The Liver Grease Oil & Chemical Co. Ltd.
+# The Liver Grease, Oil & Chemical Co. Ltd.
 
 These days, I work in Liverpool’s [Baltic Triangle](http://www.liverpoolbaltictriangle.co.uk/visit/) – a ¼km² patch of what used to be “the city’s workshop”, that is now gentrifying into a hub for the city’s creative industries.
 
@@ -12,7 +12,7 @@ And once you get there, you’d notice the Baltic has this feeling of accidental
 
 Bits of it are so new you can still smell the paint and plywood. But bits are staunchly, unapologetically, old. None moreso than the Liver Grease Oil & Chemical Company, on the corner of Norfolk Street and St. James Street.
 
-![Liver Grease Oil & Chemical sign](/media/liver-grease-1.jpg)
+![Liver Grease, Oil & Chemical sign](/media/liver-grease-1.jpg)
 
 I walk past this place at least three or four times a week. The building itself is nothing to look at; a hodge-podge of rough brickwork and concrete-grey pebbledash. But the hand-painted signs on its walls are a marvel.
 
@@ -24,7 +24,7 @@ The company, it turns out, was established in 1809, under the name “P. Houlgro
 
 The Baltic quarter, like the rest of Liverpool city centre, was badly damaged by aerial bombardment during World War II. Maybe the signs came after that?
 
-![Liver Grease Oil & Chemical Co Ltd F. Thompson Legge](/media/liver-grease-2.jpg)
+![Liver Grease, Oil & Chemical Co Ltd F. Thompson Legge](/media/liver-grease-2.jpg)
 
 Not likely. “F. Thompson Legge”, mentioned on the sign above, was a relatively recent addition to the Liver Grease family. A long established cement manufacturer based on Duke Street, in the Ropewalks, “Messrs. F. Thompson Legge & Co.” were bought out by Liver Grease some time after the war. I can’t tell when, but I’ve found [advertising for Legge’s Iron Cement](http://www.gracesguide.co.uk/File:Im1960MWYB-Legge.jpg) from 1960, still clearly listing the Duke St headquarters, so at least some of the signs must have been painted after that.
 
@@ -58,7 +58,7 @@ The vinyl signs are lovely, but I can’t help feeling we’ve lost something fr
 
 I wonder what the far future inhabitants of the Baltic Triangle will make of our hipster fonts and diagonal lines, and our fascination with bird icons. That’s if our signage even lasts that long.
 
-But I tell you what’ll still be there, come rain or shine. The Liver Grease Oil & Chemical Company, Ltd.
+But I tell you what’ll still be there, come rain or shine. The Liver Grease, Oil & Chemical Company, Ltd.
 
 [^1]: This strip of tarmac is probably [the most confusingly named road](http://www.sevenstreets.com/blog/2012/11/06/ghost-streets-7-the-dock-road/) in Liverpool. Ask where you are, and locals will say you’re on the Dock Road. But that’s not its name. (Put “Dock Road, Liverpool” into your satnav and you’ll end up [somewhere out of town](https://www.google.co.uk/maps/place/Dock+Rd+Liverpool/@53.3759135,-2.9505996,13z), towards the airport, in sketchy Garston.) Others, like myself, know the whole thing as “the Strand”, but in reality, the Strand only covers part of the length (from St Nicholas church to Albert Dock) and only in *that direction*. The other side is called “Goree”. Confusingly, the next section after that, working our way southward, is called “Strand Street”, and after that, “Wapping”. Some might try and call the whole thing [the “A5036”](https://en.wikipedia.org/wiki/A5036_road_%28Great_Britain%29), but even that is problematic, since the A5036 is comprised of two separate sections divided by a 2½km gap, and only one of the halves actually travels along the city centre waterfront.
 
