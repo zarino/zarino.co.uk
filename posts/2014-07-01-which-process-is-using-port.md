@@ -45,5 +45,5 @@ Configuration file: /Users/zarinozappia/…/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
-<link href="/post/write-hfs-synology-mac">
+<link href="/post/write-hfs-synology-nas">
 <link href="/post/git-push-to-deploy">
