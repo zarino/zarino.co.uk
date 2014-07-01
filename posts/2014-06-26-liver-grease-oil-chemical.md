@@ -50,7 +50,7 @@ And a few steps further down Norfolk Street, there’s a sign for some “Metal 
 
 ![Metal Merchants, Norfolk St, Liverpool](/media/liver-grease-7.jpg)
 
-And by way of comparison, here’s the modern equivalent to all this corporate signage – this time done in vinyl on glass, in the windows of Apposing, a software development shop barely 100m up the road on Jamaica Street:
+And by way of comparison, here’s the modern equivalent to all this corporate signage – this time done in vinyl on glass, in the windows of [Apposing](http://www.apposing.co.uk/), a software development shop barely 100m up the road on Jamaica Street:
 
 ![Apposing, on Jamaica Street](/media/apposing.jpg)
 
