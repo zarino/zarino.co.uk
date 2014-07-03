@@ -54,7 +54,7 @@ And by way of comparison, here’s the modern equivalent to all this corporate s
 
 ![Apposing, on Jamaica Street](/media/apposing.jpg)
 
-The vinyl signs are lovely, but I can’t help feeling we’ve lost something from when signwriters used to delicately kern and hand-paint your company’s name, like a great slimy tattoo, onto the side of your building.
+The vinyl signs are lovely, and Apposing’s are bang on trend. But I can’t help feeling we’ve lost something from when signwriters used to delicately kern and hand-paint your company’s name, like a great slimy tattoo, onto the side of your building.
 
 I wonder what the far future inhabitants of the Baltic Triangle will make of our hipster fonts and diagonal lines, and our fascination with bird icons. That’s if our signage even lasts that long.
 
