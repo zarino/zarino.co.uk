@@ -22,7 +22,7 @@ All of the amazing variation in human expression, and the effects of age or indu
 
 It’s ironic that BIC, while trying to showcase the creativity and uniqueness of each of their customers, has actually—accidentally, as far as I can tell—shown us the opposite: corporate America’s uncanny ability to shoehorn us all into the same little boxes. Like hundreds of thousands of their cheap yellow plastic pens.
 
-[^1]: And when they say “all over the world”, what they really mean is the English-speaking world. Because, depite having contributions from places as exotic as Thailand, Korea, and Sri Lanka, if you don’t write in roman characters (A-Z) you’re out. Oh, and if you don’t have a smartphone or a tablet, or you don’t have time to donate to some poxy corporate marketing campaign for basically no return, then you’re also out.
+[^1]: And when they say “all over the world”, what they really mean is the English-speaking world. Because, despite having contributions from places as exotic as Thailand, Korea, and Sri Lanka, if you don’t write in roman characters (A-Z) you’re out. Oh, and if you don’t have a smartphone or a tablet, or you don’t have time to donate to some poxy corporate marketing campaign for basically no return, then you’re also out.
 [^2]: Don’t get me started on the fact that they’re actually even half-seriously trying to assess people’s handwriting using a pudgy finger on a touchscreen, when pretty much nobody writes like that. Ever tried to sign your name in an Apple Store? Did it look anything like your name? Yeah, that.
 
 <link href="/post/susan-kare">
