@@ -190,7 +190,8 @@ nav a.active span {
 }
 
 blockquote {
-  color: #999;
+  color: #777;
+  border-left-color: #ddd;
 }
 
 pre code {
