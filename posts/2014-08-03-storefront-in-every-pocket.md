@@ -4,7 +4,7 @@ So here’s an enigma. Amazon released a new phone last week: the Amazon Fire Ph
 
 ![Jeff Bezos holding up an Amazon Fire Phone](/media/jeff-bezos-amazon-fire-phone.jpg)
 
-Perhaps the most gimmicky is “Dynamic Perspective.” If you’ve seen a Nintendo 3DS, you’ll recognise the trick: use head tracking to fake a parallax perspective effect on a 2D screen, so for one viewer at a time, items on the screen looks like they’re three dimensional. The Fire Phone uses four ‘cameras’ on its front to do the tracking, and the marketing video is full of ridiculous clips of people twisting and turning their phones to ‘peek’ round buildings in a mapping app or oggle the back-side of the icons in their launcher.
+Perhaps the most gimmicky is “Dynamic Perspective.” If you’ve seen a Nintendo 3DS, you’ll recognise the trick: use head tracking to fake a parallax perspective effect on a 2D screen, so for one viewer at a time, items on the screen look like they’re three dimensional. The Fire Phone uses four ‘cameras’ on its front to do the tracking, and the marketing video is full of ridiculous clips of people twisting and turning their phones to ‘peek’ round buildings in a mapping app or oggle the back-side of the icons in their launcher.
 
 Dynamic Perspective is enabled in a handful of apps, and mostly to a superficial degree. In the worst cases, useful information is hidden behind on-screen elements, when it could just as easily be made visible in the first place. The same problem appears elsewhere on the Fire Phone, where mystery-meat gestures are required to open secondary panels hidden to the left and right of the screen.
 
@@ -44,7 +44,7 @@ The headphones are pretty neat.[^1] The earbuds are slightly magnetic, meaning t
 
 ![Amazon operative answering a Mayday call on the Fire Phone](/media/amazon-fire-phone-mayday.png)
 
-I have no idea whether the fitional grandmother segment uses headphones. But here’s something they’d love: “Mayday.” Press one icon on the homescreen, and within 20 seconds you’re connected to a remote Amazon assistant who can hear you, speak to you, see your screen, and even draw on it if you need pointers. Speaking as someone who’s had to field their fair share of parental support calls, this thing sounds like a god-send. It’s a one-stop shop for customer support. Who needs a manual, or even a Google search, when you can get any question about your phone answered by a smiley orange-shirted chap in Amazon HQ?
+I have no idea whether the fictional grandmother segment uses headphones. But here’s something they’d love: “Mayday.” Press one icon on the homescreen, and within 20 seconds you’re connected to a remote Amazon assistant who can hear you, speak to you, see your screen, and even draw on it if you need pointers. Speaking as someone who’s had to field their fair share of parental support calls, this thing sounds like a god-send. It’s a one-stop shop for customer support. Who needs a manual, or even a Google search, when you can get any question about your phone answered by a smiley orange-shirted chap in Amazon HQ?
 
 > “When I dug beneath the gimmicks, I found something better than 3-D heroics. The Fire Phone is uncommonly friendly and easy to use.” (Manjoo, New York Times)
 
@@ -58,7 +58,7 @@ Apple changed the music industry when it brought all the major recording labels 
 
 If the Fire Phone—or its successors—get popular, Amazon could pull an Apple… on a *huge* scale.
 
-Apple pretty much had music, movies, and TV shows in the bag. Amazon has, *everything*. Have you been there recently? They’ve got clothes and electronics, groceries and homewares, sports equipment, motocycles, garden plants, MP3s, movies, books, toys… Amazon is grandmother friendly. If it weren’t for the hassle of getting an internet connection, messing with a router, a computer, a web browser, software updates—bah!—If it weren’t for all the crap *around* the Amazon experience, Amazon itself would be the de-facto way we all bought pretty much everything we ever needed.
+Apple pretty much had music, movies, and TV shows in the bag. Amazon has, *everything*. Have you been there recently? They’ve got clothes and electronics, groceries and homewares, sports equipment, motorcycles, garden plants, MP3s, movies, books, toys… Amazon is grandmother friendly. If it weren’t for the hassle of getting an internet connection, messing with a router, a computer, a web browser, software updates—bah!—If it weren’t for all the crap *around* the Amazon experience, Amazon itself would be the de-facto way we all bought pretty much everything we ever needed.
 
 So that’s where the Fire Phone comes in. If you have to wait until you’re next at your computer to order something, Amazon knows they’ve lost a sale. They need to put the store in your pocket (or handbag, I guess, if we’re still talking grandmothers). And that’s what the Fire Phone’s *really* doing.
 
