@@ -64,7 +64,7 @@ Even the toilet flusher is over-designed. Why go the easy route and have a handl
 
 “Don’t worry. We’ll stick a big sign up, telling them where it is and what it does. People love reading stuff in toilets.”
 
-*&ast;sigh&ast;*
+*\*sigh\**
 
 ![Sign above toilet flusher, telling you about toilet flusher](/media/virgin-toilet-flush.jpg)
 
