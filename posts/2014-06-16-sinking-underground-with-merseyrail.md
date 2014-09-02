@@ -37,4 +37,4 @@ Problem is, Liverpool’s not just some back-water city. Liverpool is, by a long
 Up your game, Merseyrail – you may not care about your own reputation, but I’ll be damned if you drag the whole city down with you.
 
 <link href="/post/beauty-and-utility">
-<link href="/post/teaching-everyone-to-hack">
+<link href="/post/awesome">

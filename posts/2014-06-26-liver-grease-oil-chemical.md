@@ -65,4 +65,4 @@ But I tell you what’ll still be there, come rain or shine. The Liver Grease, O
 [^2]:  And possibly later additions too – there’s clear evidence of over-painting in the window sign, with a repetition of the top logotype being replaced softer, rounder, more modern stenciling for the founding date.
 
 <link href="/post/unfortunate-exclusivity-of-art">
-<link href="/post/cosmos">
+<link href="/post/awesome">
