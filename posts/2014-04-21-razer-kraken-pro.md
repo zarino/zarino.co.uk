@@ -1,11 +1,5 @@
 # Are you listening comfortably?
 
-<div class="alert alert-danger">
-  <h2>Update, June 2014: Buyer beware</h2>
-  <p>Since this review was posted, I’ve been through <em>two</em> sets of Kraken Pro’s, both of which stopped delivering audio to one or other of the earcups after about a month’s use.</p>
-  <p>Amazon are now investigating the issue with Razer, but in the meantime, they’re witholding sale of the Kraken Pro Black model on amazon.co.uk. Lets hope they get to the bottom of it soon.</p>
-</div>
-
 For years, I’ve only needed a single set of headphones: a pair of [SoundMagic PL11](http://www.amazon.co.uk/gp/product/B0044X6T5E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0044X6T5E&linkCode=as2&tag=zarsblo05-21) earbuds. They cost barely £20 but have more than paid it back in superb quality sound, decent passive noise cancellation, and total chuck-in-back-pocketability.
 
 And that’s fine for walking about town listening to tracks. I've never needed a pair with a microphone because, on the rare occasion I actually make a phone call with my phone, I’m perfectly happy holding the thing to my ear. And I've never really needed beefier, over-ear headphones, because I generally play music from my Mac out loud on speakers at home.
