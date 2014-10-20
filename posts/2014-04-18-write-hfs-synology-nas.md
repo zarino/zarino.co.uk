@@ -105,7 +105,7 @@ There's no more read-only `ro` flag, meaning we can read-write to our hearts’ 
 
 ```
 diskstation> cat 'Hello HFS+ filesystem!' > /volumeUSB1/usbshare1-2/hello.txt
-diskstation> echo /volumeUSB1/usbshare1-2/hello.txt
+diskstation> cat /volumeUSB1/usbshare1-2/hello.txt
 Hello HFS+ filesystem!
 ```
 
