@@ -99,7 +99,7 @@ An empty document will open up in our old friend, vi. You need to paste your Mac
 
 ![Editing the authorized_keys file on your Synology NAS](/media/synology-authorized-keys.png)
 
-Press the Escape key, then `:wq` to save and close. Finally type `/usr/syno/sbin/synoservice --restart ssh` to apply the changes and restart the DiskStation’s SSH service. You’ll be automatically kicked out, but when you next try to log in with `ssh diskstation`, you won’t be asked for a password. Score!
+Press the Escape key, then `:wq` to save and close. Finally type `/usr/syno/sbin/synoservice --restart ssh` (or `synoservicectl --reload sshd` if you’re on version 5 of the DSM operating system) to apply the changes and restart the DiskStation’s SSH service. You’ll be automatically kicked out, but when you next try to log in with `ssh diskstation`, you won’t be asked for a password. Score!
 
 ## Installing custom command-line programs (like `screen`, `nano` and `python`)
 
