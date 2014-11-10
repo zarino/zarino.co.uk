@@ -17,6 +17,7 @@ php_flag magic_quotes_gpc Off
 # Redirects
 RewriteEngine on
 RewriteRule ^post/(.+)$ index.php?slug=$1 [L]
+RewriteRule ^posts/(.+)$ post/$1 [R=301]
 RewriteRule ^post/?$ / [L,R=301]
 RewriteRule ^feed/?$ feed.php [L]
 RewriteRule ^tracker.gif$ tracker.php [L]
