@@ -146,5 +146,21 @@ Hardly! I haven’t even mentioned my long time favourites like <a target="_blan
 
 But hopefully, if you’re the sort of person who listens to music while you work, it’s given you some ideas on what to try next. Let me know what you think – tweet [@zarino](https://twitter.com/zarino) :-)
 
+---
+
+## Update: Your suggestions!
+
+Thanks guys, you’re awesome! I had loads of suggestions after this post was first published. Here are the highlights:
+
+[@rossjones](https://twitter.com/rossjones) suggested [Public Service Broadcasting](http://youtu.be/mCQCIsFzbNA), the [Ozrics](http://www.ozrics.com), and the [Shez Raja Collective](http://www.shezraja.com). The Ozric Tentacles were a bit too psy-rocky for me, and I can’t say I’ve really got into Shez Raja. But Public Service Broadcasting was ace! Sort of like a mix of Lemon Jelly, Duckworth Lewis / Divine Comedy, and maybe even bits of Hidden Orchestra. Their stuff can get a bit twee at times, but their debut album <a target="_blank" href="http://www.amazon.co.uk/gp/product/B00C24YFU8/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00C24YFU8&linkCode=as2&tag=zarsblo05-21&linkId=MRRW4CH647Z4NBPQ">Inform - Educate - Entertain</a> is a good place to start. They’ve got a [new album](http://publicservicebroadcasting.net/album-preorder/) coming out in February next year.
+
+[@wrightmartin](https://twitter.com/wrightmartin) suggested Glaswegian post-rock band [Mogwai](http://youtu.be/BYSdLYmfQG4), who are dead similar to [This Will Destroy You](http://thiswilldestroyyou.bandcamp.com), Explosions in the Sky, and to an extent, Sigur Rós.
+
+[@beauvais](https://twitter.com/beauvais) suggested [Do Make Say Think](http://youtu.be/EYRwE9HPgpM), who I haven’t listened to much, but seem to be somewhere between a typical instrumental post-rock band like El Ten Eleven, and an American folksy bluegrass band.
+
+[@antony_casey](https://twitter.com/antony_casey) suggested [BADBADNOTGOOD](http://www.last.fm/music/BADBADNOTGOOD) and Manchester-based Nu-Jazz group [FingaThing](http://www.last.fm/music/Fingathing).
+
+Finally, [@davea](https://twitter.com/davea) suggested the awesome [Frederic Robinson](http://www.fredericrobinsonmusic.com) (“<a target="_blank" href="http://www.amazon.co.uk/gp/product/B00MRU6JCO/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MRU6JCO&linkCode=as2&tag=zarsblo05-21&linkId=LRG5UO6NH6XM24A7">Mixed Signals</a> is sublime,” says Dave) and [Fuck Buttons](http://fckbttns.tumblr.com) (“The second album, <a target="_blank" href="http://www.amazon.co.uk/gp/product/B002L132R4/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002L132R4&linkCode=as2&tag=zarsblo05-21&linkId=AJ7JXE7MIUPGALLA">Tarot Sport</a>, is a good place to start – The Lisbon Maru specifically.”)
+
 <link href="/post/razer-kraken-pro">
 <link href="/post/teaching-everyone-to-hack">
