@@ -12,6 +12,9 @@ if(isset($_GET['slug'])){
     $post = $posts->find($_GET['slug']);
     if($post->exists){
         $title = $post->title . ' | Zarino Zappia';
+        if($post->preview){
+            $description = $post->preview;
+        }
         $other_posts = $post->get_related_posts();
         include('templates/single-post.php');
     } else {
