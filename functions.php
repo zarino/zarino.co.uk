@@ -70,7 +70,7 @@ class Post {
         if(count($matches) == 2){
             return $matches[1];
         } else {
-            return 'Untitled';
+            return '(' . $this->filename . ')';
         }
     }
 
