@@ -163,13 +163,16 @@ class PostList {
 
 function table_of_contents($posts, $post=null){
     foreach($posts->all() as $p) {
+        $class_list = array();
         if($p->is_draft){
-            $date = '(draft)';
-        } else {
-            $date = date('jS F', $p->date);
+            $class_list[] = 'draft';
         }
         if(!is_null($post) && $post->slug == $p->slug){
-            $class = ' class="active"';
+            $class_list[] = 'active';
+        }
+        $date = date('jS F', $p->date);
+        if(!empty($class_list)){
+            $class = ' class="' . implode(' ', $class_list) . '"';
         } else {
             $class = '';
         }

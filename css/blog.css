@@ -135,6 +135,18 @@ nav a.active span {
   color: rgba(255,255,255,0.6);
 }
 
+nav a.draft {
+  font-style: italic;
+}
+
+nav a.draft strong {
+  color: rgba(255,255,255,0.4);
+}
+
+nav a.draft:hover strong {
+  color: rgba(255,255,255,0.6);
+}
+
 #content {
   font-family: Cambria, Georgia, "Times New Roman", Times, serif;
   padding: 20px 0;
