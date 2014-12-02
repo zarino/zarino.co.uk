@@ -28,3 +28,4 @@ I just hope that when people visit ScraperWiki, and they see *our* checkbox, the
 
 <link href="/post/care-data">
 <link href="/post/checkboxes-revisited">
+<meta name="description" content="A single email newsletter checkbox spurs me into asking: At what point do I, as a designer, have sufficient data to make a decision on the user’s behalf?">

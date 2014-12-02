@@ -85,3 +85,4 @@ Nobody’ll thank you either way, but at least if you build on their existing ex
 
 <link href="/post/whats-in-a-checkbox">
 <link href="/post/beauty-and-utility">
+<meta name="description" content="Every few weeks, work sees me travelling down to London to meet clients. This week my cosy schedule was turned upside-down, and I discovered the weird world of Virgin Pendolino toilets.">

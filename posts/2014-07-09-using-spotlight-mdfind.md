@@ -40,3 +40,4 @@ In these cases, you can either second-guess Spotlight by rephrasing your search 
 
 <link href="/post/git-push-to-deploy">
 <link href="/post/which-process-is-using-port">
+<meta name="description" content="A quick demo of how I use Spotlight on Mac OSX to search for words and phrases faster, and more easily, than Grep.">

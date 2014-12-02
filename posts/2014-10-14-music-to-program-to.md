@@ -164,3 +164,4 @@ Finally, [@davea](https://twitter.com/davea) suggested the awesome [Frederic Rob
 
 <link href="/post/razer-kraken-pro">
 <link href="/post/teaching-everyone-to-hack">
+<meta name="description" content="Sometimes the right music can help you get twice as much work done. This week, Zarino introduces you to some of his favourite albums to program to.">

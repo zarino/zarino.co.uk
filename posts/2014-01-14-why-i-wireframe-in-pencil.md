@@ -46,3 +46,4 @@ In the meantime, good old pencil and paper fits the bill pretty well. With the a
 
 <link href="/post/beauty-and-utility">
 <link href="/post/investing-in-rss">
+<meta name="description" content="I’m a designer. I think in pictures. And unlike a growing contingent of designers these days who protest they can’t draw, I sketch everything before I even touch a computer. Find out why…">

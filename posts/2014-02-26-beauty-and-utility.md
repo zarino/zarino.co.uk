@@ -76,3 +76,4 @@ Usefulness (indeed, good design in general) is hard to assess when you’re abou
 
 <link href="/post/whats-in-a-checkbox">
 <link href="/post/why-i-wireframe-in-pencil">
+<meta name="description" content="It’s fun to imagine a new user interface that makes car controls simple and delightful. But this month’s rash of style-over-substance YouTube videos isn’t helping.">

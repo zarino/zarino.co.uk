@@ -37,3 +37,4 @@ There. Simple. I don’t know why, but that just makes sense to me, in a way no 
 
 <link href="/post/teaching-everyone-to-hack">
 <link href="/post/whats-in-a-checkbox">
+<meta name="description" content="In which Zarino finally understands the famous probability puzzle, and explains his method for working it out.">

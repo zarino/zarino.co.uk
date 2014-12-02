@@ -56,3 +56,4 @@ If you’ve got suggestions for other, equally excellent headsets, drop me a lin
 
 <link href="/post/beauty-and-utility">
 <link href="/post/teaching-everyone-to-hack">
+<meta name="description" content="In which Zarino searches for a comfortable set of headphones for his new remote-working job, and discovers the holy grail in an unexpected place… the Gaming aisle.">

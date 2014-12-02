@@ -55,3 +55,4 @@ Now, with the setup done, it’s time to wait for the “parity consistency chec
 * How about [setting up Time Machine on your DS214se, to automatically back up your Mac?](/post/time-machine-ds214se-nas)
 * How about [enabling SSH access and installing custom command-line progams?](/post/ds214se-under-the-hood)
 
+<meta name="description" content="An introduction to Synology’s network-attached drives, and how to set yours up with the minumum fuss.">

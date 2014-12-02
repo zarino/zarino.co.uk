@@ -34,3 +34,4 @@ So the precedent has been set. Who’s next?
 
 <link href="/post/whats-in-a-checkbox">
 <link href="/post/care-data">
+<meta name="description" content="In a follow-up to my debut blog post about opt-in and opt-out decisions, a Sky News producer sues John Lewis for sending him emails after he accidentally left a checkbox ticked at checkout.">

@@ -164,3 +164,4 @@ Have fun!
 
 <link href="/post/getting-started-ds214se-nas">
 <link href="/post/time-machine-ds214se-nas">
+<meta name="description" content="A step-by-step guide to setting up SSH access to your Synology NAS, and installing 3rd-party programs.">

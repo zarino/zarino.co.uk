@@ -63,3 +63,4 @@ Maybe Cordelia’s nuns were right when they said you shouldn’t criticise what
 
 <link href="/post/teaching-everyone-to-hack">
 <link href="/post/beauty-and-utility">
+<meta name="description" content="In which Zarino discusses his love-hate relationship with hidden meanings in art, and deconstructs two of his favourite paintings.">

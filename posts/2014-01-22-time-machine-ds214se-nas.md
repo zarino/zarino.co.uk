@@ -86,3 +86,4 @@ So that’s that. Tune in later for a run-down on [accessing your DiskStation ov
 
 <link href="/post/backup-your-shit">
 <link href="/post/ds214se-under-the-hood">
+<meta name="description" content="Not many Synology owners realise their NAS is a few steps away from becoming the perfect wireless Mac backup system.">

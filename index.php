@@ -20,12 +20,9 @@ if(isset($_GET['slug'])){
         include('templates/404.php');
     }
 } else {
-    $tmp = $posts->newest(3);
-    $post = $tmp[0];
-    $other_posts = array($tmp[1], $tmp[2]);
     $title = 'Zarino Zappia | Designer, Coder & Internetologist';
     $description = 'Zarino Zappia is a designer, coder and Internetologist based in Liverpool, UK. This is his blog.';
-    include('templates/single-post.php');
+    include('templates/home.php');
 }
 
 ?>

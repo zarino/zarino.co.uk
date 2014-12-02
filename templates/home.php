@@ -29,30 +29,18 @@
         </nav>
     </header>
     <div id="content">
-        <div class="container">
-          <p class="date">
-              <a title="Permalink" href="<?php echo $post->url; ?>"><?php echo date('l jS F Y', $post->date); ?> <span class="muted">&infin;</span></a>
-          </p>
-          <p class="byline vcard">By <a class="fn" href="https://plus.google.com/u/0/105177279210927536682?rel=author">Zarino Zappia</a></p>
-          <div class="post-content"><?php echo avoid_widows($post->html); ?></div>
-        </div>
-    </div>
-    <?php if(isset($other_posts)){ ?>
-    <div id="further-reading">
-        <div class="container">
-            <h2>Further reading:</h2>
-            <?php foreach($other_posts as $other_post){ ?>
-            <a href="<?php echo $other_post->url; ?>">
-                <h3><?php echo avoid_widows($other_post->title); ?></h3>
-                <?php if($other_post->preview){ ?>
-                    <p class="preview"><?php echo $other_post->preview; ?></p>
-                <?php } ?>
-                <p class="date"><?php echo date('l jS F Y', $other_post->date); ?></p>
-            </a>
+        <div class="container home-">
+            <?php foreach($posts->all() as $p) { ?>
+                <a class="post-preview<?php if($p->is_draft){ echo ' draft'; } ?>" href="/post/<?php echo $p->slug; ?>">
+                    <h2><?php echo avoid_widows($p->title); ?></h2>
+                    <p class="date"><?php echo date('jS F', $p->date); ?></p>
+                    <?php if($p->preview){ ?>
+                        <p class="preview"><?php echo $p->preview; ?></p>
+                    <?php } ?>
+                </a>
             <?php } ?>
         </div>
     </div>
-    <?php } ?>
     <footer>
         <div class="container vcard">
             <img src="/img/zarinozappia.jpg" class="img-circle photo" width="256" height="256" alt="Zarino Zappia, wearing thick black and tortoise-shell glasses, a check shirt and a tweed Ted Baker jacket">

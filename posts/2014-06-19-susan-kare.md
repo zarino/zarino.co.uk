@@ -18,3 +18,4 @@ Or, if you’re a typography geek, check out the [history of the ⌘ icon.](http
 
 <link href="/post/beauty-and-utility">
 <link href="/post/unfortunate-exclusivity-of-art">
+<meta name="description" content="The history of the ⌘ symbol, plus other awesome anecdotes from early Apple designer, Susan Kare.">

@@ -74,3 +74,4 @@ It just needs to man up and stop the gimmickry.
 
 <link href="/post/beauty-and-utility">
 <link href="/post/razer-kraken-pro">
+<meta name="description" content="Amazon released a new phone last week: the Amazon Fire Phone. Will it be the user experience that revolutionises everyday shopping for us all?">

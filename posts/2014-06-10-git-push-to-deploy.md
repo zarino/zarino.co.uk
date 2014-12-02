@@ -86,3 +86,4 @@ sass --update $WEB_DIR/sass:$WEB_DIR/css
 
 <link href="/post/ds214se-under-the-hood">
 <link href="/post/write-hfs-synology-nas">
+<meta name="description" content="How to set up Git and Sass on a typical low-cost web server (in this case Dreamhost) so you can just push your work remotely and have it automatically deployed and running in seconds.">

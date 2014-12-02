@@ -25,3 +25,7 @@ I don’t envy Microsoft. They can’t compete with Google and Amazon, who alrea
 But maybe, just maybe, they can work out a balance somewhere between all four. “A PC on every desk” was a visionary goal. Nadella’s Microsoft needs another, equally visionary, goal for the 21st Century. One that aims to put computing power back in the hands, the safety and the privacy of the many. It’s against every fibre of the corporate monolith’s being, but can’t we all agree that if Microsoft, of all people, made it work, it’d be so astonishingly awesome?
 
 We can but hope.
+
+<link href="/post/beauty-and-utility">
+<link href="/post/storefront-in-every-pocket">
+<meta name="description" content="In which Zarino voyages to an alternate reality where Microsoft’s new CEO, Satya Nadella, steers the company to become the new giant of Open Source software and Internet-of-Things hackery.">

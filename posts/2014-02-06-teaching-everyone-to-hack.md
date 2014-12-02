@@ -28,3 +28,4 @@ So, when drj says it’ll be “inconceivable that in the future we will be able
 
 <link href="/post/unfortunate-exclusivity-of-art">
 <link href="/post/beauty-and-utility">
+<meta name="description" content="Teaching kids to program isn’t about the act of actually putting variable to screen – it’s about the mindset that programming introduces. A mindset that British kids simply shouldn’t have to live without.">

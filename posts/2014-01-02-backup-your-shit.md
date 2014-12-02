@@ -29,3 +29,4 @@ But in the meantime, go check your backups. If your computer died today, could y
 
 <link href="/post/getting-started-ds214se-nas">
 <link href="/post/time-machine-ds214se-nas">
+<meta name="description" content="A New Year’s resolution we should all observe: what’s your computer backup solution, and if your main machine died tomorrow, how long would it take you to get up and running again?">

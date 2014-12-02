@@ -12,3 +12,4 @@ It’s nice seeing a company like Virgin Atlantic take time to think about the l
 
 <link href="/post/susan-kare">
 <link href="/post/beauty-and-utility">
+<meta name="description" content="Virgin Atlantic takes us on a 5-minute tour of British movie history, from Spaghetti Westerns to The Avengers, Bond to A Space Odyssey.">

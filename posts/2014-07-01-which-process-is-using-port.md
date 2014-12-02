@@ -47,3 +47,4 @@ Configuration file: /Users/zarinozappia/…/_config.yml
 
 <link href="/post/write-hfs-synology-nas">
 <link href="/post/git-push-to-deploy">
+<meta name="description" content="Tired of getting an “Address already in use” error when you start Jekyll on your Mac? Use this handy command to track down the cause, and get your server back up and running.">

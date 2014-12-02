@@ -139,3 +139,4 @@ none on /dev/pts type devpts (gid=4,mode=620)
 
 <link href="/post/ds214se-under-the-hood">
 <link href="/post/time-machine-ds214se-nas">
+<meta name="description" content="If you use a Mac with your Synology NAS, this trick will save you hours of painful Finder-based copying and restoring. Find out how to write to a Mac-formatted drive directly from your NAS.">

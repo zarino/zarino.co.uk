@@ -222,6 +222,59 @@ sup[id^="fnref"] {
   padding: 0 1px 0 2px;
 }
 
+.post-preview {
+  display: block;
+  padding: 1em 0;
+  border-bottom: 1px solid #eee;
+  color: inherit;
+  overflow: auto;
+}
+
+.post-preview.draft {
+  color: #999;
+}
+
+.post-preview:focus,
+.post-preview:hover {
+  text-decoration: none;
+  color: #08c;
+}
+
+.post-preview:last-child {
+  border-bottom: none;
+}
+
+.post-preview h2 {
+  margin-bottom: 5px;
+  line-height: 1.2em;
+}
+
+.post-preview.draft h2 {
+  font-style: italic;
+}
+
+.post-preview p {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+
+.post-preview > :last-child {
+  margin-bottom: 0;
+}
+
+.post-preview .date {
+  color: #aaa;
+}
+
+.post-preview:hover .date {
+  color: #68B6DD;
+}
+
+.post-preview .preview {
+  clear: both;
+}
+
 .footnotes ol {
   font-size: 0.7em;
   line-height: 1em;
@@ -267,9 +320,9 @@ sup[id^="fnref"] {
 }
 
 #further-reading p {
-  margin: 0.3em 0 0 0;
-  font-size: 0.8em;
-  line-height: 1em;
+  margin: 0.6em 0 0 0;
+  font-size: 0.7em;
+  line-height: 1.2em;
 }
 
 #further-reading a:hover h3 {
@@ -388,6 +441,10 @@ footer a:active {
     font-size: 22px;
   }
 
+  .post-preview {
+    padding: 1.2em 0;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -440,6 +497,26 @@ footer a:active {
 
   #further-reading a + a {
     float: right;
+  }
+
+  .post-preview {
+    padding: 1.5em 0;
+  }
+
+  .post-preview h2 {
+    float: left;
+    width: 70%;
+    margin-bottom: 0;
+  }
+
+  .post-preview .date {
+    float: right;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+  }
+
+  .post-preview .preview {
+    padding-top: 10px;
   }
 
   body {

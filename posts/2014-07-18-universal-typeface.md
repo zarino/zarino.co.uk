@@ -27,3 +27,4 @@ It’s ironic that BIC, while trying to showcase the creativity and uniqueness o
 
 <link href="/post/susan-kare">
 <link href="/post/why-i-wireframe-in-pencil">
+<meta name="description" content="While attempting to market the “individuality” of its customers, BIC, the yellow ballpoint maker, accidentally shows us how the whole of a Universal Typeface can actually be a lot less than its parts.">

@@ -38,3 +38,4 @@ Up your game, Merseyrail – you may not care about your own reputation, but I�
 
 <link href="/post/beauty-and-utility">
 <link href="/post/awesome">
+<meta name="description" content="In which Zarino bemoans Merseyrail’s disappointing lack of visual design acumen, and argues it’s actually indicative of a deeper mindset of complacency.">

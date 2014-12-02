@@ -36,3 +36,4 @@ In the meantime, if you’re looking for a feed reader, or you’ve already got 
 
 <link href="/post/why-i-wireframe-in-pencil">
 <link href="/post/teaching-everyone-to-hack">
+<meta name="description" content="In which Zarino reflects on the importance of RSS, exactly a year after Google Reader’s demise. And explains why he happily pays £2 a month for a replacement service.">
