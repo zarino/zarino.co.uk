@@ -29,7 +29,7 @@
         </nav>
     </header>
     <div id="content">
-        <div class="container home-">
+        <div class="container post-previews">
             <?php foreach($posts->all() as $p) { ?>
                 <a class="post-preview<?php if($p->is_draft){ echo ' draft'; } ?>" href="/post/<?php echo $p->slug; ?>">
                     <h2><?php echo avoid_widows($p->title); ?></h2>

@@ -234,6 +234,10 @@ sup[id^="fnref"] {
   padding: 0 1px 0 2px;
 }
 
+.post-previews {
+  margin-top: -1em;
+}
+
 .post-preview {
   display: block;
   padding: 1em 0;
