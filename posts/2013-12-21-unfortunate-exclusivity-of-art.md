@@ -61,6 +61,6 @@ Maybe Cordelia’s nuns were right when they said you shouldn’t criticise what
 [^1]: Like most people, I use the term Pre-Raphaelite rather loosely, to include both the original Hunt/Millais/Rossetti works of the 1850s and its later renaissance at the hands of artists like Edward Burne-Jones. Typical Pre-Raphaelite characteristics include intense colours and details, natural shapes and settings, and romantic medieval characters and themes.
 [^2]: You can find out more about Waterhouse’s two paintings in [this brilliant podcast by Sandra Penketh at the Lady Lever Art Gallery](http://www.liverpoolmuseums.org.uk/podcasts/decameron_enchanted_waterhouse.aspx).
 
-<link href="/post/teaching-everyone-to-hack">
 <link href="/post/beauty-and-utility">
+<link href="/post/behind-the-curtain">
 <meta name="description" content="In which Zarino discusses his love-hate relationship with hidden meanings in art, and deconstructs two of his favourite paintings.">
