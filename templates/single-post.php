@@ -31,7 +31,7 @@
     <div id="content">
         <div class="container">
           <p class="date">
-              <a title="Permalink" href="<?php echo $post->url; ?>"><?php echo date('l jS F Y', $post->date); ?> <span class="muted">&infin;</span></a>
+              <a title="Permalink" href="<?php echo $post->url; ?>"><?php echo $post->get_formatted_date(True);; ?> <span class="muted">&infin;</span></a>
           </p>
           <p class="byline vcard">By <a class="fn" href="https://plus.google.com/u/0/105177279210927536682?rel=author">Zarino Zappia</a></p>
           <div class="post-content"><?php echo avoid_widows($post->html); ?></div>
@@ -47,7 +47,7 @@
                 <?php if($other_post->preview){ ?>
                     <p class="preview"><?php echo $other_post->preview; ?></p>
                 <?php } ?>
-                <p class="date"><?php echo date('l jS F Y', $other_post->date); ?></p>
+                <p class="date"><?php echo $other_post->get_formatted_date(True); ?></p>
             </a>
             <?php } ?>
         </div>

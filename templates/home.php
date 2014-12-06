@@ -33,7 +33,7 @@
             <?php foreach($posts->all() as $p) { ?>
                 <a class="post-preview<?php if($p->is_draft){ echo ' draft'; } ?>" href="/post/<?php echo $p->slug; ?>">
                     <h2><?php echo avoid_widows($p->title); ?></h2>
-                    <p class="date"><?php echo date('jS F', $p->date); ?></p>
+                    <p class="date"><?php echo $p->get_formatted_date(False); ?></p>
                     <?php if($p->preview){ ?>
                         <p class="preview"><?php echo $p->preview; ?></p>
                     <?php } ?>

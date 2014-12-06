@@ -115,6 +115,19 @@ class Post {
         return $related_posts;
     }
 
+    public function get_formatted_date($include_day) {
+        $time_difference = time() - $this->date;
+        $eleven_months = 28512000;
+        $format = 'jS F';
+        if($time_difference < 0 || $time_difference > $eleven_months){
+            $format = $format . ' Y';
+        }
+        if($include_day){
+            $format = 'l ' . $format;
+        }
+        return date($format, $this->date);
+    }
+
 }
 
 class PostList {
@@ -170,13 +183,12 @@ function table_of_contents($posts, $post=null){
         if(!is_null($post) && $post->slug == $p->slug){
             $class_list[] = 'active';
         }
-        $date = date('jS F', $p->date);
         if(!empty($class_list)){
             $class = ' class="' . implode(' ', $class_list) . '"';
         } else {
             $class = '';
         }
-        print "\n" . '<li><a href="/post/' . $p->slug . '"' . $class . '><strong>' . avoid_widows($p->title) . '</strong> <span>' . $date . '</span></a></li>';
+        print "\n" . '<li><a href="/post/' . $p->slug . '"' . $class . '><strong>' . avoid_widows($p->title) . '</strong> <span>' . $p->get_formatted_date(False) . '</span></a></li>';
     }
 }
 
