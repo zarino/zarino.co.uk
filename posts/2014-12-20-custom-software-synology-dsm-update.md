@@ -51,3 +51,7 @@ export TERM=xterm
 Now, when you refresh the session with `source ~/.profile` again, `screen` will open up just fine, and you can get back to whatever you wanted to do before.
 
 **The moral of the story is:** DSM updates don’t seem to uninstall custom software from `/opt/bin` but they do overwrite `~/.profile` so any modifications you’ve made to your environment might need to be re-made after the update.
+
+<link href="/post/ds214se-under-the-hood">
+<link href="/post/write-hfs-synology-nas">
+<meta name="description" content="Updated your Synology NAS, and suddenly things are broken when you SSH in. Try this quick trick for setting things straight again.">
