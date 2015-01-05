@@ -33,3 +33,8 @@ And despite this rule, I don’t think I spent noticeably more on books in 2014 
 I’m not stupid. I know bookshops will eventually disappear – or change into something completely unrecognisable. And yes, if I were going to be *super virtuous*, I should probably buy from little local independent bookshops, rather than a national chain owned by a Russian oligarch.
 
 But for now, I like my One-Third Rule, and I thought I’d share it in case you do too.
+
+<link href="/post/investing-in-rss">
+<link href="/post/awesome">
+<meta name="description" content="In which Zarino ponders Amazon’s dominance of the bookselling industry, and the warm fuzzy feeling he gets from sitting in a bookshop on a rainy day.">
+

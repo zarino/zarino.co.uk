@@ -34,6 +34,6 @@ In the meantime, if you’re looking for a feed reader, or you’ve already got 
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<link href="/post/why-i-wireframe-in-pencil">
+<link href="/post/one-third-rule">
 <link href="/post/teaching-everyone-to-hack">
 <meta name="description" content="In which Zarino reflects on the importance of RSS, exactly a year after Google Reader’s demise. And explains why he happily pays £2 a month for a replacement service.">
