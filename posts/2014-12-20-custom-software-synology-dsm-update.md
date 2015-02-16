@@ -25,7 +25,7 @@ diskstation> vi ~/.profile
 Add `:/opt/bin` to the end of the line that defines the `$PATH` environment variable, and save and close the file.[^2]
 
 
-[^2]: If you’re lost, use `i` to enter insert mode, move to the end of the line that starts with `PATH=`, type `:/opt/bin`, then, once it’s added properly, press the Escape key to exit insert mode, then type `:wq` to save the file and quit.
+[^2]: If you’re lost, use `i` to enter insert mode, use the arrow keys to move down to the line that starts with `PATH=`, press `$` to move to the end of the line, then type `:/opt/bin`, then, once it’s added properly, press the Escape key to exit insert mode, then type `:wq` to save the file and quit.
 
 All the programs in `/opt/bin` will now be accessible in the terminal as normal – next time you SSH in. Your current SSH session will still be using the old value of `$PATH`. To reload it, run your `~/.profile` script manually…
 
