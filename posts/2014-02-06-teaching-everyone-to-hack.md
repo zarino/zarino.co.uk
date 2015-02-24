@@ -26,6 +26,6 @@ So, when drj says it’ll be “inconceivable that in the future we will be able
 
 [^1]: I tell a lie: the original meaning, [supposedly](http://www.jargon.net/jargonfile/h/hacker.html), was “someone who makes furniture with an axe”. I have a feeling the furniture is optional.
 
-<link href="/post/unfortunate-exclusivity-of-art">
+<link href="/post/hacker-ethos">
 <link href="/post/beauty-and-utility">
 <meta name="description" content="Teaching kids to program isn’t about the act of actually putting variable to screen – it’s about the mindset that programming introduces. A mindset that British kids simply shouldn’t have to live without.">
