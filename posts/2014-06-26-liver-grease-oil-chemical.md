@@ -66,4 +66,4 @@ But I tell you what’ll still be there, come rain or shine. The Liver Grease, O
 
 <link href="/post/unfortunate-exclusivity-of-art">
 <link href="/post/awesome">
-<meta name="description" content="A tour of the typpgraphy in Liverpool’s Baltic Triangle, starting with the bizarre and exquisite Liver Grease, Oil &amp; Chemical Co. Ltd.">
+<meta name="description" content="A tour of the typography in Liverpool’s Baltic Triangle, starting with the bizarre and exquisite Liver Grease, Oil &amp; Chemical Co. Ltd.">
