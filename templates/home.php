@@ -21,11 +21,14 @@
 <body>
     <header>
         <div class="container">
-            <h1><a href="/">Zarino Zappia</a></h1>
+            <h1>
+                <a href="/">Zarino Zappia</a>
+                <a href="/" id="menu-toggle"><i class="first"></i><i class="second"></i><i class="third"></i></a>
+            </h1>
             <p id="subheading">develops things</p>
         </div>
         <nav class="container">
-            <ul><?php echo table_of_contents($posts, $post); ?></ul>
+            <ul><?php echo table_of_contents($posts); ?></ul>
         </nav>
     </header>
     <div id="content">

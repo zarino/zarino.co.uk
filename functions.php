@@ -175,6 +175,7 @@ class PostList {
 }
 
 function table_of_contents($posts, $post=null){
+    $i = 1;
     foreach($posts->all() as $p) {
         $class_list = array();
         if($p->is_draft){
@@ -183,12 +184,14 @@ function table_of_contents($posts, $post=null){
         if(!is_null($post) && $post->slug == $p->slug){
             $class_list[] = 'active';
         }
-        if(!empty($class_list)){
-            $class = ' class="' . implode(' ', $class_list) . '"';
-        } else {
-            $class = '';
+        if($i > 10){
+            $class_list[] = 'hidden';
         }
-        print "\n" . '<li><a href="/post/' . $p->slug . '"' . $class . '><strong>' . avoid_widows($p->title) . '</strong> <span>' . $p->get_formatted_date(False) . '</span></a></li>';
+        if($i > 1 && $i % 10 == 1){
+            print "\n" . '<li class="show-more"><a href="/">Show more</a></li>';
+        }
+        print "\n" . '<li class="' . implode(' ', $class_list) . '"><a href="/post/' . $p->slug . '"><strong>' . avoid_widows($p->title) . '</strong> <span>' . $p->get_formatted_date(False) . '</span></a></li>';
+        $i += 1;
     }
 }
 

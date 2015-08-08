@@ -87,6 +87,10 @@ header #subheading {
   top: -8px;
 }
 
+header nav {
+  display: none; /* Will get shown by JavaScript */
+}
+
 nav ul {
   list-style: none;
   padding: 0 0 20px 0;
@@ -109,8 +113,13 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav a.active {
+nav .active a {
   cursor: default;
+}
+
+nav .hidden,
+nav .hidden ~ .show-more {
+  display: none;
 }
 
 nav a strong {
@@ -126,25 +135,34 @@ nav a span {
 }
 
 nav a:hover strong,
-nav a.active strong {
+nav .active strong {
   color: rgba(255,255,255,1);
 }
 
 nav a:hover span,
-nav a.active span {
+nav .active span {
   color: rgba(255,255,255,0.6);
 }
 
-nav a.draft {
+nav .draft {
   font-style: italic;
 }
 
-nav a.draft strong {
+nav .draft strong {
   color: rgba(255,255,255,0.4);
 }
 
-nav a.draft:hover strong {
+nav .draft:hover strong {
   color: rgba(255,255,255,0.6);
+}
+
+nav .show-more {
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+}
+
+nav .show-more:hover {
+  color: rgba(255,255,255,1);
 }
 
 #content {

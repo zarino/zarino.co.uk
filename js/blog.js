@@ -144,17 +144,21 @@ var trackOutboundLink = function(e){
 
 $(function(){
 
-  var $toggle = $('<span id="menu-toggle"><i class="first"></i><i class="second"></i><i class="third"></i></span>').on('click', function(){
+  $('#menu-toggle').on('click', function(e){
+    e.preventDefault();
     $('header nav').slideToggle()
     $(this).toggleClass('active')
     ga('send', 'event', 'menu', 'toggle')
   })
 
-  $('header nav').hide()
+  $('nav .show-more a').on('click', function(e){
+    e.preventDefault();
+    $(this).parent().hide().nextUntil('.show-more').removeClass('hidden');
+  })
 
-  $('header h1 a').on('click', function(){
+  $('header h1 a:first-child').on('click', function(){
     ga('send', 'event', 'heading', 'click')
-  }).after($toggle)
+  })
 
   $('#subheading').on('click', function(){
     ga('send', 'event', 'subheading', 'click')
