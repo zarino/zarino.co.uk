@@ -11,7 +11,7 @@ For the impatient here’s the script:
 ```
 #!/bin/sh
 
-rsync --archive --progress --verbose \
+rsync --archive --progress --verbose --inplace \
 --exclude '*@SynoResource' --exclude '@eaDir' \
 --exclude '*.vsmeta' --exclude '.DS_Store' \
 /volume1/files/ /volumeUSB1/usbshare1-2/
@@ -33,7 +33,7 @@ If I want to check whether the command will do the right thing, I add `--dry-run
 
 <pre>
 rsync <b>--dry-run --itemize-changes \</b>
---archive --progress --verbose \
+--archive --progress --verbose --inplace \
 --exclude '*@SynoResource' --exclude '@eaDir' \
 --exclude '*.vsmeta' --exclude '.DS_Store' \
 /volume1/files/ /volumeUSB1/usbshare1-2/
