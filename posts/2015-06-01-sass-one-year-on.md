@@ -1,10 +1,10 @@
 # Sass: One Year On
 
-Until about this time last year, I’d never used a CSS pre-processor. In fact, I’d recoiled with horror when then-ScraperWiki-intern [Matthew Hughes](https://twitter.com/matthewhughes) asked me for help styling [a side-project](really-scrapable-web-app) that was built with [Less](less-website), a common CSS pre-processor.
+Until about this time last year, I’d never used a CSS pre-processor. In fact, I’d recoiled with horror when then-ScraperWiki-intern [Matthew Hughes](https://twitter.com/matthewhughes) asked me for help styling [a side-project](http://www.matthewhughes.co.uk/really-scrapable-web-app-is-a-new-way-to-learn-about-web-scraping/) that was built with [Less](http://lesscss.org), a common CSS pre-processor.
 
 CSS preprocessors, for those not in the know, allow you to write styling rules for webpages in some sort of pseudo-CSS language, which you then compile into *real* CSS, for web browsers to understand, using a command line tool.
 
-It’s not that I was ignorant. I’d flirted with Less, [Sass](sass-website), and [Stylus](stylus-website) for a year or two already. But I was always put off by three major hurdles:
+It’s not that I was ignorant. I’d flirted with Less, [Sass](http://sass-lang.com), and [Stylus](https://learnboost.github.io/stylus) for a year or two already. But I was always put off by three major hurdles:
 
 ![An example of Sass code](/media/sass-indenting.png)
 
@@ -70,7 +70,7 @@ Variables were a rarely discussed feature when I first enountered pre-processors
 
 With variables, you can define your site’s colours, font families, and media query breakpoints in advance, at the start of your file, or in their own imported file, and then use them whenever you need them. And because they’re named, they’re much easier to use. What’s quicker to recognise: `@media (min-width: 30em)` or `@media (min-width: $tablet-width)`.
 
-Variables also give you the opportunity to **customise imported libraries** like [Foundation](foundation-website) and [Bootstrap](bootstrap-sass-website). I’d previously spent days overriding Bootstrap selectors at ScraperWiki. Now, removing border-radius from every element in a library, or changing the default colours, was as simple as declaring one or two variables and hitting “compile.”
+Variables also give you the opportunity to **customise imported libraries** like [Foundation](http://foundation.zurb.com) and [Bootstrap](https://github.com/twbs/bootstrap-sass). I’d previously spent days overriding Bootstrap selectors at ScraperWiki. Now, removing border-radius from every element in a library, or changing the default colours, was as simple as declaring one or two variables and hitting “compile.”
 
 ## Killer feature #3: Loops and conditions
 
