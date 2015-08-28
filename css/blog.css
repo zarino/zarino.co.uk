@@ -200,6 +200,12 @@ nav .show-more:hover {
   margin-bottom: 0.7em;
 }
 
+#content h3 {
+  line-height: 1.2em;
+  margin-bottom: 0.8em;
+  margin-top: 1.5em;
+}
+
 #content p img {
   margin: 0.5em 0;
 }
