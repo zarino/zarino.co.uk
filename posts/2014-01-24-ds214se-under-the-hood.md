@@ -152,7 +152,7 @@ And you’re done. You’ll now be able to install packages using the `ipkg` com
 
 ![ipkg package manager running on a Synology DS214se](/media/synology-ipkg.png)
 
-You can find a full list of `ipkg`-compatible programs by running `ipkg list`, or you can find a specific package with `ipkg search`.
+Since it’s a new install, you’ll want to run `ipkg update` to populate ipkg’s list of available programs. Then you can run `ipkg list` to see those programs, or you can find a specific package with `ipkg search`.
 
 Have fun!
 
