@@ -8,16 +8,7 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 # Disable automatic directory indexing
 Options -indexes
 
-php_flag magic_quotes_gpc Off
-
-# Remember to set:
-#    expose_php = Off
-# in php.ini!
-
 # Redirects
 RewriteEngine on
-RewriteRule ^post/(.+)$ index.php?slug=$1 [L]
-RewriteRule ^posts/(.+)$ post/$1 [R=301]
 RewriteRule ^post/?$ / [L,R=301]
-RewriteRule ^feed/?$ feed.php [L]
-RewriteRule ^tracker.gif$ tracker.php [L]
+RewriteRule ^feed/?$ feed.xml [L]

@@ -1,0 +1,21 @@
+<header>
+    <div class="container">
+        <h1>
+            <a href="{{ site.baseurl }}/">Zarino Zappia</a>
+            <a href="{{ site.baseurl }}/" id="menu-toggle"><i class="first"></i><i class="second"></i><i class="third"></i></a>
+        </h1>
+        <p id="subheading">develops things</p>
+    </div>
+    <nav class="container">
+        <ul>
+          {% for post in site.posts %}
+            <li class="{% if post.draft %}draft{% endif %} {% if post.url == page.url %}active{% endif %}">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <strong>{{ post.title }}</strong>
+                    <span>{{ post.date | date: "%-d %B %Y" }}</span>
+                </a>
+            </li>
+          {% endfor %}
+        </ul>
+    </nav>
+</header>

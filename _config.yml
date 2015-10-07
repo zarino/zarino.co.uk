@@ -1,0 +1,16 @@
+# Site settings
+title: "Zarino Zappia | Designer, Coder & Internetologist"
+description: >
+  Zarino Zappia is a designer, coder and Internetologist based in Liverpool, UK. This is his blog.
+baseurl: ""
+url: "http://zarino.co.uk"
+
+# Build settings
+markdown: kramdown
+permalink: "/post/:title"
+host: 0.0.0.0 # zarino.co.uk/post/jekyll-local-network
+exclude:
+  - .gitignore
+  - LICENSE
+  - README.md
+  - vendor/sass

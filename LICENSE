@@ -1,11 +1,11 @@
-zarino.co.uk: a personal blog written in PHP and Markdown
+zarino.co.uk: a personal blog
 Copyright (C) 2014 Zarino Zappia
 
 
 SUMMARY:
 ========
 
-PHP and JavaScript source code in this repository is
+JavaScript and SCSS/CSS source code in this repository is
 licensed under the GNU Affero General Public License:
 http://www.gnu.org/licenses/agpl.txt
 

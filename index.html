@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div id="content">
+    <div class="container post-previews">
+      {% for post in site.posts %}
+        <a class="post-preview {% if post.draft %}draft{% endif %}" href="{{ post.url | prepend: site.baseurl }}">
+            <h2>{{ post.title | widont }}</h2>
+            <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+          {% if post.summary %}
+            <p class="preview">{{ post.summary | widont }}</p>
+          {% endif %}
+          {% if post.image %}
+            <img src="{{ post.image }}">
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+</div>
