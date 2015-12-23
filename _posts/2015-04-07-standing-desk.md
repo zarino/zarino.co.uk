@@ -5,8 +5,8 @@ summary: >
   It’s an object of fascination, jocularity, even lust and admiration. Here’s a quick run-down of how to make your own standing desk, like mine, from about £80 of IKEA parts.
 image: /media/desk-two-up.jpg
 related:
-  - /post/razer-kraken-pro
-  - /post/music-to-program-to
+  - /post/razer-kraken-pro/
+  - /post/music-to-program-to/
 ---
 
 It’s an object of some fascination and no small part of jocularity for the people who walk past my office each day, and it’s even had its own visitors and admirers come, to stroke its legs and try it out for size.

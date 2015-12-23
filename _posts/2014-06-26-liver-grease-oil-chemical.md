@@ -5,8 +5,8 @@ summary: >
   A tour of the typography in Liverpool’s Baltic Triangle, starting with the bizarre and exquisite Liver Grease, Oil &amp; Chemical Co. Ltd.
 image: /media/liver-grease-3.jpg
 related:
-  - /post/unfortunate-exclusivity-of-art
-  - /post/awesome
+  - /post/unfortunate-exclusivity-of-art/
+  - /post/awesome/
 ---
 
 These days, I work in Liverpool’s [Baltic Triangle](http://www.liverpoolbaltictriangle.co.uk/visit/) – a ¼km² patch of what used to be “the city’s workshop”, that is now gentrifying into a hub for the city’s creative industries.

@@ -4,8 +4,8 @@ title: The hacker ethos starts at home
 summary: >
   A response to a recent blog post by Liverpool internet-of-things guru Adrian McEwan, about the importance of the hacker mindset, and how we can get it into the business world.
 related:
-  - /post/teaching-everyone-to-hack
-  - /post/awesome
+  - /post/teaching-everyone-to-hack/
+  - /post/awesome/
 ---
 
 About a week ago, Adrian McEwen—IoT guru and co-founder of Liverpool’s first makerspace—wrote a blog post about what he called the “[DoES Liverpool Ethos](http://www.mcqn.net/mcfilter/archives/thinking/spreading_the_does_liverpool_ethos.html).”

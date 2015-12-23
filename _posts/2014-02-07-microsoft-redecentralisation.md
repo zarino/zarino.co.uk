@@ -4,8 +4,8 @@ title: Could Microsoft lead the re-decentralisation revolution?
 summary: >
   In which Zarino voyages to an alternate reality where Microsoft’s new CEO, Satya Nadella, steers the company to become the new giant of Open Source software and Internet-of-Things hackery.
 related:
-  - /post/beauty-and-utility
-  - /post/storefront-in-every-pocket
+  - /post/beauty-and-utility/
+  - /post/storefront-in-every-pocket/
 ---
 
 This morning two articles surfaced in my feed reader. In one, US technology pundit John Gruber laid out his thoughts on [why Microsoft’s recent appointment of ex-Azure top man Satya Nadella as CEO is a good thing](http://daringfireball.net/2014/02/microsoft_past_and_future). The post is well worth a read, although it’s one of his closing paragraphs that got me thinking:

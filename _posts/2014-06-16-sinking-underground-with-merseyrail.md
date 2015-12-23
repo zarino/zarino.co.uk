@@ -4,8 +4,8 @@ title: Sinking underground with Merseyrail
 summary: >
   In which Zarino bemoans Merseyrail’s disappointing lack of visual design acumen, and argues it’s actually indicative of a deeper mindset of complacency.
 related:
-  - /post/beauty-and-utility
-  - /post/awesome
+  - /post/beauty-and-utility/
+  - /post/awesome/
 ---
 
 Readers in other cities (or even other countries) might be surprised to learn Liverpool has an underground rail network. The oldest part (the tunnel running under the Mersey, linking James Street to Birkenhead) dates back to 1886 – which is roughly contemporaneous with the London’s first deep-level tube line between the City and Stockwell in 1890.

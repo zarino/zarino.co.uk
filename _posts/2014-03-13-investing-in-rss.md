@@ -4,8 +4,8 @@ title: Investing in RSS
 summary: >
   In which Zarino reflects on the importance of RSS, exactly a year after Google Reader’s demise. And explains why he happily pays £2 a month for a replacement service.
 related:
-  - /post/one-third-rule
-  - /post/teaching-everyone-to-hack
+  - /post/one-third-rule/
+  - /post/teaching-everyone-to-hack/
 ---
 
 Exactly a year ago, on the 13th March 2013, [Google announced it was withdrawing its Reader service](http://googlereader.blogspot.co.uk/2013/03/powering-down-google-reader.html).

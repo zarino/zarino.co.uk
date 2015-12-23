@@ -5,8 +5,8 @@ summary: >
   Every few weeks, work sees me travelling down to London to meet clients. This week my cosy schedule was turned upside-down, and I discovered the weird world of Virgin Pendolino toilets.
 image: /media/virgin-toilet-lock.jpg
 related:
-  - /post/whats-in-a-checkbox
-  - /post/beauty-and-utility
+  - /post/whats-in-a-checkbox/
+  - /post/beauty-and-utility/
 ---
 
 Every few weeks, my work at mySociety sees me travelling down to London to meet clients. The Liverpool to London train link is actually very good,[^1] and it’s run by Virgin Trains, who are, as far as I can tell, one of the more switched-on British rail providers.

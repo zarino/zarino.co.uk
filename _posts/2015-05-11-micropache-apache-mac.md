@@ -4,8 +4,8 @@ title: "Micropache: Cut the crap out of getting Apache running on your Mac"
 summary: >
   Upgraded to a new version of Mac OS X but can’t face the nightmare of getting your Apache-PHP-MySQL stack working? Try Micropache, my one-line Apache server.
 related:
-  - /post/git-push-to-deploy
-  - /post/standing-desk
+  - /post/git-push-to-deploy/
+  - /post/standing-desk/
 ---
 
 I recently—<em>finally</em>—upgraded my Mac from OS X 10.7 Lion to 10.10 Yosemite. Over the years, I’d become resigned to the fact that Apache is a **pain in the ass** to get running after *any* OS X upgrade.

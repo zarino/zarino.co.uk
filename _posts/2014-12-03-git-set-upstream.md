@@ -4,8 +4,8 @@ title: Stop wasting time with Git branch upstreams
 summary: >
   A three-character fix for the infuriating “no tracking information” Git error. Plus some bonus aliases to turn you into a Git ninja.
 related:
-  - /post/git-push-to-deploy
-  - /post/using-spotlight-mdfind
+  - /post/git-push-to-deploy/
+  - /post/using-spotlight-mdfind/
 ---
 
 I routinely work with about two dozen Git repositories at mySociety, spread across Github and our own in-house Git server. Inevitably, every few weeks, I’ll try to push or pull a repo and be greeted with this old favourite error:

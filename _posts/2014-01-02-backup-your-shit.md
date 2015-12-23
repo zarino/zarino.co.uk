@@ -4,8 +4,8 @@ title: New Year’s Resolution #1: Back up your shit
 summary: >
   A New Year’s resolution we should all observe: what’s your computer backup solution, and if your main machine died tomorrow, how long would it take you to get up and running again?
 related:
-  - /post/getting-started-ds214se-nas
-  - /post/time-machine-ds214se-nas
+  - /post/getting-started-ds214se-nas/
+  - /post/time-machine-ds214se-nas/
 ---
 
 For two years I’ve had a [portable LaCie hard drive](http://www.engadget.com/products/lacie/porsche-design/p-9233/) in my satchel, storing all the movies that won’t fit on my MacBook’s SSD, and also running Time Machine backups whenever it’s plugged in.

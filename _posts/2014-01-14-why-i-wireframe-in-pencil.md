@@ -5,8 +5,8 @@ summary: >
   I’m a designer. I think in pictures. And unlike a growing contingent of designers these days who protest they can’t draw, I sketch everything before I even touch a computer. Find out why…
 image: /media/wireframes-1.jpg
 related:
-  - /post/beauty-and-utility
-  - /post/investing-in-rss
+  - /post/beauty-and-utility/
+  - /post/investing-in-rss/
 ---
 
 > **wireframe** /ˈwʌɪəfreɪm/ *n.* An image or set of images which displays the functional elements of a website or page, typically used for planning a site’s structure and functionality.

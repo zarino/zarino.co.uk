@@ -4,8 +4,8 @@ title: A Synology-flavoured rsync backup script
 summary: >
   A good starting point if you routinely copy files from your Synology DiskStation NAS onto an external USB drive, or a remote server.
 related:
-  - /post/custom-software-synology-dsm-update
-  - /post/write-hfs-synology-nas
+  - /post/custom-software-synology-dsm-update/
+  - /post/write-hfs-synology-nas/
 ---
 
 I store lots of stuff on my [Synology NAS](/post/getting-started-ds214se-nas): videos, TV shows, music. Every now and then, I dump the entire contents onto an [external USB drive](/post/write-hfs-synology-nas) – partly as a second backup, and partly because it means I can take my stuff with me when I travel on business or visit my family at home.

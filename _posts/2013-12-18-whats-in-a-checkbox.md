@@ -4,8 +4,8 @@ title: What’s in a checkbox?
 summary: >
   A single email newsletter checkbox spurs me into asking: At what point do I, as a designer, have sufficient data to make a decision on the user’s behalf?
 related:
-  - /post/care-data
-  - /post/checkboxes-revisited
+  - /post/care-data/
+  - /post/checkboxes-revisited/
 ---
 
 Part of my job at ScraperWiki—as VP of Product, and even as a designer in general—is to make decisions on behalf of our users.

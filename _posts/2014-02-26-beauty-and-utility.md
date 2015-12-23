@@ -5,8 +5,8 @@ summary: >
   It’s fun to imagine a new user interface that makes car controls simple and delightful. But this month’s rash of style-over-substance YouTube videos isn’t helping.
 image: /media/ipad-ui-matthaeus.png
 related:
-  - /post/whats-in-a-checkbox
-  - /post/why-i-wireframe-in-pencil
+  - /post/whats-in-a-checkbox/
+  - /post/why-i-wireframe-in-pencil/
 ---
 
 So, a few days ago, this video did the rounds. It depicts [“a new car UI”](http://matthaeuskrenn.com/new-car-ui/) which replaces the typical buttons, knobs, and dials with one big multi-touch screen. It’s an iPad on your dashboard.

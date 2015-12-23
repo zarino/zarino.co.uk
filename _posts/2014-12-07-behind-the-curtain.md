@@ -5,8 +5,8 @@ summary: >
   In which Zarino confesses justifies a six month Star Trek addiction by pointing out a single episode that helped him be a better designer.
 image: /media/star-trek-ensigns.jpg
 related:
-  - /post/unfortunate-exclusivity-of-art
-  - /post/beauty-and-utility
+  - /post/unfortunate-exclusivity-of-art/
+  - /post/beauty-and-utility/
 ---
 
 Growing up I was always a Star Wars kid. But this year, after exhausting pretty much every other long-running modern sci-fi series—*Doctor Who, Battlestar Gallactica, Babylon 5, Dollhouse*—I figured I might as well see how the other half lives, and watch seasons 1–7 of *Star Trek: The Next Generation*.

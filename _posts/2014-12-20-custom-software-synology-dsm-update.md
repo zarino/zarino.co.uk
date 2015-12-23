@@ -4,8 +4,8 @@ title: Restoring your custom software after a Synology DSM update
 summary: >
   Updated your Synology NAS, and suddenly things are broken when you SSH in. Try this quick trick for setting things straight again.
 related:
-  - /post/ds214se-under-the-hood
-  - /post/write-hfs-synology-nas
+  - /post/ds214se-under-the-hood/
+  - /post/write-hfs-synology-nas/
 ---
 
 A few weeks ago, I finally got round to updating my Synology DS214se NAS from DSM 4 to DSM 5.[^1]

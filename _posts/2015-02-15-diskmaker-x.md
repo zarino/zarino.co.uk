@@ -4,8 +4,8 @@ title: Is Diskmaker X taking forever to create your bootable OS X drive?
 summary: >
   How to create an OS X installer using Diskmaker X, and what to do when it gives you a cryptic error: “command not found.”
 related:
-  - /post/time-machine-ds214se-nas
-  - /post/synology-rsync-backup
+  - /post/time-machine-ds214se-nas/
+  - /post/synology-rsync-backup/
 ---
 
 My first Mac was a 2001 “Dual USB” iBook G3. Back then, Macs came with installer disks (*CDs* in the case of the iBook G3) and new releases of OS X would be sold, again as physical disks, for £79.

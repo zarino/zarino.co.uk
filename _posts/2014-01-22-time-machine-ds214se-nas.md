@@ -4,8 +4,8 @@ title: Time Machine and the Synology DS214se NAS
 summary: >
   Not many Synology owners realise their NAS is a few steps away from becoming the perfect wireless Mac backup system.
 related:
-  - /post/backup-your-shit
-  - /post/ds214se-under-the-hood
+  - /post/backup-your-shit/
+  - /post/ds214se-under-the-hood/
 ---
 
 In a previous post, I discussed [the importance of backing up your data](/post/backup-your-shit). And in another, I walked through [setting up a Synology DS214se NAS from scratch](/post/getting-started-ds214se-nas).

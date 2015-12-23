@@ -4,8 +4,8 @@ title: Find out which process is using a port on a Mac
 summary: >
   Tired of getting an “Address already in use” error when you start Jekyll on your Mac? Use this handy command to track down the cause, and get your server back up and running.
 related:
-  - /post/write-hfs-synology-nas
-  - /post/git-push-to-deploy
+  - /post/write-hfs-synology-nas/
+  - /post/git-push-to-deploy/
 ---
 
 I’ve been using [Jekyll](http://jekyllrb.com/), the static HTML site generator, more and more these last few weeks – for both personal projects and at [mySociety](http://mysociety.org/) for sites like [Poplus](http://poplus.org/). It does 95% of what everybody would want, right out of the box, and the Github Pages integration makes for a killer zero-hassle deployment feature.

@@ -4,8 +4,8 @@ title: How do you make people watch your airplane safety routine?
 summary: >
   Virgin Atlantic takes us on a 5-minute tour of British movie history, from Spaghetti Westerns to The Avengers, Bond to A Space Odyssey.
 related:
-  - /post/susan-kare
-  - /post/beauty-and-utility
+  - /post/susan-kare/
+  - /post/beauty-and-utility/
 ---
 
 The mySociety guys are a pretty globetrotting bunch. On the way back from a recent trip to the USA, Tom, *el capitán*, saw this awesome safety video from Virgin Atlantic.

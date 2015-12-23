@@ -4,8 +4,8 @@ title: Accessing a Jekyll site over your local wifi network
 summary: >
   We all know you can access a Jekyll site running locally at a address like http://localhost:4000 – but what about testing it from other devices on the network, like phones, tablets, and virtual machines?
 related:
-  - /post/which-process-is-using-port
-  - /post/music-to-program-to
+  - /post/which-process-is-using-port/
+  - /post/music-to-program-to/
 ---
 
 [Jekyll](http://jekyllrb.com) is a simple framework for generating static websites and blogs. Static websites are all the rage these days because they load *way* faster than dynamically generated sites (eg: sites built on WordPress or Rails) and they can be hosted *entirely for free* at places like [GitHub Pages](https://pages.github.com).

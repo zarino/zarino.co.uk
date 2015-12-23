@@ -5,8 +5,8 @@ summary: >
   In which Zarino ponders Amazon’s dominance of the bookselling industry, and the warm fuzzy feeling he gets from sitting in a bookshop on a rainy day.
 image: /media/waterstones-shelf.jpg
 related:
-  - /post/investing-in-rss
-  - /post/awesome
+  - /post/investing-in-rss/
+  - /post/awesome/
 ---
 
 When you think about it, books are awesome. They are distilled, flattened, structured knowledge. Passing on and archiving knowledge is what makes us human. And for roughly 1500 years, books have been the primary way we’ve done both.

@@ -5,8 +5,8 @@ summary: >
   In which Zarino discusses his love-hate relationship with hidden meanings in art, and deconstructs two of his favourite paintings.
 image: /media/enchanted-garden.jpg
 related:
-  - /post/behind-the-curtain
-  - /post/beauty-and-utility
+  - /post/behind-the-curtain/
+  - /post/beauty-and-utility/
 ---
 
 I watched Brideshead Revisited a few days ago. A pretty uninspiring movie, but there was a lovely bit where Cordelia abruptly asks Charles, a semi-famous painter and protagonist of the story:

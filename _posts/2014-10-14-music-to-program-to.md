@@ -5,8 +5,8 @@ summary: >
   Sometimes the right music can help you get twice as much work done. This week, Zarino introduces you to some of his favourite albums to program to.
 image: /media/hidden-orchestra.jpg
 related:
-  - /post/razer-kraken-pro
-  - /post/teaching-everyone-to-hack
+  - /post/razer-kraken-pro/
+  - /post/teaching-everyone-to-hack/
 ---
 
 <img src="/media/itunes-mini-player.png" style="width: 50%; float: right; margin-top: -2%; margin-right: -5%" alt="iTunes mini player, showing Jan Jelinek, Kosmischer Pitch">

@@ -2,8 +2,8 @@
 layout: post
 title: "Breaking news: NHS care.data scheme delayed until “autumn”"
 related:
-  - /post/care-data
-  - /post/whats-in-a-checkbox
+  - /post/care-data/
+  - /post/whats-in-a-checkbox/
 ---
 
 I’ve [previously written about the NHS “care.data” plan](/post/care-data), which promised to improve medical research at the expense of sharing confidential medical data with companies outside your GP surgery. The plan was cooked up a few years ago, but the actual date on which the HSCIC would begin forcing GPs to share their patients’ data was set at an amorphous “Spring 2014”.

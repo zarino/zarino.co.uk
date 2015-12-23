@@ -4,8 +4,8 @@ title: "Sass: One Year On"
 summary: >
   Zarino debunks some myths about CSS pre-processors, and explains why he started using Sass at mySociety
 related:
-  - /post/git-push-to-deploy
-  - /post/git-set-upstream
+  - /post/git-push-to-deploy/
+  - /post/git-set-upstream/
 ---
 
 Until about this time last year, I’d never used a CSS pre-processor. In fact, I’d recoiled with horror when then-ScraperWiki-intern [Matthew Hughes](https://twitter.com/matthewhughes) asked me for help styling [a side-project](http://www.matthewhughes.co.uk/really-scrapable-web-app-is-a-new-way-to-learn-about-web-scraping/) that was built with [Less](http://lesscss.org), a common CSS pre-processor.

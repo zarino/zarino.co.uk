@@ -4,8 +4,8 @@ title: Getting started with a Synology DS214se NAS
 summary: >
   An introduction to Synology’s network-attached drives, and how to set yours up with the minimum fuss.
 related:
-  - /post/time-machine-ds214se-nas
-  - /post/ds214se-under-the-hood
+  - /post/time-machine-ds214se-nas/
+  - /post/ds214se-under-the-hood/
 ---
 
 As [previously written](/post/backup-your-shit), I’m the brand new owner of a Synology DS214se DiskStation (basically, an entry-level, 2-disk, network-attached RAID, with lots of added cloudy/streamy features built in).

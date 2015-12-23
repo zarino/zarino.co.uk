@@ -4,8 +4,8 @@ title: A storefront in every pocket
 summary: >
   Amazon released a new phone last week: the Amazon Fire Phone. Will it be the user experience that revolutionises everyday shopping for us all?
 related:
-  - /post/beauty-and-utility
-  - /post/razer-kraken-pro
+  - /post/beauty-and-utility/
+  - /post/razer-kraken-pro/
 ---
 
 So here’s an enigma. Amazon released a new phone last week: the Amazon Fire Phone. Jeff Bezos’ demo—and all the marketing surrounding the launch—made a lot of noise about a bunch of attention-seeking but largely useless features.

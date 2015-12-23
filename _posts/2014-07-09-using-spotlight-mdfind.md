@@ -4,8 +4,8 @@ title: Using Spotlight (or mdfind) from the terminal
 summary: >
   A quick demo of how I use Spotlight on Mac OSX to search for words and phrases faster, and more easily, than Grep.
 related:
-  - /post/git-push-to-deploy
-  - /post/which-process-is-using-port
+  - /post/git-push-to-deploy/
+  - /post/which-process-is-using-port/
 ---
 
 If you’re a Mac developer, you’ve probably found yourself typing something like this quite a lot:

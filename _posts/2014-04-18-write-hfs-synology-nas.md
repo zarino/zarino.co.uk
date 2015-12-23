@@ -4,8 +4,8 @@ title: Write to an HFS+ (Mac formatted) USB drive from a Synology NAS
 summary: >
   If you use a Mac with your Synology NAS, this trick will save you hours of painful Finder-based copying and restoring. Find out how to write to a Mac-formatted drive directly from your NAS.
 related:
-  - /post/time-machine-ds214se-nas
-  - /post/ds214se-under-the-hood
+  - /post/time-machine-ds214se-nas/
+  - /post/ds214se-under-the-hood/
 ---
 
 So, [I’ve had my Synology DS214se for a few months now](/post/getting-started-ds214se-nas), and it’s done a sterling job of hosting my wireless Time Machine backups as well as my movies and TV shows.

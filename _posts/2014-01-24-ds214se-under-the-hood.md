@@ -4,8 +4,8 @@ title: "Synology DS214se: Going under the hood"
 summary: >
   A step-by-step guide to setting up SSH access to your Synology NAS, and installing 3rd-party programs.
 related:
-  - /post/time-machine-ds214se-nas
-  - /post/getting-started-ds214se-nas
+  - /post/time-machine-ds214se-nas/
+  - /post/getting-started-ds214se-nas/
 ---
 
 The Synology DS214se is a neat piece of kit. It’s a little white box with lights on, that just sits next to your router, magically serving files and videos around your house to whichever devices happen to be in range.

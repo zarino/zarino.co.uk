@@ -4,8 +4,8 @@ title: Zoetropes and the phi phenomenon
 summary: >
   In which Zarino compares the transit of the moon, stop-motion zoetropes, and the music video to the Correspondents’ Fear and Delight.
 related:
-  - /post/beauty-and-utility
-  - /post/susan-kare
+  - /post/beauty-and-utility/
+  - /post/susan-kare/
 ---
 
 The brain works in weird and wonderful ways.

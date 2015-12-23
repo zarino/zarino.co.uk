@@ -5,8 +5,8 @@ summary: >
   While attempting to market the “individuality” of its customers, BIC, the yellow ballpoint maker, accidentally shows us how the whole of a Universal Typeface can actually be a lot less than its parts.
 image: /media/bic-typeface-gender.jpg
 related:
-  - /post/susan-kare
-  - /post/why-i-wireframe-in-pencil
+  - /post/susan-kare/
+  - /post/why-i-wireframe-in-pencil/
 ---
 
 So, a week or two back, BIC (the company behind the ubiquitous yellow ballpoint pens) announced it was compiling a [“universal typeface”](http://theuniversaltypeface.com/) from the average of thousands of people’s handwriting, from all over the world.[^1] They launched a website that lets you explore the data gathered so far, and an app that lets you submit your own scrawl to the project.[^2]

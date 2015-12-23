@@ -5,8 +5,8 @@ summary: >
   Vintage is in. Impress your friends and up your cocktail party chatter, by learning the difference between the three early 19th-century design styles: Art Nouveau, Art Deco, and Moderne.
 image: /media/art-nouveau-pattern.jpg
 related:
-  - /post/unfortunate-exclusivity-of-art
-  - /post/liver-grease-oil-chemical
+  - /post/unfortunate-exclusivity-of-art/
+  - /post/liver-grease-oil-chemical/
 ---
 
 Vintage is in right now. What with prohibition-style speakeasies, and 20s-style electro-swing in the air. Why not take a moment to impress your friends and up your cocktail party chatter, by learning the difference between the three early 19th-century design styles: Art Nouveau, Art Deco, and Moderne.

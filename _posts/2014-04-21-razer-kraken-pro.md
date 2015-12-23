@@ -5,8 +5,8 @@ summary: >
   In which Zarino searches for a comfortable set of headphones for his new remote-working job, and discovers the holy grail in an unexpected place… the Gaming aisle.
 image: /media/kraken-pro.jpg
 related:
-  - /post/beauty-and-utility
-  - /post/teaching-everyone-to-hack
+  - /post/beauty-and-utility/
+  - /post/teaching-everyone-to-hack/
 ---
 
 For years, I’ve only needed a single set of headphones: a pair of [SoundMagic PL11](http://www.amazon.co.uk/gp/product/B0044X6T5E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0044X6T5E&linkCode=as2&tag=zarsblo05-21) earbuds. They cost barely £20 but have more than paid it back in superb quality sound, decent passive noise cancellation, and total chuck-in-back-pocketability.

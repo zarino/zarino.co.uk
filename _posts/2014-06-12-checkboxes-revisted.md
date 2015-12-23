@@ -4,8 +4,8 @@ title: What’s in a checkbox? (revisited)
 summary: >
   In a follow-up to my debut blog post about opt-in and opt-out decisions, a Sky News producer sues John Lewis for sending him emails after he accidentally left a checkbox ticked at checkout.
 related:
-  - /post/whats-in-a-checkbox
-  - /post/care-data
+  - /post/whats-in-a-checkbox/
+  - /post/care-data/
 ---
 
 Last year [I wrote about implied consent](/post/whats-in-a-checkbox), and the moral dilemma I faced when my then-employer changed its mailing list from opt-in to opt-out.

@@ -5,8 +5,8 @@ summary: >
   The history of the ⌘ symbol, plus other awesome anecdotes from early Apple designer, Susan Kare.
 image: /media/oslo-place-of-interest-sign.jpg
 related:
-  - /post/beauty-and-utility
-  - /post/unfortunate-exclusivity-of-art
+  - /post/beauty-and-utility/
+  - /post/unfortunate-exclusivity-of-art/
 ---
 
 “Why are you taking a photo of a road sign?” Mum asked.

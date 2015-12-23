@@ -4,8 +4,8 @@ title: "ImageMagick and FFmpeg: manipulate images and videos like a ninja"
 summary: >
   A collection of really useful command line snippets for manipulating and converting images and videos in a flash.
 related:
-  - /post/micropache-apache-mac
-  - /post/which-process-is-using-port
+  - /post/micropache-apache-mac/
+  - /post/which-process-is-using-port/
 ---
 
 ImageMagick (accessible via the command line program `convert`) is a software suite for converting and editing images. And FFmpeg (aka `ffmpeg`) is pretty much the same but for videos.

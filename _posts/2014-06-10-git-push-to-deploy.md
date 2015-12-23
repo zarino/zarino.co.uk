@@ -4,8 +4,8 @@ title: Deploying web projects with Git
 summary: >
   How to set up Git and Sass on a typical low-cost web server (in this case Dreamhost) so you can just push your work remotely and have it automatically deployed and running in seconds.
 related:
-  - /post/ds214se-under-the-hood
-  - /post/write-hfs-synology-nas
+  - /post/ds214se-under-the-hood/
+  - /post/write-hfs-synology-nas/
 ---
 
 This blog, like most of the code I write, is version-controlled with Git. You can browse the source code on [my Github account](https://github.com/zarino/zarino.co.uk).

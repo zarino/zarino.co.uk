@@ -5,8 +5,8 @@ summary: >
   In which Zarino finally understands the famous probability puzzle, and explains his method for working it out.
 image: /media/monty-hall.jpg
 related:
-  - /post/teaching-everyone-to-hack
-  - /post/whats-in-a-checkbox
+  - /post/teaching-everyone-to-hack/
+  - /post/whats-in-a-checkbox/
 ---
 
 ![Monty Hall](/media/monty-hall.jpg)

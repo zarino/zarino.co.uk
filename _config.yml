@@ -7,7 +7,7 @@ url: "http://zarino.co.uk"
 
 # Build settings
 markdown: kramdown
-permalink: "/post/:title"
+permalink: "/post/:title/"
 host: 0.0.0.0 # zarino.co.uk/post/jekyll-local-network
 exclude:
   - .gitignore

@@ -5,8 +5,8 @@ summary: >
   Teaching kids to program isn’t about the act of actually putting variable to screen – it’s about the mindset that programming introduces. A mindset that British kids simply shouldn’t have to live without.
 image: /media/kids-codejam.jpg
 related:
-  - /post/beauty-and-utility
-  - /post/hacker-ethos">
+  - /post/beauty-and-utility/
+  - /post/hacker-ethos">/
 ---
 
 A good friend of mine, drj, posted an article yesterday about [the importance of teaching everyone to program](http://drj11.wordpress.com/2014/02/05/teach-everyone-to-program/). In it, he likens programming to reading or writing:
