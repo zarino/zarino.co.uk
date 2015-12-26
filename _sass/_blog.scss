@@ -459,6 +459,39 @@ footer {
   }
 }
 
+.fourohfour-search {
+  label {
+    position: absolute;
+    left: -30em;
+  }
+
+  input {
+    width: 60%;
+    max-width: 12em;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 0.9em;
+
+    input, .btn {
+      font-size: 1em;
+      line-height: 1.42em;
+      vertical-align: bottom;
+    }
+
+    input {
+      height: 1.42em;
+      padding: 0.3em 0.4em;
+      width: 12em;
+    }
+
+    .btn {
+      padding: 0.3em 0.75em;
+    }
+  }
+}
+
 @media only screen and (min-width: 480px) {
 
   header {
