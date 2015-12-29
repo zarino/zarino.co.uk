@@ -14,7 +14,7 @@ CSS preprocessors, for those not in the know, allow you to write styling rules f
 
 It’s not that I was ignorant. I’d flirted with Less, [Sass](http://sass-lang.com), and [Stylus](https://learnboost.github.io/stylus) for a year or two already. But I was always put off by three major hurdles:
 
-![An example of Sass code](/media/sass-indenting.png)
+{% img "An example of Sass code" "/media/sass-indenting.png" %}
 
 ## Misunderstanding #1: I have to learn a stupid new language
 
@@ -64,7 +64,7 @@ The Eureka moment for me was when I realised Sass (the ridiculous Ruby-inflected
 
 And, appealing to my youth as a PHP developer, variables in SCSS start with a `$` symbol, rather than the `@` used in Less, which helps reduce confusion between variables and functions.
 
-![An example of SCSS code](/media/scss-nesting.png)
+{% img "An example of SCSS code" "/media/scss-nesting.png" %}
 
 Perhaps the best thing about SCSS’s similarity to CSS is **backward compatibility**. Upgrading a project to use a CSS pre-processor? Just change your file extension from `.css` to `.SCSS` and you’ve got a valid SCSS file. Then you can dip into special SCSS features at your own pace. No rush.
 
@@ -72,7 +72,7 @@ The SCSS syntax is an absolute gift for increasing adoption. No wonder the offic
 
 ## Killer feature #2: Variables
 
-![SCSS variables](/media/scss-variables.png)
+{% img "SCSS variables" "/media/scss-variables.png" %}
 
 Variables were a rarely discussed feature when I first enountered pre-processors. Maybe people thought they were too boring to mention. But they’re arguably the killer feature. **No more search-and-replacing** colour definitions across a folder of CSS files. And no more guessing what colour some random hex code is meant to represent.
 
@@ -82,19 +82,19 @@ Variables also give you the opportunity to **customise imported libraries** like
 
 ## Killer feature #3: Loops and conditions
 
-![A for loop in SCSS](/media/scss-loops.png)
+{% img "A for loop in SCSS" "/media/scss-loops.png" %}
 
 A while back, I had to generate CSS for a background image sprite. There were 150 individual images, split across three sprite files (to get round iOS Safari’s 3 megapixel limit for background images). I *could* have written the 150 style definitions by hand. It probably would have taken a few hours.
 
 But, instead, I used a `@for` loop in SCSS and, in five or six lines, I’d outsourced all the hassle to the compiler. I just had to tell it how many sprites there were, and what the dimensions of the image were, and I was done. SCSS generated the 150-odd selectors automatically, in the blink of an eye. And even better, if something changed later on, I only had to tweak it in one place, rather than find-and-replacing across 150 separate styles.
 
-![A more complicated for loop in SCSS](/media/scss-sprites.png)
+{% img "A more complicated for loop in SCSS" "/media/scss-sprites.png" %}
 
 As you can see above, conditions, too, are really useful. Sometimes, in a for-loop, you’ll want to execute some special behaviour after a specific number of iterations (eg: clearing a float after every *n* items in a grid). Or other times, you might be making a module that is shared across multiple projects (this happens a *lot* at mySociety!) and you need to execute only certain parts of the stylesheet based on a variable defined in the parent file. `@if` and `@else` are perfect for all of this, and completely impossible in standard CSS.
 
 In case you’re interested, here’s a segment of the CSS output by that `@for` loop above:
 
-![CSS for an image sprite](/media/scss-sprites-compiled.png)
+{% img "CSS for an image sprite" "/media/scss-sprites-compiled.png" %}
 
 ---
 

@@ -12,7 +12,7 @@ This blog, like most of the code I write, is version-controlled with Git. You ca
 
 Recently, while working on a side-project, I discovered the awesomeness of not only versioning, but also deploying your code with Git. And the best part is, it works with any old server, as long as you’ve got SSH access.
 
-![Illustration of Git remotes](/media/git-remotes.jpg)
+{% img "Illustration of Git remotes" "/media/git-remotes.jpg" %}
 
 I use Dreamhost for most of my personal projects, including this blog. And I’ve got it set up to [use my SSH key for login](http://wiki.dreamhost.com/SSH#Passwordless_Login), so I can just type `ssh <username>@zarino.co.uk` and I’m in.[^1]
 

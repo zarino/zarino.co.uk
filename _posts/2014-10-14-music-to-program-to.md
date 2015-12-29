@@ -25,7 +25,7 @@ So here’s a run-down. I hope you find something new and awesome to listen to! 
 
 Tweet me [@zarino](https://twitter.com/zarino) if there’s anything you think I should add to the list!
 
-![Gotan Project](/media/gotan-project.jpg)
+{% img "Gotan Project" "/media/gotan-project.jpg" %}
 
 ## Gotan Project <small>Super-cool folk/latin/jazz from the continent</small>
 
@@ -39,7 +39,7 @@ Like Andrew Pekler, this is the sort of chilled lounge music you’d expect to h
 
 **If you like Gotan Project…** you should also check out <a href="http://www.amazon.co.uk/gp/product/B000050LQ5/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000050LQ5&linkCode=as2&tag=zarsblo05-21&linkId=KRO5TAYNAPV5QW45">Libertango</a> by Astor Piazzolla, and <a href="http://www.amazon.co.uk/gp/product/B001L8RY72/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001L8RY72&linkCode=as2&tag=zarsblo05-21&linkId=XZDAESFN7SBG5ZWO">Ballroom Stories</a> by Austrian trip-hopper Waldeck.
 
-![Hidden Orchestra](/media/hidden-orchestra.jpg)
+{% img "Hidden Orchestra" "/media/hidden-orchestra.jpg" %}
 
 ## Hidden Orchestra <small>Immersive, mind-blowing jazz</small>
 
@@ -55,7 +55,7 @@ Bits of it (like the opening horns in Archipelago’s *[Overture](http://youtu.b
 
 **If you like Hidden Orchestra…** check out The Cinematic Orchestra (<a href="http://www.amazon.co.uk/gp/product/B005278Z4Y/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005278Z4Y&linkCode=as2&tag=zarsblo05-21&linkId=GFU6WL5OAZDTJLQ2">Ma Fleur</a> is a good introductory album). And if you like *them*, try Patrick Watson’s <a href="http://www.amazon.co.uk/gp/product/B0051VW1A0/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0051VW1A0&linkCode=as2&tag=zarsblo05-21&linkId=2KQ2N67HAP2HRKFT">Close to Paradise</a> and <a href="http://www.amazon.co.uk/gp/product/B007TN4KJI/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007TN4KJI&linkCode=as2&tag=zarsblo05-21&linkId=IXGF5SNOUU7NVM7U">Adventures In Your Own Back Yard</a>.
 
-![Sigur Rós](/media/sigur-ros.jpg)
+{% img "Sigur Rós" "/media/sigur-ros.jpg" %}
 
 ## Sigur Rós <small>Ethereal, minimalist, bizarre</small>
 
@@ -67,7 +67,7 @@ Compared to Hidden Orchestra, Sigur Rós feels like airy, ridiculous fluff. Gone
 
 **If you like Sigur Rós…** Try <a href="http://www.amazon.co.uk/gp/product/B002N9YJ2Q/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002N9YJ2Q&linkCode=as2&tag=zarsblo05-21&linkId=73FDDVM24CYIWB45">Amiina</a>, <a href="http://www.amazon.co.uk/Explosions-in-the-Sky/e/B000AQTQ04/?_encoding=UTF8&camp=1634&creative=19450&linkCode=ur2&sn=d&tag=zarsblo05-21&linkId=I7NBUHMIHGWUEOGR">Explosions in the Sky</a>, and <a href="http://www.amazon.co.uk/gp/product/B00BNW13GE/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BNW13GE&linkCode=as2&tag=zarsblo05-21&linkId=IOUK7YWAVHMYA2IR">Múm</a>.
 
-![Explosions In The Sky](/media/explosions-in-the-sky.jpg)
+{% img "Explosions In The Sky" "/media/explosions-in-the-sky.jpg" %}
 
 ## Explosions in the Sky <small>It’s all about the climax</small>
 
@@ -79,7 +79,7 @@ As with most post-rock, we get nice long tracks here, with lots of time taken to
 
 **If you like Explosions in the Sky…** make sure to check out <a href="http://www.amazon.co.uk/gp/product/B000RG13VC/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000RG13VC&linkCode=as2&tag=zarsblo05-21&linkId=ZRV3RJ6IZBSYFZEU">Enchanted Hill</a> and <a href="http://www.amazon.co.uk/gp/product/B002NAZXC0/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002NAZXC0&linkCode=as2&tag=zarsblo05-21&linkId=XQIKKNBTGDTRF7EN">In A Safe Place</a> by The Album Leaf, and <a href="http://www.amazon.co.uk/gp/product/B001JVHH5K/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001JVHH5K&linkCode=as2&tag=zarsblo05-21&linkId=7PH3XMK67OVAIZP5">A Data Learn the Language</a> and <a href="http://www.amazon.co.uk/gp/product/B002STRAVI/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002STRAVI&linkCode=as2&tag=zarsblo05-21&linkId=FJIA6546Q2CFZRUD">Chez Viking</a> by The Mercury Program. Bits of 65daysofstatic (like *[Radio Protector](http://youtu.be/CpEILvXQaZM)* and *[Drove Through Ghosts To Get Here](http://youtu.be/0tpT9dS4t1A)*) are also really similar.
 
-![Andrew Pekler](/media/andrew-pekler.jpg)
+{% img "Andrew Pekler" "/media/andrew-pekler.jpg" %}
 
 ## Andrew Pekler <small>Broken little fragments of electro jazz</small>
 
@@ -89,7 +89,7 @@ As I said above, I always feel like this is the sort of low-fi electronic lounge
 
 **Where to start:** Andrew Pekler’s one of the newest additions to my library, so I don’t have many recommendations to give. I started with <a href="http://www.amazon.co.uk/gp/product/B0000AL2YV/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0000AL2YV&linkCode=as2&tag=zarsblo05-21&linkId=HZFPXVWQYNYMT5X6">Station to Station</a> and <a href="http://www.amazon.co.uk/gp/product/B00035WEG0/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00035WEG0&linkCode=as2&tag=zarsblo05-21&linkId=3HQWAQ5J42ELBAGU">Nocturnes, False Dawns, Breakdowns</a>.
 
-![Jan Jelinek](/media/jan-jelinek-gramm.jpg)
+{% img "Jan Jelinek" "/media/jan-jelinek-gramm.jpg" %}
 
 ## Jan Jelinek / Gramm <small>Like you’re living in a computer</small>
 
@@ -101,7 +101,7 @@ The music sort of washes over you, and recedes into the background, making it pe
 
 **If you like Jan Jelinek…** then read on, because you’ll love Vladislav Delay and Jon Hopkins.
 
-![Sasu Ripatti / Vladislav Delay](/media/sasu-ripatti-vladislav-delay.jpg)
+{% img "Sasu Ripatti / Vladislav Delay" "/media/sasu-ripatti-vladislav-delay.jpg" %}
 
 ## Sasu Ripatti / Vladislav Delay <small>Ambient / glitch / techno</small>
 
@@ -111,7 +111,7 @@ Syncopated, semi-random bass lines and percussion give everything a sort of out-
 
 **Where to start:** This is the sort of music you just put on in the background, and no matter where you start or stop listening, you’ll still get the same effect. As far as I can tell, no one track is better or worse than any other. I found <a href="http://www.amazon.co.uk/gp/product/B001G123SY/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001G123SY&linkCode=as2&tag=zarsblo05-21&linkId=LY6E2TY2WG2JS5VF">Multila</a> a slightly more friendly introduction to his style than <a href="http://www.amazon.co.uk/gp/product/B009XUIK0K/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009XUIK0K&linkCode=as2&tag=zarsblo05-21&linkId=EJGG54ONPZPN6ICC">Kuopio</a> which was just a little too close to having a rave going on inside my head.
 
-![Jon Hopkins](/media/jon-hopkins.jpg)
+{% img "Jon Hopkins" "/media/jon-hopkins.jpg" %}
 
 ## Jon Hopkins <small>From excitement, to anxiety, to beauty</small>
 
@@ -123,7 +123,7 @@ His newest album, <a href="http://www.amazon.co.uk/gp/product/B00D2DEGVG/ref=as_
 
 **Where to start:** *[Open Eye Signal](http://youtu.be/Q04ILDXe3QE)*, on the album <a href="http://www.amazon.co.uk/gp/product/B00D2DEGVG/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00D2DEGVG&linkCode=as2&tag=zarsblo05-21&linkId=S7CHT23QSZTYHTXE">Immunity</a>, is a good introduction to the modern Jon Hopkins. Relentless rhythm and pace. With a good set of speakers or headphones, the bass goes right through you.
 
-![Tron Legacy Reconfigured](/media/tron-legacy-reconfigured.jpg)
+{% img "Tron Legacy Reconfigured" "/media/tron-legacy-reconfigured.jpg" %}
 
 ## Daft Punk: TRON Legacy R3CONF1GUR3D
 
@@ -135,7 +135,7 @@ As you’d expect from an album originally meant to be a dancefloor counterpart 
 
 **Where to start:** Well, this is only one album, so start at the beginning and work your way through! If you like the sound of a track, look up the artist who mixed it – that’s how I found out about the Glitch Mob…
 
-![The Glitch Mob](/media/the-glitch-mob.jpg)
+{% img "The Glitch Mob" "/media/the-glitch-mob.jpg" %}
 
 ## The Glitch Mob <small>Turn it up to eleven</small>
 

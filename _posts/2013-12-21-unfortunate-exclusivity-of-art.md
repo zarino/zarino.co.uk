@@ -19,7 +19,7 @@ I watched Brideshead Revisited a few days ago. A pretty uninspiring movie, but t
 
 Charles, at this point in the story, couldn’t care less about modern art. He dances—a pale teenage girl draped limply in his arms—with his eyes sternly fixed on his childhood lover, Sebastian, who is rapidly hurtling towards oblivion under an unholy trinity of vices: sexuality, religion, and guilt.
 
-![Charles dances with Cordelia in Brideshead Revisited](/media/brideshead-revisited.jpg)
+{% img "Charles dances with Cordelia in Brideshead Revisited" "/media/brideshead-revisited.jpg" %}
 
 But it’s a question I’ve heard (and asked!) many times. Most often when faced with piece of Kandinsky, Pollock, or Emin – or something one of my Goldsmiths colleagues might have knocked up.
 
@@ -33,7 +33,7 @@ But every now and then, there’s a useful little summary next to a painting, an
 
 Earlier this year, when I visited the [Lady Lever art gallery](http://www.liverpoolmuseums.org.uk/ladylever) in Port Sunlight, this painting by John William Waterhouse grabbed my attention:
 
-[![The Enchanted Garden by John William Waterhouse, 1916](/media/enchanted-garden.jpg)](http://www.bbc.co.uk/arts/yourpaintings/paintings/the-enchanted-garden-102703)
+[{% img "The Enchanted Garden by John William Waterhouse, 1916" "/media/enchanted-garden.jpg" %}](http://www.bbc.co.uk/arts/yourpaintings/paintings/the-enchanted-garden-102703)
 
 I think it was the woman’s gaze that caught me at first. Who is she, and who’s she with? Is that a look of contentment, confusion, or sadness? She’s in a garden, but she’s not smelling the flowers. She’s not even looking at them. And why, when you look closely, is it snowing outside to the left of this *summer* garden?
 
@@ -41,7 +41,7 @@ A nearby plaque fills in the gaps: the woman, Dianora, had been vigorously pursu
 
 The Lady Lever curators have been very clever here, though, for this isn’t the whole story. Dianora is a tale within a tale, and to the right hangs a similar painting, by the same artist, titled “The Decameron”:
 
-[![The Decameron by John Willian Waterhouse, 1916](/media/decameron.jpg)](http://www.bbc.co.uk/arts/yourpaintings/paintings/the-decameron-117871)
+[{% img "The Decameron by John Willian Waterhouse, 1916" "/media/decameron.jpg" %}](http://www.bbc.co.uk/arts/yourpaintings/paintings/the-decameron-117871)
 
 The Decameron, we’re told by another plaque on the wall, was a  14th Century book containing 100 tales told by a group of young men and women sheltering in a Florentian villa from the Black Death. Ten young people, telling one story each over a period of ten days. Wikipedia calls it a “[masterpiece of classical early Italian prose](http://en.wikipedia.org/wiki/The_Decameron)”, supposedly, that went on to inspire Chaucer, Shakespeare and Edgar Allen Poe, amongst others.
 

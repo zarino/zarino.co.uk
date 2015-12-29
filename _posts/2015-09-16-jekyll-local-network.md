@@ -10,7 +10,7 @@ related:
 
 [Jekyll](http://jekyllrb.com) is a simple framework for generating static websites and blogs. Static websites are all the rage these days because they load *way* faster than dynamically generated sites (eg: sites built on WordPress or Rails) and they can be hosted *entirely for free* at places like [GitHub Pages](https://pages.github.com).
 
-![Jekyll and Hyde](/media/jekyll-hyde.jpg)
+{% img "Jekyll and Hyde" "/media/jekyll-hyde.jpg" %}
 
 When you’re developing your Jekyll site, you can test it out locally using Jekyll’s built-in server:
 
@@ -37,7 +37,7 @@ Even if you substitute in your Mac’s Bonjour name (like `zarinos-mac.local`) o
 
 That’s because, even though the web request *is* being routed to the device with the address `192.168.0.2` or whatever, the Jekyll command line server only responds to requests for `127.0.0.1` so it doesn't grace your iPad with a reply, and you get an error like **“Safari cannot open the page because it could not connect to the server”**.
 
-![Dr Jekyll says: Cripes old fellow, what a MONSTROUS predicament](/media/jekyll-monstrous-predicament.jpg)
+{% img "Dr Jekyll says: Cripes old fellow, what a MONSTROUS predicament" "/media/jekyll-monstrous-predicament.jpg" %}
 
 ## Solution: Tell Jekyll which hostname to respond to
 
@@ -61,7 +61,7 @@ Now, when other devices send HTTP requests to your local IP address (like `192.1
 
 And because `0.0.0.0` also catches `127.0.0.1`, Jekyll will *also* still respond to requests for `127.0.0.1` or `localhost`, like normal. So you get the best of both worlds.
 
-![Mr Hyde growls: Hey babe, fancy some cross-browser testing?](/media/jekyll-hyde-cross-browser.jpg)
+{% img "Mr Hyde growls: Hey babe, fancy some cross-browser testing?" "/media/jekyll-hyde-cross-browser.jpg" %}
 
 Even if you *don’t* need to test your sites on hardware devices like phones and tablets, this trick works exactly the same for virtual machines – like [the ones Microsoft provides](https://github.com/xdissent/ievms) to run old browsers like IE7, 8, and 9 in a virtual version of Windows XP.
 

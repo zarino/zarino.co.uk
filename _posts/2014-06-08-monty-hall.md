@@ -9,19 +9,19 @@ related:
   - /post/whats-in-a-checkbox/
 ---
 
-![Monty Hall](/media/monty-hall.jpg)
+{% img "Monty Hall" "/media/monty-hall.jpg" %}
 
 There's a famous probability puzzle called the [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem). It is based on an [American TV show](https://en.wikipedia.org/wiki/Let's_Make_a_Deal) where the host, Monty Hall, reveals three doors – one hiding a car, and the other two hiding booby prizes (goats). Monty lets contestants pick one of the three doors, then opens one of the other doors (to reveal a goat), and often then lets the contestant switch their initial choice.
 
 The question is: given the choice, should you switch?
 
-![Monty Hall reveals the three doors on “Let’s make a deal”](/media/monty-hall-doors.jpg)
+{% img "Monty Hall reveals the three doors on “Let’s make a deal”" "/media/monty-hall-doors.jpg" %}
 
 Almost everybody says “no, it makes no difference – it’s now a decision between two doors, one has a goat, one has a car, so it’s 50/50. I may as well stick with my initial choice, because, if I don’t, I’ll kick myself.”
 
 But this isn’t entirely true. If you play the game out again and again, switching will win you the car 66% of the time, whereas sticking with your initial choice will win the car only 33% of the time. It seems completely counter-intuitive, but the answer is: Yes, you should switch.
 
-![A goat is revealed on “Let’s make a deal”](/media/monty-hall-goat.jpg)
+{% img "A goat is revealed on “Let’s make a deal”" "/media/monty-hall-goat.jpg" %}
 
 I first heard about this problem last Summer, at [ScraperWiki](http://scraperwiki.com). And despite being in a room packed with mathematicians, scientists and PhDs—and despite [Morty](https://twitter.com/morty_uk)’s efforts to make the puzzle more approachable by replacing the doors with boxes of cupcakes—I still didn’t get what was going on. The voice in my head was saying exactly what I’ve said above: “It’s now a decision between two doors, one has a goat, one a car, so the chances are 50/50.”
 
@@ -42,4 +42,4 @@ Then, a few days ago, I heard an explanation that cuts the crap and finally make
 
 There. Simple. I don’t know why, but that just makes sense to me, in a way no other explanation does. So I’m putting it on the Internet, in case anybody else comes looking, as I did.
 
-![By jove, I think he’s GOAT it](/media/goat-it.jpg)
+{% img "By jove, I think he’s GOAT it" "/media/goat-it.jpg" %}

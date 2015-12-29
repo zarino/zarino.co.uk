@@ -48,4 +48,4 @@ The whole script took me about an hour to write – but it’ll only take you te
 
 Combined with `brew install homebrew/php/php56` and `brew install mysql`, you can basically outsource all the customary headaches of getting a local MAMP server running on a new Mac, without ever leaving your terminal.
 
-![Micropache](/media/micropache.png)
+{% img "Micropache" "/media/micropache.png" %}

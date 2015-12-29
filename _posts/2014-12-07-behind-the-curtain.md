@@ -13,27 +13,27 @@ Growing up I was always a Star Wars kid. But this year, after exhausting pretty 
 
 It’s a good series (if you’re short on time, [Kevin Wu’s Graph TV](http://graphtv.kevinformatics.com/tt0092455) will, as ever, tell you which episodes you can skip). But one thing that always annoyed me was how little you see of the people in the background.
 
-![Schematic of the Enterprise D](/media/star-trek-schematic.gif)
+{% img "Schematic of the Enterprise D" "/media/star-trek-schematic.gif" %}
 
 There are 1014 people on the Enterprise D. But how many do we see in the typical episode? Picard, Riker, Troi, Worf, La Forge, Data, and Crusher. Every now and then Guinan or Wes Crusher might pop up, but basically that’s it – A crew of 1000, and 99% of the action appears to happen to just 7 people.
 
-![The main cast of Star Trek: The Next Generation](/media/star-trek-tng-cast.jpg)
+{% img "The main cast of Star Trek: The Next Generation" "/media/star-trek-tng-cast.jpg" %}
 
 That is, until episode #176: *[Lower Decks](http://www.imdb.com/title/tt0708745/)*.
 
 Halfway through a thoroughly dull 7th season, *Lower Decks* bucks the trend by following a group of ensigns, rather than the main officers we normally get to see. And it’s fascinating.
 
-![The four ensigns chat in Ten Forward](/media/star-trek-ensigns.jpg)
+{% img "The four ensigns chat in Ten Forward" "/media/star-trek-ensigns.jpg" %}
 
 Nurse Ogawa (who has featured as an extra in Beverley Crusher’s sickbay for a few seasons already) is worried her boyfriend has gone cold on her, because all he does is worry about his research. The stereotypically good-looking Ensign Lavelle awkwardly attempts to boost his chances of promotion by ingratiating himself with Commander Riker, who’s clearly thinking “Who the fuck is this guy?” Meanwhile, Lavelle’s academic rival, Ensign Sito Jaxa, fumbles with phaser alignments and has a harsh dressing-down by the Captain, bringing back everyone’s memories of the Headmaster’s office at school (or maybe that’s just me?).
 
-![Ensign Lavelle ingratiates himself with Commander Riker](/media/star-trek-lavelle.jpg)
+{% img "Ensign Lavelle ingratiates himself with Commander Riker" "/media/star-trek-lavelle.jpg" %}
 
 The episode has some of the feel of a much more modern show like *Battlestar Galactica* – because when you focus on the little guys, away from the laser battles and the orders from Starfleet HQ, you get to showcase proper interpersonal relationships.
 
 The moment where Captain Picard appears, without notice, from his ready-room, orders a change of heading, and then exits with *all of the senior officers*, leaving a handful of quivering Ensigns in charge of the bridge, is fantastic. Usually, by this point, the camera would already have switched to the observation lounge, to follow the senior officers’ discussion. But not this time. This time we linger on the bridge, and see what the underlings gossip about when the officers are away. And it’s brilliant.
 
-![Lavelle and Sito Jaxa left at the helm](/media/star-trek-lavelle-sito.jpg)
+{% img "Lavelle and Sito Jaxa left at the helm" "/media/star-trek-lavelle-sito.jpg" %}
 
 The theme of focussing on the little guys isn’t unique to *Lower Decks*. Tom Stoppard’s 1966 play, *Rosencrantz and Guildenstern Are Dead* which focusses entirely on two minor characters from *Hamlet* did the same thing thirty years earlier. But the episode’s so well known in TV circles, that it’s even the basis of its own TV trope: [The “Lower Deck Episode.”](http://tvtropes.org/pmwiki/pmwiki.php/Main/LowerDeckEpisode)
 

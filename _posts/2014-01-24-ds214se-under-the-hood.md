@@ -14,7 +14,7 @@ It’s aimed at the pro-sumer market: people who don’t mind installing a hard 
 
 Geeks, however, will quickly notice that the DS214se’s shiny white exterior and polished web interface hide what is essentially, under the hood, a tiny Linux PC. And if you’re so inclined, enabling SSH access and installing custom programs can open up entirely new possibilities for this modest, network-connected box.
 
-![My Mac's terminal connected to the Synology DS214se via SSH](/media/synology-ssh-session.jpg)
+{% img "My Mac's terminal connected to the Synology DS214se via SSH" "/media/synology-ssh-session.jpg" %}
 
 ## Let's get this party started
 
@@ -24,7 +24,7 @@ If you know your DiskStation’s IP address (in my case, <http://192.168.0.6:500
 
 Log in with your admin username and password, then open up  **Control Panel > Terminal** and tick the **“Enable SSH service”** checkbox. Click **OK** and you’re done!
 
-![Enable SSH access in the Terminal control panel](/media/synology-terminal-control-panel.png)
+{% img "Enable SSH access in the Terminal control panel" "/media/synology-terminal-control-panel.png" %}
 
 Now, in a local Terminal window,[^1] type in `ssh root@192.168.0.6`, where `192.168.0.6` is the IP of your DiskStation. Press Enter, and you'll be asked for a password. Type in the same admin password you normally use to get into the DSM web interface, and press Enter again.
 
@@ -105,7 +105,7 @@ vi .ssh/authorized_keys
 
 An empty document will open up in our old friend, vi. You need to paste your Mac’s SSH key in here.[^3] Go grab it by opening up a new Terminal window, and typing `cat ~/.ssh/id_rsa.pub | pbcopy`. Then go back to your original window, press `i` to enter editing mode (this is **really important**) and then just paste. The screen should look something like this:
 
-![Editing the authorized_keys file on your Synology NAS](/media/synology-authorized-keys.png)
+{% img "Editing the authorized_keys file on your Synology NAS" "/media/synology-authorized-keys.png" %}
 
 Press the Escape key, then `:wq` to save and close. Finally type `/usr/syno/sbin/synoservice --restart ssh` (or `synoservicectl --reload sshd` if you’re on version 5 of the DSM operating system) to apply the changes and restart the DiskStation’s SSH service. You’ll be automatically kicked out, but when you next try to log in with `ssh diskstation`, you won’t be asked for a password. Score!
 
@@ -158,7 +158,7 @@ chmod 755 rc.optware
 
 And you’re done. You’ll now be able to install packages using the `ipkg` command.
 
-![ipkg package manager running on a Synology DS214se](/media/synology-ipkg.png)
+{% img "ipkg package manager running on a Synology DS214se" "/media/synology-ipkg.png" %}
 
 Since it’s a new install, you’ll want to run `ipkg update` to populate ipkg’s list of available programs. Then you can run `ipkg list` to see those programs, or you can find a specific package with `ipkg search`.
 

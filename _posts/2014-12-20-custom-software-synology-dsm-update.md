@@ -20,7 +20,7 @@ So I headed over to [my blog post on the subject](/post/ds214se-under-the-hood),
 
 I found out that `ipkg` installs its software in the `/opt/bin` directory, and sure enough, `/opt/bin` was there. But when I printed out the `$PATH` (the list of places my SSH user account expects to find programs to run), `/opt/bin` wasn’t there.
 
-![Custom programs installed in /opt/bin but not accessible on the $PATH](/media/synology-opt-bin-screen.png)
+{% img "Custom programs installed in /opt/bin but not accessible on the $PATH" "/media/synology-opt-bin-screen.png" %}
 
 It looks like the DSM update just overwrote the `~/.profile` file that adds `/opt/bin` to the `$PATH`. To get my programs running again, I just needed to add it back again.
 

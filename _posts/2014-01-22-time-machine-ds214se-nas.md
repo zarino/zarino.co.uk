@@ -22,33 +22,33 @@ So, assuming you’re following on from my [previous article about setting up a 
 
 Our DiskStation’s brand new, so it doesn’t have any shared folders yet. Open the “Shared Folders” control panel, and click the “Create” button. Name your new shared folder “backup” and click “OK”. Simple as that!
 
-![Setting up a shared folder in Synology DSM](/media/synology-shared-folder.png)
+{% img "Setting up a shared folder in Synology DSM" "/media/synology-shared-folder.png" %}
 
 DSM will ask which users should have permission to access the new shared folder. If you’re a security nut, you can just click “OK” without ticking anything, and allow access to users later as required. But most people, to keep it simple, will want to tick the “Read/Write” checkbox for the “admin” user.
 
 Next, head over to the “Win/Mac/NFS” control panel, click the “Mac File Service” tab, and make sure that “Enable Mac file service” is ticked and “Time Machine:” is set to our new “backup” shared folder. Click “Apply” and then “Yes” to the ridiculous warning about restarting network service.
 
-![Enabling Mac Time Machine support in Synology DSM](/media/synology-time-machine-on.png)
+{% img "Enabling Mac Time Machine support in Synology DSM" "/media/synology-time-machine-on.png" %}
 
 While we could let Time Machine use the default admin user, it’s better practice to create a new user specifically for Time Machine. Creating a new user also means we can enforce a storage space quota, which will stop Time Machine from filling up our entire DS214se disk, leaving room for other files or manual backups.
 
 Go back to the main Control Panel screen, and click “User”. Click the “Create” button and pick a name and password.
 
-![Setting up a new user for Time Machine](/media/synology-new-user.png)
+{% img "Setting up a new user for Time Machine" "/media/synology-new-user.png" %}
 
 Click “Next” twice, until you see the shared folders screen. Tick “Read/Write” for the backup folder, and then “Next” again.
 
-![Give the new user read/write access to the shared folder we created earlier](/media/synology-user-privilleges.png)
+{% img "Give the new user read/write access to the shared folder we created earlier" "/media/synology-user-privilleges.png" %}
 
 Finally, set up a quota for your Time Machine backups. Generally, Time Machine drives should be 2–3 times the size of your Mac’s hard drive or SSD. In my case, my MacBook Air has a 256GB SSD, and I’ve got 1.79TB of usable backup space (automatically mirrored, of course, onto the DS214’s second internal 2TB drive for extra safety). I want 1TB of space for backing up files on my portable USB drive, so that leaves 0.79TB to be used by Time Machine. Which is perfect, because it’s just a little more than 3 times the size of my Mac’s SSD, giving Time Machine plenty of room to store older files.
 
 Tick the “Enable Quota” checkbox and enter a quota size (in gigabytes). Then click “Next”, “Next”, “Next” and “Apply”.
 
-![Setting a quota for Time Machine backups to use in Synology DSM](/media/synology-time-machine-quota.png)
+{% img "Setting a quota for Time Machine backups to use in Synology DSM" "/media/synology-time-machine-quota.png" %}
 
 Congratulations! You’ve set up Time Machine on your Synology DiskStation. If you open **System Preferences > Time Machine** on your Mac, then click “Select Disk”, you’ll be able to see your new “backup” drive in the list of available drives. Select it, and enter the username and password you picked above. And everything will just work magically. The first backup can be a bit slow: in my case, backing up about 220GB of data took around 9 hours.
 
-![Selecting your shared Synology drive in Time Machine preferences](/media/synology-time-machine-finished.png)
+{% img "Selecting your shared Synology drive in Time Machine preferences" "/media/synology-time-machine-finished.png" %}
 
 If, however, you have existing Time Machine backups you’d like to re-use, then leave System Preferences for a bit and read on…
 
@@ -62,27 +62,27 @@ In our case, however, the process is a little more complicated than simply dragg
 
 First, connect to your DiskStation by clicking on your Mac Desktop and pressing ⌘-K (or selecting “Connect to Server” from the Finder’s “Go” menu). Type in your DiskStation’s IP address (in my case, **afp://192.168.0.6**) and the “timemachine” user name and password you set up earlier.
 
-![Connecting to your Synology backup drive using the Mac Finder](/media/synology-afp.png)
+{% img "Connecting to your Synology backup drive using the Mac Finder" "/media/synology-afp.png" %}
 
 A new window will open up, showing a completely empty drive called “backup”. Keep this window open in the background.
 
 Meanwhile, open up **System Preferences > Time Machine**, click “Select Disk”, and pick your “backup” drive from the list. Enter the same user name and password again, and click “Connect”. System Preferences will wait two minutes before starting a backup. (The impatient reader might want to click the Time Machine icon in their Mac’s menu bar and select “Back up now”, to speed the process along).
 
-![Selecting your shared Synology drive in Time Machine preferences](/media/synology-time-machine-finished.png)
+{% img "Selecting your shared Synology drive in Time Machine preferences" "/media/synology-time-machine-finished.png" %}
 
 Once System Preferences starts “preparing” the disk, keep an eye on the Finder window you had open in the background. After a few seconds, a new file will appear in the backup drive, ending in “.sparsebundle” – once you see that, you can click the little grey cross next to the progress bar in the Time Machine preferences window, to cancel the backup. We’ve got what we wanted: a Time-Machine-approved sparsebundle.
 
-![Time Machine creates a sparsebundle file on our network drive](/media/synology-sparsebundle.png)
+{% img "Time Machine creates a sparsebundle file on our network drive" "/media/synology-sparsebundle.png" %}
 
 Wait for the Time Machine cancellation to finish (this might take a few minutes), then turn Time Machine **off**, and double-click the sparsebundle file on your backup drive. A new drive will mount on your Mac, called “Time Machine Backups”. It even has a new, empty little “backups.backupdb” inside it!
 
-![Inside the Time Machine sparsebundle](/media/synology-inside-the-sparsebundle.png)
+{% img "Inside the Time Machine sparsebundle" "/media/synology-inside-the-sparsebundle.png" %}
 
 While your Mac’s pre-installed Disk Utility app can “restore” the contents of one disk onto another, it doesn’t give you very much feedback on its progress. Instead, I used [SuperDuper!](http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html), which is available for free. Go download it, then open it up.
 
 Select your existing Time Machine drive in the first dropdown menu, and the new “Time Machine Backups” drive in the second. Make sure that the cloning method is set to “Backup - all files” and click “Copy Now”.
 
-![Cloning an existing Time Machine backup to a Synology drive using SuperDuper!](/media/synology-superduper.png)
+{% img "Cloning an existing Time Machine backup to a Synology drive using SuperDuper!" "/media/synology-superduper.png" %}
 
 SuperDuper! gives you loads of feedback on what it’s up to. It won’t take long for you to realise this is a *slooooooow* process. Like, 7GB-an-hour sort of slow. So make sure to set it off at a time when you know you won’t need to uplug either your Mac or the DS214se.[^1]
 

@@ -20,7 +20,7 @@ It’s not just about governments, though. Decentralisation of the web has far-r
 
 And Tim’s right that there are, even now, a modest army of geeks – like the guys behind and featured in [redecentralize.org](http://redecentralize.org) – that are pushing back on the tide of closed, surveilled and inefficient web technologies, for everyone's benefit.
 
-![Satya Nadella, Microsoft’s new CEO](/media/satya-nadella.jpg)
+{% img "Satya Nadella, Microsoft’s new CEO" "/media/satya-nadella.jpg" %}
 
 But is there an opening here for Microsoft?
 

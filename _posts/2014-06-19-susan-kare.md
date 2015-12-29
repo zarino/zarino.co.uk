@@ -13,7 +13,7 @@ related:
 
 We were in Oslo, on the second day of a two-week cruise. We’d done most of [Bygdøy](https://en.wikipedia.org/wiki/Bygd%C3%B8y)—or “Museum Island”—and were wending our way down the slope to the [Viking Ship Museum](https://en.wikipedia.org/wiki/Viking_Ship_Museum_in_Oslo). And I noticed, by the side of the road, a Place of Interest sign. But, being Norway, this wasn’t just any Place of Interest sign. It was a Command sign:
 
-![Oslo Place of Interest sign](/media/oslo-place-of-interest-sign.jpg)
+{% img "Oslo Place of Interest sign" "/media/oslo-place-of-interest-sign.jpg" %}
 
 I‘ve long known the story behind that symbol, and why it’s (*still*) on every Mac keyboard. But I figured maybe not everybody does. So, here’s a 20 minute video of Susan Kare, inventor of the Mac ⌘ symbol, talking about the icon’s history, as well as the work she went on to do after Apple, at Microsoft, Facebook, and Swatch.
 

@@ -10,7 +10,7 @@ related:
 
 As [previously written](/post/backup-your-shit), I’m the brand new owner of a Synology DS214se DiskStation (basically, an entry-level, 2-disk, network-attached RAID, with lots of added cloudy/streamy features built in).
 
-![Synology DS214se](/media/ds214se.jpg)
+{% img "Synology DS214se" "/media/ds214se.jpg" %}
 
 When I was shopping around for the DS214se, I was struck by a lack of “how to” articles describing the setup process. While Synology’s done their best to keep the DiskStation line as consumer-friendly as possible, I’d imagine the whole thing is still beyond most casual computer users. Which is a real shame, because a cheap and sturdy RAID/NAS is *exactly* what any house with more than one computer should have.
 
@@ -26,7 +26,7 @@ You’ll also need a small (size #1?) phillips head screwdriver.
 
 Get everything out, open up the DS214se as suggested in the little booklet (of which [a more in-depth version is available here](http://ukdl.synology.com/download/Document/QIG/DiskStation/14-year/DS214se/Syno_QIG_2bay2_enu.pdf), should you find the IKEA-esque diagrams confusing) and fit the two drives using the aforementioned screwdriver. Close the case, and plug the DS214se into your router and then the power.
 
-![Installing two 3.5-inch drives into the Synology DS214se](/media/synology-install-hardware.jpg)
+{% img "Installing two 3.5-inch drives into the Synology DS214se" "/media/synology-install-hardware.jpg" %}
 
 Note: The supplied Ethernet cable is approximately 100cm long. The power cable comes in two parts: a 60cm kettle plug and cable, and a 90cm powerbrick and extension that goes into the back of the DS. Finding a suitable position for the DS, 150cm from a power socket and 100cm from your router, is probably the hardest part of this whole setup procedure.
 
@@ -36,17 +36,17 @@ Once you plug everything in, and turn the DS on, lights will start flashing on t
 
 Unlike normal circumstances, where blinking orange means something bad™ has happened, when your DS is new, an orange “Status” light is perfectly fine. Just head on over to <http://find.synology.com> which will somehow magically detect your DS and begin the setup guide.
 
-![Setting up your Synology DiskStation](/media/synology-setup-1.png)
+{% img "Setting up your Synology DiskStation" "/media/synology-setup-1.png" %}
 
 ## Software set-up
 
 Synology’s really honed this setup process, and it involves little more than clicking the “Next” arrow four times in a row. Your DS214se will reformat the two hard drives you just installed, and then download the latest software from synology.com, before asking for an admin user account password. [Choose wisely.](http://www.quickmeme.com/img/26/26bd8dc6936cc028c5ef0997b3da88e3cac8106d070a64380477fd5df9d5e867.jpg)
 
-![Synology DiskStation installs itself](/media/synology-setup-2.png)
+{% img "Synology DiskStation installs itself" "/media/synology-setup-2.png" %}
 
 Once its all done, you’re shown the login panel for what Synology calls “DSM” – the DiskStation Manager. Log in with the admin username and password you just chose, and you’ll be greeted by what looks at first glance like a slightly messy Windows 7 desktop. Yes, this whole thing is running in your browser, and yes, it’s the admin interface for your DS214se. Bonkers, I know.
 
-![Synology DSM interface](/media/synology-dsm.png)
+{% img "Synology DSM interface" "/media/synology-dsm.png" %}
 
 Anyway, DSM helpfully tells you it’s checking the consistency of your new disks – hence the mellow crunching sound and blinking “Disk” lights you might have noticed coming from your DS213se. Not to worry, you can still poke around. Ignore the weirdly interactive “Quick Start Wizard” – it’s just information overload, and you don’t need to do any of the stuff it suggests.
 
@@ -56,7 +56,7 @@ Being a geek, the first thing I did was open up the Control Panel. If you don’
 
 Now, with the setup done, it’s time to wait for the “parity consistency check” to finish. In my case, it took exactly 7 hours.
 
-![Synology Consistency Check](/media/synology-consistency-check.png)
+{% img "Synology Consistency Check" "/media/synology-consistency-check.png" %}
 
 ## Next steps
 

@@ -23,7 +23,7 @@ Let’s look carefully at what we’ve got. A (probably flat) multi-touch displa
 
 Pause the video there. If this were your mate’s car, and you’d just got into it for the first time, would you know how to switch from the USB player to the Radio?
 
-![New iPad UI by Matthaeus Krenn](/media/ipad-ui-matthaeus.png)
+{% img "New iPad UI by Matthaeus Krenn" "/media/ipad-ui-matthaeus.png" %}
 
 Maybe if you didn’t know, you might guess. It might take me a little while, but I’d eventually guess that “MODE” means “audio source”, and I’d tap the “MODE” button with one finger.
 
@@ -35,7 +35,7 @@ I’ve seen simpler puzzle interfaces in [Myst](https://en.wikipedia.org/wiki/My
 
 [^1]: I once spent the spare afternoons during my MSc volunteering at the local Age UK branch, giving computing tutorials to over-60s. A few of them were particularly perplexed by the mouse, and it was only then that I realised this input device, which I picked up at about 5 years old, is completely bonkers. Your hand moves on one plane, the cursor another. There are two buttons, which do completely different things, but there’s no indication which does which. And then you run out of desk. It was a sobering experience, and one I highly recommend to any other young designers out there.
 
-![Segmented buttons in a car user interface](/media/ipad-ui-straw-man.png)
+{% img "Segmented buttons in a car user interface" "/media/ipad-ui-straw-man.png" %}
 
 Back to the video: You press a number of fingers up against the screen, and a blue circle surrounds them. A line is drawn from the centre of the circle to the left edge of the screen, and a tiny number is placed at its furthest end. The number is replicated in large type, in the top left of the screen.
 
@@ -71,7 +71,7 @@ Despite these issues, Matthaeus’ concept video is probably an improvement over
 
 **Voice control.** Different, but not mutually exclusive, is the growing trend in voice-controlled interfaces. If we had a human sitting in our car, and we wanted them to raise the temperature, we’d just talk to them, like we did to elevator assistants in the 1920s. We wouldn’t stroke them with two, three or four fingers. We’d just talk. Arguably speech interfaces are just as poorly discoverable as multi-touch ones. But the limit is on the receiver’s intelligence. Maybe it’s just because I watched *Her* last week, but I’m convinced that recent advances in linguistic parsing like Siri and Watson will bring us computers that literally understand what we’re saying, providing us with a zero-hassle control interface. No secret commands, no looking away from the road, and no undocumented claw gestures. Just natural speech.
 
-![Her](/media/her-skyscrapers.jpg)
+{% img "Her" "/media/her-skyscrapers.jpg" %}
 
 ## Enough about cars; what’s the real issue?
 

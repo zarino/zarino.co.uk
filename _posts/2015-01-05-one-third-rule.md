@@ -13,7 +13,7 @@ When you think about it, books are awesome. They are distilled, flattened, struc
 
 Book<em>shops</em>, too, are awesome. You can go into a bookshop on a rainy day, sit down on a comfy seat, and thumb through words and pictures from the best minds in human history – or the funniest comedians – or the best cooks.
 
-![Waterstones, by Paolo Margari CC-BY-ND](/media/waterstones-shelf.jpg)
+{% img "Waterstones, by Paolo Margari CC-BY-ND" "/media/waterstones-shelf.jpg" %}
 
 Incidentally, I still have no idea how long you can politely sit in a bookshop, reading all their stock, without buying anything. But I’ve done it quite a bit and never been moved on. I think most bricks-and-mortar bookshops realise that the ability for customers to come feel the weight of the books in their hands, smell the print on the page, and try out a shelf of books without the obligation to buy, is their single biggest advantage over online book retailers like Amazon and TheBookPeople.
 
@@ -25,7 +25,7 @@ And while I’ve been spending hundreds of pounds on Amazon books, high street b
 
 I could take or leave most high street shops. But there is something lovely about bookshops. And I wanted to do my bit to save them.
 
-![Amazon warehouse](/media/amazon-warehouse.jpg)
+{% img "Amazon warehouse" "/media/amazon-warehouse.jpg" %}
 
 ## So earlier this year I made a promise to myself.
 

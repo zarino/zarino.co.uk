@@ -12,7 +12,7 @@ I’ve used an Apple Magic Trackpad with my Mac for the last three years. I love
 
 Problem is, it doesn’t love me. A few months ago I noticed I was getting pain in my right wrist and elbow, and after some investigation (ie: seeing if it got better after I switched to a regular wired mouse), I pretty definitively nailed the Trackpad down as the cause.
 
-![Diagram showing wrist stress caused by Magic Trackpad](/media/trackpad-strain.svg)
+{% img "Diagram showing wrist stress caused by Magic Trackpad" "/media/trackpad-strain.svg" %}
 
 Makes sense really – to use the Trackpad, your hand has to hover above the surface, only touching the Trackpad when you actually want to click or drag. In my case, this was translating to 8 hours a day of tensing the muscles on the back of my wrist and hand, to keep it in the right position. Not good.
 
@@ -33,7 +33,7 @@ My requirements were:
 
 The [Apple Magic Mouse](http://www.amazon.co.uk/gp/product/B016MUCHTS/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B016MUCHTS&linkCode=as2&tag=zarsblo05-21) was out immediately – I’d used it for a few years in the past and really disliked the feel of it. The edges are sharp and the whole thing is way too flat to be comfortable. You spend most of your time jabbing your thumb and pinky into its sides just to get the right hold on it. The "gestures" you can make on the top are gimmicks, and nigh impossible to perform without repositioning your hand before and after to continue using the mouse.
 
-[![Apple Magic Mouse](/media/apple-magic-mouse.jpg)](http://www.amazon.co.uk/gp/product/B016MUCHTS/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B016MUCHTS&linkCode=as2&tag=zarsblo05-21)
+[{% img "Apple Magic Mouse" "/media/apple-magic-mouse.jpg" %}](http://www.amazon.co.uk/gp/product/B016MUCHTS/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B016MUCHTS&linkCode=as2&tag=zarsblo05-21)
 
 And—the *pièce de résistance*—you can’t use it while it’s charging, because the lightning port (err, what happened to micro-USB, Apple?) is on the bottom of the device. Meaning you have to turn it over to charge it.
 
@@ -43,7 +43,7 @@ It’s a joke. And at [upwards of £65](http://www.amazon.co.uk/gp/product/B016M
 
 ## Razer Ouroboros: If the Terminator had a mouse…
 
-[![Razer Ouroboros gaming mouse](/media/razer-ouroboros.jpg)](http://www.amazon.co.uk/gp/product/B009DYOPIM/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009DYOPIM&linkCode=as2&tag=zarsblo05-21)
+[{% img "Razer Ouroboros gaming mouse" "/media/razer-ouroboros.jpg" %}](http://www.amazon.co.uk/gp/product/B009DYOPIM/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009DYOPIM&linkCode=as2&tag=zarsblo05-21)
 
 Having been seriously impressed by the quality and the simplicity of Razer’s [Kraken Pro headset](/post/razer-kraken-pro/), I was intrigued by their bombastic-looking [Ouroboros mouse](http://www.amazon.co.uk/gp/product/B009DYOPIM/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009DYOPIM&linkCode=as2&tag=zarsblo05-21) with its weird customisable panels and body shape.
 
@@ -53,7 +53,7 @@ Problem is, while it takes a single AA battery (nice) it absolutely chomps throu
 
 ## Logitech Performance MX: Three out of four
 
-[![Logitech Performance MX](/media/performance-mx.jpg)](http://www.amazon.co.uk/gp/product/B002L3TSKC/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002L3TSKC&linkCode=as2&tag=zarsblo05-21)
+[{% img "Logitech Performance MX" "/media/performance-mx.jpg" %}](http://www.amazon.co.uk/gp/product/B002L3TSKC/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002L3TSKC&linkCode=as2&tag=zarsblo05-21)
 
 When you start Googling for things like “best mouse”, “most comfortable mouse”, etc, it isn’t long until you come across the [Logitech Performance MX](http://www.amazon.co.uk/gp/product/B002L3TSKC/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002L3TSKC&linkCode=as2&tag=zarsblo05-21). Launched in 2009, as a replacement for the equally popular *MX Revolution*, the Performance MX combined a comfortable chasis with Logitech’s “Dark Field” laser (ie: it works on fabric and glass, because, y’know) and a free-spinning scroll-wheel (rather than one that clicks in increments). It was wireless, and cross-platform, and had a bunch of extra buttons on the side, like Back and Forward.
 
@@ -65,7 +65,7 @@ So we’ve got ergonomic, wireless, and smooth scrolling. All that’s missing i
 
 Thank God, then, for the [Logitech MX Master](http://www.amazon.co.uk/gp/product/B00ULNAOMA/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ULNAOMA&linkCode=as2&tag=zarsblo05-21). All the best bits of the Performance MX, but with a proper Bluetooth 4.0 chip, disposing of the need for a propriety USB adaptor.
 
-[![MX Master side view](/media/mx-master-side.jpg)](http://www.amazon.co.uk/gp/product/B00ULNAOMA/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ULNAOMA&linkCode=as2&tag=zarsblo05-21)
+[{% img "MX Master side view" "/media/mx-master-side.jpg" %}](http://www.amazon.co.uk/gp/product/B00ULNAOMA/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ULNAOMA&linkCode=as2&tag=zarsblo05-21)
 
 After a few weeks’ research, the MX Master appeared to be the best choice for me and my Mac, at a sub-£100 price point. (Currently [£60 on Amazon](http://www.amazon.co.uk/gp/product/B00ULNAOMA/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ULNAOMA&linkCode=as2&tag=zarsblo05-21), although I think I bought when it was £70.)
 
@@ -80,7 +80,7 @@ It’s still not ideal, but here’s a run-down:
 - Way more comfortable than constantly hovering your hand over the Magic Trackpad, and also way more comfortable than the low-profile Magic Mouse.
 - Looks grown-up and professional (sorry Razer!)
 
-[![MX Master prototype being carved out of wood](/media/mx-master-lathe.jpg)](http://www.amazon.co.uk/gp/product/B00ULNAOMA/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ULNAOMA&linkCode=as2&tag=zarsblo05-21)
+[{% img "MX Master prototype being carved out of wood" "/media/mx-master-lathe.jpg" %}](http://www.amazon.co.uk/gp/product/B00ULNAOMA/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ULNAOMA&linkCode=as2&tag=zarsblo05-21)
 
 ### MX Master: The iffy bits
 
@@ -104,4 +104,4 @@ It’s a real shame. But there are a few things you can do to improve it on your
 - Set “Smooth scrolling” to “Enabled"
 - Set “Thumb wheel speed” to about 30%
 
-![Logitech Options Software](/media/logitech-options-software.png)
+{% img "Logitech Options Software" "/media/logitech-options-software.png" %}

@@ -31,13 +31,13 @@ Computer gamers! Of course! Now we’re talking. These guys spend hours plugged 
 
 After a quick scout around, I’d found the ideal headset for me: Razer’s [Kraken Pro](http://www.razerzone.com/gb-en/gaming-audio/razer-kraken-pro/). Yes, Razer: The company that makes those [ridiculous, over-designed mice](/media/razer-ouroboros.jpg). Turns out they also make headsets, and when it comes to headsets, they ain’t messing around.
 
-![Razer Kraken Pro](/media/kraken-pro.jpg)
+{% img "Razer Kraken Pro" "/media/kraken-pro.jpg" %}
 
 The Kraken Pro is an upgrade of the basic Kraken, to include a microphone. Everything else is the same. On first taking the set out of its packaging, you’re struck by the weight of the thing. It feels *substantial*, especially compared to your typical, plasticy VoIP headset. The ear cups are super padded, and pivot on two axes (both left–right and up–down) to ensure a snug fit against your head and even pressure around your ears.
 
 Note I said *around* your ears, not *on* your ears. The key to the Kraken Pro is that your ears fit *inside* the cups, not under them. Not only does this make the headset comfortable, it also cancels out a suprising amount of ambient noise. Ear cups like this aren’t anything new, and certainly aren’t unique to Razer, but the Kraken’s strike the right balance of being solid but light, flexible but sturdy, and, importantly, small enough that you don’t look like you’ve got a Princess Leia hairdo on.
 
-![Kraken Pro pull-out microphone](/media/kraken-pro-mic.jpg)
+{% img "Kraken Pro pull-out microphone" "/media/kraken-pro-mic.jpg" %}
 
 Everything about the Kraken Pro has been thought through. The microphone tucks into a modest little niche in the left ear cup, and pulls out with a tug, exposing its cheeky neon green stalk.
 
@@ -51,7 +51,7 @@ But the killer feature for me was the connection method. A refreshingly sturdy a
 
 Indeed, like an iPhone, my Mac also has a combined headphone and line-in audio port, meaning I can just plug the Krakens straight into my MacBook Air and enjoy seamless audio input and output, without drivers, audio preference switching, or even using up any of my precious USB ports.
 
-![Kraken Pro multifunction headphone jack](/media/kraken-pro-jack.jpg)
+{% img "Kraken Pro multifunction headphone jack" "/media/kraken-pro-jack.jpg" %}
 
 I don’t think Mac headphone jack compatibility was a key concern for Razer when they were making the Kraken Pro – the 4-pin TRRS jack is probably there to allow the headset to function as a perfectly serviceable (if slightly large for typical streetwear) iPhone/Android headset. But it just goes to show that, by bucking the trend for complicated USB plugs and proprietary wireless dongles, Razer has made their headsets literally zero-hassle. Plug in and go. Simple as that. It’s a nice touch.
 

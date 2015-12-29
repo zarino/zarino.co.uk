@@ -26,11 +26,11 @@ I was using [Diskmaker X](http://diskmakerx.com) to create a bootable drive from
 
 And whenever I ran it, Diskmaker X would hang on the following screen:
 
-![Diskmaker X error](/media/diskmaker-x-error-obscured.jpg)
+{% img "Diskmaker X error" "/media/diskmaker-x-error-obscured.jpg" %}
 
 It turns out, Diskmaker X was trying to show me an error message, but the super long directory path was hiding it. Here’s how it would have looked if I’d put the installer in the `/Applications` directory:
 
-![Diskmaker X “command not found”](/media/diskmaker-x-error.jpg)
+{% img "Diskmaker X “command not found”" "/media/diskmaker-x-error.jpg" %}
 
 The error says:
 
@@ -56,6 +56,6 @@ sudo chmod +x /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/cre
 
 Once `chmod` has made the file executable, Diskmaker X was happy again, and my OS X 10.9 installer drive was set up in about 25 minutes.
 
-![Diskmaker X](/media/diskmaker-x-success.jpg)
+{% img "Diskmaker X" "/media/diskmaker-x-success.jpg" %}
 
 I have no idea why `createinstallermedia` wasn’t executable in my version of the installer–maybe it has something to do with me storing the installer on an external disk for the best part of a year, but at least it was a simple fix once I worked out what was going on.

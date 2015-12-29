@@ -19,7 +19,7 @@ He goes on:
 
 The problem is, as soon as you say “teaching kids to program”, people fixate on the final act – “What use is programming if my kid can’t do X?” – and while actually teaching kids how to code their own games or automate common processes is A Good Thing&trade;, the *real* benefit is the mindset that comes with knowing how to program.
 
-![Johnny Lee-Miller and Angelina Jolie in the deliciously cheesy 1995 film Hackers](/media/hackers-film.jpg)
+{% img "Johnny Lee-Miller and Angelina Jolie in the deliciously cheesy 1995 film Hackers" "/media/hackers-film.jpg" %}
 
 In programmer circles, there’s a muddy distinction between the words “programmer”, “coder”, and “hacker”. Hacker is particularly interesting. These days people associate it with shady Ukrainians who break into government IT systems. But that’s a neologism. The [original meaning](http://www.jargon.net/jargonfile/h/hacker.html) was more benevolent[^1]:
 
@@ -27,7 +27,7 @@ In programmer circles, there’s a muddy distinction between the words “progra
 
 Hacking is about working around limitations. Technical knowledge plays a part here, but the key skill isn't knowing *how* to program, it’s knowing *when* to program. If we’re to teach kids programming, *that’s* the reason why.
 
-[![Kids programming at a Codejam - image by Alan O'Donohoe](/media/kids-codejam.jpg)](https://twitter.com/teknoteacher/status/385783623519334400)
+[{% img "Kids programming at a Codejam - image by Alan O'Donohoe" "/media/kids-codejam.jpg" %}](https://twitter.com/teknoteacher/status/385783623519334400)
 
 Just like writing or speech. Even before you’ve put pen to paper, or uttered your first syllable, those years of training at school have completely and subconsciously prepared you for the discussion. You may not know *how* to communicate like Cicero or Wilde, but you probably *do* know *when* to communicate, and when it’s even *possible* to communicate.
 

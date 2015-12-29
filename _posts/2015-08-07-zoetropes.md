@@ -12,7 +12,7 @@ The brain works in weird and wonderful ways.
 
 Earlier this week, we were treated to this image, from NASA, of the moon passing between the Earth and the DSCOVR satellite, 1 million miles in orbit:
 
-[![DSCOVR Moon Transit](/media/dscovr-moon-transit.gif)](http://www.nasa.gov/feature/goddard/from-a-million-miles-away-nasa-camera-shows-moon-crossing-face-of-earth)
+[{% img "DSCOVR Moon Transit" "/media/dscovr-moon-transit.gif" %}](http://www.nasa.gov/feature/goddard/from-a-million-miles-away-nasa-camera-shows-moon-crossing-face-of-earth)
 
 Just look at how beautiful that is.
 
@@ -28,7 +28,7 @@ The effect is basically a three-dimensional Zoetrope.
 
 The [Zoetrope](https://en.wikipedia.org/wiki/Zoetrope)—or “Wheel of life”—is a circular drum with a strip of photos lined up around its inside edge, invented over 150 years ago. A corresponding number of slots around the top of the drum let you peek in and—thanks to the [phi phenomenon](https://en.wikipedia.org/wiki/Phi_phenomenon)—see the still images come to life.
 
-![Zoetrope](/media/zoetrope.jpg)
+{% img "Zoetrope" "/media/zoetrope.jpg" %}
 
 If you turn a Zoetrope inside out (so the images rotate on the outside of the drum) and then replace the images with 3D models, you get a towering stop-motion monster like the Pixar display above, which can be viewed from 360 degrees.
 

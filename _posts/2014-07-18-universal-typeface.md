@@ -13,21 +13,21 @@ So, a week or two back, BIC (the company behind the ubiquitous yellow ballpoint 
 
 Eventually (once they’ve milked it for as much publicity as it’ll give) they are going to release the average alphabet as a font file you can use on your computer.
 
-![Average letter “L” for males and females](/media/bic-typeface-gender.jpg)
+{% img "Average letter “L” for males and females" "/media/bic-typeface-gender.jpg" %}
 
 When I read the headline, I thought, hey, that’s pretty cool. And I’m sure, to some marketing guy at BIC, it sounded like a great idea. But think about it a little more, and you realise it’s utter fluff.
 
 As any data scientist will tell you, the average (alone) is probably the least useful statistic you can pick to describe a population. It says basically nothing about how different the original data points were, whether there’s a skew in the data, what its minimum and maximum bounds were, and whether the fit is strong enough that it can be used to infer future values.
 
-![Average typeface for a number of age groups](/media/bic-typeface-age.jpg)
+{% img "Average typeface for a number of age groups" "/media/bic-typeface-age.jpg" %}
 
 The BIC data, in fact, is a perfect visualisation of the concept of “regression to the mean” – the idea that, as you add more and more samples to an average calculation, the average gets closer and closer to some ideal spot in the middle of that population. Which is cool for stats, but makes for a really, really boring typeface.
 
-![Average letter “L” for males and females](/media/bic-typeface-gender-2.jpg)
+{% img "Average letter “L” for males and females" "/media/bic-typeface-gender-2.jpg" %}
 
 All of the amazing variation in human expression, and the effects of age or industry, are levelled out. You end up with a largely identical set of letters for every comparison. Men and women. Young and old. Bankers and artists. All exactly the same. The outliers are erased by the average. All variation ironed away. How utterly boring.
 
-![Average typeface for people in the finance, commerce, and craft industries](/media/bic-typeface-industry.jpg)
+{% img "Average typeface for people in the finance, commerce, and craft industries" "/media/bic-typeface-industry.jpg" %}
 
 It’s ironic that BIC, while trying to showcase the creativity and uniqueness of each of their customers, has actually—accidentally, as far as I can tell—shown us the opposite: corporate America’s uncanny ability to shoehorn us all into the same little boxes. Like hundreds of thousands of their cheap yellow plastic pens.
 
