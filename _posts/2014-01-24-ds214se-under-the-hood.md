@@ -24,7 +24,7 @@ If you know your DiskStation’s IP address (in my case, <http://192.168.0.6:500
 
 Log in with your admin username and password, then open up  **Control Panel > Terminal** and tick the **“Enable SSH service”** checkbox. Click **OK** and you’re done!
 
-{% img "Enable SSH access in the Terminal control panel" "/media/synology-terminal-control-panel.png" %}
+{% img "Enable SSH access in the Terminal control panel" "/media/synology-terminal-control-panel.jpg" %}
 
 Now, in a local Terminal window,[^1] type in `ssh root@192.168.0.6`, where `192.168.0.6` is the IP of your DiskStation. Press Enter, and you'll be asked for a password. Type in the same admin password you normally use to get into the DSM web interface, and press Enter again.
 

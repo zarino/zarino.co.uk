@@ -104,4 +104,4 @@ It’s a real shame. But there are a few things you can do to improve it on your
 - Set “Smooth scrolling” to “Enabled"
 - Set “Thumb wheel speed” to about 30%
 
-{% img "Logitech Options Software" "/media/logitech-options-software.png" %}
+{% img "Logitech Options Software" "/media/logitech-options-software.jpg" %}

@@ -50,7 +50,7 @@ The headphones are pretty neat.[^1] The earbuds are slightly magnetic, meaning t
 
 [^1]: I’m such a sucker for [well designed headphones](/post/razer-kraken-pro).
 
-{% img "Amazon operative answering a Mayday call on the Fire Phone" "/media/amazon-fire-phone-mayday.png" %}
+{% img "Amazon operative answering a Mayday call on the Fire Phone" "/media/amazon-fire-phone-mayday.jpg" %}
 
 I have no idea whether the fictional grandmother segment uses headphones. But here’s something they’d love: “Mayday.” Press one icon on the homescreen, and within 20 seconds you’re connected to a remote Amazon assistant who can hear you, speak to you, see your screen, and even draw on it if you need pointers. Speaking as someone who’s had to field their fair share of parental support calls, this thing sounds like a god-send. It’s a one-stop shop for customer support. Who needs a manual, or even a Google search, when you can get any question about your phone answered by a smiley orange-shirted chap in Amazon HQ?
 

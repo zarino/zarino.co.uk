@@ -41,7 +41,7 @@ Not likely. “F. Thompson Legge”, mentioned on the sign above, was a relative
 
 Either way, the stuff’s gorgeous – in this weird, sort-of, awkward looking geometric way. Just look at the detail in the double height “Co. Ltd” ligature, the custom-drawn futurist ampersand, and the spot where a broken stencil meant the bottom half of the second “G” in “LEGGE” got filled in.
 
-{% img "Liver Grease Type" "/media/liver-grease-type.gif" %}
+{% img "Liver Grease Type" "/media/liver-grease-type.jpg" %}
 
 And as if there aren’t enough signs on the building, they figured they’d paint a few arrows on the brickwork, just to be safe. The same square R’s and S’s, although this time without a stencil…
 

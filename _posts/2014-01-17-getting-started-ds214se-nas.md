@@ -36,17 +36,17 @@ Once you plug everything in, and turn the DS on, lights will start flashing on t
 
 Unlike normal circumstances, where blinking orange means something bad™ has happened, when your DS is new, an orange “Status” light is perfectly fine. Just head on over to <http://find.synology.com> which will somehow magically detect your DS and begin the setup guide.
 
-{% img "Setting up your Synology DiskStation" "/media/synology-setup-1.png" %}
+{% img "Setting up your Synology DiskStation" "/media/synology-setup-1.jpg" %}
 
 ## Software set-up
 
 Synology’s really honed this setup process, and it involves little more than clicking the “Next” arrow four times in a row. Your DS214se will reformat the two hard drives you just installed, and then download the latest software from synology.com, before asking for an admin user account password. [Choose wisely.](http://www.quickmeme.com/img/26/26bd8dc6936cc028c5ef0997b3da88e3cac8106d070a64380477fd5df9d5e867.jpg)
 
-{% img "Synology DiskStation installs itself" "/media/synology-setup-2.png" %}
+{% img "Synology DiskStation installs itself" "/media/synology-setup-2.jpg" %}
 
 Once its all done, you’re shown the login panel for what Synology calls “DSM” – the DiskStation Manager. Log in with the admin username and password you just chose, and you’ll be greeted by what looks at first glance like a slightly messy Windows 7 desktop. Yes, this whole thing is running in your browser, and yes, it’s the admin interface for your DS214se. Bonkers, I know.
 
-{% img "Synology DSM interface" "/media/synology-dsm.png" %}
+{% img "Synology DSM interface" "/media/synology-dsm.jpg" %}
 
 Anyway, DSM helpfully tells you it’s checking the consistency of your new disks – hence the mellow crunching sound and blinking “Disk” lights you might have noticed coming from your DS213se. Not to worry, you can still poke around. Ignore the weirdly interactive “Quick Start Wizard” – it’s just information overload, and you don’t need to do any of the stuff it suggests.
 
@@ -56,7 +56,7 @@ Being a geek, the first thing I did was open up the Control Panel. If you don’
 
 Now, with the setup done, it’s time to wait for the “parity consistency check” to finish. In my case, it took exactly 7 hours.
 
-{% img "Synology Consistency Check" "/media/synology-consistency-check.png" %}
+{% img "Synology Consistency Check" "/media/synology-consistency-check.jpg" %}
 
 ## Next steps
 
