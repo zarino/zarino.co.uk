@@ -12,7 +12,10 @@ layout: default
             <p class="preview">{{ post.summary | widont }}</p>
           {% endif %}
           {% if post.image %}
-            <img src="{{ post.image }}">
+            {% blockimg %}
+                "{{ post.title }}"
+                "{{ post.image }}"
+            {% endblockimg %}
           {% endif %}
         </a>
       {% endfor %}
