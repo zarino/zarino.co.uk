@@ -68,7 +68,7 @@ I mean, people are slowly coming round to the idea that their employers are able
 
 I am absolutely convinced that within a few years (if not already) firms like these will be using the data we create and share online, to de-risk their investments, by increasing premiums or interest rates.
 
-Oh, and when they inevitably get it wrong—mistake you for your neighbour or someone with a similar name—and suddenly you can’t get a mortgage any more, oh well, too bad. Because odds are, all this stuff be be totally secret, even from you (case in point: personal credit scores).
+Oh, and when they inevitably get it wrong—mistake you for your neighbour or someone with a similar name—and suddenly you can’t get a mortgage any more, oh well, too bad. Because odds are, all this stuff will be totally secret, even from you (case in point: personal credit scores).
 
 Maybe if people knew more about this data, how it’s collected, how it’s used, they’d be better off?
 
