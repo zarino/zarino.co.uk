@@ -48,6 +48,6 @@ Because mp4 is a so-called [wrapper format](https://en.wikipedia.org/wiki/Digita
 
 ### Convert all the FLAC files in the current directory into MP3s
 
-    for i in *.flac; do ffmpeg -i “$i" -q:a 0 "${i%.flac}.mp3"; done
+    for i in *.flac; do ffmpeg -i "$i" -q:a 0 "${i%.flac}.mp3"; done
 
 `-q:a` specifies [MP3 audio quality](https://trac.ffmpeg.org/wiki/Encode/MP3), where `0` is a variable bit rate of 220–260 kbit/s. `${i%.flac}` is a [Bash operator](http://tldp.org/LDP/abs/html/refcards.html#AEN22664) that returns the variable `i` without the `.flac` at the end.
