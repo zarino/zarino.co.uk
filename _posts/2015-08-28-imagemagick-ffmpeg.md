@@ -40,6 +40,16 @@ This command even works with weird formats like WMV and [loads of others](http:/
 
 Because mp4 is a so-called [wrapper format](https://en.wikipedia.org/wiki/Digital_container_format), you can choose the specific video and audio codecs via `-c:v` and `-c:a` respectively. In this case we’ve asked for H.264 video and AAC audio. `-q:a` specifies the [AAC audio quality](https://trac.ffmpeg.org/wiki/Encode/AAC#libfaac), and `-crf` is the [H.264 video quality](https://trac.ffmpeg.org/wiki/Encode/H.264).
 
+### Convert the audio format of a file, leaving video format as-is
+
+Sometimes, you’ll have device (like a TV) that can play the images in a video fine, but can’t play the audio. Or vice-versa.
+
+In cases like this, you can save time by only transcoding the channel that’s causing a problem – leaving the other channel(s) unchanged. For example, to convert a mkv file containing h264 video (or whatever) and some unknown audio format, into an mkv file with the same h264 video channel but *AAC* audio:
+
+    ffmpeg -i before.mkv -c:v copy -c:a libfaac -q:a 100 after.mkv
+
+`-c:v copy` tells ffmpeg to just use whatever video codec the original file uses, while `-c:a libfaac` tells it to convert the audio channel into AAC. In this case, we specify a fairly low audio quality using `-b:a 128k` (`-b` for bitrate).
+
 ### Extract the audio from a video
 
     ffmpeg -i before.avi -vn -ab 256 after.mp3
