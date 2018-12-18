@@ -347,6 +347,28 @@ sup[id^="fnref"] {
   }
 }
 
+.footnote-preview {
+  position: absolute;
+  z-index: 10;
+  top: 120%;
+  left: 50%;
+  line-height: 1.2;
+  background: #fff;
+  padding: 1em;
+  transform: translateX(-50%);
+  box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.2);
+  min-width: 15em;
+  border-radius: 3px;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  .reversefootnote {
+    display: none;
+  }
+}
+
 #content hr {
   margin: 1.8em 0;
 }

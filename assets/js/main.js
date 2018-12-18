@@ -190,4 +190,44 @@ $(function(){
 
   setUpResponsiveVideos()
 
+  $('a.footnote').on('mouseenter', function(){
+    var $a = $(this);
+    clearTimeout( $a.data('timer') );
+
+    if ( $a.siblings('.footnote-preview').length ) {
+      return;
+    }
+
+    var $sup = $(this).parent();
+    var href = $(this).attr('href').replace(':', '\\:');
+    var $footnote = $(href);
+    var $preview = $('<div>').addClass('footnote-preview');
+
+    $preview.html( $footnote.html() );
+    $preview.appendTo($sup);
+
+    $preview.on('mouseenter', function(){
+      clearTimeout( $a.data('timer') );
+    }).on('mouseleave', function(){
+      var timer = setTimeout(function(){
+        $preview.fadeOut(200, function(){
+          $preview.remove();
+        });
+      }, 1000);
+      $a.data('timer', timer);
+    });
+
+  }).on('mouseleave', function(){
+    var $a = $(this);
+    var $preview = $a.siblings('.footnote-preview');
+
+    var timer = setTimeout(function(){
+      $preview.fadeOut(200, function(){
+        $preview.remove();
+      });
+    }, 1000);
+    $a.data('timer', timer);
+
+  });
+
 })
