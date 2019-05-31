@@ -221,6 +221,18 @@ nav .show-more {
   line-height: inherit; /* override Bootstrap pixel-based line-height */
 }
 
+#content li {
+  margin-bottom: 0.5em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  & > ul { // for nested lists
+    margin-top: 0.5em;
+  }
+}
+
 #content .alert {
   margin: 1.5em 0;
   padding: 1em;
