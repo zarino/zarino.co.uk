@@ -11,7 +11,7 @@ related:
 
 So, a few days ago, this video did the rounds. It depicts [“a new car UI”](http://matthaeuskrenn.com/new-car-ui/) which replaces the typical buttons, knobs, and dials with one big multi-touch screen. It’s an iPad on your dashboard.
 
-<iframe width="700" height="394" src="//www.youtube-nocookie.com/embed/XVbuk3jizGM" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="XVbuk3jizGM" %}
 
 Videos like this are fun to make. And we’ve certainly all been inside cars with those ridiculous, obtuse user interfaces: all knobs, buttons, and 90s touch screens. Half-compromises between what a five-years-ago technician could puke up and what the marketing department needed for their shiny cinema ads.
 

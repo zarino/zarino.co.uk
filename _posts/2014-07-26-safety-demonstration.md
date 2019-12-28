@@ -14,6 +14,6 @@ It’s awesome, not only because it takes the piss out of the insatiable urge to
 
 *And* at the same time, it manages to tell you what you already know, about how to use safety belts and jump onto life chutes.
 
-<iframe src="//player.vimeo.com/video/87095482?portrait=0" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% include video.html vimeo="87095482" %}
 
 It’s nice seeing a company like Virgin Atlantic take time to think about the little things—the boring things—and to give a hat tip to some of their national culture. Nice work [Art & Graft](http://artandgraft.com)!

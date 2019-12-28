@@ -15,6 +15,10 @@ $gray-900: #212529; // annoyingly need to (pre-)define this, so we can use it in
 $body-bg: $blue-grey-200;
 $body-color: $gray-900;
 
+$embed-responsive-aspect-ratios: (
+    (3 2),
+);
+
 $font-family-sans-serif: Lato, 'Gill Sans', 'Gill Sans MT', Helvetica, sans-serif;
 $font-family-serif: Cambria, Georgia, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, Menlo, "DejaVu Sans Mono", Courier, "Courier New", monospace;

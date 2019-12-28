@@ -1,0 +1,17 @@
+<div class="embed-responsive embed-responsive-{{ include.ratio | default: '16by9' }} {{ include.class }}">
+    <iframe 
+        width="{{ include.width | default: '700' }}"
+        height="{{ include.height | default: '394' }}"
+      {% if include.youtube %}
+        src="https://www.youtube-nocookie.com/embed/{{ include.youtube }}{{ include.params }}"
+      {% elsif include.vimeo %}
+        src="https://player.vimeo.com/video/{{ include.vimeo }}{{ include.params }}"
+      {% else %}
+        src="{{ include.src }}{{ include.params }}"
+      {% endif %}
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        class="embed-responsive-item">
+    </iframe>
+</div>

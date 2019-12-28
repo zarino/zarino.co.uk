@@ -15,7 +15,7 @@ Politicians, in the run up to this election, have promised a number of things �
 
 But this week, Theresa May, under increasing pressure from two terrorist attacks in the last two weeks, said something that shook me to my core. Here she is, at a Conservative campaign appearance in Slough on Monday night:
 
-<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/9Xu7-OhibD8?start=1647" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="9Xu7-OhibD8" params="?start=1647" %}
 
 For those who’d rather read it, here’s a transcript:
 

@@ -36,7 +36,7 @@ And clearly, I wasn’t the only one. Ben Ubois, Feedbin’s creator, [recently 
 
 I liked it so much, I ended up building my own Chrome extension to make subscribing to feeds a total breeze. [Check it out on Github](https://github.com/zarino/subscribe-with-feedbin) – I haven’t submitted it to the Chrome store yet, but maybe one day…
 
-<iframe width="700" height="470" src="//www.youtube-nocookie.com/embed/iL628ALo3A4?rel=0&vq=large" frameborder="0" allowfullscreen></iframe>
+{% include video.html width="700" height="470" ratio="3by2" youtube="iL628ALo3A4" %}
 
 In the meantime, if you’re looking for a feed reader, or you’ve already got a free one but fancy investing in an indie developer and an awesome little product, I can’t recommend Feedbin enough. [Sign&nbsp;up for a free 1 month trial here.](https://feedbin.com)
 

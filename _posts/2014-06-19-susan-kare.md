@@ -17,7 +17,7 @@ We were in Oslo, on the second day of a two-week cruise. We’d done most of [By
 
 I‘ve long known the story behind that symbol, and why it’s (*still*) on every Mac keyboard. But I figured maybe not everybody does. So, here’s a 20 minute video of Susan Kare, inventor of the Mac ⌘ symbol, talking about the icon’s history, as well as the work she went on to do after Apple, at Microsoft, Facebook, and Swatch.
 
-<iframe src="//player.vimeo.com/video/97583369" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% include video.html vimeo="97583369" %}
 
 Is it just me, or does she seem like the most *awesome* person?
 

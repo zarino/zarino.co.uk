@@ -92,30 +92,6 @@ var checkTime = function(){
   changeHeader(colour)
 }
 
-var setUpResponsiveVideos = function(){
-
-  // cache the selector, so it's not repeated inside the resize()
-  var $videos = $('iframe[src*="//www.youtube"], iframe[src*="//player.vimeo.com"]')
-
-  // callback function to fire on resize()
-  var resizeVideos = function(){
-    $videos.each(function(){
-      var w = $(this).parent().width()
-      $(this).width(w).height( w * $(this).attr('ratio') )
-    })
-  }
-
-  // set up the beginning aspect ratio
-  $videos.each(function(){
-    $(this).attr('ratio', this.height / this.width).removeAttr('width height')
-  })
-
-  // resize now, and on future window changes
-  resizeVideos()
-  $(window).on('resize', resizeVideos)
-
-}
-
 var trackOutboundLink = function(e){
   var url = $(this).attr('href')
   var callback = function(){
@@ -187,8 +163,6 @@ $(function(){
   checkTime()
 
   $.scrollDepth()
-
-  setUpResponsiveVideos()
 
   $('a.footnote').on('mouseenter', function(){
     var $a = $(this);

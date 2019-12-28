@@ -22,7 +22,7 @@ Maybe it’s the wobbly way the Earth moves slightly downwards at the beginning 
 
 The DSCOVR animation also, in that way only the human brain can, sparked a connection with similar videos I’d seen only a few days before, on the blog of [John Nack](http://jnack.com/blog/2015/07/29/a-pixar-zoetrope/), ex Product Manager for Photoshop, now working on the Google Photos team:
 
-<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/5khDGKGv088?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="5khDGKGv088" %}
 
 The effect is basically a three-dimensional Zoetrope.
 
@@ -38,17 +38,17 @@ If you’re just filming your Zoetrope, that’s easy – cameras already chop s
 
 When you film in one of these strobe situations, and your camera framerate doesn’t match up with the strobe, you get to *peek behind the curtain* and see the strobe in action:
 
-<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/brGtHDXv1QE?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="brGtHDXv1QE" %}
 
 So there I am, watching the transit of the moon, and the transit of Buzz Lightyear and friends, when I realise, hold on, I’ve seen this done before, but slightly different again:
 
-<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/ABS-mlep5rY?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="ABS-mlep5rY" %}
 
 That’s the music video for *Fear and Delight*, by Soho electro-swing two-piece [The Correspondents](https://en.wikipedia.org/wiki/The_Correspondents_%28band%29). Its director, [Naren Wilks](http://www.naren.co.uk), put the band inside a *room-sized* Zoetrope, fitted with a dolly of rotating cameras, meaning the same single actor could be recorded from up to 16 angles simultaneously, then looped, creating this weird, all-directions-at-once kaleido-zoe-scope thing.
 
 It’s beautiful. And it rightly won Wilks two gongs at the Berlin Music Video Awards 2014. If you’re interested in how it was made, check out this
 “making of” feature with the director:
 
-<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/mzVWUYjGoDg?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="mzVWUYjGoDg" %}
 
 So, three cheers for stop motion animation everyone! And an honorable mention to Zoetropes, old and new, for making the *impossible* possible.

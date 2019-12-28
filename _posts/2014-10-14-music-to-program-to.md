@@ -163,7 +163,7 @@ Thanks guys, you’re awesome! I had loads of suggestions after this post was fi
 
 [Ross Jones](https://twitter.com/rossjones) suggested [Public Service Broadcasting](http://youtu.be/mCQCIsFzbNA), the [Ozrics](http://www.ozrics.com), and the [Shez Raja Collective](http://www.shezraja.com). The Ozric Tentacles were a bit too psy-rocky for me, and I can’t say I’ve really got into Shez Raja. But Public Service Broadcasting was ace! Sort of like a mix of Lemon Jelly, Duckworth Lewis / Divine Comedy, and maybe even bits of Hidden Orchestra. Their stuff can get a bit twee at times, but their debut album <a target="_blank" href="http://www.amazon.co.uk/gp/product/B00C24YFU8/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00C24YFU8&linkCode=as2&tag=zarsblo05-21&linkId=MRRW4CH647Z4NBPQ">Inform - Educate - Entertain</a> is a good place to start. They’ve got a [new album](http://publicservicebroadcasting.net/album-preorder/) coming out in February next year.
 
-<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/_rZNQppYngA?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="_rZNQppYngA" %}
 
 [Martin Wright](https://twitter.com/wrightmartin) reminded me of Glaswegian post-rock band [Mogwai](http://youtu.be/BYSdLYmfQG4), who are dead similar to [This Will Destroy You](http://thiswilldestroyyou.bandcamp.com), Explosions in the Sky, and to an extent, Sigur Rós.
 
@@ -175,4 +175,4 @@ Thanks guys, you’re awesome! I had loads of suggestions after this post was fi
 
 And finally, [Marc Carlucci](https://twitter.com/oniryx) let me know about [Nigel Stanford](https://twitter.com/nigel_stanford)’s [Solar Echoes](http://nigelstanford.com/Solar_Echoes/) album, who also makes [mind-blowing videos](https://www.youtube.com/watch?v=Q3oItpVa9fs) of sound waves dancing across metal plates:
 
-<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/Q3oItpVa9fs?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="Q3oItpVa9fs" %}
