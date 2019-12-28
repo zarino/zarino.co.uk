@@ -1,0 +1,23 @@
+// A row where the gutters are proportional to the width of the parent,
+// rather than remaining `$grid-gutter-width` all the time.
+.row-fluid {
+    $gutter: ( $grid-gutter-width / 2 ); // 15px
+    $basis: map-get($container-max-widths, "xl"); // 1140px
+
+    margin-right: ($gutter / ($basis - $grid-gutter-width) * -100% );
+    margin-left: ($gutter / ($basis - $grid-gutter-width) * -100% );
+
+    > .col,
+    > [class*="col-"] {
+        padding-right: ( ($gutter / $basis) * 100% );
+        padding-left: ( ($gutter / $basis) * 100% );
+    }
+}
+
+// A hybrid between .container and .container-fluid which maintains a
+// readable line length for ~20px text, but without hard breakpoints.
+// 700px was chosen for compatibility with existing 700px wide images.
+.container-readable {
+    @include make-container();
+    max-width: (700px + $grid-gutter-width);
+}

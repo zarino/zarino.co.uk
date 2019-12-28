@@ -1,0 +1,43 @@
+$blue: #007AB8; // a more restrained blue
+$blue-grey-100: #f7f7f9;
+$blue-grey-200: #EBEEF0;
+$blue-grey-300: #D9DDDF;
+
+$link-color-muted: #68b6dd;
+
+$headings-margin-top: 1.5em;
+
+// Bootstrap overrides from here on,
+// in the order they appear in bootstrap/scss/_variables.scss
+
+$gray-900: #212529; // annoyingly need to (pre-)define this, so we can use it in this file
+
+$body-bg: $blue-grey-200;
+$body-color: $gray-900;
+
+$font-family-sans-serif: Lato, 'Gill Sans', 'Gill Sans MT', Helvetica, sans-serif;
+$font-family-serif: Cambria, Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: Consolas, Menlo, "DejaVu Sans Mono", Courier, "Courier New", monospace;
+$font-family-base: $font-family-serif;
+
+$paragraph-margin-bottom: 1em;
+
+$headings-margin-bottom: 0.7em;
+$headings-line-height: 1;
+
+$enable-responsive-font-sizes: true;
+$rfs-base-font-size: 1rem; // 16px - regular text minimum (on smallest screens)
+$font-size-base: 1.5rem; // 24px - regular maximum (on widest screens)
+$h1-font-size: 3rem; // 48px - maximum
+$h2-font-size: 2rem; // 32px - maximum
+$h3-font-size: 1.75rem; // 28px - maximum
+$h4-font-size: 1.25rem; // 20px - maximum
+
+$hr-border-color: $blue-grey-300;
+$hr-margin-y: 2em;
+
+$btn-padding-x: 1.25rem; // fatter buttons
+
+$code-font-size: 1rem; // will remain 16px at all screen sizes, because == $rfs-base-font-size
+$code-color: $body-color;
+$pre-color: $body-color;

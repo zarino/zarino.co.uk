@@ -1,12 +1,12 @@
 <header>
-    <div class="container">
+    <div class="container-readable">
         <h1>
             <a href="{{ site.baseurl }}/">Zarino Zappia</a>
             <a href="{{ site.baseurl }}/" id="menu-toggle"><i class="first"></i><i class="second"></i><i class="third"></i></a>
         </h1>
         <p id="subheading">develops things</p>
     </div>
-    <nav class="container">
+    <nav class="container-readable">
         <ul>
           {% for post in site.posts %}
             <li class="{% if post.draft %}draft{% endif %} {% if post.url == page.url %}active{% endif %}">

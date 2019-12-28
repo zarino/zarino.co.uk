@@ -1,0 +1,179 @@
+#menu-toggle {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 0.8em;
+    display: block;
+    padding-top: 5px;
+    cursor: pointer;
+
+    @include media-breakpoint-up(sm) {
+        top: 25px;
+        padding-top: 8px;
+    }
+
+    @include media-breakpoint-up(md) {
+        top: 34px;
+        padding-top: 10px;
+    }
+
+    i {
+        display: block;
+        position: relative;
+        top: 0;
+        height: 2px;
+        margin-bottom: 6px;
+        background: rgba(255,255,255,0.5);
+        transition: opacity 0.2s, top 0.2s, transform 0.2s;
+
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 8px;
+        }
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &:hover i,
+    &.active i {
+        background: #fff;
+    }
+
+    &.active {
+        .first {
+            transform: rotate(-45deg);
+            top: 8px;
+
+            @include media-breakpoint-up(sm) {
+                top: 10px;
+            }
+
+            @include media-breakpoint-up(md) {
+                top: 12px;
+            }
+        }
+
+        .second {
+            opacity: 0;
+        }
+
+        .third {
+            transform: rotate(45deg);
+            top: -8px;
+
+            @include media-breakpoint-up(sm) {
+                top: -10px;
+            }
+
+            @include media-breakpoint-up(md) {
+                top: -13px;
+            }
+        }
+    }
+}
+
+nav {
+    // Nav is hidden by default, even if JavaScript isn't available to
+    // show it again, because it’s an incredibly long list, and it’ll be
+    // a better experience for people to use the homepage for navigation
+    // if JavaScript isn’t working for some reason.
+    display: none;
+
+    ul {
+        list-style: none;
+        padding: 0 0 20px 0;
+        margin: 0;
+        font-weight: normal;
+        @include font-size(1.1rem);
+
+        @include media-breakpoint-up(sm) {
+            padding: 20px 0 42px 0;
+        }
+
+        @include media-breakpoint-up(md) {
+            padding: 20px 0 50px 0;
+        }
+    }
+
+    li {
+        margin-bottom: 0;
+    }
+
+    a {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        color: inherit;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 0.75em 0;
+        line-height: 1.3em;
+
+        &:hover {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        strong {
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: normal;
+            max-width: 60%;
+        }
+
+        span {
+            color: rgba(255, 255, 255, 0.4);
+            white-space: nowrap;
+            margin-left: 1em;
+        }
+    }
+
+    a:hover,
+    .active {
+        strong {
+            color: rgba(255, 255, 255, 1);
+        }
+
+        span {
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+
+    .active {
+        a {
+            cursor: default;
+        }
+    }
+
+    .hidden,
+    .hidden ~ .show-more {
+        display: none;
+    }
+
+    .draft {
+        font-style: italic;
+
+        strong {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        &:hover {
+            strong {
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
+
+    .show-more {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 0.75em 0;
+        line-height: 1.3em;
+        cursor: pointer;
+
+        &:hover {
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+
+}

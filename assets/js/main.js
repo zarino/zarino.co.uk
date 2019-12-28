@@ -204,6 +204,12 @@ $(function(){
     var $preview = $('<div>').addClass('footnote-preview');
 
     $preview.html( $footnote.html() );
+    var $reverse = $preview.find('.reversefootnote');
+    var $finalp = $reverse.parent();
+    $reverse.remove();
+    if ( $.trim($finalp.text()) === '' ) {
+      $finalp.remove();
+    }
     $preview.appendTo($sup);
 
     $preview.on('mouseenter', function(){

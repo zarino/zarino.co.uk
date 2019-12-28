@@ -3,15 +3,15 @@ layout: default
 ---
 
 <div id="content">
-    <div class="container">
+    <div class="container-readable">
         <h1>404 <small>Not Found</small></h1>
         <p>There is no page at the URL you requested.</p>
         <p>Maybe try searching instead?</p>
-        <form action="https://duckduckgo.com" method="GET" class="fourohfour-search">
-            <label for="q">Search term</label>
-            <input type="text" class="form-control" name="q" id="q" placeholder="Search zarino.co.uk">
+        <form action="https://duckduckgo.com" method="GET" class="form-inline text-sans-serif">
+            <label for="q" class="sr-only">Search zarino.co.uk</label>
+            <input type="text" class="form-control mr-3 mb-2" name="q" id="q">
             <input type="hidden" name="sites" value="zarino.co.uk">
-            <button class="btn btn-default" type="submit">Search</button>
+            <button class="btn btn-primary mb-2" type="submit">Search</button>
         </form>
     </div>
 </div>
