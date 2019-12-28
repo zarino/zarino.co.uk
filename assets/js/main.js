@@ -30,9 +30,7 @@ var random = function(array){
   return array[Math.floor(Math.random() * array.length)]
 }
 
-
-/* Header background changes according to time of day */
-
+// Header background changes according to time of day
 var colours = {
   0: '#00161f',
   5: '#00161f',
@@ -79,17 +77,13 @@ var getColourForPercentage = function(percent){
   return match
 }
 
-var changeHeader = function(hexColour){
-  $('header').animate({backgroundColor: hexColour}, 5000)
-}
-
-var checkTime = function(){
+var updateHeaderColour = function(){
   var d = new Date()
   var h = d.getHours()
   var m = d.getMinutes()
   var percent = ((h + (m / 60)) / 24) * 100
   var colour = getColourForPercentage(percent)
-  changeHeader(colour)
+  $('header').css('background-color', colour)
 }
 
 var trackOutboundLink = function(e){
@@ -159,8 +153,8 @@ $(function(){
 
   window.headingTimer = setInterval(changeSubheading, 15000)
   setTimeout(changeSubheading, 2000)
-  window.colourTimer = setInterval(checkTime, 5000)
-  checkTime()
+  window.colourTimer = setInterval(updateHeaderColour, 60000)
+  updateHeaderColour()
 
   $.scrollDepth()
 
