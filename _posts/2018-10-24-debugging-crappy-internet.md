@@ -105,7 +105,7 @@ The Mac comes with a built-in wifi network diagnostics tool, but it’s kinda hi
 
     watch -n 1 /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I
 
-![Terminal window showing the output of the airport diagnostic command](/media/watch-airport-diagnostics.png)
+{% img "Terminal window showing the output of the airport diagnostic command" "/media/watch-airport-diagnostics.png" %}
 
 To get a feel for how “strong” your wifi connection is, subtract your `agrCtrlRSSI` (eg: -50) from your `agrCtrlNoise` (eg: -100). It helps to just ignore the minus signs. That gives you a “Signal to Noise Ratio” or SNR. You want an SNR of at least 25 for data-heavy applications like streaming. An SNR of 40 or more is excellent.
 

@@ -13,13 +13,13 @@ We’ve all been there – attending a wedding or a conference or something, in 
 
 Well, if you’re coming to Liverpool (maybe for the awesome [Liverpool MakeFest](https://lpoolmakefest.org)??) then I’ve got you sorted. Here are roughly **10 things to see and do**, and **10 places to eat and drink** – for all times of day.
 
-![Liverpool Metropolitan Cathedral](/media/met-cathedral.jpg)
+{% img "Liverpool Metropolitan Cathedral" "/media/met-cathedral.jpg" %}
 
 # Things for history fans
 
 Simply _the best_ place to get a feel for Liverpool’s history—from football, to the slave trade, to the Beatles—is at the [Museum of Liverpool](http://www.liverpoolmuseums.org.uk/mol). Free entry, open 10:00–17:00 every day.
 
-![Museum Of Liverpool](/media/museum-of-liverpool.jpg)
+{% img "Museum Of Liverpool" "/media/museum-of-liverpool.jpg" %}
 
 If you’re coming with kids, and want to give them something fun to do, [check out the World Museum](http://www.liverpoolmuseums.org.uk/wml). There’s everything from Egyptian mummies to dinosaur bones. Free entry, open 10:00–17:00 every day.
 
@@ -31,13 +31,13 @@ If you’ve got more than a few hours to spare, and you fancy a deeper delve int
 
 For a proper unique insight to art and architecture in Liverpool, give the brand new [RIBA North visitor centre]() a try, and right next door, the [Open Eye Gallery]() which regularly features photographic work from local artists.
 
-![Open Eye Gallery](/media/open-eye-gallery.jpg)
+{% img "Open Eye Gallery" "/media/open-eye-gallery.jpg" %}
 
 At the other end of town, the [Walker Art Gallery](http://www.liverpoolmuseums.org.uk/walker) is a lovely visit if you’re into proper "traditional" painting and sculpture. It’s just up the road from the World Museum, so works well as a double bill, especially for families with kids. Free entry, open 10:00–17:00 every day.
 
 And if you’re willing to travel a few minutes out of the city centre, catch a Merseyrail train to Bebington Station (20 minute journey, £3.60 return ticket from the city centre) and spend an afternoon at Port Sunlight and the [Lady Lever Art Gallery](http://www.liverpoolmuseums.org.uk/ladylever). Port Sunlight is a beautiful “model” village from the Victorian age, built around the first Lever Brothers (now Unilever) factory. And the Lady Lever Art Gallery, nestled in its centre, has probably the best collection of Pre-Raphaelite art in the country.
 
-![Port Sunlight](/media/port-sunlight-map.jpg)
+{% img "Port Sunlight" "/media/port-sunlight-map.jpg" %}
 
 # Beautiful sights
 
@@ -45,7 +45,7 @@ Liverpool has two cathedrals a few hundred metres apart: [Liverpool Anglican Cat
 
 If it’s a clear day, and you fancy a bird’s eye view of the city, head up to the [Panoramic bar](http://www.panoramic34.com/), on the 34th floor of West Tower. Food can be a bit pricey here, but it’s a great spot to grab a beer or a cocktail, as the sun sets, before dining elsewhere. And the view is fantastic.
 
-![View from Panoramic 34](/media/view-from-panoramic.jpg)
+{% img "View from Panoramic 34" "/media/view-from-panoramic.jpg" %}
 
 And [Liverpool Central Library](http://liverpool.gov.uk/libraries/find-a-library/central-library/) is my favourite hidden gem. Make sure to check out the central atrium, the rooftop terrace, and the three gorgeous Victorian reading rooms. Free entry, 09:00–20:00 weekdays, 10:00–17:00 weekends.
 
@@ -57,7 +57,7 @@ And [Liverpool Central Library](http://liverpool.gov.uk/libraries/find-a-library
 
 Check out [Bold Street Coffee](http://boldstreetcoffee.co.uk/) and [East Avenue Bakehouse](http://eastavenuebakehouse.co.uk/), both opposite each other on Bold Street in the centre of town. Or get away from the crowds at [Ryde](http://www.rydeliverpool.co.uk/), a 20 minute walk from the city centre. All three open at 08:00 or earlier, and do really good breakfasts.
 
-![Ryde cafe Liverpool](/media/ryde.jpg)
+{% img "Ryde cafe Liverpool" "/media/ryde.jpg" %}
 
 ## Late breakfast (opening 08:30 or later)
 
@@ -67,7 +67,7 @@ Check out [Bold Street Coffee](http://boldstreetcoffee.co.uk/) and [East Avenue 
 
 Definitely too many places to list here! You can’t go wrong with any of the places on the [Independent Liverpool list](http://independent-liverpool.co.uk/profiles/category/restaurants/). If you need a decision made for you, search out Free State Kitchen, just off Hope Street, for proper American-style comfort food.
 
-![Free State Kitchen](/media/free-state-kitchen.jpg)
+{% img "Free State Kitchen" "/media/free-state-kitchen.jpg" %}
 
 ## Drinks
 
@@ -75,6 +75,6 @@ For an excellent range of beers and craft ales, check out the [Ship &amp; Mitre]
 
 The [Philharmonic Pub](https://en.wikipedia.org/wiki/Philharmonic_Dining_Rooms) has a slightly less exciting range of drinks, but makes up for with with a simply gorgeous Victorian interior.
 
-![Philharmonic Pub](/media/philharmonic-pub.jpg)
+{% img "Philharmonic Pub" "/media/philharmonic-pub.jpg" %}
 
 For cocktails and spirits, check out [McGuffies](http://mcguffieandco.co.uk/) and [Pinch](https://twitter.com/pinchliverpool) on Castle Street, or [Berry and Rye](https://www.facebook.com/pages/Berry-and-Rye/514145101946321), the 1920s-style "speakeasy" behind the plain black shopfront on Berry Street.

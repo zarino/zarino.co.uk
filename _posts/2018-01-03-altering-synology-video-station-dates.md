@@ -10,7 +10,7 @@ related:
 
 I love Synology Video Station. I use it all the time to stream my library of video files from my NAS, to the DS Video app on my TV.
 
-![DS Video running on an Android TV](/media/ds-video-android-tv.jpg)
+{% img "DS Video running on an Android TV" "/media/ds-video-android-tv.jpg" %}
 
 The thing is, I recently upgraded from a DS214se to a DS218+. As part of [the migration](https://www.synology.com/en-us/knowledgebase/DSM/tutorial/General/How_to_migrate_between_Synology_NAS_DSM_6_0_and_later), it looks like Video Station re-indexed my video library, and picked totally the _wrong_ “date addded” for each video file. Suddenly, Video Station was showing all my files in a crazy random order, rather than putting the newest videos at the top. Sigh.
 
@@ -30,7 +30,7 @@ I took a quick poke around the database to familiarise myself with Video Station
 * Video Station classifies your video files into “types”: `movie`, `tvshow_episode`, `home_video`, etc. So each video file has a corresponding record in one of these tables, storing information specific to the file’s “type” – for example, a `tvshow_episode` has a `title` and `description`, a `tvshow_id` (for the series as a whole), `season` and `episode` number, as well as a `create_date` and `modify_date`.
 * Records in the `video_file` table are linked to records in one of the “type” tables, via the `mapper_id` key, and the `mapper` table. It’s all quite tidy.
 
-![Video Station sort order](/media/video-station-sort-order.jpg)
+{% img "Video Station sort order" "/media/video-station-sort-order.jpg" %}
 
 Experimentation revealed that, when the Video Station UI says it’s sorting your movies or TV episodes by “Recently Added”, it’s _actually_ sorting by the `create_date` field in the relevant “type” table. In other words, when you’re looking at your “recently added” movies, it’s running a query like…
 

@@ -7,9 +7,9 @@ def construct_img_tag(alt, path)
     # Include all the srcset magic if there is a
     # high-res version of the image to show.
     if high_res_image_exists
-        return '<img src="%s" alt="%s" srcset="%s 700w, %s 1400w" sizes="(min-width: 768px) 700px, (min-width: 480px) 420px, 100vw">' % [path, alt, path, high_res_path]
+        return '<noscript class="loading-lazy"><img src="%s" alt="%s" srcset="%s 700w, %s 1400w" sizes="(min-width: 768px) 700px, (min-width: 480px) 420px, 100vw" loading="lazy"></noscript>' % [path, alt, path, high_res_path]
     else
-        return '<img src="%s" alt="%s">' % [path, alt]
+        return '<noscript class="loading-lazy"><img src="%s" alt="%s" loading="lazy"></noscript>' % [path, alt]
     end
 end
 

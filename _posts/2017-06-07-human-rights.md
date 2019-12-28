@@ -39,7 +39,7 @@ In case you missed it, just read that last paragraph again.
 
 These simply *aren’t* the sorts of words that the leader of a civilised democracy should be saying.
 
-![Lady Justice statue at the Old Bailey, London](/media/lady-justice-old-bailey-london.jpg)
+{% img "Lady Justice statue at the Old Bailey, London" "/media/lady-justice-old-bailey-london.jpg" %}
 
 # So, what are Human Rights?
 
@@ -49,7 +49,7 @@ These things used to be fuzzily upheld as part of “English Common Law”. But 
 
 If you want to read the 15 rights to which you—as a UK citizen—are legally entitled, then you can check out [Schedule 1 of the Human Rights Act, here](http://www.legislation.gov.uk/ukpga/1998/42/schedule/1). It’s actually quite readable!
 
-![Theresa May](/media/theresa-may.jpg)
+{% img "Theresa May" "/media/theresa-may.jpg" %}
 
 But what Theresa May is saying here, is that she believes the government, in some cases, deals with people so dangerous, that they no longer deserve these human rights.
 
@@ -57,7 +57,7 @@ Effectively that everyone has these rights, but some people—like Theresa May�
 
 Anyone who’s ever read or watched George Orwell’s Animal Farm will be getting flashbacks right about now.
 
-![Animal Farm: All animals are equal but some animals are more equal than others](/media/all-animals-are-equal.jpg)
+{% img "Animal Farm: All animals are equal but some animals are more equal than others" "/media/all-animals-are-equal.jpg" %}
 
 # Why does this matter?
 
@@ -65,7 +65,7 @@ Surely, if bad people do really bad things, but our clumsy laws are providing a 
 
 These bastards, after all, are the kind of angry, troubled, vindictive men, who detonate explosives at children’s pop concerts, or crash vans into innocent crowds on London Bridge.
 
-![Flowers and letters of condolence laid out in a Manchester street](/media/manchester-arena-attack-tribute.jpg)
+{% img "Flowers and letters of condolence laid out in a Manchester street" "/media/manchester-arena-attack-tribute.jpg" %}
 
 But the truth is—even with the hideousness of these terrorists’ crimes—stripping them of their human rights is *not* an acceptable reaction.
 
@@ -75,7 +75,7 @@ As soon as you have made an exception, you have opened the door to exploitation.
 
 If you give the government power to charge or detain British citizens without trial—even mass murderers—what’s to stop them slowly increasing the net of ‘undesirables’ to include people like you, or your family? How do you know *you’re* not on one of the government’s lists? Maybe a data entry clerk made a typo. Or maybe you once criticised the government in a private message to a friend.
 
-![Prisoners at the US Guantanamo Bay facility, many of whom were held for years without trial](/media/guantanamo-bay-prisoners.jpg)
+{% img "Prisoners at the US Guantanamo Bay facility, many of whom were held for years without trial" "/media/guantanamo-bay-prisoners.jpg" %}
 
 It is ridiculous to even have to say these things, but they are the fat end of the wedge that Theresa May is *right now* trying to jam under our radar. And we—as British citizens—simply can’t let her get away with it.
 
