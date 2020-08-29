@@ -21,3 +21,27 @@
     @include make-container();
     max-width: (700px + $grid-gutter-width);
 }
+
+// Nicely lay out two or more images in a row, with object-fit to
+// fudge the image heights so they all line up with minimal cropping.
+.image-row {
+    height: 10em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    @include media-breakpoint-up('sm') {
+        height: 15em;
+    }
+
+    > .col,
+    > [class*="col-"] {
+        height: 100%;
+    }
+
+    img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        margin: 0 !important; // override .post-content img
+    }
+}

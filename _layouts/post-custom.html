@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div id="content">
+    <div class="container-readable">
+        <p class="date">
+            <a title="Permalink" href="{{ page.url }}">
+                {{ page.date | date: "%A %-d %B %Y" }}
+                <span class="muted">&infin;</span>
+            </a>
+        </p>
+        <p class="byline sr-only vcard">
+          By <a class="fn" href="https://plus.google.com/u/0/105177279210927536682?rel=author">Zarino Zappia</a>
+        </p>
+    </div>
+    <div class="post-content">
+        <div class="container-readable">
+            <h1>{{ page.title | widont }}</h1>
+        </div>
+        {{ content }}
+    </div>
+</div>
+
+{% if page.related -%}
+    <div id="further-reading">
+        <div class="container-readable">
+            <h2>Further reading:</h2>
+          {%- for url in page.related %}
+            {% for related in site.posts -%}
+              {%- if related.url == url -%}
+                <a href="{{ related.url }}">
+                    <h3>{{ related.title | widont }}</h3>
+                  {%- if related.summary -%}
+                    <p class="preview">{{ related.summary | widont }}</p>
+                  {%- endif -%}
+                    <p class="date">{{ related.date | date: "%-d %B %Y" }}</p>
+                </a>
+              {%- endif -%}
+            {%- endfor %}
+          {% endfor -%}
+        </div>
+    </div>
+{%- endif %}
