@@ -87,3 +87,9 @@ twitter-widget {
 iframe {
     margin-bottom: $paragraph-margin-bottom;
 }
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}

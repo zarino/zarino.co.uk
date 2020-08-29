@@ -1,5 +1,3 @@
-/* Subheading carousel */
-
 var subheadings = [
   'develops things',
   'designs things',
@@ -109,9 +107,6 @@ var trackOutboundLink = function(e){
   setTimeout(callback, 2000);
 }
 
-
-/* Dom ready */
-
 $(function(){
 
   $('#menu-toggle').on('click', function(e){
@@ -203,5 +198,24 @@ $(function(){
     $a.data('timer', timer);
 
   });
+
+  if ( 'imageLightbox' in $.fn ) {
+    $('.image-gallery-item').imageLightbox({
+      selector: 'class="lightbox"',
+      animationSpeed: 50,
+      onStart: function() {
+        $('<div class="lightbox-overlay">').appendTo('body');
+      },
+      onEnd: function() {
+        $('.lightbox-overlay').remove();
+      },
+      onLoadStart: function() {
+        $('<div class="lightbox-loader spinner-border" role="status"><span class="sr-only">Loading…</span></div>').appendTo('body');
+      },
+      onLoadEnd: function() {
+        $('.lightbox-loader').remove();
+      },
+    });
+  }
 
 })
