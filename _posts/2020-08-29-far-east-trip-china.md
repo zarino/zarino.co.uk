@@ -5,6 +5,9 @@ summary: >
   Photos and memories from the first leg of my 2019 trip around the South China Sea, starting with three days in Beijing.
 image: /media/far-east-cruise/preview/forbidden-city-group-selfie.jpg
 contains_image_gallery: true
+related:
+  - /post/far-east-trip-japan-taiwan-hong-kong/
+  - /post/weekend-in-liverpool/
 ---
 
 <div class="container-readable" markdown="1">
@@ -519,7 +522,7 @@ But it’s an uncomfortable city—and I assume, country—to visit.
 
 You’re aware of the authoritarian government from the moment you arrive. I don’t exaggerate when I tell you it was literally a miracle we got in at all – twelve hours earlier, the Chinese government had decided to refuse almost all [144-hour transit visas](https://www.gov.uk/foreign-travel-advice/china/entry-requirements) with no explanation, and we were some of only a handful of cruise-goers who actually managed to get in under the arrangement.
 
-Once we were in, we quickly worked out that China is a country completely happy on its own. There are enough people in China that they can happily function as its own, self-contained world. You get the feeling that almost nobody leaves – I’m not sure whether that’s because they _can’t_ or just don’t _want_ to.
+Once we were in, we quickly worked out that China is a country completely happy on its own. There are enough people in China that it can happily function as its own, self-contained world. You get the feeling that almost nobody leaves – I’m not sure whether that’s because they _can’t_ or just don’t _want_ to.
 
 The isolationism becomes even clearer when you compare China to its neighbours. As I’ll cover in future blog posts, when we visited Japan, Taiwan, Vietnam, and Singapore, the tour guides, retailers, and hotel staff were _desperate_ to help us, _desperate_ to show their country’s best side, to make happy memories for the visitors. I’m the same when I bump into foreign tourists in my home city of Liverpool. Kindness costs you nothing, and it feels good to make people happy.
 
@@ -527,7 +530,7 @@ But in Beijing, that was surprisingly hard to find. It’s like there’s a “t
 
 Most worrying is the sense we got that nobody questions the status quo. When we spoke about our crazy immigration experience—mothers separated from babies, tourists held under police guard in a pen, whole planes turned around without explanation—people just looked at us blankly, as if waiting for us to tell them something unacceptable. When we told the same stories to Chinese staff on the cruise ship, they were shocked and, frankly, embarrassed. But on the mainland, it was like “Well, if the government did that, it must be right.” We quickly started to understand what the people of [Hong Kong](https://en.wikipedia.org/wiki/2019%E2%80%9320_Hong_Kong_protests) were (and still are) protesting for.
 
-Speaking of which, next up, in Part 2 – our ship sets sail, to Japan, Taiwan, and Hong Kong.
+Speaking of which, next up, in Part 2 – [our ship sets sail, to Japan, Taiwan, and Hong Kong](/posts/far-east-trip-japan-taiwan-hong-kong/).
 
 </div>
 
