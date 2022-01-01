@@ -7,7 +7,7 @@ image: /media/far-east-cruise/preview/forbidden-city-group-selfie.jpg
 contains_image_gallery: true
 related:
   - /post/far-east-trip-japan-taiwan-hong-kong/
-  - /post/weekend-in-liverpool/
+  - /post/far-east-trip-vietnam-singapore/
 ---
 
 <div class="container-readable" markdown="1">
