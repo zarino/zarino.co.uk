@@ -10,7 +10,7 @@ related:
 
 I store lots of stuff on my [Synology NAS](/post/getting-started-ds214se-nas): videos, TV shows, music. Every now and then, I dump the entire contents onto an [external USB drive](/post/write-hfs-synology-nas) – partly as a second backup, and partly because it means I can take my stuff with me when I travel on business or visit my family at home.
 
-{% img "Synology DS214se" "/media/ds214se.jpg" %}
+{% img alt="Synology DS214se" src="/media/ds214se.jpg" srcset="/media/ds214se.jpg 700w, /media/ds214se@2x.jpg 1400w" %}
 
 Last night I went through the process of cloning my media files over onto the external USB drive, and I figured I might as well publish my script for doing it.
 

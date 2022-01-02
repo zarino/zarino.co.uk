@@ -10,7 +10,7 @@ related:
 
 So, [I’ve had my Synology DS214se for a few months now](/post/getting-started-ds214se-nas), and it’s done a sterling job of hosting my wireless Time Machine backups as well as my movies and TV shows.
 
-{% img "Synology DS214se" "/media/ds214se.jpg" %}
+{% img alt="Synology DS214se" src="/media/ds214se.jpg" srcset="/media/ds214se.jpg 700w, /media/ds214se@2x.jpg 1400w" %}
 
 This afternoon, I’ll be setting off on a short trip to see my parents. It would be nice to take my video files with me, on an external USB drive, so I can chill out in front of them on the train.
 
@@ -67,7 +67,7 @@ Annoyingly, there's no way to disable journaling from the DiskStation itself. Yo
 
 Select the drive you’re interested in, then hold down the `Alt` or `Option` key and choose **File** > **Disable Journaling** from the main menu.
 
-{% img "Disable journaling on an HFS+ drive using Disk Utility" "/media/hfs-disable-journaling.jpg" %}
+{% img alt="Disable journaling on an HFS+ drive using Disk Utility" src="/media/hfs-disable-journaling.jpg" %}
 
 You can then press the **Eject** button in the Disk Utility toolbar, unplug the drive from your Mac, and plug it back into your DiskStation.
 

@@ -16,7 +16,7 @@ I summarised that:
 
 As I covered in the blog post, trust is a big issue, and it’s one of the things holding the UK Government back from making organ donation opt-out – despite the dramatic increase such a change would have on the donation rate.
 
-[{% img "Graph from Johnson & Goldstein (Science, 2003) showing comparative organ donation rates in European countries" "/media/organ-donation.png" %}](/media/organ-donation.png)
+[{% img alt="Graph from Johnson & Goldstein (Science, 2003) showing comparative organ donation rates in European countries" src="/media/organ-donation.png" srcset="/media/organ-donation.png 700w, /media/organ-donation@2x.png 1400w" %}](/media/organ-donation@2x.png)
 
 But it’s not just governments that have to worry about losing their citizens’ trust. John Lewis, the posterchild of modern British respectability and restraint, recently found itself in court after Sky News producer Roddy Mansfield accused them of sending him unsoliticted emails.
 

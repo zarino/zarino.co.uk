@@ -12,7 +12,7 @@ Readers in other cities (or even other countries) might be surprised to learn Li
 
 Today, however, they’re worlds apart. While the London Underground is a sprawling network of 270 stations and 11 lines, Merseyrail has a quarter as many stations and only 3 lines – most of which run overground. London Underground passengers make almost 1.2 billion journeys a year – roughly 40 times the number that take place on Merseyrail.
 
-{% img "Map of the Merseyrail network" "/media/merseyrail-map.jpg" %}
+{% img alt="Map of the Merseyrail network" srcset="/media/merseyrail-map.jpg 700w, /media/merseyrail-map@2x.jpg 1400w" src="/media/merseyrail-map.jpg" %}
 
 When I first approached Liverpool, almost 3 years ago, it was via Merseyrail. I’d taken an Arriva trains service from Hereford to Chester, and then a Merseyrail service to Liverpool Central. My enduring memory of the journey is one of poor lighting, grubby brown and cream walls, brutal rubberised flooring, and—worst of all—inherently poor graphic design.
 
@@ -20,15 +20,15 @@ Maybe it only seemed worse because I’d come from three years of public transpo
 
 Merseyrail, by contrast, is a hodge-podge. And it’s a real shame. It’s almost an admission of defeat. In theory, all rail, bus, and ferry transport across the region is controlled by MerseyTravel. But unlike Transport for London, where the reassuring glow of block colours and FF New Johnston lead the way home after a night out you’d rather forget, in Liverpool you get crap like this:
 
-{% img "A Merseyrail sign warning customers to keep their feet off seats and refrain from smoking" "/media/merseyrail-sign.jpg" %}
+{% img alt="A Merseyrail sign warning customers to keep their feet off seats and refrain from smoking" src="/media/merseyrail-sign.jpg" %}
 
 This isn’t bad design, it’s just really unfortunate. 27 words, in five different point sizes of Helvetica Bold, some in SHOUTY CAPS, some not, and all of it with little to no breathing space. There’s brackets and exclamation marks! And then crammed in at the bottom, the Merseyrail logo—y’know—just in case you forgot whose train you were on. Maybe there are legal reasons all that crap needs to be on there. But that doesn’t mean anybody’s going to read it. If this were London, you’d have something more like:
 
-[{% img "My version of a sign containing all the same information, but in a simpler, clearer form" "/media/merseyrail-sign-2.jpg" %}](/media/merseyrail-sign-2.jpg)
+[{% img alt="My version of a sign containing all the same information, but in a simpler, clearer form" src="/media/merseyrail-sign-2.jpg" %}](/media/merseyrail-sign-2.jpg)
 
 Like I said, it’s not bad, but it’s unfortunate. You can put up with a bunch of crappy looking no-smoking signs. But when I saw this next poster on a journey between Liverpool city centre and St Michaels, it so perfectly epitomised Merseyrail’s stance on public information signage, that I had to take a photo and write this blog post about it:
 
-{% img "A Merseyrail poster advertising the Railpass discount scheme" "/media/merseyrail-poster.jpg" %}
+{% img alt="A Merseyrail poster advertising the Railpass discount scheme" src="/media/merseyrail-poster.jpg" src="/media/merseyrail-poster.jpg 700w, /media/merseyrail-poster@2x.jpg 1400w" %}
 
 Okay, elephant in the room: Why is there a big purple hand picking that guy’s nose? This ain’t no hidden FedEx arrow – it’s smack-bang in the middle of the poster. How can you *not* see it?
 

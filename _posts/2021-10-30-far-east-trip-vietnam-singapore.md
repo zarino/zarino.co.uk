@@ -22,7 +22,7 @@ Before I pick up my story on the way to Da Nang in Vietnam, I want to follow up 
 
 <p>
   <a href="/media/far-east-cruise/full/forbidden-city-group-selfie.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/forbidden-city-group-selfie.jpg" alt="Nino, Julijana, and Zarino at the Forbidden City" width="960" height="720" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/forbidden-city-group-selfie.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-group-selfie.jpg 700w, /media/far-east-cruise/preview/forbidden-city-group-selfie@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="Nino, Julijana, and Zarino at the Forbidden City" width="960" height="720" class="rounded" %}
   </a>
 </p>
 
@@ -33,12 +33,12 @@ They’re also incredibly good from an accessibility point of view – wide, fla
 <div class="row image-row" style="height: auto">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/quantum-corridor.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/quantum-corridor.jpg" alt="Nino and Julijana on the Quantum of the Seas" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/quantum-corridor.jpg" srcset="/media/far-east-cruise/preview/quantum-corridor.jpg 394w, /media/far-east-cruise/preview/quantum-corridor@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Nino and Julijana on the Quantum of the Seas" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/quantum-atrium-wave.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/quantum-atrium-wave.jpg" alt="Nino and Julijana waving from the Royal Esplanade" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/quantum-atrium-wave.jpg" srcset="/media/far-east-cruise/preview/quantum-atrium-wave.jpg 394w, /media/far-east-cruise/preview/quantum-atrium-wave@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Nino and Julijana waving from the Royal Esplanade" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -51,7 +51,7 @@ RCI is also keen to note their upcoming ‘Icon’ class of ships will run on Li
 
 <p>
   <a href="/media/far-east-cruise/full/royal-caribbean-sustainability-2019.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/royal-caribbean-sustainability-2019.jpg" alt="A page from Royal Caribbean’s 2019 sustainability report" width="960" height="621" class="rounded border" %}
+    {% img src="/media/far-east-cruise/preview/royal-caribbean-sustainability-2019.jpg" srcset="/media/far-east-cruise/preview/royal-caribbean-sustainability-2019.jpg 1000w, /media/far-east-cruise/preview/royal-caribbean-sustainability-2019@2x.jpg 2000w" sizes="(min-width: 730px) 700px, 100vw" alt="A page from Royal Caribbean’s 2019 sustainability report" width="960" height="621" class="rounded border" %}
   </a>
 </p>
 
@@ -169,7 +169,7 @@ Now well into the second half of our cruise, there was one show we hadn’t yet 
 
 <p>
   <a href="/media/far-east-cruise/full/two70-starwater-logo.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/two70-starwater-logo.jpg" alt="Starwater performance with dancers in 1920s costumes in front of a big Starwater logo" width="960" height="540" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/two70-starwater-logo.jpg" srcset="/media/far-east-cruise/preview/two70-starwater-logo.jpg 700w, /media/far-east-cruise/preview/two70-starwater-logo@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="Starwater performance with dancers in 1920s costumes in front of a big Starwater logo" width="960" height="540" class="rounded" %}
   </a>
 </p>
 
@@ -179,7 +179,7 @@ Two70 is named after the 270&deg; view you get from its large, two-storey window
 
 <p>
   <a href="/media/far-east-cruise/full/two70-sailaway.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/two70-sailaway.jpg" alt="Virtual sailaway in the Two70 lounge, with virtual fireworks on projectors" width="960" height="540" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/two70-sailaway.jpg" srcset="/media/far-east-cruise/preview/two70-sailaway.jpg 700w, /media/far-east-cruise/preview/two70-sailaway@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="Virtual sailaway in the Two70 lounge, with virtual fireworks on projectors" width="960" height="540" class="rounded" %}
   </a>
 </p>
 
@@ -187,13 +187,13 @@ The Starwater performance combines these projectors, with one of the ship’s US
 
 <p>
   <a href="/media/far-east-cruise/full/two70-starwater-lights.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/two70-starwater-lights.jpg" alt="The six roboscreens drowning the stage in light during a performance" width="960" height="540" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/two70-starwater-lights.jpg" srcset="/media/far-east-cruise/preview/two70-starwater-lights.jpg 700w, /media/far-east-cruise/preview/two70-starwater-lights@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="The six roboscreens drowning the stage in light during a performance" width="960" height="540" class="rounded" %}
   </a>
 </p>
 
 <p>
   <a href="/media/far-east-cruise/full/two70-starwater-screens.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/two70-starwater-screens.jpg" alt="The six roboscreens displaying a shoal of fish above a dancer" width="960" height="540" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/two70-starwater-screens.jpg" srcset="/media/far-east-cruise/preview/two70-starwater-screens.jpg 700w, /media/far-east-cruise/preview/two70-starwater-screens@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="The six roboscreens displaying a shoal of fish above a dancer" width="960" height="540" class="rounded" %}
   </a>
 </p>
 
@@ -201,7 +201,7 @@ The show itself is a Las Vegas / Broadway style mixture of dance, acrobatics, mu
 
 <p>
   <a href="/media/far-east-cruise/full/two70-starwater-performers.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/two70-starwater-performers.jpg" alt="Acrobats and singers during a Starwater performance" width="960" height="720" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/two70-starwater-performers.jpg" srcset="/media/far-east-cruise/preview/two70-starwater-performers.jpg 700w, /media/far-east-cruise/preview/two70-starwater-performers@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="Acrobats and singers during a Starwater performance" width="960" height="720" class="rounded" %}
   </a>
 </p>
 
@@ -216,12 +216,12 @@ Anyway, somehow, through these sheets of mist and rain, our adorable tour guide,
 <div class="row image-row" style="height: auto">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/da-nang-rain-dad.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-rain-dad.jpg" alt="Nino and our tour guide, Key, walking through the rain" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-rain-dad.jpg" srcset="/media/far-east-cruise/preview/da-nang-rain-dad.jpg 394w, /media/far-east-cruise/preview/da-nang-rain-dad@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Nino and our tour guide, Key, walking through the rain" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/da-nang-rain-mum.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-rain-mum.jpg" alt="Julijana in the rain" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-rain-mum.jpg" srcset="/media/far-east-cruise/preview/da-nang-rain-mum.jpg 394w, /media/far-east-cruise/preview/da-nang-rain-mum@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Julijana in the rain" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -248,17 +248,17 @@ When the French left the area, their mountain-top villas fell into disrepair. Bu
   <div class="row image-row">
     <div class="col-4">
       <a href="/media/far-east-cruise/full/da-nang-entrance-1.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/da-nang-entrance-1.jpg" alt="Entrance to Sunworld Da Nang" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/da-nang-entrance-1.jpg" srcset="/media/far-east-cruise/preview/da-nang-entrance-1.jpg 394w, /media/far-east-cruise/preview/da-nang-entrance-1@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Entrance to Sunworld Da Nang" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/da-nang-entrance-2.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/da-nang-entrance-2.jpg" alt="Entrance to Sunworld Da Nang" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/da-nang-entrance-2.jpg" srcset="/media/far-east-cruise/preview/da-nang-entrance-2.jpg 394w, /media/far-east-cruise/preview/da-nang-entrance-2@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Entrance to Sunworld Da Nang" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/da-nang-entrance-3.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/da-nang-entrance-3.jpg" alt="Entrance to Sunworld Da Nang" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/da-nang-entrance-3.jpg" srcset="/media/far-east-cruise/preview/da-nang-entrance-3.jpg 394w, /media/far-east-cruise/preview/da-nang-entrance-3@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Entrance to Sunworld Da Nang" width="720" height="960" class="rounded" %}
       </a>
     </div>
   </div>
@@ -276,12 +276,12 @@ These days, however, tourists reach the resort by cable car – the longest (580
   <div class="row image-row">
     <div class="col-6">
       <a href="/media/far-east-cruise/full/da-nang-cable-car-sign.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/da-nang-cable-car-sign.jpg" alt="Cable car sign" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/da-nang-cable-car-sign.jpg" srcset="/media/far-east-cruise/preview/da-nang-cable-car-sign.jpg 700w, /media/far-east-cruise/preview/da-nang-cable-car-sign@2x.jpg 1400w" sizes="(min-width: 930px) 420px, 100vw" alt="Cable car sign" width="960" height="720" class="rounded" %}
       </a>
     </div>
     <div class="col-6">
       <a href="/media/far-east-cruise/full/da-nang-entrance-groupie.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/da-nang-entrance-groupie.jpg" alt="Nino, Julijana and Zarino outside the cable car" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/da-nang-entrance-groupie.jpg" srcset="/media/far-east-cruise/preview/da-nang-entrance-groupie.jpg 700w, /media/far-east-cruise/preview/da-nang-entrance-groupie@2x.jpg 1400w" sizes="(min-width: 930px) 420px, 100vw" alt="Nino, Julijana and Zarino outside the cable car" width="960" height="720" class="rounded" %}
       </a>
     </div>
   </div>
@@ -289,12 +289,12 @@ These days, however, tourists reach the resort by cable car – the longest (580
   <div class="row image-row">
     <div class="col-6">
       <a href="/media/far-east-cruise/full/da-nang-entrance-fish.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/da-nang-entrance-fish.jpg" alt="Koi Carp fish in a pond near the cable car" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/da-nang-entrance-fish.jpg" srcset="/media/far-east-cruise/preview/da-nang-entrance-fish.jpg 700w, /media/far-east-cruise/preview/da-nang-entrance-fish@2x.jpg 1400w" sizes="(min-width: 930px) 420px, 100vw" alt="Koi Carp fish in a pond near the cable car" width="960" height="720" class="rounded" %}
       </a>
     </div>
     <div class="col-6">
       <a href="/media/far-east-cruise/full/da-nang-entrance-boats.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/da-nang-entrance-boats.jpg" alt="Boats on the ceiling at the cable car station" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/da-nang-entrance-boats.jpg" srcset="/media/far-east-cruise/preview/da-nang-entrance-boats.jpg 700w, /media/far-east-cruise/preview/da-nang-entrance-boats@2x.jpg 1400w" sizes="(min-width: 930px) 420px, 100vw" alt="Boats on the ceiling at the cable car station" width="960" height="720" class="rounded" %}
       </a>
     </div>
   </div>
@@ -309,12 +309,12 @@ The cable car ride takes about 20 minutes. And even on our incredibly wet, grey,
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/da-nang-cable-car-tower.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-cable-car-tower.jpg" alt="Cable cars in the air" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-cable-car-tower.jpg" srcset="/media/far-east-cruise/preview/da-nang-cable-car-tower.jpg 700w, /media/far-east-cruise/preview/da-nang-cable-car-tower@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Cable cars in the air" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/da-nang-cable-car-mum.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-cable-car-mum.jpg" alt="Julijana on the cable car" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-cable-car-mum.jpg" srcset="/media/far-east-cruise/preview/da-nang-cable-car-mum.jpg 394w, /media/far-east-cruise/preview/da-nang-cable-car-mum@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Julijana on the cable car" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -327,7 +327,7 @@ On a normal day it’d look like this:
 
 <p>
   <a href="/media/far-east-cruise/full/da-nang-golden-bridge-stock.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-stock.jpg" alt="Golden Bridge stock photo" width="720" height="960" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-stock.jpg" srcset="/media/far-east-cruise/preview/da-nang-golden-bridge-stock.jpg 700w, /media/far-east-cruise/preview/da-nang-golden-bridge-stock@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="Golden Bridge stock photo" width="720" height="960" class="rounded" %}
   </a>
 </p>
 
@@ -335,7 +335,7 @@ The day we visited, it looked like this:
 
 <p>
   <a href="/media/far-east-cruise/full/da-nang-golden-bridge-reality.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-reality.jpg" alt="Golden Bridge in the mist" width="720" height="960" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-reality.jpg" srcset="/media/far-east-cruise/preview/da-nang-golden-bridge-reality.jpg 700w, /media/far-east-cruise/preview/da-nang-golden-bridge-reality@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="Golden Bridge in the mist" width="720" height="960" class="rounded" %}
   </a>
 </p>
 
@@ -344,19 +344,19 @@ Still, the mist inside the cloud made it a very ethereal experience. A dull, eve
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/da-nang-golden-bridge-hand.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-hand.jpg" alt="Stone hand holding up the Golden Bridge" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-hand.jpg" srcset="/media/far-east-cruise/preview/da-nang-golden-bridge-hand.jpg 394w, /media/far-east-cruise/preview/da-nang-golden-bridge-hand@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Stone hand holding up the Golden Bridge" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/da-nang-golden-bridge-selfie.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-selfie.jpg" alt="Zarino on the Golden Bridge" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-selfie.jpg" srcset="/media/far-east-cruise/preview/da-nang-golden-bridge-selfie.jpg 700w, /media/far-east-cruise/preview/da-nang-golden-bridge-selfie@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Zarino on the Golden Bridge" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
 
 <p>
   <a href="/media/far-east-cruise/full/da-nang-golden-bridge-groupie.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-groupie.jpg" alt="Nino, Julijana, and Zarino on the Golden Bridge" width="960" height="720" class="rounded mt-0" %}
+    {% img src="/media/far-east-cruise/preview/da-nang-golden-bridge-groupie.jpg" srcset="/media/far-east-cruise/preview/da-nang-golden-bridge-groupie.jpg 700w, /media/far-east-cruise/preview/da-nang-golden-bridge-groupie@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="Nino, Julijana, and Zarino on the Golden Bridge" width="960" height="720" class="rounded mt-0" %}
   </a>
 </p>
 
@@ -367,12 +367,12 @@ After the bridge, we ascended to the village on the top of the hill. We wandered
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/da-nang-garden-flower.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-garden-flower.jpg" alt="Blue and purple flower" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-garden-flower.jpg" srcset="/media/far-east-cruise/preview/da-nang-garden-flower.jpg 700w, /media/far-east-cruise/preview/da-nang-garden-flower@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Blue and purple flower" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/da-nang-garden-sign.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-garden-sign.jpg" alt="Sign at the top of the hill" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-garden-sign.jpg" srcset="/media/far-east-cruise/preview/da-nang-garden-sign.jpg 394w, /media/far-east-cruise/preview/da-nang-garden-sign@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Sign at the top of the hill" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -380,12 +380,12 @@ After the bridge, we ascended to the village on the top of the hill. We wandered
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/da-nang-village-nino.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-village-nino.jpg" alt="Nino at the top of the hill" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-village-nino.jpg" srcset="/media/far-east-cruise/preview/da-nang-village-nino.jpg 394w, /media/far-east-cruise/preview/da-nang-village-nino@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Nino at the top of the hill" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/da-nang-village-griffins.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-village-griffins.jpg" alt="Griffin statues" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-village-griffins.jpg" srcset="/media/far-east-cruise/preview/da-nang-village-griffins.jpg 700w, /media/far-east-cruise/preview/da-nang-village-griffins@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Griffin statues" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -393,12 +393,12 @@ After the bridge, we ascended to the village on the top of the hill. We wandered
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/da-nang-village-pumpkins.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-village-pumpkins.jpg" alt="Brightly coloured pumpkins in a cart" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-village-pumpkins.jpg" srcset="/media/far-east-cruise/preview/da-nang-village-pumpkins.jpg 700w, /media/far-east-cruise/preview/da-nang-village-pumpkins@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Brightly coloured pumpkins in a cart" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/da-nang-village-church.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-village-church.jpg" alt="Ba Na Hills church" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-village-church.jpg" srcset="/media/far-east-cruise/preview/da-nang-village-church.jpg 394w, /media/far-east-cruise/preview/da-nang-village-church@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Ba Na Hills church" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -410,12 +410,12 @@ Before leaving, we enjoyed a buffet lunch in the big beer hall, and met a lovely
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/da-nang-buffet-cake.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-buffet-cake.jpg" alt="Cakes" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-buffet-cake.jpg" srcset="/media/far-east-cruise/preview/da-nang-buffet-cake.jpg 700w, /media/far-east-cruise/preview/da-nang-buffet-cake@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Cakes" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/da-nang-buffet-chicken.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-buffet-chicken.jpg" alt="Chicken skewers" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-buffet-chicken.jpg" srcset="/media/far-east-cruise/preview/da-nang-buffet-chicken.jpg 394w, /media/far-east-cruise/preview/da-nang-buffet-chicken@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Chicken skewers" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -423,12 +423,12 @@ Before leaving, we enjoyed a buffet lunch in the big beer hall, and met a lovely
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/da-nang-buffet-chef.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-buffet-chef.jpg" alt="Chef cooking at the buffet" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-buffet-chef.jpg" srcset="/media/far-east-cruise/preview/da-nang-buffet-chef.jpg 394w, /media/far-east-cruise/preview/da-nang-buffet-chef@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Chef cooking at the buffet" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/da-nang-buffet-table.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-buffet-table.jpg" alt="Buffet table" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-buffet-table.jpg" srcset="/media/far-east-cruise/preview/da-nang-buffet-table.jpg 700w, /media/far-east-cruise/preview/da-nang-buffet-table@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Buffet table" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -439,19 +439,19 @@ We mentioned it would be nice to stop somewhere for _real_ Vietnamese coffee (no
 
 <p>
   <a href="/media/far-east-cruise/full/da-nang-lagoon-wedding.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/da-nang-lagoon-wedding.jpg" alt="Wedding photography taking place on a raft in the lagoon" width="960" height="480" class="rounded mb-0" %}
+    {% img src="/media/far-east-cruise/preview/da-nang-lagoon-wedding.jpg" srcset="/media/far-east-cruise/preview/da-nang-lagoon-wedding.jpg 700w, /media/far-east-cruise/preview/da-nang-lagoon-wedding@2x.jpg 1400w" sizes="(min-width: 730px) 700px, 100vw" alt="Wedding photography taking place on a raft in the lagoon" width="960" height="480" class="rounded mb-0" %}
   </a>
 </p>
 
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/da-nang-lagoon-boats.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-boats.jpg" alt="Boats on the lagoon" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-boats.jpg" srcset="/media/far-east-cruise/preview/da-nang-lagoon-boats.jpg 700w, /media/far-east-cruise/preview/da-nang-lagoon-boats@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Boats on the lagoon" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/da-nang-lagoon-hills.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-hills.jpg" alt="Misty hills above the lagoon" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-hills.jpg" srcset="/media/far-east-cruise/preview/da-nang-lagoon-hills.jpg 394w, /media/far-east-cruise/preview/da-nang-lagoon-hills@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Misty hills above the lagoon" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -463,12 +463,12 @@ Still, the coffee was lovely!
 <div class="row image-row">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/da-nang-lagoon-mum.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-mum.jpg" alt="Julijana drinking coffee" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-mum.jpg" srcset="/media/far-east-cruise/preview/da-nang-lagoon-mum.jpg 394w, /media/far-east-cruise/preview/da-nang-lagoon-mum@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Julijana drinking coffee" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/da-nang-lagoon-zarino.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-zarino.jpg" alt="Zarino drinking coffee" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-zarino.jpg" srcset="/media/far-east-cruise/preview/da-nang-lagoon-zarino.jpg 394w, /media/far-east-cruise/preview/da-nang-lagoon-zarino@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Zarino drinking coffee" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -478,17 +478,17 @@ The sleepy little pearl shop was cute. Fishermen harvest oysters from the lagoon
 <div class="row image-row">
   <div class="col-4">
     <a href="/media/far-east-cruise/full/da-nang-lagoon-shells.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-shells.jpg" alt="Hanging flotsam" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-shells.jpg" srcset="/media/far-east-cruise/preview/da-nang-lagoon-shells.jpg 394w, /media/far-east-cruise/preview/da-nang-lagoon-shells@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Hanging flotsam" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/da-nang-lagoon-shrine.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-shrine.jpg" alt="Shrine in the pearl shop" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-shrine.jpg" srcset="/media/far-east-cruise/preview/da-nang-lagoon-shrine.jpg 394w, /media/far-east-cruise/preview/da-nang-lagoon-shrine@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Shrine in the pearl shop" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/da-nang-lagoon-pearls.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-pearls.jpg" alt="Pearl vendor" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/da-nang-lagoon-pearls.jpg" srcset="/media/far-east-cruise/preview/da-nang-lagoon-pearls.jpg 394w, /media/far-east-cruise/preview/da-nang-lagoon-pearls@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Pearl vendor" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -508,7 +508,7 @@ On the drive from the port to the city, our tour guide, Van, filled us in on som
 <div class="container-fluid" style="max-width: 900px">
   <p>
     <a href="/media/far-east-cruise/full/hcmc-palace-front.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-palace-front.jpg" alt="Independence Palace, Ho Chi Minh City" width="960" height="480" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-palace-front.jpg" srcset="/media/far-east-cruise/preview/hcmc-palace-front.jpg 1000w, /media/far-east-cruise/preview/hcmc-palace-front.jpg 2000w" sizes="(min-width: 930px) 900px, 100vw" alt="Independence Palace, Ho Chi Minh City" width="960" height="480" class="rounded" %}
     </a>
   </p>
 </div>
@@ -522,12 +522,12 @@ The building has a lovely Mad Men-era 1960s aesthetic, and you can just imagine 
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-palace-sitting-room.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-palace-sitting-room.jpg" alt="Red sitting room in the Independence Palace" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-palace-sitting-room.jpg" srcset="/media/far-east-cruise/preview/hcmc-palace-sitting-room.jpg 700w, /media/far-east-cruise/preview/hcmc-palace-sitting-room@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Red sitting room in the Independence Palace" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-palace-board-room.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-palace-board-room.jpg" alt="Green board room in the Independence Palace" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-palace-board-room.jpg" srcset="/media/far-east-cruise/preview/hcmc-palace-board-room.jpg 394w, /media/far-east-cruise/preview/hcmc-palace-board-room@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Green board room in the Independence Palace" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -537,12 +537,12 @@ The building was last used in the early 1970s – in fact, some say the Vietnam 
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-palace-corridor.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-palace-corridor.jpg" alt="Airy glass and marble corridor in the Independence Palace" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-palace-corridor.jpg" srcset="/media/far-east-cruise/preview/hcmc-palace-corridor.jpg 394w, /media/far-east-cruise/preview/hcmc-palace-corridor@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Airy glass and marble corridor in the Independence Palace" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-palace-office.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-palace-office.jpg" alt="An office in the Independence Palace" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-palace-office.jpg" srcset="/media/far-east-cruise/preview/hcmc-palace-office.jpg 700w, /media/far-east-cruise/preview/hcmc-palace-office@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="An office in the Independence Palace" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -554,29 +554,29 @@ We turned a corner outside the Independence Palace, and were descended upon by d
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-dad-onboarding.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-dad-onboarding.jpg" alt="Three people lift Dad into his Cyclo" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-dad-onboarding.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-dad-onboarding.jpg 700w, /media/far-east-cruise/preview/hcmc-cyclo-dad-onboarding@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Three people lift Dad into his Cyclo" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-riders.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-riders.jpg" alt="Cyclo riders wearing orange shirts" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-riders.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-riders.jpg 394w, /media/far-east-cruise/preview/hcmc-cyclo-riders@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Cyclo riders wearing orange shirts" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
 
 <video src="/media/far-east-cruise/hcmc-cyclo-junction.mp4" poster="/media/far-east-cruise/preview/hcmc-cyclo-junction.jpg" width="960" height="540" controls class="d-block my-0 rounded">
-  {% img src="/media/far-east-cruise/preview/hcmc-cyclo-junction.jpg" alt="First-person view of road traffic while riding on a Cyclo" width="960" height="540" class="rounded" %}
+  {% img src="/media/far-east-cruise/preview/hcmc-cyclo-junction.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-junction.jpg 1000w, /media/far-east-cruise/preview/hcmc-cyclo-junction@2x.jpg 2000w" sizes="(min-width: 730px) 700px, 100vw" alt="First-person view of road traffic while riding on a Cyclo" width="960" height="540" class="rounded" %}
 </video>
 
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-mum-laughing.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-mum-laughing.jpg" alt="Julijana laughing on a Cyclo" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-mum-laughing.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-mum-laughing.jpg 394w, /media/far-east-cruise/preview/hcmc-cyclo-mum-laughing@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Julijana laughing on a Cyclo" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-selfie.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-selfie.jpg" alt="Zarino on a Cyclo" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-selfie.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-selfie.jpg 700w, /media/far-east-cruise/preview/hcmc-cyclo-selfie@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Zarino on a Cyclo" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -586,12 +586,12 @@ Slung low to the ground, and gripping tightly onto Dad’s folded-up wheelchair,
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-zarino.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-zarino.jpg" alt="Zarino on a Cyclo, with Dad’s wheelchair folded up in front of him" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-zarino.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-zarino.jpg 394w, /media/far-east-cruise/preview/hcmc-cyclo-zarino@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Zarino on a Cyclo, with Dad’s wheelchair folded up in front of him" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-cargo.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-cargo.jpg" alt="A man rides a moped with a stack of wooden window frames around his waist" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-cargo.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-cargo.jpg 700w, /media/far-east-cruise/preview/hcmc-cyclo-cargo@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="A man rides a moped with a stack of wooden window frames around his waist" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -601,12 +601,12 @@ We passed old Saigon cathedral, and the custard-yellow city post office. Rows an
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-post-office.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-post-office.jpg" alt="Ho Chi Minh City post office" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-post-office.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-post-office.jpg 700w, /media/far-east-cruise/preview/hcmc-cyclo-post-office@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Ho Chi Minh City post office" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-guides.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-guides.jpg" alt="Our tour guides on a Cyclo, holding Dad’s Unawheel" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-guides.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-guides.jpg 394w, /media/far-east-cruise/preview/hcmc-cyclo-guides@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Our tour guides on a Cyclo, holding Dad’s Unawheel" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -614,12 +614,12 @@ We passed old Saigon cathedral, and the custard-yellow city post office. Rows an
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-banyan.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-banyan.jpg" alt="Massive banyan tree" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-banyan.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-banyan.jpg 394w, /media/far-east-cruise/preview/hcmc-cyclo-banyan@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Massive banyan tree" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-cyclo-dad-selfie.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-dad-selfie.jpg" alt="Nino on a Cyclo" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-cyclo-dad-selfie.jpg" srcset="/media/far-east-cruise/preview/hcmc-cyclo-dad-selfie.jpg 700w, /media/far-east-cruise/preview/hcmc-cyclo-dad-selfie@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Nino on a Cyclo" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -629,12 +629,12 @@ After the ride, we had lunch at Nhà Hàng Ngon, a restaurant with a really swee
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-restaurant-table.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-restaurant-table.jpg" alt="Nhà Hàng Ngon restaurant table" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-restaurant-table.jpg" srcset="/media/far-east-cruise/preview/hcmc-restaurant-table.jpg 700w, /media/far-east-cruise/preview/hcmc-restaurant-table@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Nhà Hàng Ngon restaurant table" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-restaurant-courtyard.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-restaurant-courtyard.jpg" alt="Nhà Hàng Ngon restaurant courtyard" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-restaurant-courtyard.jpg" srcset="/media/far-east-cruise/preview/hcmc-restaurant-courtyard.jpg 394w, /media/far-east-cruise/preview/hcmc-restaurant-courtyard@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Nhà Hàng Ngon restaurant courtyard" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -646,7 +646,7 @@ After the ride, we had lunch at Nhà Hàng Ngon, a restaurant with a really swee
 <div class="container-fluid" style="max-width: 900px">
   <p>
     <a href="/media/far-east-cruise/full/hcmc-market-wide.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-market-wide.jpg" alt="Bến Thành Market interior" width="960" height="480" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-market-wide.jpg" srcset="/media/far-east-cruise/preview/hcmc-market-wide.jpg 1000w, /media/far-east-cruise/preview/hcmc-market-wide@2x.jpg 2000w" sizes="(min-width: 930px) 900px, 100vw" alt="Bến Thành Market interior" width="960" height="480" class="rounded" %}
     </a>
   </p>
 </div>
@@ -658,12 +658,12 @@ Built in the early 1900s by the French, the market was originally a hub of local
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-market-suits.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-market-suits.jpg" alt="Suits for sale" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-market-suits.jpg" srcset="/media/far-east-cruise/preview/hcmc-market-suits.jpg 394w, /media/far-east-cruise/preview/hcmc-market-suits@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Suits for sale" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-market-fruit.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-market-fruit.jpg" alt="Avocadoes, mangoes, and papayas for sale" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-market-fruit.jpg" srcset="/media/far-east-cruise/preview/hcmc-market-fruit.jpg 700w, /media/far-east-cruise/preview/hcmc-market-fruit@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Avocadoes, mangoes, and papayas for sale" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -671,12 +671,12 @@ Built in the early 1900s by the French, the market was originally a hub of local
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-market-shrimp.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-market-shrimp.jpg" alt="Piles of prawns and shrimp for sale" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-market-shrimp.jpg" srcset="/media/far-east-cruise/preview/hcmc-market-shrimp.jpg 700w, /media/far-east-cruise/preview/hcmc-market-shrimp@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Piles of prawns and shrimp for sale" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-market-chimes.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-market-chimes.jpg" alt="A shop selling wind chimes" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-market-chimes.jpg" srcset="/media/far-east-cruise/preview/hcmc-market-chimes.jpg 394w, /media/far-east-cruise/preview/hcmc-market-chimes@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A shop selling wind chimes" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -684,12 +684,12 @@ Built in the early 1900s by the French, the market was originally a hub of local
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/hcmc-market-tat.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-market-tat.jpg" alt="A shop selling lanterns and other assorted tat" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-market-tat.jpg" srcset="/media/far-east-cruise/preview/hcmc-market-tat.jpg 394w, /media/far-east-cruise/preview/hcmc-market-tat@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A shop selling lanterns and other assorted tat" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/hcmc-market-stew.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-market-stew.jpg" alt="A massive pot of seafood stew" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-market-stew.jpg" srcset="/media/far-east-cruise/preview/hcmc-market-stew.jpg 700w, /media/far-east-cruise/preview/hcmc-market-stew@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="A massive pot of seafood stew" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -699,12 +699,12 @@ With a bit more time to burn, I went for a walk around the block to take a few m
 <div class="row image-row">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/hcmc-streets-hotels.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-streets-hotels.jpg" alt="A row of tightly-packed hotels" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-streets-hotels.jpg" srcset="/media/far-east-cruise/preview/hcmc-streets-hotels.jpg 394w, /media/far-east-cruise/preview/hcmc-streets-hotels@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="A row of tightly-packed hotels" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/hcmc-streets-cook.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-streets-cook.jpg" alt="A lady in a straw hat cooks street food in a pan" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-streets-cook.jpg" srcset="/media/far-east-cruise/preview/hcmc-streets-cook.jpg 394w, /media/far-east-cruise/preview/hcmc-streets-cook@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="A lady in a straw hat cooks street food in a pan" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -712,12 +712,12 @@ With a bit more time to burn, I went for a walk around the block to take a few m
 <div class="row image-row">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/hcmc-streets-shop.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-streets-shop.jpg" alt="A shopkeeper sits with his feet up" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-streets-shop.jpg" srcset="/media/far-east-cruise/preview/hcmc-streets-shop.jpg 394w, /media/far-east-cruise/preview/hcmc-streets-shop@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="A shopkeeper sits with his feet up" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/hcmc-streets-overgrown.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/hcmc-streets-overgrown.jpg" alt="Plants grow out of the sides of unkept apartment blocks" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/hcmc-streets-overgrown.jpg" srcset="/media/far-east-cruise/preview/hcmc-streets-overgrown.jpg 394w, /media/far-east-cruise/preview/hcmc-streets-overgrown@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Plants grow out of the sides of unkept apartment blocks" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -746,17 +746,17 @@ Before we knew it, we were at the National Orchid Garden. It was a gorgeous plac
   <div class="row image-row">
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-gardens-sign.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-gardens-sign.jpg" alt="National Orchid Garden, Singapore" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-gardens-sign.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-sign.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-sign@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="National Orchid Garden, Singapore" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-gardens-clock.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-gardens-clock.jpg" alt="Clock at the National Orchid Garden" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-gardens-clock.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-clock.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-clock@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Clock at the National Orchid Garden" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-gardens-leaflet.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-gardens-leaflet.jpg" alt="Visitor guidebook for the National Orchid Garden" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-gardens-leaflet.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-leaflet.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-leaflet@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Visitor guidebook for the National Orchid Garden" width="720" height="960" class="rounded" %}
       </a>
     </div>
   </div>
@@ -769,12 +769,12 @@ Justin told us how, traditionally, ladies wear an orchid flower on top of one or
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-gardens-parents.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-parents.jpg" alt="Nino and Julijana at the National Orchid Garden" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-parents.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-parents.jpg 700w, /media/far-east-cruise/preview/singapore-gardens-parents@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Nino and Julijana at the National Orchid Garden" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-gardens-pink.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-pink.jpg" alt="Pink flowers" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-pink.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-pink.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-pink@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Pink flowers" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -782,12 +782,12 @@ Justin told us how, traditionally, ladies wear an orchid flower on top of one or
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-gardens-statue.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-statue.jpg" alt="Statue" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-statue.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-statue.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-statue@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Statue" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-gardens-waterfall.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-waterfall.jpg" alt="Zarino standing behind a waterfall" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-waterfall.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-waterfall.jpg 700w, /media/far-east-cruise/preview/singapore-gardens-waterfall@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Zarino standing behind a waterfall" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -797,12 +797,12 @@ Many of the orchids in the garden are dedicated to famous figures from around th
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-gardens-diana-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-diana-1.jpg" alt="Orchid named after Princess Diana" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-diana-1.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-diana-1.jpg 700w, /media/far-east-cruise/preview/singapore-gardens-diana-1@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Orchid named after Princess Diana" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-gardens-diana-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-diana-2.jpg" alt="Orchid named after Princess Diana" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-diana-2.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-diana-2.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-diana-2@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Orchid named after Princess Diana" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -812,17 +812,17 @@ Singapore’s first prime minister, in the 1970s, establised a massive tree plan
 <div class="row image-row">
   <div class="col-4">
     <a href="/media/far-east-cruise/full/singapore-gardens-mum.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-mum.jpg" alt="Julijana peeking out from behind a pergola" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-mum.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-mum.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-mum@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Julijana peeking out from behind a pergola" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/singapore-gardens-lily-pads.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-lily-pads.jpg" alt="lily pads" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-lily-pads.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-lily-pads.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-lily-pads@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="lily pads" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/singapore-gardens-red.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-gardens-red.jpg" alt="Red orchids" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-gardens-red.jpg" srcset="/media/far-east-cruise/preview/singapore-gardens-red.jpg 394w, /media/far-east-cruise/preview/singapore-gardens-red@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Red orchids" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -835,17 +835,17 @@ Next, we travelled to China Town, to visit the Bhudda Tooth Relic Temple. The st
   <div class="row image-row">
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-temple-exterior.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-temple-exterior.jpg" alt="Exterior of the Bhudda Tooth Relic Temple" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-temple-exterior.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-exterior.jpg 394w, /media/far-east-cruise/preview/singapore-temple-exterior@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Exterior of the Bhudda Tooth Relic Temple" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-temple-guardian-1.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-temple-guardian-1.jpg" alt="An impressive statue of a muscular guardian outside the temple" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-temple-guardian-1.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-guardian-1.jpg 394w, /media/far-east-cruise/preview/singapore-temple-guardian-1@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="An impressive statue of a muscular guardian outside the temple" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-temple-guardian-2.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-temple-guardian-2.jpg" alt="An impressive statue of a muscular guardian outside the temple" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-temple-guardian-2.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-guardian-2.jpg 394w, /media/far-east-cruise/preview/singapore-temple-guardian-2@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="An impressive statue of a muscular guardian outside the temple" width="720" height="960" class="rounded" %}
       </a>
     </div>
   </div>
@@ -858,12 +858,12 @@ I’m not at all religious, but I don’t think I could ever get tired of the at
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-temple-thousand-arms.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-temple-thousand-arms.jpg" alt="Statue of the Thousand Arm Avalokiteshvara" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-temple-thousand-arms.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-thousand-arms.jpg 394w, /media/far-east-cruise/preview/singapore-temple-thousand-arms@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Statue of the Thousand Arm Avalokiteshvara" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-temple-light.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-temple-light.jpg" alt="An ornate light" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-temple-light.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-light.jpg 700w, /media/far-east-cruise/preview/singapore-temple-light@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="An ornate light" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -871,12 +871,12 @@ I’m not at all religious, but I don’t think I could ever get tired of the at
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-temple-lanterns.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-temple-lanterns.jpg" alt="Lanterns on the ceiling" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-temple-lanterns.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-lanterns.jpg 700w, /media/far-east-cruise/preview/singapore-temple-lanterns@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Lanterns on the ceiling" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-temple-protector.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-temple-protector.jpg" alt="Statue of a protector" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-temple-protector.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-protector.jpg 394w, /media/far-east-cruise/preview/singapore-temple-protector@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Statue of a protector" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -884,12 +884,12 @@ I’m not at all religious, but I don’t think I could ever get tired of the at
 <div class="row image-row">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/singapore-temple-incense.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-temple-incense.jpg" alt="Incense burner at the entrance to the temple" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-temple-incense.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-incense.jpg 700w, /media/far-east-cruise/preview/singapore-temple-incense@2x.jpg 1400w" sizes="(min-width: 730px) 335px, 100vw" alt="Incense burner at the entrance to the temple" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/singapore-temple-statue.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-temple-statue.jpg" alt="A statue of a deity inside the temple" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-temple-statue.jpg" srcset="/media/far-east-cruise/preview/singapore-temple-statue.jpg 700w, /media/far-east-cruise/preview/singapore-temple-statue@2x.jpg 1400w" sizes="(min-width: 730px) 335px, 100vw" alt="A statue of a deity inside the temple" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -902,17 +902,17 @@ We finished our tour with a drive through Little India, the old Colonial area…
   <div class="row image-row">
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-hindu-temple.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-hindu-temple.jpg" alt="Hindu temple" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-hindu-temple.jpg" srcset="/media/far-east-cruise/preview/singapore-hindu-temple.jpg 394w, /media/far-east-cruise/preview/singapore-hindu-temple@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Hindu temple" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-street.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-street.jpg" alt="A street in the colonial area" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-street.jpg" srcset="/media/far-east-cruise/preview/singapore-street.jpg 394w, /media/far-east-cruise/preview/singapore-street@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="A street in the colonial area" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-buskers.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-buskers.jpg" alt="Two buskers, one singing, the other playing a Chinese violin, waves at the camera" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-buskers.jpg" srcset="/media/far-east-cruise/preview/singapore-buskers.jpg 394w, /media/far-east-cruise/preview/singapore-buskers@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Two buskers, one singing, the other playing a Chinese violin, waves at the camera" width="720" height="960" class="rounded" %}
       </a>
     </div>
   </div>
@@ -928,12 +928,12 @@ We finished our tour with a drive through Little India, the old Colonial area…
   <div class="row image-row">
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-skyscrapers.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-skyscrapers.jpg" alt="Skyscrapers around the marina" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-skyscrapers.jpg" srcset="/media/far-east-cruise/preview/singapore-skyscrapers.jpg 394w, /media/far-east-cruise/preview/singapore-skyscrapers@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Skyscrapers around the marina" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-8">
       <a href="/media/far-east-cruise/full/singapore-marina-day-1.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-marina-day-1.jpg" alt="Zarino and Julijana opposite Marina Bay Sands hotel" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-marina-day-1.jpg" srcset="/media/far-east-cruise/preview/singapore-marina-day-1.jpg 700w, /media/far-east-cruise/preview/singapore-marina-day-1@2x.jpg 1400w" sizes="(min-width: 930px) 570px, 100vw" alt="Zarino and Julijana opposite Marina Bay Sands hotel" width="960" height="720" class="rounded" %}
       </a>
     </div>
   </div>
@@ -953,17 +953,17 @@ We’d been told how spectacular the Supertrees were at night, but nothing could
   <div class="row image-row">
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-supertrees-walkway.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-supertrees-walkway.jpg" alt="The swooping walkway between two of the Supertrees" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-supertrees-walkway.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-walkway.jpg 394w, /media/far-east-cruise/preview/singapore-supertrees-walkway@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="The swooping walkway between two of the Supertrees" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-supertrees-crown.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-supertrees-crown.jpg" alt="Looking up at the top of a Supertree" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-supertrees-crown.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-crown.jpg 394w, /media/far-east-cruise/preview/singapore-supertrees-crown@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Looking up at the top of a Supertree" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-supertrees-solo.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-supertrees-solo.jpg" alt="Full shot of a single Supertree, glowing pink and green" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-supertrees-solo.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-solo.jpg 394w, /media/far-east-cruise/preview/singapore-supertrees-solo@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="Full shot of a single Supertree, glowing pink and green" width="720" height="960" class="rounded" %}
       </a>
     </div>
   </div>
@@ -976,19 +976,19 @@ We managed to time our visit just right to be up there, in the tree canopy, just
 <div class="row image-row">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/singapore-supertrees-mum-dad.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-supertrees-mum-dad.jpg" alt="Nino and Julijana on the walkway high up in the Supertree canopy, at night" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-supertrees-mum-dad.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-mum-dad.jpg 700w, /media/far-east-cruise/preview/singapore-supertrees-mum-dad@2x.jpg 1400w" sizes="(min-width: 730px) 335px, 100vw" alt="Nino and Julijana on the walkway high up in the Supertree canopy, at night" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/singapore-supertrees-trio.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-supertrees-trio.jpg" alt="Three supertrees, lit up at night" width="960" height="720" class="rounded mt-0" %}
+      {% img src="/media/far-east-cruise/preview/singapore-supertrees-trio.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-trio.jpg 700w, /media/far-east-cruise/preview/singapore-supertrees-trio@2x.jpg 1400w" sizes="(min-width: 730px) 335px, 100vw" alt="Three supertrees, lit up at night" width="960" height="720" class="rounded mt-0" %}
     </a>
   </div>
 </div>
 
 <p>
   <a href="/media/far-east-cruise/full/singapore-supertrees-panorama.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/singapore-supertrees-panorama.jpg" alt="Three supertrees, lit up at night" width="2000" height="719" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/singapore-supertrees-panorama.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-panorama.jpg 1000w, /media/far-east-cruise/preview/singapore-supertrees-panorama@2x.jpg 2000w" sizes="(min-width: 730px) 700px, 100vw" alt="Three supertrees, lit up at night" width="2000" height="719" class="rounded" %}
   </a>
 </p>
 
@@ -997,12 +997,12 @@ When we got back down to the ground, a light show started, with the trees dancin
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-supertrees-dandelion.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-supertrees-dandelion.jpg" alt="A Supertree surrounded by neon lights on the ground" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-supertrees-dandelion.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-dandelion.jpg 394w, /media/far-east-cruise/preview/singapore-supertrees-dandelion@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A Supertree surrounded by neon lights on the ground" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-supertrees-red.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-supertrees-red.jpg" alt="Five Supertrees, lit up in green and red" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-supertrees-red.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-red.jpg 700w, /media/far-east-cruise/preview/singapore-supertrees-red@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Five Supertrees, lit up in green and red" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -1010,12 +1010,12 @@ When we got back down to the ground, a light show started, with the trees dancin
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-supertrees-rainbow.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-supertrees-rainbow.jpg" alt="Supertrees lit up in rainbow colours" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-supertrees-rainbow.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-rainbow.jpg 700w, /media/far-east-cruise/preview/singapore-supertrees-rainbow@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Supertrees lit up in rainbow colours" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-supertrees-swoosh.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-supertrees-swoosh.jpg" alt="Upwards view of a walkway leading between three Supertrees" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-supertrees-swoosh.jpg" srcset="/media/far-east-cruise/preview/singapore-supertrees-swoosh.jpg 394w, /media/far-east-cruise/preview/singapore-supertrees-swoosh@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Upwards view of a walkway leading between three Supertrees" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -1025,12 +1025,12 @@ Light show number 1 complete, we knew another one would be starting imminently a
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-waterworks-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-waterworks-2.jpg" alt="Marina Bay light show" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-waterworks-2.jpg" srcset="/media/far-east-cruise/preview/singapore-waterworks-2.jpg 394w, /media/far-east-cruise/preview/singapore-waterworks-2@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Marina Bay light show" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-waterworks-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-waterworks-1.jpg" alt="Marina Bay light show" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-waterworks-1.jpg" srcset="/media/far-east-cruise/preview/singapore-waterworks-1.jpg 700w, /media/far-east-cruise/preview/singapore-waterworks-1@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Marina Bay light show" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -1038,12 +1038,12 @@ Light show number 1 complete, we knew another one would be starting imminently a
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-waterworks-4.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-waterworks-4.jpg" alt="Marina Bay light show" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-waterworks-4.jpg" srcset="/media/far-east-cruise/preview/singapore-waterworks-4.jpg 700w, /media/far-east-cruise/preview/singapore-waterworks-4@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Marina Bay light show" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-waterworks-3.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-waterworks-3.jpg" alt="Marina Bay light show" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-waterworks-3.jpg" srcset="/media/far-east-cruise/preview/singapore-waterworks-3.jpg 394w, /media/far-east-cruise/preview/singapore-waterworks-3@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Marina Bay light show" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -1055,15 +1055,28 @@ Where most cities might have a hop-on-hop-off tour bus, Singapore has a hop-on-h
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-taxi-junks.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-taxi-junks.jpg" alt="Brightly painted junks moored along the river bank" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-taxi-junks.jpg" srcset="/media/far-east-cruise/preview/singapore-taxi-junks.jpg 700w, /media/far-east-cruise/preview/singapore-taxi-junks@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Brightly painted junks moored along the river bank" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-taxi-mum.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-taxi-mum.jpg" alt="Julijana on the water taxi" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-taxi-mum.jpg" srcset="/media/far-east-cruise/preview/singapore-taxi-mum.jpg 394w, /media/far-east-cruise/preview/singapore-taxi-mum@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Julijana on the water taxi" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
+
+<div class="row image-row">
+    <div class="col-5">
+      <a href="/media/far-east-cruise/full/singapore-taxi-sculpture.jpg" class="image-gallery-item">
+        {% img src="/media/far-east-cruise/preview/singapore-taxi-sculpture.jpg" srcset="/media/far-east-cruise/preview/singapore-taxi-sculpture.jpg 394w, /media/far-east-cruise/preview/singapore-taxi-sculpture@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Sculpture of four kids jumping into the river" width="720" height="960" class="rounded" %}
+      </a>
+    </div>
+    <div class="col-7">
+      <a href="/media/far-east-cruise/full/singapore-taxi-bridge.jpg" class="image-gallery-item">
+        {% img src="/media/far-east-cruise/preview/singapore-taxi-bridge.jpg" srcset="/media/far-east-cruise/preview/singapore-taxi-bridge.jpg 700w, /media/far-east-cruise/preview/singapore-taxi-bridge@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Cavanaugh suspension bridge" width="960" height="720" class="rounded" %}
+      </a>
+    </div>
+  </div>
 
 We passed under the Cavanaugh suspension bridge—built in Scotland, and brought here, only to find it was too low, preventing large ships from travelling further up the river—and next to it, a really cute sculpture of four kids jumping into the river. On a day as hot as this, I almost wanted to join them!
 
@@ -1071,26 +1084,14 @@ We passed under the Cavanaugh suspension bridge—built in Scotland, and brought
 
 <div class="container-fluid" style="max-width: 900px">
   <div class="row image-row">
-    <div class="col-5">
-      <a href="/media/far-east-cruise/full/singapore-taxi-sculpture.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-taxi-sculpture.jpg" alt="Sculpture of four kids jumping into the river" width="720" height="960" class="rounded" %}
-      </a>
-    </div>
-    <div class="col-7">
-      <a href="/media/far-east-cruise/full/singapore-taxi-bridge.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-taxi-bridge.jpg" alt="Cavanaugh suspension bridge" width="960" height="720" class="rounded" %}
-      </a>
-    </div>
-  </div>
-  <div class="row image-row">
-    <div class="col-7">
+    <div class="col-8">
       <a href="/media/far-east-cruise/full/singapore-taxi-marina-bay-sands.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-taxi-marina-bay-sands.jpg" alt="Zarino and Julijana with the Marina Bay Sands hotel in the background, which looks like a long boat perched on top of three skyscrapers" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-taxi-marina-bay-sands.jpg" srcset="/media/far-east-cruise/preview/singapore-taxi-marina-bay-sands.jpg 700w, /media/far-east-cruise/preview/singapore-taxi-marina-bay-sands@2x.jpg 1400w" sizes="(min-width: 930px) 570px, 100vw" alt="Zarino and Julijana with the Marina Bay Sands hotel in the background, which looks like a long boat perched on top of three skyscrapers" width="960" height="720" class="rounded" %}
       </a>
     </div>
-    <div class="col-5">
+    <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-taxi-fullerton-hotel.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-taxi-fullerton-hotel.jpg" alt="The Fullerton Hotel with glass skyscrapers behind it" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-taxi-fullerton-hotel.jpg" srcset="/media/far-east-cruise/preview/singapore-taxi-fullerton-hotel.jpg 394w, /media/far-east-cruise/preview/singapore-taxi-fullerton-hotel@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="The Fullerton Hotel with glass skyscrapers behind it" width="720" height="960" class="rounded" %}
       </a>
     </div>
   </div>
@@ -1105,12 +1106,12 @@ I would be remiss if I didn’t also include these two incredibly touristy photo
 <div class="row image-row" style="height: auto">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/singapore-taxi-cheese-zarino.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-taxi-cheese-zarino.jpg" alt="Zarino poses as if he’s touching the top of the Marina Bay Sands hotel" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-taxi-cheese-zarino.jpg" srcset="/media/far-east-cruise/preview/singapore-taxi-cheese-zarino.jpg 700w, /media/far-east-cruise/preview/singapore-taxi-cheese-zarino@2x.jpg 1400w" sizes="(min-width: 730px) 335px, 100vw" alt="Zarino poses as if he’s touching the top of the Marina Bay Sands hotel" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/singapore-taxi-cheese-mum.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-taxi-cheese-mum.jpg" alt="Julijana poses, as if she’s holding a building behind her in the palm of her hand" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-taxi-cheese-mum.jpg" srcset="/media/far-east-cruise/preview/singapore-taxi-cheese-mum.jpg 700w, /media/far-east-cruise/preview/singapore-taxi-cheese-mum@2x.jpg 1400w" sizes="(min-width: 730px) 335px, 100vw" alt="Julijana poses, as if she’s holding a building behind her in the palm of her hand" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -1122,12 +1123,12 @@ A quick stop at Louis Vuitton (modestly declining their offer of a free 11am Sin
   <div class="row image-row">
     <div class="col-7">
       <a href="/media/far-east-cruise/full/singapore-louis-vuitton.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-louis-vuitton.jpg" alt="Zarino and Julijana reflected in the glass exterior of the Singapore Louis Vuitton store" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-louis-vuitton.jpg" srcset="/media/far-east-cruise/preview/singapore-louis-vuitton.jpg 700w, /media/far-east-cruise/preview/singapore-louis-vuitton@2x.jpg 1400w" sizes="(min-width: 930px) 495px, 100vw" alt="Zarino and Julijana reflected in the glass exterior of the Singapore Louis Vuitton store" width="960" height="720" class="rounded" %}
       </a>
     </div>
     <div class="col-5">
       <a href="/media/far-east-cruise/full/singapore-metro.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-metro.jpg" alt="Julijana on the metro" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-metro.jpg" srcset="/media/far-east-cruise/preview/singapore-metro.jpg 394w, /media/far-east-cruise/preview/singapore-metro@2x.jpg 788w" sizes="(min-width: 930px) 345px, 100vw" alt="Julijana on the metro" width="720" height="960" class="rounded" %}
       </a>
     </div>
   </div>
@@ -1142,12 +1143,12 @@ We were met at the entrance by one of the infamously polite Raffles doormen:
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-raffles-entrance.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-raffles-entrance.jpg" alt="Raffles entrance" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-raffles-entrance.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-entrance.jpg 700w, /media/far-east-cruise/preview/singapore-raffles-entrance@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Raffles entrance" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-raffles-doorman.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-raffles-doorman.jpg" alt="Nino, Julijana, and Zarino with a Raffles doorman in a white tunic and turban" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-raffles-doorman.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-doorman.jpg 394w, /media/far-east-cruise/preview/singapore-raffles-doorman@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Nino, Julijana, and Zarino with a Raffles doorman in a white tunic and turban" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -1160,17 +1161,17 @@ Previously, the Long Bar would have been inaccessible to Dad with his wheelchair
   <div class="row image-row">
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-raffles-long-bar-sign.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-sign.jpg" alt="The Long Bar at Raffles" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-sign.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-long-bar-sign.jpg 394w, /media/far-east-cruise/preview/singapore-raffles-long-bar-sign@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="The Long Bar at Raffles" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-raffles-long-bar-window.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-window.jpg" alt="The Long Bar at Raffles" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-window.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-long-bar-window.jpg 394w, /media/far-east-cruise/preview/singapore-raffles-long-bar-window@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="The Long Bar at Raffles" width="720" height="960" class="rounded" %}
       </a>
     </div>
     <div class="col-4">
       <a href="/media/far-east-cruise/full/singapore-raffles-long-bar.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar.jpg" alt="The Long Bar at Raffles" width="720" height="960" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-long-bar.jpg 394w, /media/far-east-cruise/preview/singapore-raffles-long-bar@2x.jpg 788w" sizes="(min-width: 930px) 270px, 100vw" alt="The Long Bar at Raffles" width="720" height="960" class="rounded" %}
       </a>
     </div>
   </div>
@@ -1183,12 +1184,12 @@ There are bags of peanuts on all of the tables – by tradition, once you’ve e
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/singapore-raffles-long-bar-nuts.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-nuts.jpg" alt="Nino picks peanuts out of a bag on the table" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-nuts.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-long-bar-nuts.jpg 394w, /media/far-east-cruise/preview/singapore-raffles-long-bar-nuts@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Nino picks peanuts out of a bag on the table" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/singapore-raffles-long-bar-floor.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-floor.jpg" alt="Empty peanut shells strewn all over the floor" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-floor.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-long-bar-floor.jpg 700w, /media/far-east-cruise/preview/singapore-raffles-long-bar-floor@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Empty peanut shells strewn all over the floor" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -1201,12 +1202,12 @@ Still, the Singapore Slings were a lovely way to end the day – and the entire 
   <div class="row image-row" style="height: auto">
     <div class="col-6">
       <a href="/media/far-east-cruise/full/singapore-raffles-long-bar-mum-dad.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-mum-dad.jpg" alt="Nino and Julijana at the Long Bar" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-mum-dad.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-long-bar-mum-dad.jpg 700w, /media/far-east-cruise/preview/singapore-raffles-long-bar-mum-dad@2x.jpg 1400w" sizes="(min-width: 730px) 570px, 100vw" alt="Nino and Julijana at the Long Bar" width="960" height="720" class="rounded" %}
       </a>
     </div>
     <div class="col-6">
       <a href="/media/far-east-cruise/full/singapore-raffles-long-bar-zarino.jpg" class="image-gallery-item">
-        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-zarino.jpg" alt="Zarino drinks a Singapore Sling at the Long Bar" width="960" height="720" class="rounded" %}
+        {% img src="/media/far-east-cruise/preview/singapore-raffles-long-bar-zarino.jpg" srcset="/media/far-east-cruise/preview/singapore-raffles-long-bar-zarino.jpg 700w, /media/far-east-cruise/preview/singapore-raffles-long-bar-zarino@2x.jpg 1400w" sizes="(min-width: 730px) 570px, 100vw" alt="Zarino drinks a Singapore Sling at the Long Bar" width="960" height="720" class="rounded" %}
       </a>
     </div>
   </div>
@@ -1222,7 +1223,7 @@ I really enjoyed our day in Da Nang, despite the torrential rain. Perhaps more t
 
 But our days in Vietnam also made us realise just how precarious many of these peoples’ lives are. There was incredible poverty on display, and it was heartbreaking to hear our tour guide talk about the exploitative corporations and cheap Chinese labour that cut down even further on the opportunities available to Vietnamese people just trying to get by.
 
-Then, to travel from the poverty of Vietnam, to the bombastic hyper-technological richness of Singapore – what a contrast. The light shows in Singapore were spectacular, especially considering they’re put on _every night_, entirely for free. There’s an unease here though, too, with places like Raffles putting a highly polished sheen on what is still, shamefully, a history of cruelness and erasure under British colonial rule. (When will we learn to stop fucking up other people’s countries?)
+Then, to travel from the poverty of Vietnam, to the bombastic hyper-technological richness of Singapore – what a contrast. The light shows in Singapore were spectacular, especially considering they’re put on _every night_, entirely for free. There’s an unease here though, too, with places like Raffles putting a highly polished sheen on what is still, shamefully, a history of cruelness and erasure under British colonial rule. (As I said [last time](/post/far-east-trip-japan-taiwan-hong-kong/), when will we learn to stop fucking up other people’s countries?)
 
 Overall, looking back on the entire holiday, Japan, Taiwan, and Vietnam stood out as places I’d love to explore in more detail – Japan in particular. At the other end of the spectrum, China was indifferent—verging on outright hostile—to us as visitors, and no matter what museums or attractions were available, I simply never felt safe in the country. Hong Kong, too, was a disappointment – dirty, tired, and dumbed down for tourists.
 

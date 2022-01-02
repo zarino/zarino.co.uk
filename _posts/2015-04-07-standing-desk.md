@@ -13,21 +13,21 @@ It’s an object of some fascination and no small part of jocularity for the peo
 
 I speak, of course, of my standing desk.
 
-{% img "Zarino’s desk in the Sea Level Research shed, in the Baltic Creative" "/media/desk-two-up.jpg" %}
+{% img alt="Zarino’s desk in the Sea Level Research shed, in the Baltic Creative" src="/media/desk-two-up.jpg" srcset="/media/desk-two-up.jpg 700w, /media/desk-two-up@2x.jpg 1400w" %}
 
 I’m currently based in a sort of co-working space—[the Baltic Creative](http://www.baltic-creative.com)—just outside Liverpool city centre. The area’s making a bid to be Liverpool’s creative quarter, and it’s packed with game developers, design and marketing agencies, and a handful of tech startups.
 
 I rent half of a shed with one such tech startup – [Sea Level Research](http://www.sealevelresearch.com), run by two friends, Simon and Paul. There are about 10 similar sheds under one huge roof, plus two open-plan work areas, with shared kitchens and “outdoor” seating, and there’s a nice café out front. It’s so hipster, there are even free bikes for Baltic Creative residents to use for fast transport into town.
 
-{% img "Baltic Creative sheds" "/media/baltic-creative-sheds.jpg" %}
+{% img alt="Baltic Creative sheds" src="/media/baltic-creative-sheds.jpg" srcset="/media/baltic-creative-sheds.jpg 700w, /media/baltic-creative-sheds@2x.jpg 1400w" %}
 
 Once you get into the shed, I’m right there, standing behind a custom-made standing desk.
 
-{% img "Panorama of Zarino’s desk in the shed" "/media/desk-panorama.jpg" %}
+{% img alt="Panorama of Zarino’s desk in the shed" src="/media/desk-panorama.jpg" srcset="/media/desk-panorama.jpg 700w, /media/desk-panorama@2x.jpg 1400w" %}
 
 Friends of mine have constructed standing desks out of coffee tables and shelves stacked on top of normal, low, tables. But I decided to raise the entire desktop up instead – a) because it’s prettier, and b) because it gives you way more desk space when you’re standing. I often need to lay out pieces of paper, or my iPad, or whatever, so a standing desk with lots of worktop is a must.
 
-{% img "Close-up of the desk" "/media/desk-close-up.jpg" %}
+{% img alt="Close-up of the desk" src="/media/desk-close-up.jpg" srcset="/media/desk-close-up.jpg 700w, /media/desk-close-up@2x.jpg 1400w" %}
 
 Items of interest:
 
@@ -40,7 +40,7 @@ Items of interest:
 
 ## If you’re interested in building your own Zarino-style standing desk, here’s what you’ll need:
 
-{% img "Desk Components: IKEA GALANT desk £49, 35mm diameter dowel £20, IKEA EKBY LAIVA shelf £1.90, IKEA CAPITA feet £8, screws £1.90" "/media/desk-components.jpg" %}
+{% img alt="Desk Components: IKEA GALANT desk £49, 35mm diameter dowel £20, IKEA EKBY LAIVA shelf £1.90, IKEA CAPITA feet £8, screws £1.90" src="/media/desk-components.jpg" %}
 
 The trick is to unscrew the Galant’s telescopic legs all the way – literally remove them. Then just slide the wooden dowel up there instead. One advantage is that the whole process is reversible, should you ever want to move the desk, or change the height. The other advantage is that it’s ch-ch-cheap!
 

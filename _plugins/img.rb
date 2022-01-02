@@ -16,6 +16,9 @@ Which would produce the following output:
 
     <noscript class="loading-lazy"><img src="/media/this-is-the-image.jpg" alt="" loading="lazy"></noscript>
 
+If you provide a `srcset` attribute, but no `sizes` attribute, a default
+`sizes` attribute will be added, suitable for a standard 700px wide image.
+
 For historical reasons, a simplified format is also accepted,
 as long as you only want to set `alt` and `src` attributes,
 in that exact order:
@@ -68,27 +71,79 @@ class Img
         @args = { "loading" => "lazy", "alt" => "" }
     end
 
+    def make_img
+        html = ''
+        webp_source_attrs = []
+
+        # Attributes for the <img> tag.
+        @args.each do |key, value|
+            html = '%s %s="%s"' % [ html, key, value ]
+        end
+
+        # The <img> tag itself.
+        html = '<img %s>' % [ html ]
+
+        # If the provided src attribute points to a non-webp image file,
+        # and there is an identically named webp file on disk, store a new
+        # src attribute for an alternative <source> element.
+        if @args["src"] and not /[.]webp/i.match( @args["srcset"])
+            webp_path = @args["src"].gsub(/([.]\w+)$/i, '.webp')
+            if file_exists(webp_path)
+                webp_source_attrs.push(
+                    'src="%s"' % [ webp_path ]
+                )
+            end
+        end
+
+        # If the provided srcset attribute does not point to webp image files,
+        # but there are identically named webp files on disk, store new srcset
+        # and sizes attributes for an alternative <source> element.
+        if @args["srcset"] and not /[.]webp/i.match( @args["srcset"])
+            webp_images_found = 0
+            webp_paths = @args["srcset"].scan(/(\S+)(?:[.]\w+)/i).flatten.map do |s|
+                "%s.webp" % [ s ]
+            end
+            webp_paths.each do |webp_path|
+                if file_exists(webp_path)
+                    webp_images_found += 1
+                end
+            end
+            # Only autogenerate a webp srcset if we have found *all* the required
+            # webp alternative files.
+            if webp_paths.count == webp_images_found
+                webp_srcset = @args["srcset"].gsub(/([.]\w+)/i, '.webp')
+                webp_source_attrs.push(
+                    'srcset="%s"' % [ webp_srcset ]
+                )
+                # Also add sizes attribute, to match the <img>.
+                if @args["sizes"]
+                    webp_source_attrs.push(
+                        'sizes="%s"' % [ @args["sizes"] ]
+                    )
+                end
+            end
+        end
+
+        # The <picture> and <source> element, if webp alternatives were found.
+        if webp_source_attrs.any?
+            html = '<picture><source type="image/webp" %s>%s</picture>' % [ webp_source_attrs.join(" "), html ]
+        end
+
+        return html
+    end
+
     def add_attributes(pairs)
         pairs.each do |key, value|
             @args[ key ] = strip_quotes(value)
         end
 
-        # Automagically detect high-res ("-1400") counterparts on disk.
-        unless @args.key?("srcset")
-            high_res_path = @args["src"].gsub(/([.]\w+)$/, '-1400\1')
-            if file_exists(high_res_path)
-                @args["srcset"] = "%s 700w, %s 1400w" % [ @args["src"], high_res_path ]
-                @args["sizes"] = "(min-width: 730px) 700px, 100vw"
-            end
+        if @args.has_key?("srcset") and not @args.has_key?("sizes")
+            @args[ "sizes" ] = "(min-width: 730px) 700px, 100vw"
         end
     end
 
     def to_string
-        html = ''
-        @args.each do |key, value|
-            html = '%s %s="%s"' % [ html, key, value ]
-        end
-        html = '<img %s>' % [ html ]
+        html = make_img
         if @args["loading"] == "lazy"
             html = '<noscript class="loading-lazy">%s</noscript>' % [ html ]
         end

@@ -36,7 +36,7 @@ We entered through the <a href="https://en.wikipedia.org/wiki/Meridian_Gate">Mer
 
 <div class="container-fluid" style="max-width: 1200px">
   <a href="/media/far-east-cruise/full/forbidden-city-meridian-gate.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/forbidden-city-meridian-gate.jpg" alt="Nino, Julijana, and Zarino at the Meridian Gate of the Forbidden City, Beijing" width="2000" height="666" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/forbidden-city-meridian-gate.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-meridian-gate.jpg 1000w, /media/far-east-cruise/preview/forbidden-city-meridian-gate@2x.jpg 2000w" sizes="(min-width: 1230px) 1200px, 100vw" alt="Nino, Julijana, and Zarino at the Meridian Gate of the Forbidden City, Beijing" width="2000" height="666" class="rounded" %}
   </a>
 </div>
 
@@ -51,12 +51,12 @@ The doors have 81 nails. In Chinese culture, 9 is “the greatest number”, so 
 <div class="row">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/forbidden-city-door.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-door.jpg" width="720" height="960" class="rounded" alt="One of the doors at the Meridian Gate entrance" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-door.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-door.jpg 394w, /media/far-east-cruise/preview/forbidden-city-door@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" width="720" height="960" class="rounded" alt="One of the doors at the Meridian Gate entrance" %}
     </a>
   </div>
   <div class="col-6">
     <video src="/media/far-east-cruise/spinning-girl.mp4" poster="/media/far-east-cruise/preview/spinning-girl.jpg" width="720" height="960" controls loop class="rounded">
-      {% img src="/media/far-east-cruise/preview/spinning-girl.jpg" alt="Girl in traditional Chinese dress, spinning for the camera at the Forbidden City" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/spinning-girl.jpg" srcset="/media/far-east-cruise/preview/spinning-girl.jpg 394w, /media/far-east-cruise/preview/spinning-girl@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Girl in traditional Chinese dress, spinning for the camera at the Forbidden City" width="720" height="960" class="rounded" %}
     </video>
   </div>
 </div>
@@ -66,12 +66,12 @@ Inside the City, the architecture is just stunning.
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/forbidden-city-mum-golden-roof.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-mum-golden-roof.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-mum-golden-roof.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-mum-golden-roof.jpg 700w, /media/far-east-cruise/preview/forbidden-city-mum-golden-roof@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Julijana standing in front of a building with a gold tiled roof" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/forbidden-city-golden-handles.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-golden-handles.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-golden-handles.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-golden-handles.jpg 394w, /media/far-east-cruise/preview/forbidden-city-golden-handles@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Lion head handles on the side of a large golden urn" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -79,12 +79,12 @@ Inside the City, the architecture is just stunning.
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/forbidden-city-lion-close-up.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-lion-close-up.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-lion-close-up.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-lion-close-up.jpg 394w, /media/far-east-cruise/preview/forbidden-city-lion-close-up@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Bronze statue of a lion" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/forbidden-city-wall-urn.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-wall-urn.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-wall-urn.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-wall-urn.jpg 700w, /media/far-east-cruise/preview/forbidden-city-wall-urn@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Bronze incense burner in front of a white stone wall" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -92,12 +92,12 @@ Inside the City, the architecture is just stunning.
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/forbidden-city-internal-eaves.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-internal-eaves.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-internal-eaves.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-internal-eaves.jpg 700w, /media/far-east-cruise/preview/forbidden-city-internal-eaves@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Colourful painted eaves on a temple building" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/forbidden-city-tortoise.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-tortoise.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-tortoise.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-tortoise.jpg 394w, /media/far-east-cruise/preview/forbidden-city-tortoise@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Bronze statue of a tortoise" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -107,12 +107,12 @@ The bronze lions (one boy, one girl) at the [Gate of Supreme Harmony](https://en
 <div class="row">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/forbidden-city-lion-selfie.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-lion-selfie.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-lion-selfie.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-lion-selfie.jpg 394w, /media/far-east-cruise/preview/forbidden-city-lion-selfie@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Julijana and Zarino stand in front of a large bronze statue of a lion" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/forbidden-city-lion-rooftops.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-lion-rooftops.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-lion-rooftops.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-lion-rooftops.jpg 394w, /media/far-east-cruise/preview/forbidden-city-lion-rooftops@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Bronze statue of a lion, in front of a building with a golden roof" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -123,7 +123,7 @@ Almost every roof has a little procession of animals and mythical creatures on i
 
 <div class="container-fluid" style="max-width: 960px">
   <a href="/media/far-east-cruise/full/forbidden-city-group-selfie.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/forbidden-city-group-selfie.jpg" width="960" height="720" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/forbidden-city-group-selfie.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-group-selfie.jpg 700w, /media/far-east-cruise/preview/forbidden-city-group-selfie@2x.jpg 1400w" sizes="(min-width: 990px) 960px, 100vw" alt="Nino, Julijana, and Zarino in the middle of the Forbidden City" width="960" height="720" class="rounded" %}
   </a>
 </div>
 
@@ -136,17 +136,17 @@ The scale of the place is crazy. Lisa, our tour guide, told us the palace has 99
 <div class="row image-row">
   <div class="col-4">
     <a href="/media/far-east-cruise/full/forbidden-city-throne.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-throne.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-throne.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-throne.jpg 394w, /media/far-east-cruise/preview/forbidden-city-throne@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Incense burner in the throne room" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/forbidden-city-interior-panel.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-interior-panel.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-interior-panel.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-interior-panel.jpg 394w, /media/far-east-cruise/preview/forbidden-city-interior-panel@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Wooden wall panel" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/forbidden-city-shelving.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-shelving.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-shelving.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-shelving.jpg 394w, /media/far-east-cruise/preview/forbidden-city-shelving@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Curio boxes on the wall" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -154,12 +154,12 @@ The scale of the place is crazy. Lisa, our tour guide, told us the palace has 99
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/forbidden-city-urns.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-urns.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-urns.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-urns.jpg 394w, /media/far-east-cruise/preview/forbidden-city-urns@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Bronze urns in an outdoor courtyard" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/forbidden-city-writing.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-writing.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-writing.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-writing.jpg 700w, /media/far-east-cruise/preview/forbidden-city-writing@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Chinese characters engraved into wooden wall panels" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -169,12 +169,12 @@ The Forbidden City also acts as a giant museum with almost 1.8 million artefacts
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/forbidden-city-elephant-clock.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-elephant-clock.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-elephant-clock.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-elephant-clock.jpg 700w, /media/far-east-cruise/preview/forbidden-city-elephant-clock@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="An ornate golden clock shaped like an elephant procession" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/forbidden-city-orrery.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-orrery.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-orrery.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-orrery.jpg 394w, /media/far-east-cruise/preview/forbidden-city-orrery@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A golden orrery" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -184,12 +184,12 @@ On the way out, we passed through the outer courtyards, with their centuries-old
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/forbidden-city-ancient-tree.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-ancient-tree.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-ancient-tree.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-ancient-tree.jpg 394w, /media/far-east-cruise/preview/forbidden-city-ancient-tree@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A large tree with a split trunk" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/forbidden-city-dragon-screen-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-dragon-screen-1.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-dragon-screen-1.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-dragon-screen-1.jpg 700w, /media/far-east-cruise/preview/forbidden-city-dragon-screen-1@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Dragons depicated on a tiled wall" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -197,12 +197,12 @@ On the way out, we passed through the outer courtyards, with their centuries-old
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/forbidden-city-dragon-screen-3.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-dragon-screen-3.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-dragon-screen-3.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-dragon-screen-3.jpg 700w, /media/far-east-cruise/preview/forbidden-city-dragon-screen-3@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="The replacement wooden piece, surrounded by ceramic tiles" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/forbidden-city-dragon-screen-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/forbidden-city-dragon-screen-2.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/forbidden-city-dragon-screen-2.jpg" srcset="/media/far-east-cruise/preview/forbidden-city-dragon-screen-2.jpg 394w, /media/far-east-cruise/preview/forbidden-city-dragon-screen-2@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A yellow dragon on the tiled wall" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -219,7 +219,7 @@ Lisa, our tour guide, had recommended a place to eat, down the road from our hot
 
 <div class="container-fluid" style="max-width: 1200px">
   <a href="/media/far-east-cruise/full/dongzhimen-mirror.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/dongzhimen-mirror.jpg" width="1280" height="512" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/dongzhimen-mirror.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-mirror.jpg 1000w, /media/far-east-cruise/preview/dongzhimen-mirror@2x.jpg 2000w" sizes="(min-width: 1230px) 1200px, 100vw" alt="Nino, Julijana, and Zarino reflected in a large mirror, outdoors, at night time" width="1280" height="512" class="rounded" %}
   </a>
 </div>
 
@@ -230,12 +230,12 @@ This week was “[Golden Week](https://en.wikipedia.org/wiki/Golden_Week_%28Chin
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/dongzhimen-queue.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-queue.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-queue.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-queue.jpg 700w, /media/far-east-cruise/preview/dongzhimen-queue@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="People waiting in a queue outside a food shop, at night" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/dongzhimen-signage.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-signage.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-signage.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-signage.jpg 394w, /media/far-east-cruise/preview/dongzhimen-signage@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A building lit up at night" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -243,12 +243,12 @@ This week was “[Golden Week](https://en.wikipedia.org/wiki/Golden_Week_%28Chin
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/dongzhimen-drums.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-drums.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-drums.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-drums.jpg 394w, /media/far-east-cruise/preview/dongzhimen-drums@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Drums on the ceiling of a restaurant" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/dongzhimen-crowds.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-crowds.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-crowds.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-crowds.jpg 700w, /media/far-east-cruise/preview/dongzhimen-crowds@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="A busy outdoor seating area, in front of a restaurant" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -260,12 +260,12 @@ There were singers, acrobats, some noodle-making chefs, and even a short segment
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/dongzhimen-entertainer-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-entertainer-1.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-entertainer-1.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-entertainer-1.jpg 700w, /media/far-east-cruise/preview/dongzhimen-entertainer-1@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Three musicians performing in the restaurant" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/dongzhimen-entertainer-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-entertainer-2.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-entertainer-2.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-entertainer-2.jpg 394w, /media/far-east-cruise/preview/dongzhimen-entertainer-2@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A dancer performing in the restaurant" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -273,12 +273,12 @@ There were singers, acrobats, some noodle-making chefs, and even a short segment
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/dongzhimen-entertainer-3.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-entertainer-3.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-entertainer-3.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-entertainer-3.jpg 394w, /media/far-east-cruise/preview/dongzhimen-entertainer-3@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A Chinese opera performer wearing an ornate mask and cloak" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/dongzhimen-entertainer-4.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-entertainer-4.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-entertainer-4.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-entertainer-4.jpg 700w, /media/far-east-cruise/preview/dongzhimen-entertainer-4@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Three chefs performing a routine involving noodles" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -288,12 +288,12 @@ The food was beautiful.
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/dongzhimen-food-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-food-1.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-food-1.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-food-1.jpg 700w, /media/far-east-cruise/preview/dongzhimen-food-1@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Plates of Chinese food on a table" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/dongzhimen-food-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-food-2.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-food-2.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-food-2.jpg 394w, /media/far-east-cruise/preview/dongzhimen-food-2@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Julijana picking a desert off a circular stand" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -303,17 +303,17 @@ Although I must admit we passed on the more _adventurous_ looking dishes.
 <div class="row">
   <div class="col-4">
     <a href="/media/far-east-cruise/full/dongzhimen-bugs-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-bugs-1.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-bugs-1.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-bugs-1.jpg 394w, /media/far-east-cruise/preview/dongzhimen-bugs-1@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Dried chillies" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/dongzhimen-bugs-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-bugs-2.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-bugs-2.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-bugs-2.jpg 394w, /media/far-east-cruise/preview/dongzhimen-bugs-2@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Large insects on skewers" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/dongzhimen-bugs-3.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/dongzhimen-bugs-3.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/dongzhimen-bugs-3.jpg" srcset="/media/far-east-cruise/preview/dongzhimen-bugs-3.jpg 394w, /media/far-east-cruise/preview/dongzhimen-bugs-3@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Scropions on skewers" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -329,12 +329,12 @@ Problem is, that’s what the hundreds of thousands of “Golden Week” Chinese
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/great-wall-drive.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/great-wall-drive.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/great-wall-drive.jpg" srcset="/media/far-east-cruise/preview/great-wall-drive.jpg 700w, /media/far-east-cruise/preview/great-wall-drive@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Cars on a motorway driving towards a hill" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/great-wall-cable-car-sign.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/great-wall-cable-car-sign.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/great-wall-cable-car-sign.jpg" srcset="/media/far-east-cruise/preview/great-wall-cable-car-sign.jpg 394w, /media/far-east-cruise/preview/great-wall-cable-car-sign@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Large sign for the Cable Car" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -351,7 +351,7 @@ Our tour guide refused to accept that the wall wasn’t wheelchair accessible. �
 
 <div class="container-fluid" style="max-width: 1200px">
   <a href="/media/far-east-cruise/full/great-wall-trio.jpg" class="image-gallery-item">
-    {% img src="/media/far-east-cruise/preview/great-wall-trio.jpg" width="1280" height="640" class="rounded" %}
+    {% img src="/media/far-east-cruise/preview/great-wall-trio.jpg" srcset="/media/far-east-cruise/preview/great-wall-trio.jpg 1000w, /media/far-east-cruise/preview/great-wall-trio@2x.jpg 2000w" sizes="(min-width: 1230px) 1200px, 100vw" alt="Nino, Julijana, and Zarino on the Great Wall of China" width="1280" height="640" class="rounded" %}
   </a>
 </div>
 
@@ -362,12 +362,12 @@ Anyway, we took a few snaps from the viewing platform, then Mum and I started th
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/great-wall-busy-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/great-wall-busy-2.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/great-wall-busy-2.jpg" srcset="/media/far-east-cruise/preview/great-wall-busy-2.jpg 700w, /media/far-east-cruise/preview/great-wall-busy-2@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Dozens of people packed in on the Great Wall of China" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/great-wall-busy-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/great-wall-busy-1.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/great-wall-busy-1.jpg" srcset="/media/far-east-cruise/preview/great-wall-busy-1.jpg 394w, /media/far-east-cruise/preview/great-wall-busy-1@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="People walking up the Great Wall of China" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -381,12 +381,12 @@ Still, the views were magnificent.
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/great-wall-view-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/great-wall-view-2.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/great-wall-view-2.jpg" srcset="/media/far-east-cruise/preview/great-wall-view-2.jpg 394w, /media/far-east-cruise/preview/great-wall-view-2@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A view down from the top of a tower on the Great Wall, showing the wall snaking along the tops of nearby hills" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/great-wall-view-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/great-wall-view-1.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/great-wall-view-1.jpg" srcset="/media/far-east-cruise/preview/great-wall-view-1.jpg 700w, /media/far-east-cruise/preview/great-wall-view-1@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Zarino and Julijana at the top of the Great Wall of China" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>
@@ -396,17 +396,17 @@ On the way back from Badaling, we visited [Chang Ling Mausoleum](https://en.wiki
 <div class="row">
   <div class="col-4">
     <a href="/media/far-east-cruise/full/ming-tombs-entrance.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-entrance.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-entrance.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-entrance.jpg 394w, /media/far-east-cruise/preview/ming-tombs-entrance@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Julijana leaning on a marble Chang Ling entrance sign" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/ming-tombs-park.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-park.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-park.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-park.jpg 394w, /media/far-east-cruise/preview/ming-tombs-park@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Chang Ling Mausoleum" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/ming-tombs-statue.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-statue.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-statue.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-statue.jpg 394w, /media/far-east-cruise/preview/ming-tombs-statue@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Nino, Julijana, and the tour guide at Chang Ling Mausoleum" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -416,12 +416,12 @@ There are some seriously beautiful artefacts here, belonging to [Zhu Di](https:/
 <div class="row image-row mb-3">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/ming-tombs-display-case.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-display-case.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-display-case.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-display-case.jpg 700w, /media/far-east-cruise/preview/ming-tombs-display-case@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Nino and Julijana looking at an embroidered coat" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/ming-tombs-yellow-fabric.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-yellow-fabric.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-yellow-fabric.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-yellow-fabric.jpg 394w, /media/far-east-cruise/preview/ming-tombs-yellow-fabric@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Close-up of a dragon symbol embroidered on a yellow coat" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -429,17 +429,17 @@ There are some seriously beautiful artefacts here, belonging to [Zhu Di](https:/
 <div class="row">
   <div class="col-4">
     <a href="/media/far-east-cruise/full/ming-tombs-red-fabric.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-red-fabric.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-red-fabric.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-red-fabric.jpg 394w, /media/far-east-cruise/preview/ming-tombs-red-fabric@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Dragon embroidered on a red coat" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/ming-tombs-hat.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-hat.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-hat.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-hat.jpg 394w, /media/far-east-cruise/preview/ming-tombs-hat@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="A hat made out of pearls" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-4">
     <a href="/media/far-east-cruise/full/ming-tombs-ceiling.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-ceiling.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-ceiling.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-ceiling.jpg 394w, /media/far-east-cruise/preview/ming-tombs-ceiling@2x.jpg 788w" sizes="(min-width: 730px) 214px, 100vw" alt="Green ceiling of the memorial hall" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -449,12 +449,12 @@ Outside, you’re meant to throw a coin into one of the five pots, to see whethe
 <div class="row">
   <div class="col-6">
     <a href="/media/far-east-cruise/full/ming-tombs-pots.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-pots.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-pots.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-pots.jpg 394w, /media/far-east-cruise/preview/ming-tombs-pots@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Money pots" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-6">
     <a href="/media/far-east-cruise/full/ming-tombs-pot.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-pot.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-pot.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-pot.jpg 394w, /media/far-east-cruise/preview/ming-tombs-pot@2x.jpg 788w" sizes="(min-width: 730px) 335px, 100vw" alt="Decorated leg on one of the money pots, with a lion’s head" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -464,12 +464,12 @@ The characters at the top of the monument on the hill say “Ming Dynasty”. Th
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/ming-tombs-view.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-view.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-view.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-view.jpg 700w, /media/far-east-cruise/preview/ming-tombs-view@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="View from the top of the mausoleum" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/ming-tombs-monument.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/ming-tombs-monument.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/ming-tombs-monument.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-monument.jpg 394w, /media/far-east-cruise/preview/ming-tombs-monument@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Monument at the top of the hill, with Chinese characters written on it" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -477,7 +477,7 @@ The characters at the top of the monument on the hill say “Ming Dynasty”. Th
 The bricks of the monument have stamps, showing which brickmaker made them, and when. Apparently this is partly as a mark of pride, and partly quality assurance – “If the bricks failed,” our tour guide said, “the brickmaker would be found and killed.” Take of that what you will.
 
 <p><a href="/media/far-east-cruise/full/ming-tombs-stamp.jpg" class="image-gallery-item">
-  {% img src="/media/far-east-cruise/preview/ming-tombs-stamp.jpg" width="1200" height="400" class="rounded" %}
+  {% img src="/media/far-east-cruise/preview/ming-tombs-stamp.jpg" srcset="/media/far-east-cruise/preview/ming-tombs-stamp.jpg 1000w, /media/far-east-cruise/preview/ming-tombs-stamp@2x.jpg 2000w" sizes="(min-width: 730px) 700px, 100vw" alt="Chinese characters stamped on the side of an old grey brick" width="1200" height="400" class="rounded" %}
 </a></p>
 
 We ended the day with a tea ceremony, just outside the city centre.
@@ -487,12 +487,12 @@ We tried six types of tea. The oolong with ginseng was lovely. Lychee was my fav
 <div class="row image-row">
   <div class="col-7">
     <a href="/media/far-east-cruise/full/chinese-tea-1.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/chinese-tea-1.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/chinese-tea-1.jpg" srcset="/media/far-east-cruise/preview/chinese-tea-1.jpg 700w, /media/far-east-cruise/preview/chinese-tea-1@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="A chinese tea set" width="960" height="720" class="rounded" %}
     </a>
   </div>
   <div class="col-5">
     <a href="/media/far-east-cruise/full/chinese-tea-2.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/chinese-tea-2.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/chinese-tea-2.jpg" srcset="/media/far-east-cruise/preview/chinese-tea-2.jpg 394w, /media/far-east-cruise/preview/chinese-tea-2@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="Lady demonstrating how to pour tea" width="720" height="960" class="rounded" %}
     </a>
   </div>
 </div>
@@ -502,12 +502,12 @@ You hold the cup with your thumb and forefinger at 12 and 6 o’clock, and a thi
 <div class="row image-row">
   <div class="col-5">
     <a href="/media/far-east-cruise/full/chinese-tea-3.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/chinese-tea-3.jpg" width="720" height="960" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/chinese-tea-3.jpg" srcset="/media/far-east-cruise/preview/chinese-tea-3.jpg 394w, /media/far-east-cruise/preview/chinese-tea-3@2x.jpg 788w" sizes="(min-width: 730px) 275px, 100vw" alt="A chinese tea set" width="720" height="960" class="rounded" %}
     </a>
   </div>
   <div class="col-7">
     <a href="/media/far-east-cruise/full/chinese-tea-4.jpg" class="image-gallery-item">
-      {% img src="/media/far-east-cruise/preview/chinese-tea-4.jpg" width="960" height="720" class="rounded" %}
+      {% img src="/media/far-east-cruise/preview/chinese-tea-4.jpg" srcset="/media/far-east-cruise/preview/chinese-tea-4.jpg 700w, /media/far-east-cruise/preview/chinese-tea-4@2x.jpg 1400w" sizes="(min-width: 730px) 396px, 100vw" alt="Boxes and tins of tea" width="960" height="720" class="rounded" %}
     </a>
   </div>
 </div>

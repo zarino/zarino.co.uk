@@ -17,7 +17,7 @@ Like their [DoorBot](http://wiki.doesliverpool.com/DoorBot) that plays a persona
 > The organisation [DoES Liverpool] has an internalised sense of the malleability of the world that software and digital fabrication brings.
 
 
-[{% img "Maker Night at DoES Liverpool" "/media/doesliverpool-makernight.jpg" %}](https://www.flickr.com/photos/doesliverpool/8577823002)
+[{% img alt="Maker Night at DoES Liverpool" src="/media/doesliverpool-makernight.jpg" %}](https://www.flickr.com/photos/doesliverpool/8577823002)
 
 Adrian being Adrian, he also takes two swipes at design agencies.[^1]
 
@@ -29,7 +29,7 @@ But after that, he gets to the nub of the discussion: That we need this—for wa
 
 Because the world *is* changing. Fast, cheap, omnipresent networking. Fast, cheap, Arduinos and Raspberry Pis. Next day electronics deliveries. Stack Overflow… More and more is now possible with less and less.
 
-{% img "Francis Irving holding an Arduino-powered kite at an Awesome Liverpool gift night" "/media/awesome-kite.jpg" %}
+{% img alt="Francis Irving holding an Arduino-powered kite at an Awesome Liverpool gift night" src="/media/awesome-kite.jpg" %}
 
 What previously could only have been achieved by engaging a large electronics manufacturer, crafting bespoke a system they’d hope to re-sell to cover their costs, or contracting the Crapitas of this world, with all the pain that brings – what previously was *out of the reach* of small to medium enterprises is now in their grasp.
 
@@ -39,13 +39,13 @@ I’d say barely 1% of the UK’s businesses have realised the opportunity prese
 
 But then it took many businesses easily two decades to realise that *the web* would open them up to new markets, new products, and new customers. And we’re only just reaching the point where there’s enough demand to sustain businesses like Squarespace, that bring cheap, off-the-shelf business websites to the masses.
 
-{% img "Make Do And Mend poster from the 1940s" "/media/make-do-and-mend-1940s.jpg" %}
+{% img alt="Make Do And Mend poster from the 1940s" src="/media/make-do-and-mend-1940s.jpg" srcset="/media/make-do-and-mend-1940s.jpg 700w, /media/make-do-and-mend-1940s@2x.jpg 1400w" %}
 
 It sort of reminds me of the “make do and mend” attitude of the second World War. With supplies tight, and time at a premium, people were *forced* to find innovative, malleable solutions to their problems. Companies, too, became a little more malleable, a little less traditional. They took on a female workforce, adjusted hours, brought in new technology, re-purposed existing tools for new jobs, and found innovative new markets for byproducts. When the shit hit the fan, industry adopted just a little of what Adrian might call the DoES Liverpool ethos.
 
 How can we take that ethos, and help it permeate into standard business practice? Just as the “make do and mend” attitude spread from the country cottages and urban tenements of 1930s Britain into every aspect of the wartime economy?
 
-{% img "Women working in a WWII munitions factory" "/media/wwii-factory-women.jpg" %}
+{% img alt="Women working in a WWII munitions factory" src="/media/wwii-factory-women.jpg" %}
 
 ## I can’t help feeling that this movement has to start at home.
 
@@ -59,7 +59,7 @@ With each new generation of employees, and each new generation of customers, it 
 
 When you’ve been brought up on a childhood of “hacking” systems—customising Minecraft worlds with Python code, not purchase orders, or pasting JavaScript into your browser URL bar to extract content from a webpage—you simply won’t stand for antequated, inflexible, wasteful business practices at work.
 
-{% img "Schoolkids participating in a Raspberry Pi Codejam" "/media/kids-codejam.jpg" %}
+{% img alt="Schoolkids participating in a Raspberry Pi Codejam" src="/media/kids-codejam.jpg" %}
 
 That’s why I have such respect for people like [Alan O'Donohoe](http://about.me/AlanODonohoe), [Code Club](https://www.codeclub.org.uk), and the Raspberry Pi movement. We should be [teaching everyone to hack](/post/teaching-everyone-to-hack). Not because it’ll help them get jobs (though it will). Not because we want them to become cyber criminals or privacy extremists (though some inevitably will). But because a generation of hackers and makers will force an imperceptible but unstoppable shake-up of British business.
 

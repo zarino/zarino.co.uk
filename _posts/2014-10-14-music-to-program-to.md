@@ -9,7 +9,7 @@ related:
   - /post/teaching-everyone-to-hack/
 ---
 
-{% include image.html src="/media/itunes-mini-player.png" style="width: 50%; float: right; margin-top: -2%; margin-right: -5%" alt="iTunes mini player, showing Jan Jelinek, Kosmischer Pitch" %}
+{% img src="/media/itunes-mini-player.png" style="width: 50%; float: right; margin-top: -2%; margin-right: -5%" alt="iTunes mini player, showing Jan Jelinek, Kosmischer Pitch" %}
 
 There are two types of programmer (or, I guess, designer): those that listen to music when they work, and those that don’t.
 

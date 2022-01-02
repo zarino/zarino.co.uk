@@ -14,11 +14,11 @@ I conduct research into which new features would be most valuable to them. I spe
 
 That last one—the checkbox—made me feel strangely dishonest.
 
-{% img "Zoomed-in image of a checkbox" "/media/checkbox.jpg" %}
+{% img alt="Zoomed-in image of a checkbox" src="/media/checkbox.jpg" srcset="/media/checkbox.jpg 700w, /media/checkbox@2x.jpg 1400w" %}
 
 Suggestion through pre-selected binary choices (what Psychologists call the “[default effect](https://en.wikipedia.org/wiki/Default_effect_%28psychology%29)”) isn’t anything new. In much of Europe, organ donation is <em>opt-out</em>, and has been for decades. The simple truth: it dramatically increases donations. Germany which, like us in the UK[^1], has an opt-in system, has a consent rate of 12% of citizens. Neighbouring Austria, with their opt-out system, has a consent rate of 99.98%[^2].
 
-[{% img "Graph from Johnson & Goldstein (Science, 2003) showing comparative organ donation rates in European countries" "/media/organ-donation.png" %}](/media/organ-donation.png)
+[{% img alt="Graph from Johnson & Goldstein (Science, 2003) showing comparative organ donation rates in European countries" src="/media/organ-donation.png" srcset="/media/organ-donation.png 700w, /media/organ-donation@2x.png 1400w" %}](/media/organ-donation@2x.png)
 
 Increased adoption was also the reason, a week or so ago, I was asked to tick the checkbox on scraperwiki.com. The checkbox controls whether you’re added to our email newsletter list when you create a new account.
 

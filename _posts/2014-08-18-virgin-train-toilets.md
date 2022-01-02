@@ -13,7 +13,7 @@ Every few weeks, my work at mySociety sees me travelling down to London to meet 
 
 I typically book far enough ahead that I get a table seat so I can get stuff done. Even when I don’t get a reservation, I’m usually lucky enough to find space somewhere, often crammed into a two-seater with a person who’s trying as hard as me to pretend—in that most British of ways—that the guy next to them doesn’t exist.
 
-{% img "A mid-20th century train carriage full of passengers reading news papers" "/media/antisocial-train-passengers.jpg" %}
+{% img alt="A mid-20th century train carriage full of passengers reading news papers" src="/media/antisocial-train-passengers.jpg" %}
 
 Today however, dear reader, my cosy schedule was turned upside-down. I not only booked too late to get a reservation, but also turned up to the platform to find *every man and his dog* was on the 10:47 to London, and un-occupied, un-reserved seats were pretty much nowhere to be seen.
 
@@ -23,7 +23,7 @@ On my second pass through carriage D (the unreserved coach) looking for any spac
 
 And I mean that with only a hint of sarcasm – by typical standards these seats are actually pretty good. There’s nice air flow from the carriage doors and air conditioning (which is more than could be said for the stuffy, sweaty coaches), lots of natural light, and a good metre or so of leg room (except for when people occasionally wander past).
 
-{% img "Folded seats in the Coach D corridor, on a Virgin Pendolino train" "/media/virgin-toilet-corridor.jpg" %}
+{% img alt="Folded seats in the Coach D corridor, on a Virgin Pendolino train" src="/media/virgin-toilet-corridor.jpg" %}
 
 As soon as I saw the seats, I wondered whether sitting on them would break some sort of rule. Were they just for people waiting for the toilet? Surely not. Maybe disabled seats, since they're the closest to the door? Not as far as I could tell. They were odd little things, but I figured, if I left it any longer, the vultures would get them. So I sat myself down, and waited for the train to pull away.
 
@@ -35,7 +35,7 @@ Vaguely pear-shaped in plan, with the toilet bowl, mirror, and miniature sink sq
 
 “But while we’re at it,” the designer must have said, “let’s make it a game to actually get into the thing. Let’s remove the door handle, and replace it with a button that’s positioned off to the side, so it looks like it opens the carriage door to the right instead.”
 
-{% img "Button for opening the toilet door on a Virgin Pendolino train" "/media/virgin-toilet-door.jpg" %}
+{% img alt="Button for opening the toilet door on a Virgin Pendolino train" src="/media/virgin-toilet-door.jpg" srcset="/media/virgin-toilet-door.jpg 700w, /media/virgin-toilet-door@2x.jpg 1400w" %}
 
 “Genius!” says a second, “They’ll love that. It’s quirky!”
 
@@ -47,7 +47,7 @@ Vaguely pear-shaped in plan, with the toilet bowl, mirror, and miniature sink sq
 
 It feels a bit like a scene from Terry Gilliam’s Brazil. But it’s true. You walk in and you’re faced with this:
 
-{% img "The door lock controls on a Virgin Pendolino train" "/media/virgin-toilet-lock.jpg" %}
+{% img alt="The door lock controls on a Virgin Pendolino train" src="/media/virgin-toilet-lock.jpg" %}
 
 If you’re foolish enough to miss the middle button (perhaps mistaking it for a light, or assuming this space-age toilet must lock itself, given the lack of a manual lock on the door) then after a few seconds the toilet detects your mistake and shouts:
 
@@ -59,7 +59,7 @@ I mean, why on earth are there two buttons, one for closing the door, one for lo
 
 Anyway, once you actually lock the door (accompanied by another stern announcement of “TOILET DOOR LOCKED”) and lift the loo seat, you’re greeted by this sticker on the inside:
 
-{% img "Sticker on underside of toilet seat, advising you not to flush hopes, dreams, or goldfish down the toilet" "/media/virgin-toilet-goldfish.jpg" %}
+{% img alt="Sticker on underside of toilet seat, advising you not to flush hopes, dreams, or goldfish down the toilet" src="/media/virgin-toilet-goldfish.jpg" srcset="/media/virgin-toilet-goldfish.jpg 700w, /media/virgin-toilet-goldfish@2x.jpg 1400w" %}
 
 For maximal embarrassment factor, a voiceover announces the monologue while you stand there, unsure of whether to start your business, or wait until she’s finished.
 
@@ -75,7 +75,7 @@ Even the toilet flusher is over-designed. Why go the easy route and have a handl
 
 *\*sigh\**
 
-{% img "Sign above toilet flusher, telling you about toilet flusher" "/media/virgin-toilet-flush.jpg" %}
+{% img alt="Sign above toilet flusher, telling you about toilet flusher" src="/media/virgin-toilet-flush.jpg" srcset="/media/virgin-toilet-flush.jpg 700w, /media/virgin-toilet-flush@2x.jpg 1400w" %}
 
 The thing is, toilets are the sorts of things you want to operate on auto-pilot. We’re all trained, from a very young age, on how to use toilets. And with a few stylistic alterations, 99% of the toilets we see in our daily life look pretty much the same. The doors either lock with a sliding bar or a rotating latch. The toilet flushes with a lever in the top corner, or a push-button, top centre.
 
