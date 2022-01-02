@@ -13,8 +13,11 @@ layout: default
           {% endif %}
           {% if post.image %}
             {% blockimg %}
-                "{{ post.title }}"
-                "{{ post.image }}"
+                alt="{{ post.title }}"
+                src="{{ post.image }}"
+              {% if post.image2x %}
+                srcset="{{ post.image2x }} 2x, {{ post.image }} 1x"
+              {% endif %}
             {% endblockimg %}
           {% endif %}
         </a>

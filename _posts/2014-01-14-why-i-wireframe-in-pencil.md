@@ -4,6 +4,7 @@ title: Why I wireframe in pencil
 summary: >
   I’m a designer. I think in pictures. And unlike a growing contingent of designers these days who protest they can’t draw, I sketch everything before I even touch a computer. Find out why…
 image: /media/wireframes-1.jpg
+image2x: /media/wireframes-1@2x.jpg
 related:
   - /post/beauty-and-utility/
   - /post/investing-in-rss/

@@ -4,6 +4,7 @@ title: "Notes from the Far East: Part 2"
 summary: >
   Photos and memories from the middle section of my 2019 trip around the South China Sea on the Quantum of the Seas, covering Fukuoka in Japan, Taipei in Taiwan, and Hong Kong.
 image: /media/far-east-cruise/preview/taipei-memorial-gate.jpg
+image2x: /media/far-east-cruise/preview/taipei-memorial-gate@2x.jpg
 contains_image_gallery: true
 related:
   - /post/far-east-trip-china/

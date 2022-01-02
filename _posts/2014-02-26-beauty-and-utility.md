@@ -4,6 +4,7 @@ title: Distinguishing beauty from utility
 summary: >
   It’s fun to imagine a new user interface that makes car controls simple and delightful. But this month’s rash of style-over-substance YouTube videos isn’t helping.
 image: /media/ipad-ui-matthaeus.png
+image2x: /media/ipad-ui-matthaeus@2x.png
 related:
   - /post/whats-in-a-checkbox/
   - /post/why-i-wireframe-in-pencil/

@@ -4,6 +4,7 @@ title: "Notes from the Far East: Part 3"
 summary: >
   A short diversion into my ethical qualms with cruise holidays, before returning to the final leg of my 2019 trip around the South China Sea, featuring Da Nang and Ho Chi Minh City in Vietnam, and Singapore.
 image: /media/far-east-cruise/preview/da-nang-golden-bridge-groupie-cropped.jpg
+image2x: /media/far-east-cruise/preview/da-nang-golden-bridge-groupie-cropped@2x.jpg
 contains_image_gallery: true
 related:
   - /post/far-east-trip-china/

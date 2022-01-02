@@ -4,6 +4,7 @@ title: "Notes from the Far East: Part 1"
 summary: >
   Photos and memories from the first leg of my 2019 trip around the South China Sea, starting with three days in Beijing.
 image: /media/far-east-cruise/preview/forbidden-city-group-selfie.jpg
+image2x: /media/far-east-cruise/preview/forbidden-city-group-selfie@2x.jpg
 contains_image_gallery: true
 related:
   - /post/far-east-trip-japan-taiwan-hong-kong/
