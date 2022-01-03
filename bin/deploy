@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+TEMPORARY_NAME="zarino.co.uk"
+
+BUILD_DIR="/tmp/$TEMPORARY_NAME"
+REMOTE_SERVER="zarino.co.uk"
+REMOTE_SERVER_DIR="/home/zarinozappia"
+
+mkdir -p "$BUILD_DIR"
+
+echo "Building Jekyll site to $BUILD_DIR"
+
+bundle exec jekyll build --quiet --destination "$BUILD_DIR"
+
+echo "Synchronising $BUILD_DIR up to $REMOTE_SERVER:$REMOTE_SERVER_DIR/$TEMPORARY_NAME"
+
+rsync -az "$BUILD_DIR" "$REMOTE_SERVER:$REMOTE_SERVER_DIR"
+
+echo "Deleting $BUILD_DIR"
+
+rm -r "$BUILD_DIR"
+
+echo "Done!"

@@ -11,6 +11,7 @@ permalink: "/post/:title/"
 host: 0.0.0.0 # zarino.co.uk/post/jekyll-local-network
 exclude:
   - .gitignore
+  - .git
   - LICENSE
   - README.md
   - vendor/sass
