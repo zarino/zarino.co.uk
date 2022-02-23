@@ -115,3 +115,19 @@ Here’s an example of me serving Open Sans in two styles (regular and italic) a
     }
 
 It’s good practice to include the `local()` functions so that, if the user already has the font installed on their device, that local copy is used, instead of your webfont versions, saving a few precious bytes. But if you don‘t know the font’s name and Postscript name, you _can_ leave this bit out.
+
+# Subsetting fonts
+
+One nice thing that Google Fonts makes easy is requesting just a subset of the glyphs contained in a font. So if you know you’ll only ever need latin characters, say, you can ask Google Fonts to serve you a version of a font without any cyrillic or Vietnamese glyphs, often dramatically reducing the filesize.
+
+If you want to try this yourself, you’ll need to install a few additional tools:
+
+    npm install -g font-ranger
+    pipx install fonttools
+    pipx inject fonttools brotli zopfli
+
+And then run `font-ranger` over your TTF files, to generate the individual subsets:
+
+    for i in Montserrat-*.ttf; do font-ranger -f "$i" -o ../webfont-subsets -u latin latin-ext cyrillic cyrillic-ext vietnamese -n "${i%.*}" -w true; done
+
+Good luck!
