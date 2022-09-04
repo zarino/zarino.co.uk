@@ -531,7 +531,7 @@ But in Beijing, that was surprisingly hard to find. It’s like there’s a “t
 
 Most worrying is the sense we got that nobody questions the status quo. When we spoke about our crazy immigration experience—mothers separated from babies, tourists held under police guard in a pen, whole planes turned around without explanation—people just looked at us blankly, as if waiting for us to tell them something unacceptable. When we told the same stories to Chinese staff on the cruise ship, they were shocked and, frankly, embarrassed. But on the mainland, it was like “Well, if the government did that, it must be right.” We quickly started to understand what the people of [Hong Kong](https://en.wikipedia.org/wiki/2019%E2%80%9320_Hong_Kong_protests) were (and still are) protesting for.
 
-Speaking of which, next up, in Part 2 – [our ship sets sail, to Japan, Taiwan, and Hong Kong](/posts/far-east-trip-japan-taiwan-hong-kong/).
+Speaking of which, next up, in Part 2 – [our ship sets sail, to Japan, Taiwan, and Hong Kong](/post/far-east-trip-japan-taiwan-hong-kong/).
 
 </div>
 
