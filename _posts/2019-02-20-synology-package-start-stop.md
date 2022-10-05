@@ -18,7 +18,7 @@ I could restart the ZeroTier package by logging into my DiskStation’s web inte
 
 # Managing Synology packages from the command line
 
-It turns out, if you’ve [set up SSH access to your DiskStation](/posts/ds214se-under-the-hood), then there’s a `synopkg` command for interacting with Package Center “apps” from the command line.
+It turns out, if you’ve [set up SSH access to your DiskStation](/post/ds214se-under-the-hood), then there’s a `synopkg` command for interacting with Package Center “apps” from the command line.
 
 You can find out whether a package is running with `synopkg is_onoff`, eg:
 
