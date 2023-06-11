@@ -20,3 +20,6 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 RewriteRule ^post/?$ / [R=301]
 RewriteRule ^feed/?$ feed.xml
+
+# Typo in blog post slug, only spotted three years after publication!
+RewriteRule ^post/amp-gpu-fan-curve-pop-os-ubuntu/?$ /post/amd-gpu-fan-curve-pop-os-ubuntu/ [R=301]

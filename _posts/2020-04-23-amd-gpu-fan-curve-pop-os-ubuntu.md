@@ -136,7 +136,31 @@ A quick restart, and I’d verified that my systemd service was starting automat
 
 ## Useful links
 
-If you want to find out more about how all of this works, the Arch Linux wiki is a treasure trove of really high-quality information:
+If you want to simplify running most of the commands above, [Manuel Grießmayr](https://twitter.com/dc_coder_84) kindly [bundled them all into a `Makefile`](https://twitter.com/dc_coder_84/status/1663234485813493778) that you can run with `make install`, `make update`, and `make uninstall`. Twitter messed up the indentation, so here it is in full:
+
+```
+.PHONY: install update uninstall
+
+install:
+	cp amdgpu-fancontrol.cfg /etc
+	cp amdgpu-fancontrol /usr/bin
+	cp amdgpu-fancontrol.service /etc/systemd/system
+	systemctl enable amdgpu-fancontrol
+	systemctl start amdgpu-fancontrol
+
+update:
+	cp amdgpu-fancontrol.cfg /etc
+	systemctl restart amdgpu-fancontrol
+
+uninstall:
+	rm /etc/amdgpu-fancontrol.cfg
+	rm /usr/bin/amdgpu-fancontrol
+	systemctl stop amdgpu-fancontrol
+	systemctl disable amdgpu-fancontrol
+	rm /etc/systemd/system/amdgpu-fancontrol.service
+```
+
+If you want to find out more about how all of the amdgpu stuff works, the Arch Linux wiki is a treasure trove of really high-quality information:
 
 * [AMDGPU – ArchWiki](https://wiki.archlinux.org/index.php/AMDGPU)
 * [Fan speed control – ArchWiki](https://wiki.archlinux.org/index.php/Fan_speed_control#AMDGPU_sysfs_fan_control)
