@@ -62,7 +62,7 @@ $ mkdir -p /volume1/docker/transmission/config
 $ mkdir -p /volume1/docker/transmission/watch
 ```
 
-(Note from the future: I found downloads would fail with a “Permission denied” error unless the owner of the `/downloads` folder inside the container had execute permissions. Since I’d already verified—with `stat /volume1/files/Downloads`—that the folder was owned by UID `1024` and GID `100`, I ran `chmod u+x /volume1/files/Downloads` to ensure that the owner had execute rights.)
+(Note from the future: I found downloads would fail with a “Permission denied” error unless the owner of the `/downloads` folder inside the container had execute permissions. Since I’d already verified—with `stat /volume1/files/Downloads`—that the folder was owned by my `zarino` user (UID `1027`, GID `100`), I ran `chmod u+x /volume1/files/Downloads` to ensure that the owner had execute rights.)
 
 With the folders created, I took [their recommended docker-compose file](https://registry.hub.docker.com/r/linuxserver/transmission/), and put it into `/volume1/docker/transmission/docker-compose.yml`, modifying the settings as required. I’ll explain some of them below.
 
@@ -74,7 +74,7 @@ The `PUID` and `GUID` values are the user ID and group ID of the user you want T
 
 ```
 $ id
-uid=1024(admin) gid=100(users) groups=100(users),25(smmsp),101(administrators),65537(docker)
+uid=1027(zarino) gid=100(users) groups=100(users),25(smmsp),101(administrators),65537(docker)
 ```
 
 The `USER` and `PASS` variables are the username and password that will be used for the HTTP Basic Authentication protecting the Transmission web interface behind a login prompt. I think the old `ipkg` version of Transmission used to use the username and password of your Synology user account here, but now I guess you could pick anything you like.
@@ -89,7 +89,7 @@ services:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
     environment:
-      - PUID=1024
+      - PUID=1027
       - PGID=100
       - TZ=Europe/London
       - USER=examplechangeme
@@ -116,6 +116,7 @@ Once the container is running, the Transmission web interface will be accessible
 
 Finally, you’ll want to [create a Triggered Task](https://kb.synology.com/en-global/DSM/help/DSM/AdminCenter/system_taskscheduler?version=7), to start the Transmission container automatically when your Diskstation reboots. I did this by selecting “Create > Triggered Task > User-defined script” in the [Task Scheduler control panel](https://kb.synology.com/en-global/DSM/help/DSM/AdminCenter/system_taskscheduler?version=7), and then creating a script with the following settings:
 
+<div class="table-responsive">
 <table class="table" style="font-size: 0.875em;">
 <tr>
 <th style="padding-left: 0;">Task name</th>
@@ -146,6 +147,7 @@ Finally, you’ll want to [create a Triggered Task](https://kb.synology.com/en-g
 <td style="padding-right: 0;"><pre style="white-space: break-spaces;">cd /volume1/docker/transmission && docker-compose up --detach</pre></td>
 </tr>
 </table>
+</div>
 
 ## Installing and setting up ZeroTier One
 
@@ -214,6 +216,7 @@ $ ./zerotier-cli listnetworks
 
 Finally, as with Transmission (above), I needed to [create a Triggered Task](https://kb.synology.com/en-global/DSM/help/DSM/AdminCenter/system_taskscheduler?version=7), to start the docker container automatically when my Diskstation reboots. The details were very similar to before:
 
+<div class="table-responsive">
 <table class="table" style="font-size: 0.875em;">
 <tr>
 <th style="padding-left: 0;">Task name</th>
@@ -244,6 +247,7 @@ Finally, as with Transmission (above), I needed to [create a Triggered Task](htt
 <td style="padding-right: 0;"><pre style="white-space: break-spaces;">cd /volume1/docker/zerotier-one && docker-compose up --detach</pre></td>
 </tr>
 </table>
+</div>
 
 ## Remember backups!
 
