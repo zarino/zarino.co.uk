@@ -12,7 +12,7 @@ related:
 
 These days, I work in Liverpool’s [Baltic Triangle](http://www.liverpoolbaltictriangle.co.uk/visit/) – a ¼km² patch of what used to be “the city’s workshop”, that is now gentrifying into a hub for the city’s creative industries.
 
-{% img alt="Map of the Baltic Triangle, Liverpool" src="/media/baltic-triangle-liverpool-map.png" src="/media/baltic-triangle-liverpool-map.png 700w, /media/baltic-triangle-liverpool-map@2x.png 1400w" %}
+{% img alt="Map of the Baltic Triangle, Liverpool" src="/media/baltic-triangle-liverpool-map.png" srcset="/media/baltic-triangle-liverpool-map.png 700w, /media/baltic-triangle-liverpool-map@2x.png 1400w" %}
 
 It’s bounded to the south and the west by Parliament Street and the Dock Road[^1], Liverpool’s main arteries for traffic to/from the south. To the north, there’s [Liverpool ONE](http://www.liverpool-one.com/getting_here.aspx), the city’s central shopping district, and to the east, there’s a bizarre estate of bungalows and, beyond that, [Liverpool’s Chinatown](http://en.wikipedia.org/wiki/Chinatown,_Liverpool) and [the Ropewalks](http://en.wikipedia.org/wiki/RopeWalks,_Liverpool).
 

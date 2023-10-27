@@ -28,7 +28,7 @@ This isn’t bad design, it’s just really unfortunate. 27 words, in five diffe
 
 Like I said, it’s not bad, but it’s unfortunate. You can put up with a bunch of crappy looking no-smoking signs. But when I saw this next poster on a journey between Liverpool city centre and St Michaels, it so perfectly epitomised Merseyrail’s stance on public information signage, that I had to take a photo and write this blog post about it:
 
-{% img alt="A Merseyrail poster advertising the Railpass discount scheme" src="/media/merseyrail-poster.jpg" src="/media/merseyrail-poster.jpg 700w, /media/merseyrail-poster@2x.jpg 1400w" %}
+{% img alt="A Merseyrail poster advertising the Railpass discount scheme" src="/media/merseyrail-poster.jpg" srcset="/media/merseyrail-poster.jpg 700w, /media/merseyrail-poster@2x.jpg 1400w" %}
 
 Okay, elephant in the room: Why is there a big purple hand picking that guy’s nose? This ain’t no hidden FedEx arrow – it’s smack-bang in the middle of the poster. How can you *not* see it?
 
