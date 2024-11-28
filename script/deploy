@@ -8,6 +8,8 @@ BUILD_DIR="/tmp/$TEMPORARY_NAME"
 REMOTE_SERVER="zarino.co.uk"
 REMOTE_SERVER_DIR="/home/zarinozappia"
 
+bundle install
+
 mkdir -p "$BUILD_DIR"
 
 echo "Building Jekyll site to $BUILD_DIR"
