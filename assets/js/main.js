@@ -85,6 +85,7 @@ var updateHeaderColour = function(){
 }
 
 var trackOutboundLink = function(e){
+  var gtag = window.gtag || function(){}
   var url = $(this).attr('href')
   var callback = function(){
     window.location.href = url
@@ -99,9 +100,10 @@ var trackOutboundLink = function(e){
   }
   // Register Google Analytics event for link url.
   // Then redirect to url on success.
-  ga('send', 'event', 'outbound-link', 'click', url, {
-    'hitCallback': callback
-  })
+  gtag('event', 'outbound_link_click', {
+    outbound_url: url,
+    event_callback: callback
+  });
   // In case Google Analytics doesn't work,
   // redirect after 2 seconds anyway.
   setTimeout(callback, 2000);
