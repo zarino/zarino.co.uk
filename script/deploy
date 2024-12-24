@@ -6,7 +6,7 @@ TEMPORARY_NAME="zarino.co.uk"
 
 BUILD_DIR="/tmp/$TEMPORARY_NAME"
 REMOTE_SERVER="zarino.co.uk"
-REMOTE_SERVER_DIR="/home/zarinozappia"
+REMOTE_SERVER_DIR="/srv"
 
 bundle install
 
