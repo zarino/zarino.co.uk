@@ -2,15 +2,16 @@ var subheadings = [
   'develops things',
   'designs things',
   'pushes pixels',
-  'css guru',
   'javascript ninja',
   'designs experiences',
-  'plays ukulele',
+  'plays bass',
   'blogs about design',
   'blogs about code',
-  'internetologist',
-  'oii msc hci css ftw',
-  'make it so'
+  'I presume',
+  'vs the world',
+  'make it so',
+  'rhymes with happier',
+  'makes it snappier'
 ]
 
 var changeSubheading = function(){
