@@ -1,0 +1,29 @@
+$utilities: map-merge(
+    $utilities,
+    (
+        "font-family": map-merge(
+            map-get($utilities, "font-family"),
+            (
+                values: map-merge(
+                    map-get(map-get($utilities, "font-family"), "values"),
+                    (
+                        sans-serif: var(--#{$prefix}font-sans-serif),
+                        serif: var(--#{$prefix}font-serif),
+                    )
+                ),
+            ),
+        ),
+        "font-weight": map-merge(
+            map-get($utilities, "font-weight"),
+            (
+                values: map-merge(
+                    map-get(map-get($utilities, "font-weight"), "values"),
+                    (
+                        lightest: 100,
+                        boldest: 900
+                    ),
+                ),
+            ),
+        ),
+    )
+);

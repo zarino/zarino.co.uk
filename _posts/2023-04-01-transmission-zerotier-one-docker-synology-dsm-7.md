@@ -144,7 +144,7 @@ Finally, you’ll want to [create a Triggered Task](https://kb.synology.com/en-g
 </tr>
 <tr>
 <th style="padding-left: 0; white-space: nowrap;">User-defined script</th>
-<td style="padding-right: 0;"><pre style="white-space: break-spaces;">cd /volume1/docker/transmission && docker-compose up --detach</pre></td>
+<td style="padding-right: 0;"><pre style="white-space: break-spaces;"><code>cd /volume1/docker/transmission && docker-compose up --detach</code></pre></td>
 </tr>
 </table>
 </div>
@@ -244,7 +244,7 @@ Finally, as with Transmission (above), I needed to [create a Triggered Task](htt
 </tr>
 <tr>
 <th style="padding-left: 0; white-space: nowrap;">User-defined script</th>
-<td style="padding-right: 0;"><pre style="white-space: break-spaces;">cd /volume1/docker/zerotier-one && docker-compose up --detach</pre></td>
+<td style="padding-right: 0;"><pre style="white-space: break-spaces;"><code>cd /volume1/docker/zerotier-one && docker-compose up --detach</code></pre></td>
 </tr>
 </table>
 </div>

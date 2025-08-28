@@ -1,0 +1,150 @@
+---
+layout: default
+permalink: /style/
+title: Style preview
+shades: [100, 200, 300, 400, 500, 600, 700, 800, 900]
+theme_colors: ["primary", "secondary", "success", "info", "warning", "danger", "light", "dark"]
+button_colors: ["primary", "secondary", "success", "info", "warning", "danger", "light", "dark"]
+heading_levels: [1, 2, 3, 4, 5, 6]
+display_levels: [1, 2, 3, 4, 5, 6]
+sizes: ["-sm", "", "-lg"]
+---
+
+<div class="py-4 py-lg-5">
+    <div class="container">
+        <div class="row font-sans-serif fs-8">
+          {% for color in page.theme_colors %}
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="d-block p-2" style="color: var(--bs-{{ color }}-text-emphasis); background: var(--bs-{{ color }}-bg-subtle);">
+                    {{ color }}-bg-subtle
+                </div>
+                <div class="fs-8 d-block p-2 text-bg-{{ color }}">
+                    {{ color }}
+                </div>
+                <div class="fs-8 d-block p-2" style="color: var(--bs-{{ color }}-bg-subtle); background: var(--bs-{{ color }}-text-emphasis);">
+                    {{ color }}-text-emphasis
+                </div>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="row g-0 font-sans-serif fs-8 mb-4">
+          {% for shade in page.shades %}
+            <div class="col d-block p-2" style="background: var(--bs-gray-{{ shade }}); {% if shade > 500 %}color: var(--bs-white);{% endif %}">
+                gray-{{ shade }}
+            </div>
+          {% endfor %}
+        </div>
+
+        <hr class="my-5">
+
+        <div class="row">
+            <div class="col-lg-6">
+              {% for level in page.display_levels %}
+                <p class="display-{{ level }} mb-4">Display {{ level }}</p>
+              {% endfor %}
+                <p class="lead mt-5">Lorem Ipsum dolor sit amet. <a href="#">Incidunt temporibus accusantium</a> incidunt dolor. Eum <em>culpa est</em> cum aut. Vel fuga <b>perspiciatis</b> aut temporibus.</p>
+            </div>
+            <div class="col-lg-6">
+              {% for level in page.heading_levels %}
+                <h{{ level }}{% if level == 1 %} class="mt-0"{% endif %}>Heading {{ level }}</h{{ level }}>
+                <p class="mb-4">Lorem Ipsum dolor sit amet. <a href="#">Incidunt temporibus accusantium</a> incidunt dolor. Eum <em>culpa est</em> cum aut. Vel fuga <b>perspiciatis</b> aut temporibus.</p>
+              {% endfor %}
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+      {% for size in page.sizes %}
+        <div class="mb-3 mx-n2 d-flex flex-wrap">
+          {% for color in page.button_colors %}
+            <button class="btn btn{{ size }} btn-{{ style }}{{ color }} m-2">{{ color|capitalize }}</button>
+          {% endfor %}
+        </div>
+      {% endfor %}
+
+        <hr class="my-5">
+
+        <div class="row g-lg-5 mb-n5">
+          {% for size in page.sizes %}
+            <form class="col-lg-4 mb-5">
+                <div class="mb-3">
+                    <label for="input1{{ size }}" class="form-label">Text input</label>
+                    <input type="text" class="form-control form-control{{ size }}" id="input1{{ size }}" aria-describedby="help2{{ size }}">
+                    <div id="help2{{ size }}" class="form-text">This is some help text for the input.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="input2{{ size }}" class="form-label">Invalid input</label>
+                    <input type="text" class="form-control form-control{{ size }} is-invalid" id="input2{{ size }}" aria-describedby="help3{{ size }}">
+                    <div id="help3{{ size }}" class="invalid-feedback">This is some help text for the input.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="input3{{ size }}" class="form-label">Disabled input</label>
+                  <input type="text" id="input3{{ size }}" class="form-control form-control{{ size }}" disabled>
+                </div>
+                <div class="mb-3">
+                    <label for="input4{{ size }}" class="form-label">Disabled input</label>
+                    <select class="form-select form-select{{ size }}" id="input4{{ size }}">
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="input5{{ size }}">
+                    <label class="form-check-label" for="input5{{ size }}">Checkbox</label>
+                </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radios" id="input6{{ size }}">
+                        <label class="form-check-label" for="input6{{ size }}">Radio 1</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radios" id="input7{{ size }}" checked>
+                        <label class="form-check-label" for="input7{{ size }}">Radio 2</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn{{ size }} btn-primary">Submit</button>
+            </form>
+          {% endfor %}
+        </div>
+
+        <hr class="my-5">
+
+        <div class="row g-lg-5">
+            <div class="col-sm-6 col-lg-3">
+                <div class="p-3 mb-5 bg-light rounded" style="min-height: 10em">No shadow</div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="shadow-sm p-3 mb-5 bg-body rounded" style="min-height: 10em">Small shadow</div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="shadow p-3 mb-5 bg-body rounded" style="min-height: 10em">Regular shadow</div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="shadow-lg p-3 mb-5 bg-body rounded" style="min-height: 10em">Large shadow</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-readable" markdown="1">
+
+        <hr>
+        <h1>Lorem Ipsum dolor sit amet.</h1>
+        <p>Ut et atque officia. Distinctio aut ut eum officia est illo veniam. Veniam et consequuntur delectus laborum. Maiores mollitia qui iste nihil ea. Accusamus beatae non qui recusandae.</p>
+        <p>Sint ea ea odio nihil possimus ipsum. Sunt et quaerat sed aspernatur porro quas beatae. Pariatur ratione amet quaerat in. Culpa reiciendis saepe et suscipit enim. Nobis est eos quas ut.</p>
+
+{% highlight python %}
+def check_if_leap_year(year):
+    if (year % 400 == 0) and (year % 100 == 0):
+        print("{0} is a leap year".format(year))
+    elif (year % 4 ==0) and (year % 100 != 0):
+        print("{0} is a leap year".format(year))
+    else:
+        print("{0} is not a leap year".format(year))
+
+check_if_leap_year(2025)
+{% endhighlight %}
+
+    </div>
+</div>

@@ -1,47 +1,84 @@
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
 $blue: #007AB8; // a more restrained blue
-$blue-grey-100: #f7f7f9;
-$blue-grey-200: #EBEEF0;
-$blue-grey-300: #D9DDDF;
 
-$link-color-muted: #68b6dd;
+$light: $gray-200;
 
-$headings-margin-top: 1.5em;
+$enable-shadows: true;
+$enable-negative-margins: true;
+$enable-dark-mode: false;
 
-// Bootstrap overrides from here on,
-// in the order they appear in bootstrap/scss/_variables.scss
+$prefix: bs-;
+$variable-prefix: bs-;
 
-$gray-900: #212529; // annoyingly need to (pre-)define this, so we can use it in this file
-
-$body-bg: $blue-grey-200;
-$body-color: $gray-900;
-
-$embed-responsive-aspect-ratios: (
-    (3 2),
+$spacer: 1.5rem;
+$spacers: (
+  0: 0,
+  1: 0.5rem,
+  2: 1rem,
+  3: $spacer,
+  4: 2rem,
+  5: 3rem,
+  6: 4.5rem,
+  7: 6rem,
+  8: 7.5rem,
+  9: 10rem
 );
 
-$font-family-sans-serif: Lato, 'Gill Sans', 'Gill Sans MT', Helvetica, sans-serif;
-$font-family-serif: Cambria, Georgia, "Times New Roman", Times, serif;
-$font-family-monospace: Consolas, Menlo, "DejaVu Sans Mono", Courier, "Courier New", monospace;
-$font-family-base: $font-family-serif;
+$body-color: $gray-900; // the default anyway
 
 $paragraph-margin-bottom: 1em;
 
-$headings-margin-bottom: 0.7em;
+$grid-gutter-width: 2rem; // up from 1.5rem, for more horizontal padding on narrow screens
+
+$font-family-sans-serif: Lato, 'Gill Sans', 'Gill Sans MT', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-serif: Cambria, Georgia, "Times New Roman", Times, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: Consolas, Menlo, "DejaVu Sans Mono", Courier, "Courier New", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-base: --#{$prefix}font-serif;
+
+$font-size-base: 1.5rem;
+$font-size-sm: 1.33rem;
+$font-size-lg: 1.75rem;
+
+$h1-font-size: 3rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 2rem;
+$h4-font-size: $font-size-lg;
+$h5-font-size: $font-size-base;
+$h6-font-size: $font-size-sm;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: 1.25rem,
+  8: 1.125rem,
+  9: 1rem
+);
+
+$headings-margin-bottom: 0.75em;
 $headings-line-height: 1;
 
-$enable-responsive-font-sizes: true;
-$rfs-base-font-size: 1rem; // 16px - regular text minimum (on smallest screens)
-$font-size-base: 1.5rem; // 24px - regular maximum (on widest screens)
-$h1-font-size: 3rem; // 48px - maximum
-$h2-font-size: 2rem; // 32px - maximum
-$h3-font-size: 1.75rem; // 28px - maximum
-$h4-font-size: 1.25rem; // 20px - maximum
+$hr-margin-y: map-get($spacers, 4);
 
-$hr-border-color: $blue-grey-300;
-$hr-margin-y: 2em;
+$input-btn-padding-x: 1rem;
+$input-btn-line-height: 1.3;
 
-$btn-padding-x: 1.25rem; // fatter buttons
+$input-btn-padding-x-sm: 0.75rem;
+$input-btn-padding-x-lg: 1.25rem;
 
-$code-font-size: 1rem; // will remain 16px at all screen sizes, because == $rfs-base-font-size
-$code-color: $body-color;
-$pre-color: $body-color;
+$code-font-size: 0.75em; // relative to parent
+$code-color: $black;

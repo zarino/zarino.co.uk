@@ -76,7 +76,7 @@ One study estimated that cruise ships’ energy use per passenger, sometimes as 
 
 Cornell University data[^cornell] puts the carbon footprint of an overnight stay for one person, in a full-board hotel in each of the cities I visited on my cruise at:
 
-<table class="table bordered" style="table-layout: fixed">
+<table class="table" style="table-layout: fixed">
 <thead>
 <tr>
 <th>Hotel location</th>
@@ -117,7 +117,7 @@ Cornell University data[^cornell] puts the carbon footprint of an overnight stay
 
 Equivalent data for my cruise ship isn’t available. But even if we take the most favourable figures – say we interpret Royal Caribbean’s ‘235 _somethings_’ as 235 kgCO2e per berth per day, and we halve that because a ‘berth’ is two people – we get:
 
-<table class="table bordered" style="table-layout: fixed">
+<table class="table" style="table-layout: fixed">
 <thead>
 <tr>
 <th>Ship</th>

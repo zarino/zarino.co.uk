@@ -1,20 +1,16 @@
 .date {
     a {
-        color: $gray-600;
+        color: var(--#{$prefix}gray-600);
+        text-decoration: none;
 
         &:hover,
         &:focus {
             color: $link-color;
-            text-decoration: none;
-
-            .muted {
-                color: $link-color-muted;
-            }
         }
     }
 
     .muted {
-        color: mix($gray-400, $gray-500);
+        opacity: 0.7;
         padding: 2px 5px;
     }
 }
@@ -37,6 +33,10 @@
     .embed-responsive {
         margin: 1.5em 0;
     }
+
+    table {
+        @extend .fs-6;
+    }
 }
 
 sup[id^="fnref"] {
@@ -44,14 +44,22 @@ sup[id^="fnref"] {
 }
 
 .footnotes {
-    border-top: 1px solid $hr-border-color;
-    padding-top: 1.8em;
-    margin-top: 1.8em;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    margin-top: map-get($spacers, 5);
+    padding-top: map-get($spacers, 5);
+
+    @include media-breakpoint-up(md){
+        margin-top: map-get($spacers, 6);
+        padding-top: map-get($spacers, 6);
+    }
 
     ol {
-      font-size: 0.7em;
+      font-size: 0.75em;
       line-height: 1em;
-      padding-left: 1.5em;
+    }
+
+    li {
+        padding-left: 0.25rem; // bit more spacing between markers and content
     }
 
     li, p {
@@ -110,13 +118,13 @@ sup[id^="fnref"] {
 
 #further-reading {
     background: #fff;
-    border-top: 2px solid #eee;
-    padding: 40px 0 30px;
-    color: lighten($gray-600, 10%);
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    padding: map-get($spacers, 5) 0;
     overflow: auto; // clearfix
 
     h2 {
-        font-family: $font-family-sans-serif;
+        font-family: var(--#{$prefix}font-sans-serif);
+        color: var(--#{$prefix}gray-600);
         font-size: 1rem;
         line-height: 1.3;
         text-transform: uppercase;
@@ -125,10 +133,15 @@ sup[id^="fnref"] {
 
     a {
         display: block;
-        font-family: $font-family-serif;
+        font-family: var(--#{$prefix}font-serif);
         margin: 20px 0;
-        color: inherit;
+        color: var(--#{$prefix}gray-700);
         text-decoration: none;
+
+        &:hover,
+        &:focus {
+            color: $link-color;
+        }
 
         @include media-breakpoint-up(md) {
             width: 45%;
@@ -145,22 +158,12 @@ sup[id^="fnref"] {
         font-size: 1em;
         line-height: 1em;
         font-weight: normal;
-        color: $gray-600;
     }
 
     p {
         margin: 0.6em 0 0 0;
         font-size: 0.7em;
-        line-height: 1.2em;
-    }
-
-    a:hover {
-        h3 {
-            color: $link-color;
-        }
-
-        p {
-            color: $link-color-muted;
-        }
+        line-height: 1.3em;
+        opacity: 0.6;
     }
 }

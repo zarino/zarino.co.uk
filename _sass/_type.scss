@@ -1,17 +1,9 @@
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-top: $headings-margin-top;
+%heading {
+    margin-top: 1.5em;
 }
 
-h3, .h3 {
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-}
-
-h4, .h4 {
-    line-height: 1.3;
+h5, h6, .h5, .h6 {
     font-weight: bold;
-    margin-bottom: 1.25rem;
 }
 
 h1, h2, .h1, .h2 {
@@ -29,17 +21,16 @@ li {
     margin-bottom: 0.25rem;
 }
 
-.text-sans-serif {
-    font-family: $font-family-sans-serif !important;
-}
+hr {
+    margin: map-get($spacers, 5) 0;
 
-.text-serif {
-    font-family: $font-family-serif !important;
+    @include media-breakpoint-up(md){
+        margin: map-get($spacers, 6) 0;
+    }
 }
 
 hr.stars {
     height: auto;
-    margin: 1.5em 0 1em;
     text-align: center;
     border: none;
 }
@@ -47,14 +38,15 @@ hr.stars {
 hr.stars:after {
     display: inline;
     content: "* * *";
+    vertical-align: -0.5em;
 }
 
 blockquote {
+    font-size: 0.93em;
     margin: 2em 0;
     padding-left: 1em;
-    @include font-size(1.4rem);
-    color: $gray-600;
-    border-left: 5px solid $gray-300;
+    color: var(--#{$prefix}gray-600);
+    border-left: 5px solid var(--#{$prefix}gray-300);
 
     p {
         margin-bottom: 0.7rem;
@@ -63,17 +55,18 @@ blockquote {
 }
 
 blockquote.twitter-tweet {
-    font-size: 0.7em;
-    max-width: 32em;
-    margin: 2em auto;
-    font-family: $font-family-sans-serif;
-    padding: 1em 1.5em;
-    border: 1px solid $gray-400;
-    border-radius: $border-radius;
-    color: inherit;
+    padding: 1rem;
+    border: 1px solid var(--#{$prefix}gray-400);
+    border-radius: var(--#{$prefix}border-radius);
+    background: var(--#{$prefix}white);
+    font-family: var(--#{$prefix}font-sans-serif);
+    font-size: 1rem; // small attribution line!
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
 
     p {
-        font-size: 1.2em; // 1.2 * 0.7 = roughly 0.8em compared to other text
+        font-size: 1.25rem; // less small quote text!
     }
 }
 
@@ -92,4 +85,9 @@ img,
 video {
     max-width: 100%;
     height: auto;
+}
+
+[data-lazy-src],
+[data-lazy-srcset]{
+    will-change: contents;
 }

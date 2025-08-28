@@ -1,6 +1,6 @@
 #menu-toggle {
     position: absolute;
-    top: 20px;
+    top: 1.5rem;
     right: 0;
     width: 0.8em;
     display: block;
@@ -8,12 +8,12 @@
     cursor: pointer;
 
     @include media-breakpoint-up(sm) {
-        top: 25px;
+        top: 1.75rem;
         padding-top: 8px;
     }
 
     @include media-breakpoint-up(md) {
-        top: 34px;
+        top: 2rem;
         padding-top: 10px;
     }
 
@@ -81,18 +81,19 @@ nav {
     display: none;
 
     ul {
+        @extend .fs-7;
+
         list-style: none;
-        padding: 0 0 20px 0;
+        padding: 0 0 1.5rem 0;
         margin: 0;
         font-weight: normal;
-        @include font-size(1.1rem);
 
         @include media-breakpoint-up(sm) {
-            padding: 20px 0 42px 0;
+            padding: 1.5rem 0 2rem 0;
         }
 
         @include media-breakpoint-up(md) {
-            padding: 20px 0 50px 0;
+            padding: 1.5rem 0 3rem 0;
         }
     }
 
@@ -101,29 +102,42 @@ nav {
     }
 
     a {
-        display: block;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 0.5rem;
         color: inherit;
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         padding: 0.75em 0;
         line-height: 1.3em;
+        text-decoration: none;
+
+        @include media-breakpoint-up(sm) {
+            justify-content: space-between;
+            flex-direction: row;
+            gap: 1rem;
+        }
 
         &:hover {
             color: inherit;
-            text-decoration: none;
+
+            strong {
+                text-decoration: underline;
+            }
         }
 
         strong {
             color: rgba(255, 255, 255, 0.8);
             font-weight: normal;
-            max-width: 60%;
+
+            @include media-breakpoint-up(sm) {
+                max-width: 60%;
+            }
         }
 
         span {
             color: rgba(255, 255, 255, 0.4);
             white-space: nowrap;
-            margin-left: 1em;
+            text-decoration: none;
         }
     }
 

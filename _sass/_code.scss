@@ -1,28 +1,24 @@
-code, pre {
-    padding: 0.6rem;
-    background-color: $blue-grey-100;
-    border: 1px solid darken($blue-grey-100, 8%);
-    border-radius: $border-radius;
-}
-
 code {
-    margin: 0 (3rem/16);
-    padding: (3rem/16) (4rem/16) (1rem/16) (4rem/16);
-    vertical-align: 1px;
+    background: var(--#{$prefix}gray-200);
+    padding: 0.25em 0.25em 0.125em 0.25em;
+    border-radius: 0.25em;
+    line-height: 1;
+    vertical-align: 0.05em;
 }
 
 pre {
-    @include font-size($code-font-size);
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--#{$prefix}body-font-size); // match 1em on paragraph
+
+    code {
+        display: block;
+        line-height: 1.2;
+        padding: 0;
+        background: transparent;
+    }
 }
 
-pre code {
-    margin: 0;
-    padding: 0;
-    border-radius: 0;
-    background-color: transparent;
-    border: none;
-    font-size: 1em;
-    line-height: inherit;
-    vertical-align: 0;
+pre:has(code) {
+    background: var(--#{$prefix}gray-200);
+    padding: map-get($spacers, 2);
+    border-radius: $border-radius;
 }

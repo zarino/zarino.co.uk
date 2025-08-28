@@ -212,7 +212,7 @@ $(function(){
         $('.lightbox-overlay').remove();
       },
       onLoadStart: function() {
-        $('<div class="lightbox-loader spinner-border" role="status"><span class="sr-only">Loading…</span></div>').appendTo('body');
+        $('<div class="lightbox-loader spinner-border" role="status"><span class="visually-hidden">Loading…</span></div>').appendTo('body');
       },
       onLoadEnd: function() {
         $('.lightbox-loader').remove();

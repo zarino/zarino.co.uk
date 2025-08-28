@@ -1,31 +1,23 @@
 .post-preview {
     display: block;
     padding: 2rem 0;
-    border-bottom: 1px solid $blue-grey-300;
+    border-top: 1px solid var(--#{$prefix}gray-300);
     color: inherit;
     overflow: auto;
+    text-decoration: none;
 
     &:focus,
     &:hover {
-        text-decoration: none;
         color: $link-color;
-
-        .date {
-            color: $link-color-muted;
-        }
     }
 
-    &:last-child {
-        border-bottom: none;
+    &:first-child {
+        border-top: none;
+        padding-top: 0;
     }
 
     &.draft {
-        color: #999;
-
-        &:focus,
-        &:hover {
-            color: $link-color-muted;
-        }
+        opacity: 0.6;
 
         h2 {
             font-style: italic;
@@ -33,19 +25,22 @@
     }
 
     h2 {
+        @extend .h3;
+
         margin-top: 0;
         margin-bottom: 0.3rem;
         line-height: 1.2em;
     }
 
     p {
-        @include font-size(1.35rem);
+        @extend .fs-6;
+
         line-height: 1.4em;
         margin-bottom: 0.625rem;
     }
 
     .date {
-        color: #aaa;
+        opacity: 0.6;
     }
 
     @include media-breakpoint-up(sm) {
