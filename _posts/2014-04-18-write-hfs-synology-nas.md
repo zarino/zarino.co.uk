@@ -20,18 +20,17 @@ Problem is, for large folders, this takes *forever* – partly because of the do
 
 ## Copying files directly, over SSH
 
-The *proper* way to do this is to mount the USB drive directly onto the Synology NAS, and copy the files from there, over SSH. For example:
+The *proper* way to do this is to mount the USB drive directly onto the Synology NAS, and copy the files from there, over SSH. For example, after SSHing to the diskstation:
 
-~~~
-$ ssh diskstation
-diskstation> cp /volume1/files/some-large-folder /volumeUSB1/usbshare1-2/
-~~~
+```sh
+cp /volume1/files/some-large-folder /volumeUSB1/usbshare1-2/
+```
 
 Problem is, if you try that, and your USB drive is HFS+ formatted, you’ll get this error:
 
-~~~
+```
 cp: can't create directory '/volumeUSB1/usbshare1-2/some-large-folder': Read-only file system
-~~~
+```
 
 ## Mounting the HFS+ as a read-write filesystem
 
@@ -44,10 +43,9 @@ Journaling is a technology for avoiding corruption on HFS+ drives in the case of
 
 Linux, however, doesn’t support journaling on HFS+ drives (at least, not without [third-party drivers](http://www.paragon-software.com/home/ntfs-linux-per/)). So, your DiskStation mounts journaled drives *read-only*, which is why the file copy is failing.
 
-You can tell whether a drive is mounted read-only or read-write, in Linux, by running the `mount` command:
+You can tell whether a drive is mounted read-only or read-write, in Linux, by running the `mount` command. Here’s what you might see:
 
-~~~
-diskstation> mount
+```
 /dev/root on / type ext4 (rw,relatime,user_xattr,nosynoacl,barrier=1,journal_checksum,data=ordered)
 none on /dev/pts type devpts (gid=4,mode=620)
 /sys on /sys type sysfs (0)
@@ -57,7 +55,7 @@ none on /dev/pts type devpts (gid=4,mode=620)
 /volume1/@optware on /opt type bind (bind)
 /dev/sdq1 on /volumeUSB1/usbshare1-1 type vfat (utf8,umask=000,shortname=mixed,uid=1024,gid=100)
 /dev/sdq2 on /volumeUSB1/usbshare1-2 type hfsplus (ro,force,uid=1024,gid=100,umask=000)
-~~~
+```
 
 The last line shows `volumeUSB1/usbshare1-2` is an `hfsplus` formatted drive and has been mounted `ro` or read-only.
 
@@ -75,47 +73,45 @@ Depending on what your plans are for the drive, you might want to re-enable jour
 
 ## Mounting the drive read-write: Part II
 
-With journaling disabled, you’re all set to go. Except – you aren’t. Despite the HFS+ drive now being perfectly compatible with the Linux drivers, your DiskStation *still* mounts it read-only:
+With journaling disabled, you’re all set to go. Except – you aren’t. Despite the HFS+ drive now being perfectly compatible with the Linux drivers, your DiskStation *still* mounts it read-only. For example after running `mount` on the diskstation, you’ll see:
 
-~~~
-diskstation> mount
+```
 /dev/root on / type ext4 (rw,relatime,user_xattr,nosynoacl,barrier=1,…
 ...
 /dev/sdq1 on /volumeUSB1/usbshare1-1 type vfat (utf8,umask=000,shortn…
 /dev/sdq2 on /volumeUSB1/usbshare1-2 type hfsplus (ro,force,uid=1024,…
-~~~
+```
 
 I’ve no idea why Synology does this, but you can solve it by just mounting the drive yourself, using the `mount` command we’ve come to know so well.
 
 First, unmount the existing drive (using the output of `mount` to see what the `/dev/…` ID is for the drive):
 
-~~~
-diskstation> umount -f /dev/sdq2
-~~~
+```sh
+umount -f /dev/sdq2
+```
 
 Then mount it again, specifying the same default directory, and the `hfsplus` format:
 
-~~~
-diskstation> mount -t hfsplus /dev/sdq2 /volumeUSB1/usbshare1-2
-~~~
+```sh
+mount -t hfsplus /dev/sdq2 /volumeUSB1/usbshare1-2
+```
 
 You can check it's been mounted correctly by running `mount` again with no arguments:
 
-~~~
-diskstation> mount
+```
 /dev/root on / type ext4 (rw,relatime,user_xattr,nosynoacl,barrier=1,…
 ...
 /dev/sdq1 on /volumeUSB1/usbshare1-1 type vfat (utf8,umask=000,shortn…
 /dev/sdq2 on /volumeUSB1/usbshare1-2 type hfsplus (0)
-~~~
+```
 
 There's no more read-only `ro` flag, meaning we can read-write to our hearts’ content.
 
-~~~
-diskstation> cat 'Hello HFS+ filesystem!' > /volumeUSB1/usbshare1-2/hello.txt
-diskstation> cat /volumeUSB1/usbshare1-2/hello.txt
+```sh
+cat 'Hello HFS+ filesystem!' > /volumeUSB1/usbshare1-2/hello.txt
+cat /volumeUSB1/usbshare1-2/hello.txt
 Hello HFS+ filesystem!
-~~~
+```
 
 From there, it’s down to you to work out how to copy files. If you’re copying a lot of data, I would suggest opening a `screen` session[^1], so you can log out of the SSH connection without interrupting the transfer.
 
@@ -123,7 +119,7 @@ Once you’re done, you can unmount the drive from the command line (using `umou
 
 End-to-end, the whole thing looks a bit like this:
 
-~~~
+```
 $ ssh diskstation
 diskstation> screen
 ~ # mount
@@ -141,6 +137,6 @@ none on /dev/pts type devpts (gid=4,mode=620)
 ~ # cp -r /volume1/files/some-large-folder /volumeUSB1/usbshare1-2/
 ~ # umount /dev/sdq2
 ~ # exit
-~~~
+```
 
 [^1]: `screen` doesn’t come as standard on Synology DiskStations, but [I‘ve covered installing it with ipkg here](/post/ds214se-under-the-hood). To start a screen session, type `screen`. To detach from a session (without affecting any long-running processes inside it), press `ctrl`-`a` and then `d`. To reattach to a session, type `screen -x`. And to close a session for good (ending any long running processes inside it), press `ctrl`-`d` or just type `exit`.

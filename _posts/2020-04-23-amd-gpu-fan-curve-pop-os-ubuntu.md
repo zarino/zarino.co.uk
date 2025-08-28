@@ -92,41 +92,55 @@ There are loads of places you could clone the `amdgpu-fancontrol` to, outside of
 
 First step – clone the repo:
 
-    cd /usr/local/src/
-    sudo git clone https://github.com/grmat/amdgpu-fancontrol.git
+```sh
+cd /usr/local/src/
+sudo git clone https://github.com/grmat/amdgpu-fancontrol.git
+```
 
 Then I wrote my fan speed values into a config file:[^2]
 
-    echo 'TEMPS=( 35000 52000 67000 78000 85000 )' | sudo tee /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol.cfg > /dev/null
-    echo 'PWMS=( 45 56 76 128 210 )' | sudo tee --append /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol.cfg > /dev/null
+```sh
+echo 'TEMPS=( 35000 52000 67000 78000 85000 )' | sudo tee /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol.cfg > /dev/null
+echo 'PWMS=( 45 56 76 128 210 )' | sudo tee --append /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol.cfg > /dev/null
+```
 
 [^2]: Note [the use of `sudo tee` here](https://stackoverflow.com/questions/764463/unix-confusing-use-of-the-tee-command), to append output to a write-protected file. The first time, I use it without `--append`, to replace the entire content of the file (in case it already exists). The second time, I `--append` to just add the second line onto the end of the file.
 
 Then I symlink that config file to the place that `amdgpu-fancontrol` expects to find it:
 
-    sudo ln -s /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol.cfg /etc/amdgpu-fancontrol.cfg
+```sh
+sudo ln -s /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol.cfg /etc/amdgpu-fancontrol.cfg
+```
 
 (Reminder: `ln -s` works just like `cp` – the original file goes first, and the new file you want to create goes second.)
 
 I wanted to use the `amdgpu-fancontrol.service` file that came with the script, so I needed to also symlink the `amdgpu-fancontrol` script into `/usr/bin`, which has the added benefit of also putting the script on my `PATH` if I ever want to run it manually:
 
-    sudo ln -s /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol /usr/bin/amdgpu-fancontrol
+```sh
+sudo ln -s /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol /usr/bin/amdgpu-fancontrol
+```
 
 Finally, I symlink the service file into place, and tell systemd to enable it (for the next boot) and also start it immediately:
 
-    sudo ln -s /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol.service /etc/systemd/system/amdgpu-fancontrol.service
-    sudo systemctl enable amdgpu-fancontrol.service
-    sudo systemctl start amdgpu-fancontrol.service
+```sh
+sudo ln -s /usr/local/src/amdgpu-fancontrol/amdgpu-fancontrol.service /etc/systemd/system/amdgpu-fancontrol.service
+sudo systemctl enable amdgpu-fancontrol.service
+sudo systemctl start amdgpu-fancontrol.service
+```
 
 My GPU’s fans started purring, at their most whisper-quiet setting, so I knew my script was working its magic.
 
 Running a very basic GPU stress test in one window:
 
-    vblank_mode=0 glxgears
+```sh
+vblank_mode=0 glxgears
+```
 
 And monitoring the output of the `amdgpu-fancontrol` service in another:
 
-    sudo journalctl --follow -u amdgpu-fancontrol.service
+```sh
+sudo journalctl --follow -u amdgpu-fancontrol.service
+```
 
 I could see `amdgpu-fancontrol` correctly updating the fan speeds as the temperature rises, and then backing them down once the stress test ended.
 
@@ -138,7 +152,7 @@ A quick restart, and I’d verified that my systemd service was starting automat
 
 If you want to simplify running most of the commands above, [Manuel Grießmayr](https://twitter.com/dc_coder_84) kindly [bundled them all into a `Makefile`](https://twitter.com/dc_coder_84/status/1663234485813493778) that you can run with `make install`, `make update`, and `make uninstall`. Twitter messed up the indentation, so here it is in full:
 
-```
+```make
 .PHONY: install update uninstall
 
 install:

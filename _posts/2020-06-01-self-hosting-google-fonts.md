@@ -52,10 +52,12 @@ WOFF is a compressed font format, supported by most web browsers released after 
 
 You can convert a TTF file to WOFF file using the [ttf2woff](https://github.com/fontello/ttf2woff) nodejs script. Here I am downloading the script, and running it on a `OpenSans-Regular.ttf` file I already downloaded:
 
-    git clone --recursive https://github.com/fontello/ttf2woff.git
-    cd ttf2woff
-    npm install
-    ./ttf2woff.js OpenSans-Regular.{ttf,woff}
+```sh
+git clone --recursive https://github.com/fontello/ttf2woff.git
+cd ttf2woff
+npm install
+./ttf2woff.js OpenSans-Regular.{ttf,woff}
+```
 
 `ttf2woff.js` requires two arguments – a source `.ttf` file to convert, and a destination `.woff` file to create.
 
@@ -69,10 +71,12 @@ WOFF2 is a more efficient compression format, supported by almost all modern bro
 
 Google maintains a command-line script to create WOFF2 files, in its [woff2 library](https://github.com/google/woff2):
 
-    git clone --recursive https://github.com/google/woff2.git
-    cd woff2
-    make clean all
-    ./woff2_compress OpenSans-Regular.ttf
+```sh
+git clone --recursive https://github.com/google/woff2.git
+cd woff2
+make clean all
+./woff2_compress OpenSans-Regular.ttf
+```
 
 `woff2_compress` automatically creates a `.woff2` file with the same name as the input `.ttf` file.
 
@@ -82,37 +86,39 @@ Now you can pop the `.woff` and `.woff2` files somewhere in your web directory, 
 
 Here’s an example of me serving Open Sans in two styles (regular and italic) and two weights (regular and bold):
 
-    @font-face {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/fonts/open-sans-regular.woff') format('woff'), url('/fonts/open-sans-regular.woff2') format('woff2');
-    }
+```css
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/fonts/open-sans-regular.woff') format('woff'), url('/fonts/open-sans-regular.woff2') format('woff2');
+}
 
-    @font-face {
-        font-family: 'Open Sans';
-        font-style: italic;
-        font-weight: 400;
-        font-display: swap;
-        src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/fonts/open-sans-italic.woff') format('woff'), url('/fonts/open-sans-italic.woff2') format('woff2');
-    }
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/fonts/open-sans-italic.woff') format('woff'), url('/fonts/open-sans-italic.woff2') format('woff2');
+}
 
-    @font-face {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/fonts/open-sans-bold.woff') format('woff'), url('/fonts/open-sans-bold.woff2') format('woff2');
-    }
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/fonts/open-sans-bold.woff') format('woff'), url('/fonts/open-sans-bold.woff2') format('woff2');
+}
 
-    @font-face {
-        font-family: 'Open Sans';
-        font-style: italic;
-        font-weight: 700;
-        font-display: swap;
-        src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/fonts/open-sans-bold-italic.woff') format('woff'), url('/fonts/open-sans-bold-italic.woff2') format('woff2');
-    }
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/fonts/open-sans-bold-italic.woff') format('woff'), url('/fonts/open-sans-bold-italic.woff2') format('woff2');
+}
+```
 
 It’s good practice to include the `local()` functions so that, if the user already has the font installed on their device, that local copy is used, instead of your webfont versions, saving a few precious bytes. But if you don‘t know the font’s name and Postscript name, you _can_ leave this bit out.
 
@@ -122,12 +128,16 @@ One nice thing that Google Fonts makes easy is requesting just a subset of the g
 
 If you want to try this yourself, you’ll need to install a few additional tools:
 
-    npm install -g font-ranger
-    pipx install fonttools
-    pipx inject fonttools brotli zopfli
+```sh
+npm install -g font-ranger
+pipx install fonttools
+pipx inject fonttools brotli zopfli
+```
 
 And then run `font-ranger` over your TTF files, to generate the individual subsets:
 
-    for i in Montserrat-*.ttf; do font-ranger -f "$i" -o ../webfont-subsets -u latin latin-ext cyrillic cyrillic-ext vietnamese -n "${i%.*}" -w true; done
+```sh
+for i in Montserrat-*.ttf; do font-ranger -f "$i" -o ../webfont-subsets -u latin latin-ext cyrillic cyrillic-ext vietnamese -n "${i%.*}" -w true; done
+```
 
 Good luck!

@@ -73,7 +73,9 @@ Type your desired password into the form input on the webpage. As soon as you cl
 
 Head over to the “Console” tab in your Developer Tools, and override the value of the `t` variable with something Zyxel would approve of. eg:
 
-    t = "StUpId%ZyXeL1!"
+```js
+t = "StUpId%ZyXeL1!"
+```
 
 </div>
 

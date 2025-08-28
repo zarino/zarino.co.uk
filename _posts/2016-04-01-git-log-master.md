@@ -12,12 +12,16 @@ All the work we do at [mySociety](https://mysociety.org) is constructed in work-
 
 I find the default `git log` output pretty unwieldy for this purpose. Instead, I ask Git to show me *only the commits made since the current branch diverged from the master branch*. Like this:
 
-    $ git lg master..
+```sh
+git lg master..
+```
 
 Where `git lg` is an alias in my `~/.gitconfig` file, like this:
 
-    [alias]
-      lg = log --abbrev-commit --date=short --pretty=tformat:'%C(yellow)%h %C(cyan)%ai%C(red)%d%Creset %s %C(green)<%an>%Creset'
+```
+[alias]
+  lg = log --abbrev-commit --date=short --pretty=tformat:'%C(yellow)%h %C(cyan)%ai%C(red)%d%Creset %s %C(green)<%an>%Creset'
+```
 
 {% img "Two panels of switches on a wall" "/media/git-lg-master.png" %}
 

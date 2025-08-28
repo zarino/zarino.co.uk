@@ -20,9 +20,11 @@ The Video Station web interface doesn’t let you modify a video’s “date add
 
 It turns out, under DSM 6 at least, Video Station stores all of its data in a PostgreSQL database called `video_metadata`, on your NAS. Your regular user account on the NAS (eg: `admin`) probably won’t have permission to access the Postgres database, but the `root` user does:
 
-    # On your NAS…
-    sudo su
-    psql -U postgres -d video_metadata
+```sh
+# On your NAS…
+sudo su
+psql -U postgres -d video_metadata
+```
 
 I took a quick poke around the database to familiarise myself with Video Station’s data structure. Key points:
 
@@ -34,8 +36,10 @@ I took a quick poke around the database to familiarise myself with Video Station
 
 Experimentation revealed that, when the Video Station UI says it’s sorting your movies or TV episodes by “Recently Added”, it’s _actually_ sorting by the `create_date` field in the relevant “type” table. In other words, when you’re looking at your “recently added” movies, it’s running a query like…
 
-    # In a psql shell…
-    select * from movie sort by create_date desc;
+```sql
+-- In a psql shell…
+select * from movie sort by create_date desc;
+```
 
 It doesn’t look like the `create_date` and `modify_date` fields of records in `video_file` are actually used anywhere. But for tidyness, I guess we should set them to the same thing as the associated `movie`, `tvshow_episode`, or whatever.
 
@@ -47,8 +51,10 @@ So I figured, I could reset the `create_date` in the Video Station database to m
 
 Although most people reach for the `stat` command to show the modification date (and lots else) of a file,[^1] if you’re only after the modification date itself, the `date` command actually gives you cleaner output, and allows you to format the date however you like:[^2]
 
-    # Display the last modification time of a file
-    date -r '/some/video/file.mp4' -F -u '+%Y-%m-%d %H:%M:%S'
+```sh
+# Display the last modification time of a file
+date -r '/some/video/file.mp4' -F -u '+%Y-%m-%d %H:%M:%S'
+```
 
 [^1]: <http://man7.org/linux/man-pages/man1/stat.1.html>
 [^2]: <http://man7.org/linux/man-pages/man1/date.1.html>
@@ -59,7 +65,9 @@ Modifying these database records by hand would have taken forever, so instead, [
 
 My script is written to work on a single video file at a time. But by executing it as part of a `find` command, you can automatically run it on every video file in a directory:
 
-    sudo su
-    find /volume1/movies -type f \( -name '*.avi' -o -name '*.mov' -o -name '*.mkv' -o -name '*.mp4' -o -name '*.m4v' \) -exec ./set_video_metadata_date_created.sh {} \;
+```sh
+sudo su
+find /volume1/movies -type f \( -name '*.avi' -o -name '*.mov' -o -name '*.mkv' -o -name '*.mp4' -o -name '*.m4v' \) -exec ./set_video_metadata_date_created.sh {} \;
+```
 
 Once that’s done, reload the DS Video app on your device, and all your videos will be back in a sensible order!

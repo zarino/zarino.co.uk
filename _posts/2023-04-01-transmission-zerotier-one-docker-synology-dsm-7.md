@@ -29,22 +29,22 @@ See 'docker run --help'.
 
 Indeed, if you look at `/var/run/docker.sock`, you’ll see it’s owned by `root`:
 
-```
-$ ls -hila /var/run/docker.sock
-222631 srw-rw---- 1 root root 0 Apr  1 12:57 /var/run/docker.sock
+```sh
+ls -hila /var/run/docker.sock
+# 222631 srw-rw---- 1 root root 0 Apr  1 12:57 /var/run/docker.sock
 ```
 
 I didn’t want to have to use `sudo` for all my docker commands, so I created a new `docker` user group, and added my normal user account (`zarino`, below) to it:
 
-```
-$ sudo synogroup --add docker
-$ sudo synogroup --member docker zarino
+```sh
+sudo synogroup --add docker
+sudo synogroup --member docker zarino
 ```
 
 And then made the `docker.sock` file group-owned by that new `docker` group:
 
-```
-$ sudo chown root:docker /var/run/docker.sock
+```sh
+sudo chown root:docker /var/run/docker.sock
 ```
 
 Remember to end your SSH session and start a new one, for the change to your user’s group to take effect.
@@ -57,9 +57,9 @@ If the command line frightens you, you could probably use the DSM web UI to [set
 
 I already have a Downloads folder at `/volume1/files/Downloads`, so I’ll use that. But I created the the other two directories like so:
 
-```
-$ mkdir -p /volume1/docker/transmission/config
-$ mkdir -p /volume1/docker/transmission/watch
+```sh
+mkdir -p /volume1/docker/transmission/config
+mkdir -p /volume1/docker/transmission/watch
 ```
 
 (Note from the future: I found downloads would fail with a “Permission denied” error unless the owner of the `/downloads` folder inside the container had execute permissions. Since I’d already verified—with `stat /volume1/files/Downloads`—that the folder was owned by my `zarino` user (UID `1027`, GID `100`), I ran `chmod u+x /volume1/files/Downloads` to ensure that the owner had execute rights.)
@@ -72,8 +72,8 @@ With the folders created, I took [their recommended docker-compose file](https:/
 
 The `PUID` and `GUID` values are the user ID and group ID of the user you want Transmission to run as – and note, by extension, you’ll also want to make sure this user has access to any of the directories you’re sharing as volumes in the `docker-compose.yml` file. You can get the IDs for the current user by running the `id` command at the command line, and pulling out the `uid` and `gid` values, respectively:
 
-```
-$ id
+```sh
+id
 uid=1027(zarino) gid=100(users) groups=100(users),25(smmsp),101(administrators),65537(docker)
 ```
 
@@ -81,7 +81,7 @@ The `USER` and `PASS` variables are the username and password that will be used 
 
 In the end, my `/volume1/docker/transmission/docker-compose.yml` file looked like this:
 
-```
+```yaml
 version: "3.9"
 
 services:
@@ -107,9 +107,9 @@ services:
 
 I could now install and start the container (in [detached mode](https://docs.docker.com/engine/reference/commandline/compose_up/)) with:
 
-```
-$ cd /volume1/docker/transmission
-$ docker-compose up --detach
+```sh
+cd /volume1/docker/transmission
+docker-compose up --detach
 ```
 
 Once the container is running, the Transmission web interface will be accessible at `http://<your-diskstation-ip>:9091/transmission/web/`
@@ -159,13 +159,13 @@ ZeroTier provides [instructions for setting up a TUN device](https://docs.zeroti
 
 On to the Docker container! I diverge a little from the recommended `/var/lib/zerotier-one` file location in [ZeroTier’s installation guide](https://docs.zerotier.com/devices/synology/#create-a-persistent-tun), because, as you will have seen above, I’m storing my docker-related files in `/volume1/docker` instead, like so:
 
-```
-$ mkdir -p /volume1/docker/zerotier-one/data
+```sh
+mkdir -p /volume1/docker/zerotier-one/data
 ```
 
 The ZeroTier guide doesn’t include an example `docker-compose.yml` file, but you can create one, inspired by their example docker run command. Mine, at `/volume1/docker/zerotier-one/docker-compose.yml`, ended up looking like this:
 
-```
+```yaml
 version: "3.9"
 
 services:
@@ -185,14 +185,14 @@ services:
 
 Then, just like with Transmission, you can start the container in detached mode:
 
-```
-$ cd /volume1/docker/zerotier-one
-$ docker-compose up --detach
+```sh
+cd /volume1/docker/zerotier-one
+docker-compose up --detach
 ```
 
 While I was at it, I also created a wrapper script, to make issuing commands into the container a bit easier. I created a new file at `/volume1/docker/zerotier-one/zerotier-cli`, filled it with the following text, and made it executable:
 
-```
+```sh
 #!/bin/sh
 
 docker-compose exec zerotier zerotier-cli "$@"
@@ -200,18 +200,18 @@ docker-compose exec zerotier zerotier-cli "$@"
 
 With that script in place, getting the current network status, and joining a network, is easy:
 
-```
-$ cd /volume1/docker/zerotier-one
-$ ./zerotier-cli status
-200 info cefed4ab93 1.10.6 ONLINE
-$ ./zerotier-cli join e5cd7a9e1cae134f
-200 join OK
+```sh
+cd /volume1/docker/zerotier-one
+./zerotier-cli status
+# 200 info cefed4ab93 1.10.6 ONLINE
+./zerotier-cli join e5cd7a9e1cae134f
+# 200 join OK
 ```
 
 After authorising the Diskstation in the [ZeroTier One web panel](https://my.zerotier.com/), I could list the network details:
 
-```
-$ ./zerotier-cli listnetworks
+```sh
+./zerotier-cli listnetworks
 ```
 
 Finally, as with Transmission (above), I needed to [create a Triggered Task](https://kb.synology.com/en-global/DSM/help/DSM/AdminCenter/system_taskscheduler?version=7), to start the docker container automatically when my Diskstation reboots. The details were very similar to before:

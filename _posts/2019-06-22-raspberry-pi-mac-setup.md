@@ -36,25 +36,31 @@ Here are the notes I made while I was learning. I expect I will need to remind m
 
 1. Create file named `ssh` on the `boot` drive. The file doesn’t need any content. For example, you could open Terminal and type:
 
-       touch /Volumes/boot/ssh
+   ```sh
+   touch /Volumes/boot/ssh
+   ```
 
 ## Enable Wifi on the Pi
 
 1. Create a text file called `wpa_supplicant.conf` on the `boot` drive, then open it in a text editor. For example, you could open Terminal and type:
 
-       nano /Volumes/boot/wpa_supplicant.conf
+   ```sh
+   nano /Volumes/boot/wpa_supplicant.conf
+   ```
 
 2. Fill it with the following text, replacing the three placeholder values with your [ISO-3166-1 two-letter country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (eg: `GB`), your wifi network SSID, and your wifi network password:
 
-       ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-       update_config=1
-       country=«your_ISO-3166-1_two-letter_country_code»
-       
-       network={
-           ssid="«your_wifi_ssid»"
-           psk="«your_wifi_password»"
-           key_mgmt=WPA-PSK
-       }
+   ```conf
+   ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+   update_config=1
+   country=«your_ISO-3166-1_two-letter_country_code»
+
+   network={
+       ssid="«your_wifi_ssid»"
+       psk="«your_wifi_password»"
+       key_mgmt=WPA-PSK
+   }
+   ```
 
 ## First boot
 
@@ -64,11 +70,15 @@ Here are the notes I made while I was learning. I expect I will need to remind m
 
 You should be able to tell when the Pi has booted by running this command in Terminal on your Mac:
 
-    ping raspberrypi.local
+```sh
+ping raspberrypi.local
+```
 
 Once the Pi has booted and joined your wifi network, you can SSH in with:
 
-    ssh pi@raspberrypi.local
+```sh
+ssh pi@raspberrypi.local
+```
 
 The password for the default `pi` user is `raspberry`.
 
@@ -78,33 +88,47 @@ If you want to change your Pi’s hostname from `raspberrypi.local` to something
 
 1. Switch to superuser mode:
 
-       sudo su
+   ```sh
+   sudo su
+   ```
 
 1. Open `/etc/hostname` and replace `raspberrypi` with the hostname of your choice:
 
-       nano /etc/hostname
+   ```sh
+   nano /etc/hostname
+   ```
 
 1. Do the same with `/etc/hosts`, where `raspberrypi` appears somewhere near the end of the file:
 
-       nano /etc/hosts
+   ```sh
+   nano /etc/hosts
+   ```
 
 1. Reboot your Pi:
 
-       reboot
+   ```sh
+   reboot
+   ```
 
 Now `ssh pi@raspberrypi.local` won’t work any more, because your Pi has a new hostname. You’ll need to change your SSH command to use the new hostname, eg:
 
-    ssh pi@mylovelypi.local
+```sh
+ssh pi@mylovelypi.local
+```
 
 When you’re SSHed in to the Pi, you can quickly check the current hostname by running:
 
-    hostname
+```sh
+hostname
+```
 
 ## Changing the username and password
 
 Changing the `pi` user’s password is easy. Once you’re SSHed in as the `pi` user, just run:
 
-    passwd
+```sh
+passwd
+```
 
 It’ll lead you through the process of setting a new password.
 

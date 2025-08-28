@@ -30,8 +30,7 @@ Now, in a local Terminal window,[^1] type in `ssh root@192.168.0.6`, where `192.
 
 If you get warned about the “Authenticity of host”, just type `yes` and press Enter. You’ll only be asked once.[^2]
 
-<pre>
-~:zarinozappia$ <b>ssh root@192.168.0.6</b>
+<pre><code>~:zarinozappia$ <b>ssh root@192.168.0.6</b>
 The authenticity of host '192.168.0.6 (192.168.0.6)' can't be established.
 RSA key fingerprint is 5a:87:03:be:dc:e9:f9:f5:fd:c2:48:b9:e4:67:80:f8.
 Are you sure you want to continue connecting (yes/no)? <b>yes</b>
@@ -43,7 +42,7 @@ BusyBox v1.16.1 (2013-11-06 05:34:59 CST) built-in shell (ash)
 Enter 'help' for a list of built-in commands.
 
 <b>diskstation></b>
-</pre>
+</code></pre>
 
 With any luck, you‘ll be given a command prompt (`diskstation>`) on the remote machine. You’ll be dropped into an empty directory called `/root` – the root user's home directory. Your hard drive volumes are accessible at `/volume1`, `/volume2` etc, and any USB drives you’ve got plugged in are accessible at `/volumeUSB1`.
 
@@ -57,18 +56,18 @@ Entering a username, an IP address and a password on every login gets pretty tir
 
 Log out of your SSH session by typing `Ctrl-D` or `exit`. Then, once you’re back to your normal command prompt (ie: not `diskstation>`), copy the following three lines of text and paste them into your Terminal:
 
-~~~
+```sh
 touch ~/.ssh/config
 open ~/.ssh/config
-~~~
+```
 
 A document will open in TextEdit. You can add settings in here that tweak how the `ssh` command works on your Mac. Paste the following three lines into the window (editing the IP address so that it matches your DiskStation’s) and save it:
 
-~~~
+```
 Host diskstation
 Hostname 192.168.0.6
 User root
-~~~
+```
 
 Awesome! Your `ssh diskstation` shortcut is all set up. Let’s put it to the test, by logging in so we can turn on SSH key authentication.
 
@@ -76,32 +75,32 @@ Go back to your Terminal and type `ssh diskstation`, then enter your password. I
 
 Once you're in, type `vi /etc/ssh/sshd_config` and press Enter. Welcome to the weird and wonderful world of vi. Use the down arrow to scroll until you see some lines starting:
 
-~~~
+```conf
 #RSAAuthentication yes
 #PubkeyAuthentication yes
 #AuthorizedKeysFile   .ssh/authorized_keys
-~~~
+```
 
 Press the `i` key to enter editing mode, then use the arrow keys and backspace key to delete the hashes, so that you end up with this:
 
-~~~
+```conf
 RSAAuthentication yes
 PubkeyAuthentication yes
 AuthorizedKeysFile   .ssh/authorized_keys
-~~~
+```
 
 Press the Escape key to leave editing mode, and then type `:wq` to save your changes. Your DiskStation will now accept incoming SSH requests, but it’ll reject you because you’ve not yet told it your SSH key.
 
 Paste the following commands into your current Terminal window (with the `diskstation>` prompt):
 
-~~~
+```sh
 cd /root
 mkdir .ssh
 touch .ssh/authorized_keys
 chmod 700 .ssh
 chmod 644 .ssh/authorized_keys
 vi .ssh/authorized_keys
-~~~
+```
 
 An empty document will open up in our old friend, vi. You need to paste your Mac’s SSH key in here.[^3] Go grab it by opening up a new Terminal window, and typing `cat ~/.ssh/id_rsa.pub | pbcopy`. Then go back to your original window, press `i` to enter editing mode (this is **really important**) and then just paste. The screen should look something like this:
 
@@ -121,40 +120,40 @@ Problem is, the DS214se (and its other cousins like the DS214 and DS213j, which 
 
 SSH into your DiskStation, as above. Then run:
 
-~~~
+```sh
 mkdir /volume1/@optware
 mkdir /opt
 mount -o bind /volume1/@optware /opt
-~~~
+```
 
 Followed by:
 
-~~~
+```sh
 feed=http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/unstable
 ipk_name=`wget -qO- $feed/Packages | awk '/^Filename: ipkg-opt/ {print $2}'`
 wget $feed/$ipk_name
 tar -xOvzf $ipk_name ./data.tar.gz | tar -C / -xzvf -
 mkdir -p /opt/etc/ipkg
 echo "src cross $feed" > /opt/etc/ipkg/feeds.conf
-~~~
+```
 
 To add the new `/opt` directory to your `$PATH`, type `vi /etc/profile`, press `i` and paste the following line just before `export PATH`:
 
-~~~
+```sh
 PATH=/opt/bin:/opt/sbin:$PATH
-~~~
+```
 
 Press Escape, then type `:wq` to close and save your changes. Then, finally, type `source /etc/profile` to reload your shell settings.
 
 The last step is to actually download and install the optware bootstrap. I’ve put them into two Gists, to save you some typing. Just paste this into your Terminal and press Enter:
 
-~~~
+```sh
 cd /etc
 wget --no-check-certificate https://gist.github.com/zarino/8632360/raw/6f54c3573e22d07cf7fc68e2fcef4a50623fdff2/rc.local
 chmod 755 rc.local
 wget --no-check-certificate https://gist.github.com/zarino/8632372/raw/ef13804d25c2a3188dde698f7fede1f96a36c073/rc.optware
 chmod 755 rc.optware
-~~~
+```
 
 And you’re done. You’ll now be able to install packages using the `ipkg` command.
 

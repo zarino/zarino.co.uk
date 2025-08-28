@@ -22,36 +22,50 @@ With a little Git magic, I’m also able to just type `git push blog` and all my
 
 1. SSH into your web server and create a directory to store your Git repositories (you can call this directory anything, and put it anywhere, but `~/repos` is a sensible default):
 
-       ssh <username>@zarino.co.uk
-       mkdir repos
+```sh
+ssh <username>@zarino.co.uk
+mkdir repos
+```
 
 2. Make another directory inside that one, to store the remote Git repo for your project, and then `cd` into it (in this case, I’m calling it `blog.git`, you can name it what you like):
 
-       mkdir repos/blog.git
-       cd repos/blog.git
+```sh
+mkdir repos/blog.git
+cd repos/blog.git
+```
 
 3. Create a “bare” Git repository[^2] in `repos/blog.git`, and create a new file at `hooks/post-receive` inside that repo:
 
-       git init --bare
-       nano hooks/post-receive
+```sh
+git init --bare
+nano hooks/post-receive
+```
 
 4. Paste the following code into the post-receive file, replacing `<path-to-web-directory>` with the full path to the place your code is served from (the default on Dreamhost is `/home/<username>/<domain-name>`):
 
-       #!/bin/sh
-       export GIT_WORK_TREE=<path-to-web-directory>
-       git checkout -f
+```sh
+#!/bin/sh
+export GIT_WORK_TREE=<path-to-web-directory>
+git checkout -f
+```
 
 5. Make the post-receive hook executable:
 
-       chmod +x hooks/post-receive
+```sh
+chmod +x hooks/post-receive
+```
 
 6. Now, on your local machine, add a new remote to your Git repo (in this case, I’ve called the new remote `blog` but you can call it whatever your like):
 
-       git remote add blog ssh://<username>@<server>/~/repos/blog.git
+```sh
+git remote add blog ssh://<username>@<server>/~/repos/blog.git
+```
 
 7. Push to your new remote!
 
-       git push blog
+```sh
+git push blog
+```
 
 [^2]: Initializing a ‘bare’ repository avoids that annoying `receive.denyCurrentBranch` warning you get when you push to a remote repo.
 
@@ -61,7 +75,7 @@ The really cool thing is, you can add more stuff to the post-receive hook, and i
 
 [^3]: The `PATH`, `GEM_HOME`, and `GEM_PATH` stuff is a workaround to get the Sass compiler working on Dreamhost servers. By default, Dreamhost accounts don’t come with the Sass Ruby gem installed, so you have to [install it yourself](http://wiki.dreamhost.com/Gems) and then include these paths in your environment so that the `sass --update` command becomes available.
 
-~~~
+```sh
 #!/bin/sh
 
 # Dreamhost needs this to put Sass Ruby gem on the path
@@ -76,4 +90,4 @@ git checkout -f
 
 echo 'Compiling Sass...'
 sass --update $WEB_DIR/sass:$WEB_DIR/css
-~~~
+```

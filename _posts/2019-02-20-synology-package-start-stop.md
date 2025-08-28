@@ -5,7 +5,7 @@ summary: >
   Sometimes a package will stubbornly refuse to start when your Snology NAS boots up. Or sometimes you just want to run a custom script on a schedule without delving into cron. Here’s how.
 related:
   - /post/ds214se-under-the-hood/
-  - /post/imagemagick-ffmpeg/
+  - /post/transmission-zerotier-one-docker-synology-dsm-7/
 ---
 
 A hyper specific post today – but handy if, like me, you’ve just wasted a whole evening trying to work out how to get a Synology “package” (ie: app, installed via the built-in “Package Center”) to run when the device boots up.
@@ -22,22 +22,28 @@ It turns out, if you’ve [set up SSH access to your DiskStation](/post/ds214se-
 
 You can find out whether a package is running with `synopkg is_onoff`, eg:
 
-    /usr/syno/bin/synopkg is_onoff zerotier
+```sh
+/usr/syno/bin/synopkg is_onoff zerotier
+```
 
 And you can start or stop a package with `start` and `stop`,[^1] eg:
 
-    /usr/syno/bin/synopkg start zerotier
-    /usr/syno/bin/synopkg stop zerotier
+```sh
+/usr/syno/bin/synopkg start zerotier
+/usr/syno/bin/synopkg stop zerotier
+```
 
 [^1]: From what I can tell, this is just a convenience wrapper around each package’s existing start/stop script at `/var/packages/<package>/scripts/start-stop-status`. But I guess it’s nice not having to worry about where the package is physically located, and running `synopkg start` feels like a closer equivalent to hitting the “Run” button in package Center, than running some start/stop script from inside the package directory itself.
 
 If you can’t guess what your package is called, you can find it in the list of all packages:
 
-    /usr/syno/bin/synopkg list
+```sh
+/usr/syno/bin/synopkg list
+```
 
 Which will return lines like:
 
-    zerotier-1.1.1: An Ethernet switch for Earth. Create flat virtual networks of almost unlimited size.
+> zerotier-1.1.1: An Ethernet switch for Earth. Create flat virtual networks of almost unlimited size.
 
 The package name is everything before the dash and the version number.
 
@@ -59,6 +65,8 @@ You can find Task Scheduler in the “System” section of the DSM “Control Pa
 
 In my case, I wanted to run a command at boot, so I picked “Create” > “Triggered Task” > “User defined script”. The default trigger is Boot. So then all I needed to do was paste my command into the “Run command” text box:
 
-    /usr/syno/bin/synopkg start zerotier
+```sh
+/usr/syno/bin/synopkg start zerotier
+```
 
 Tick the checkbox to enable the task, and click “OK”. Job done! Now the command will be run when the DiskStation starts up.

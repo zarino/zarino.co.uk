@@ -16,14 +16,14 @@ Last night I went through the process of cloning my media files over onto the ex
 
 For the impatient here’s the script:
 
-~~~
+```sh
 #!/bin/sh
 
 rsync --archive --progress --verbose --inplace \
 --exclude '*@SynoResource' --exclude '@eaDir' \
 --exclude '*.vsmeta' --exclude '.DS_Store' \
 /volume1/files/ /volumeUSB1/usbshare1-2/
-~~~
+```
 
 It’s a single `rysnc` command, albeit broken onto a few lines for legibility. The backslashes at the end of each line escape the newline characters, meaning the command runs as if everything were written on one line.
 
@@ -33,26 +33,25 @@ Any files in `/volumeUSB1/usbshare1-2/` that aren’t in `/volume1/files/` will 
 
 I store the script at `/volume1/files/clone-files-to-usb.sh`, then make it executable with:
 
-~~~
-$ chmod +x /volume1/files/clone-files-to-usb.sh
-~~~
+```sh
+chmod +x /volume1/files/clone-files-to-usb.sh
+```
 
 If I want to check whether the command will do the right thing, I add `--dry-run` and `--itemize-changes` to the command like so:
 
-<pre>
-rsync <b>--dry-run --itemize-changes \</b>
+<pre><code>rsync <b>--dry-run --itemize-changes \</b>
 --archive --progress --verbose --inplace \
 --exclude '*@SynoResource' --exclude '@eaDir' \
 --exclude '*.vsmeta' --exclude '.DS_Store' \
 /volume1/files/ /volumeUSB1/usbshare1-2/
-</pre>
+</code></pre>
 
 And then pipe the output to `grep`, to show only the files that’ll be copied to the USB drive:
 
-~~~
-$ /volume1/files/clone-files-to-usb.sh | grep '^>' > /tmp/rsync.out
-$ more /tmp/rsync.out
-~~~
+```sh
+/volume1/files/clone-files-to-usb.sh | grep '^>' > /tmp/rsync.out
+more /tmp/rsync.out
+```
 
 (When `--itemize-changes` is on, files being copied from the source to the destination are printed out, with a `>` at the start of the line. The regular expression we pass to `grep` says “only match lines starting with a `>`”. Then we pipe all the output to a file, so we can browse it at our leisure, and regardless of how deep our `screen` scrollback buffer is.)
 

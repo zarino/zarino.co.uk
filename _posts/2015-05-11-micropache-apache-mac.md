@@ -16,13 +16,17 @@ Since I’m *already* in a terminal window—editing files with TextMate and man
 
 In any other language or framework (eg: Python, Ruby, Django, Jeykll…) starting a development server in the current directory is as easy as running a single command. In Python, for example, it’s:
 
-    cd ~/projects/some-website.org/
-    python -m SimpleHTTPServer
+```sh
+cd ~/projects/some-website.org/
+python -m SimpleHTTPServer
+```
 
 In Jekyll it’s:
 
-    cd ~/projects/some-website.org/
-    jekyll serve
+```sh
+cd ~/projects/some-website.org/
+jekyll serve
+```
 
 In Rails it’s… you get the idea.
 
@@ -36,11 +40,13 @@ Now when I come to work on a WordPress site, for example, I `cd` into the projec
 
 It asks for my root password (getting Apache to run on a Mac without root privileges was a challenge I didn’t have time to face) and then starts serving the files at <http://localhost> on port 80.
 
-    cd ~/projects/some-website.org/
-    micropache
-    Password:
-    [Mon May 11 08:52:53 2015] [mpm_prefork:notice] [pid 39321] AH00163: Apache…
-    [Mon May 11 08:52:53 2015] [core:notice] [pid 39321] AH00094: Command line:…
+```sh
+cd ~/projects/some-website.org/
+micropache
+Password:
+[Mon May 11 08:52:53 2015] [mpm_prefork:notice] [pid 39321] AH00163: Apache…
+[Mon May 11 08:52:53 2015] [core:notice] [pid 39321] AH00094: Command line:…
+```
 
 Each HTTP request is logged to the console, and when I’m done, `ctrl-C` will quit the server, as you’d expect.
 

@@ -24,17 +24,23 @@ All the work we do at [mySociety](https://mysociety.org) is constructed in featu
 
 If you know how many commits back you want to start your rebase, you can specify it:
 
-    $ git rebase -i HEAD~3
+```sh
+git rebase -i HEAD~3
+```
 
 But keeping track of how many commits back you need to start is a pain. Much easier to just say “rebase everything since this branch diverged from `master`”:
 
 For this, I have an alias in my `~/.gitconfig` file, like this:
 
-    [alias]
-      rebase-since-master = !git rebase -i `git merge-base HEAD master`
+```
+[alias]
+  rebase-since-master = !git rebase -i `git merge-base HEAD master`
+```
 
 Which can be run from the command line like this:
 
-    $ git rebase-since-master
+```sh
+git rebase-since-master
+```
 
 Git works out the exact point at which the current feature branch (`HEAD`) diverged from `master`, and presents an overview of all the commits, ready for editing. It’s a super handy way to check your commits are nice and tidy before pushing to Github for code review.

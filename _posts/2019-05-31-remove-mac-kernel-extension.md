@@ -42,7 +42,9 @@ Or you can:
 1. Open Terminal (you might need to go find it in Applications > Utilities, because I don’t think Spotlight works in Safe Boot mode) and type `pkgutil --packages` to list all packages installed on the system, in roughly—I think—date order.
 2. Look through the package names, and once you find the suspicious one, find out which files it installed by typing, eg:
 
-       pkgutil --files com.wch.ch34xinstall.mykextdir.pkg
+   ```sh
+   pkgutil --files com.wch.ch34xinstall.mykextdir.pkg
+   ```
 
 ---
 
@@ -56,15 +58,21 @@ In my case, the `usbserial.kext` file was in `/Library/Extensions`. Yours might 
 
 1. Open up Terminal again, and move the extension somewhere safe, like your Desktop. (I prefer to do this, rather than deleting it, just in case I need to move it back!) Eg:
 
-       sudo mv /Library/Extensions/usbserial.kext ~/Desktop/
+   ```sh
+   sudo mv /Library/Extensions/usbserial.kext ~/Desktop/
+   ```
 
 2. “Touch” the `/Library/Extensions` directory, so that the Mac knows that the list of extensions has changed. Eg:
 
-       sudo touch /Library/Extensions
+   ```sh
+   sudo touch /Library/Extensions
+   ```
 
 3. In my case, because I was stressing out and wanted a belt-and-braces approach, I also forced the Mac to rebuild its cache of extensions, just in case it didn’t spot the earlier “touch”:
 
-       sudo kextcache -invalidate /
+   ```sh
+   sudo kextcache -invalidate /
+   ```
 
 4. Shut down the Mac.
 
@@ -76,11 +84,15 @@ In my case, the `usbserial.kext` file was in `/Library/Extensions`. Yours might 
 2. If you get logged into your normal Desktop, then hooray! You fixed it!
     * You can delete the kext file you stashed on your Desktop, eg:
 
-          sudo rm -rf ~/Desktop/usbserial.kext
+      ```sh
+      sudo rm -rf ~/Desktop/usbserial.kext
+      ```
 
     * And if you want, you can tell your Mac to forget that it ever ran that cursed installer, eg:
 
-          sudo pkgutil --forget com.wch.ch34xinstall.mykextdir.pkg
+      ```sh
+      sudo pkgutil --forget com.wch.ch34xinstall.mykextdir.pkg
+      ```
 
 3. However, if you get booted into the Recovery Partition again, then I’m afraid I can’t help you any further 😞
 

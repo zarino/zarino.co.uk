@@ -26,9 +26,9 @@ It looks like the DSM update just overwrote the `~/.profile` file that adds `/op
 
 DSM comes with only one text editor by default: `vi`. Use it to open the `~/.profile`…
 
-~~~
-diskstation> vi ~/.profile
-~~~
+```sh
+vi ~/.profile
+```
 
 Add `:/opt/bin` to the end of the line that defines the `$PATH` environment variable, and save and close the file.[^2]
 
@@ -37,22 +37,21 @@ Add `:/opt/bin` to the end of the line that defines the `$PATH` environment vari
 
 All the programs in `/opt/bin` will now be accessible in the terminal as normal – next time you SSH in. Your current SSH session will still be using the old value of `$PATH`. To reload it, run your `~/.profile` script manually…
 
-~~~
-diskstation> source ~/.profile
-~~~
+```sh
+source ~/.profile
+```
 
 Sorted! — Or, not quite. When I tried to actually run the `screen` program, I got another error:
 
-~~~
-diskstation> screen
+```
 Cannot find termcap entry for 'xterm-256color'.
-~~~
+```
 
 Tedious! Looks like the DSM update broke something else too. Like the previous problem, it was down to the `~/.profile` being overwritten. Adding an explicit value for the `$TERM` environment variable makes `screen` happy again. So repeat the `vi` steps above, except this time, add a new line at the bottom of the file:[^3]
 
-~~~
+```sh
 export TERM=xterm
-~~~
+```
 
 [^3]: The eagle-eyed amongst you will notice `~/.profile` already contains two lines that set the `$TERM` variable. If you want, you could amend them directly, rather than adding a new `export TERM` at the end of the file. But my way is simpler for newbies, and works just as well.
 

@@ -37,7 +37,7 @@ I recently upgraded my gaming PC to [Pop!_OS 22.04 LTS](https://blog.system76.co
 
 Coming from a software development background, I tend to want a reproducible build for my devices, wherever possible. I follow something akin to the [Scripts To Rule Them All](https://github.blog/2015-06-30-scripts-to-rule-them-all/) philosophy on my devices, with a file at `script/bootstrap` that installs any custom software required on the computer, and another file at `script/update` that updates the installed software. As an example, here’s how my `script/update` looks:
 
-```
+```sh
 #!/bin/sh
 
 sudo apt-get update
@@ -68,7 +68,7 @@ Mono doesn’t come pre-installed on Linux machines, but it’s easy to install 
 
 As mentioned above, I like to store setup commands in a script that I can run again if I need to. So, to install Mono, I added the following snippet from [Mono’s Ubuntu installation instructions](https://www.mono-project.com/download/stable/#download-lin-ubuntu) to my `script/bootstrap` file:
 
-```
+```sh
 # https://www.mono-project.com/download/stable/#download-lin-ubuntu
 # Mono required by some Cities Skylines mods.
 sudo apt install ca-certificates gnupg
@@ -112,7 +112,7 @@ The [Steam page for the CSL Map View mod](https://steamcommunity.com/sharedfiles
 
 You could run Wine via a convenience wrapper like [Bottles](https://docs.usebottles.com/), but I chose to use Wine directly. I added the following to my `script/bootstrap` script, to install Wine, and then ran it:
 
-```
+```sh
 # https://wiki.winehq.org/Ubuntu
 sudo mkdir -pm755 /etc/apt/keyrings
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
@@ -141,7 +141,7 @@ Open up a city in Cities Skylines, go to the CSL Map View mod options from withi
 
 It’s a bit tricky navigating to this directory from within the File → Open dialog inside the Windows `CSLMapView.exe` program, because the Windows file browser has no way to show the hidden `.steam` directory. So I create a shortcut to the directory, first. For convenience, I tend create shortcuts to various Steam folders in my home directory, like so:
 
-```
+```sh
 mkdir -p ~/shortcuts
 ln -s ~/.steam/debian-installation/steamapps/common/Cities_Skylines/CSLMapView ~/shortcuts/CSLMapView
 ```

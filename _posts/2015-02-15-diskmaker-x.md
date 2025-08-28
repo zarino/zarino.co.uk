@@ -34,15 +34,15 @@ It turns out, Diskmaker X was trying to show me an error message, but the super 
 
 The error says:
 
-~~~
+```
 sudo: /Applications/Install OS X Mavericks.app/Contents/Resources/createinstallmedia: command not found
-~~~
+```
 
 Odd. I reverted to running `createinstallmedia` myself, from the Terminal, to see whether Diskmaker X was the culprit:
 
-~~~
+```sh
 sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Mavericks.app --nointeraction
-~~~
+```
 
 And I still got the same error.
 
@@ -50,9 +50,9 @@ Then I wondered whether the `createinstallermedia` file was *actually* executabl
 
 Easily fixed:
 
-~~~
+```sh
 sudo chmod +x /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia
-~~~
+```
 
 Once `chmod` has made the file executable, Diskmaker X was happy again, and my OS X 10.9 installer drive was set up in about 25 minutes.
 

@@ -20,7 +20,9 @@ Here’s my record of the things I tried, and things I learned. Hopefully they�
 
 `8.8.8.8` is Google’s DNS server, so it’s pretty likely to be accessible to you—at least in Europe and the US—at all times. `ping` is a handy utility that tests how long it takes for a message to reach a server and come all the way back.
 
-    ping 8.8.8.8
+```sh
+ping 8.8.8.8
+```
 
 If you run `ping 8.8.8.8` and you don’t see packets returning, chances are you’re not connected to the internet.
 
@@ -28,18 +30,22 @@ If you run `ping 8.8.8.8` and get `time=` values of 100 ms (milliseconds) or mor
 
 I tend to run `ping` in combination with the `ts` command,[^1] which prepends the current timestamp onto each line of output, so I can leave the command running in the background and diagnose when particular slowdowns took place over a long period of time:
 
-    ping 8.8.8.8 | ts
+```sh
+ping 8.8.8.8 | ts
+```
 
 [^1]: I _actually_ have this all wrapped up in a bash script I store on my `$PATH` in `~/bin/pin`:
 
-    <pre>#!/usr/bin/env bash
+    ```sh
+    #!/usr/bin/env bash
 
     if [ ! -z $1 ]
     then
         ping "$1" | ts
     else
         ping 8.8.8.8 | ts
-    fi</pre>
+    fi
+    ```
 
 ---
 
@@ -47,8 +53,10 @@ I tend to run `ping` in combination with the `ts` command,[^1] which prepends th
 
 Combining Netcat and the _unbelievably useful_ [portquiz.net](https://portquiz.net) service, you can quickly and easily test whether any of the routers between you and the internet are blocking any ports:
 
-    nc -v portquiz.net 80
-    nc -v portquiz.net 25
+```sh
+nc -v portquiz.net 80
+nc -v portquiz.net 25
+```
 
 You’re looking for a success message like “Connection to portquiz.net port 25 [tcp/smtp] succeeded!”
 
@@ -78,8 +86,10 @@ If some things on your device are working (like browsing web pages) but others a
 
 Leave those crappy web-based speed testers at home. Do it from the command line:
 
-    wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test100.zip
-    wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip
+```sh
+wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test100.zip
+wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip
+```
 
 The first one downloads a 100 MB file, the second a 500 MB file.
 
@@ -103,7 +113,9 @@ This one was all new to me. Since I’d just got a new router, I was keen to tes
 
 The Mac comes with a built-in wifi network diagnostics tool, but it’s kinda hidden away. This command wraps it in `watch -n 1` so that the output updates every second:
 
-    watch -n 1 /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I
+```sh
+watch -n 1 /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I
+```
 
 {% img "Terminal window showing the output of the airport diagnostic command" "/media/watch-airport-diagnostics.png" %}
 
