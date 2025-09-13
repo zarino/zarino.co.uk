@@ -103,6 +103,70 @@ You could also enable email notifications about security updates, by adding the 
 - `Unattended-Upgrade::Mail "your@email.com";`
 - `Unattended-Upgrade::MailOnlyOnError "true";`
 
+## Set up Fail2Ban
+
+[Fail2Ban](https://www.digitalocean.com/community/tutorials/how-fail2ban-works-to-protect-services-on-a-linux-server) automatically blocks further connection attempts from IP addresses that fail authentication more than a given number of times. It’s useful for reducing spam in your logs from bots that just try (and fail) to connect to your SSH port again and again.
+
+```sh
+sudo apt install fail2ban
+```
+
+The `fail2ban` systemd service will automatically be enabled and started (see `sudo systemctl status fail2ban.service`).
+
+And create a file at `/etc/fail2ban/jail.local` with content like this (substituting in values that make sense in your situation):
+
+```config
+[DEFAULT]
+bantime = 60m
+findtime = 60m
+maxretry = 3
+destemail = you@example.com
+sender = fail2ban@example.com
+```
+
+Note: The default fail2ban config will look for failures in the standard log file locations like `/var/log/auth.log` for SSH. Modern versions of Ubuntu write their logs to the systemd journal (accessible via `journald`) but if you have the `rsyslog` service running (which is enabled and started by default in Ubuntu 24.04) it will replicate the logs to the standard file locations, meaning fail2ban will still be able to find them. You can check whether rsyslog is running with `sudo systemctl status rsyslog`, and if it’s not running, you might want to set `backend = systemd` in your `jail.local` so that fail2ban knows to check the systemd journal for failed authentication attempts.
+
+You can test your fail2ban config with:
+
+```sh
+sudo fail2ban-server -t
+```
+
+If you see an error about `allowipv6` not being defined, you can either ignore it (fail2ban will try to automatically work out whether your server has an IPv6 address and will ban suspicious attempts from IPv6 clients if it does) or you can add the line `allowipv6 = yes` to both the `/etc/fail2ban/jail.local` file shown above _and_ also the `[Definition]` config group in `/etc/fail2ban/fail2ban.local`, eg:
+
+```config
+[Definition]
+allowipv6 = yes
+```
+
+Finally, restart the `fail2ban` systemd service, to pick up your new configuration:
+
+```sh
+sudo systemctl restart fail2ban.service
+```
+
+You can check `fail2ban` started cleanly with:
+
+```sh
+sudo systemctl status fail2ban.service
+```
+
+Beware that Fail2Ban could potentially block you (well, your IP address) from having access to _your own_ server for the `bantime` period, if you fail SSH authentication `maxretry` number of times in the `findtime` window. So you should make sure automatic SSH key authentication into your non-root user account is already set up and working fine (see above) before enabling Fail2Ban and ending your current SSH session. Maybe try logging in, in a new window, first!
+
+You can check which “jails” fail2ban has created with:
+
+```sh
+sudo fail2ban-client status
+```
+
+And then see how many IP addresses are in each of those jails, by passing the name of the jail as a second argument. Eg: for the `sshd` service jail:
+
+```sh
+sudo fail2ban-client status sshd
+```
+
+See my post on [setting up daily monitoring emails](/post/daily-monitoring-emails-ubuntu/) if you’d like to receive a regular email summary of how many IP addresses fail2ban has banned.
+
 ## Set up Docker
 
 Last time I set up a webserver (an EC2 instance in 2020) I configured a LAMP stack from scratch. It was horrendous. This time, I decided to use Docker as much as possible – both to compartmentalise projects and pieces of software, and also to create a reproducable build that could be torn down and recreated on another server if I ever needed to.
@@ -124,7 +188,7 @@ And finally, because I’m a lazy typist, I enabled bash completions for docker 
 
 These aren’t necessary, but I wanted some form of regular monitoring of my server, via a daily/weekly email.
 
-Setting these three things up is a little beyond the scope of this post – but maybe I’ll write another one about them, specifically, later!
+Setting these three things up is a little beyond the scope of this post – so [I’ve written a more specific one here!](/post/daily-monitoring-emails-ubuntu/)
 
 # Set up Caddy via docker-compose
 

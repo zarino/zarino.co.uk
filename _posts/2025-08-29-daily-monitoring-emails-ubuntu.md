@@ -70,6 +70,12 @@ If you want to switch from the default daily reports to weekly reports, replace 
 mv /etc/cron.daily/00logwatch /etc/cron.weekly/
 ```
 
+If you installed Fail2Ban (as suggested in [my guide to setting up your server](/post/hetzner-docker-caddy/)) and you want to see its output in your logwatch emails, you’ll need to increase the detail in `/etc/logwatch/conf/logwatch.conf`:
+
+```conf
+Detail = Med
+```
+
 There is more “documentation” on how to customise logwatch in the text file at `/usr/share/doc/logwatch/HOWTO-Customize-LogWatch.gz` but be warned, it’s pretty dense!
 
 You can test it all works by running `logwatch` or `logwatch --range today` at the command line (or `logwatch --range today --output stdout` if you want it to just print the HTML rather than emailing it to you).
